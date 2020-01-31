@@ -1,7 +1,7 @@
 # Häufig gestellte Fragen
 
 - [Ich finde das Block Element zum Plugin nicht](#ich-finde-das-block-element-zum-plugin-nicht)
-- [Das Plugin läuft nicht](#das-plugin-luft-nicht)
+- [Das Plugin läuft nicht](#das-plugin-läuft-nicht)
 - [Mir fehlt eine wichtige Funktion](#mir-fehlt-eine-wichtige-funktion)
 
 ## Ich finde das Block Element zum Plugin nicht
