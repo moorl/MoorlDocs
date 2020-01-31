@@ -1,0 +1,20 @@
+site_name: Documentation of Shopware 6 Plugins and Themes by Moorleiche
+repo_url: https://github.com/wa-pgeorg/documentation-moorl-sw6
+edit_uri: blob/master/docs-source/
+theme:
+  name: 'material'
+docs_dir: docs-source
+site_dir: docs-html
+extra_css:
+extra_javascript:
+nav:
+- Deutsch:
+  - Plugin Dokumentation:
+    - Allgemeines: de/plugin/general.md
+    - Häufig gestellte Fragen (FAQ): de/plugin/faq.md
+    - Bonanza: de/plugin/MoorlBonanza/index.md
+    - DonwloadCenter: de/plugin/MoorlDownloadCenter/index.md
+    - MerchantFinder: de/plugin/MoorlMerchantFinder/index.md
+  - Theme Dokumentation:
+    - Allgemeines: de/theme/general.md
+    - Häufig gestellte Fragen (FAQ): de/theme/faq.md
