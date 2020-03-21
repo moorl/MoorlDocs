@@ -7,25 +7,22 @@ Wordpress Feed - Dein Blog in deinem Shop anzeigen lassen
 Verbinde deinen Shop ganz einfach mit deinem Wordpress Blog. Profitiere von den Vorteilen von Wordpress und erspare dir viel Zeit beim Einrichten des Shopinternen Blogs.
 
 ###Beschreibung
-Hinweis: Dieses Plugin benötigt die aktuelle Version des Moorleiche Foundation Plugins.
+<p><strong>Hinweis:</strong>Dieses Plugin benötigt die aktuelle Version des Moorleiche Foundation Plugins.</p>
 
-Du findest dieses Plugin hier: https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html
+<p>Du findest dieses Plugin hier: <a href="https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html">https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html</a></p>
 
-Verbinde deinen Shop ganz einfach mit deinem Wordpress Blog. Profitiere von den Vorteilen von Wordpress und erspare dir viel Zeit beim Einrichten des Shopinternen Blogs.
+<p>Verbinde deinen Shop ganz einfach mit deinem Wordpress Blog. Profitiere von den Vorteilen von Wordpress und erspare dir viel Zeit beim Einrichten des Shopinternen Blogs.</p>
 
-Du hast eine vielzahl von Möglichkeiten Deine Beiträge in deinem Shop zu präsentieren. Du hast die Wahl ob deine Beträge statisch oder dynamisch geladen werden und ob deine Beiträge in einem Popup erscheinen, auf deiner Shopseite oder aber auch auf der Original-Seite des Blogs. Es ist auch möglich die Feed aus unterschiedlichen Quellen auf Deinem Shop zu präsentieren. Du hast die Auswahl an bis zu vier verschiedenen Style und wenn ich etwas vergessen habe, kannst Du mich auch direkt kontaktieren!
+<p>Du hast eine vielzahl von Möglichkeiten Deine Beiträge in deinem Shop zu präsentieren. Du hast die Wahl ob deine Beträge statisch oder dynamisch geladen werden und ob deine Beiträge in einem Popup erscheinen, auf deiner Shopseite oder aber auch auf der Original-Seite des Blogs. Es ist auch möglich die Feed aus unterschiedlichen Quellen auf Deinem Shop zu präsentieren. Du hast die Auswahl an bis zu vier verschiedenen Style und wenn ich etwas vergessen habe, kannst Du mich auch direkt kontaktieren!</p>
 
-Gerne lasse ich mich durch Anregungen und Vorschlägen inspirieren, kurze Mail an mich reicht: info@moorleiche.com
+<p>Gerne lasse ich mich durch Anregungen und Vorschlägen inspirieren, kurze Mail an mich reicht: info@moorleiche.com</p>
 
-Die Inhalte des hinterlegten Demo-Feeds sind geistiges Eigentum der Dixeno GmbH (https://www.dixeno.de/) und der studygood UG (https://studygood.de/). Sie dienen ausschließlich zur Hilfe bei der Einrichtung. Ich bitte darum die Demo-Feeds unmittelbar nach der Einrichtung zu löschen!
+<p><i>Die Inhalte des hinterlegten Demo-Feeds sind geistiges Eigentum der Dixeno GmbH (https://www.dixeno.de/) und der studygood UG (https://studygood.de/). Sie dienen ausschließlich zur Hilfe bei der Einrichtung. Ich bitte darum die Demo-Feeds unmittelbar nach der Einrichtung zu löschen!</i></p>
 
 ###Highlights
 Volldarstellung im Backend
-
 Vier Styles: Liste, Masonry, Grid und Slider
-
 Dynamisches und statisches Laden der Inhalte konfigurierbar
-
 Inhalte öffnen auf original Seite, Shopseite oder Popup
 
 ##English
