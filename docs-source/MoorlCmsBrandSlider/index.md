@@ -9,7 +9,8 @@ Dieses Plugin ermöglicht es, die Logos Deiner Hersteller als Slider in den Erle
 ###Beschreibung
 Hinweis: Dieses Plugin benötigt die aktuelle Version des Moorleiche Foundation Plugins.
 
-Du findest dieses Plugin hier: https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html
+Du findest dieses Plugin hier: 
+https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html
 
 Dieses Plugin ermöglicht es, die Logos Deiner Hersteller als Slider in den Erlebniswelten abzubilden. Bei Klick auf den Link wirst Du auf die Seite des Herstellers weiter geleitet.
 
@@ -17,9 +18,7 @@ Gerne lasse ich mich durch Anregungen und Vorschlägen inspirieren, kurze Mail a
 
 ###Highlights
 Hersteller können festgelegt werden
-
 Es können auch nur Hersteller angezeigt werden, die Logos besitzen
-
 Optional ob Hersteller Logos anklickbar sind
 
 ##English
@@ -33,15 +32,15 @@ This plugin allows you to display the logos of your manufacturers as sliders in 
 ###Description
 Note: This plugin requires the latest version of the Moorleiche Foundation Plugin.
 
-You can find this plugin here: https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html
+You can find this plugin here: 
+https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html
 
-This plugin allows you to display the logos of your manufacturers as sliders in the adventure worlds. By clicking on the link you will be redirected to the manufacturer's website.
+This plugin allows you to display the logos of your manufacturers as sliders in the adventure
+worlds. By clicking on the link you will be redirected to the manufacturer's website.
 
 I like to be inspired by suggestions and ideas, a short mail to me is enough: info@moorleiche.com
 
 ###Highlights
 Manufacturers may be specified
-
 Only manufacturers with logos can be displayed
-
 Optional if manufacturer logos are clickable

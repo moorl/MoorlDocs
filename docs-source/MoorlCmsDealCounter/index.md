@@ -1,12 +1,15 @@
 ##Deutsch
 
-###Anzeigename
+####Anzeigename
+
 Angebots Countdown für Erlebniswelten
 
 ###Kurzbeschreibung
+
 Dieses Plugin ermöglicht es Dir, Deine Angebote prominent in den Einkaufswelten zu platzieren. Ein Countdown Zähler zeigt deinem Kunden, wie lange das Angebot gültig ist.
 
 ###Beschreibung
+
 <p><strong>Hinweis:</strong> Dieses Plugin benötigt die aktuelle Version des Moorleiche Foundation Plugins.</p>
 
 <p>Du findest dieses Plugin hier: <a href="https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html">https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html</a></p>

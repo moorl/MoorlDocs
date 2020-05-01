@@ -1,0 +1,66 @@
+@import '//cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css';
+
+.md-grid {
+    max-width: 1800px;
+}
+
+.md-nav__title--site {
+    font-size: 1.25em;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.md-nav__item--nested .md-nav__toggle:checked~.md-nav__link {
+    font-weight: bold;
+}
+
+.md-sidebar {
+    width: 15rem;
+}
+
+.md-nav__link--active, .md-nav__link:active {
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 76.1876em) {
+    .md-nav--primary > ul > li {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    .md-content {
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
+    .md-sidebar--secondary {
+        margin-left: 76rem;
+    }
+}
+
+@media only screen and (min-width: 100em) {
+    html {
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 76.1875em) {
+    .md-content {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .md-sidebar--primary {
+        left: -80%;
+        width: 80%;
+    }
+
+    [data-md-toggle=drawer]:checked~.md-container .md-sidebar--primary {
+        left: 0;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
