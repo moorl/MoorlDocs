@@ -1,49 +1,27 @@
-##Deutsch
+# Formular Baukasten Add-On - Erweiterte Kundenanmeldung
 
-###Anzeigename
-Formular Baukasten Add-On - Erweiterte Kundenanmeldung
+Mit diesem Plugin kannst du deine Kundenanmeldungen erweitern. 
+Deine Gewerbekunden können bereits bei der Anmeldung zum Beispiel erforderliche Dokumente hochladen.
 
-###Kurzbeschreibung
-Mit diesem Plugin kannst du deine Kundenanmeldungen erweitern. Deine Gewerbekunden können bereits bei der Anmeldung zum Beispiel erforderliche Dokumente hochladen.
+Die Captcha Funktion verhindert zusätzlich Botanmeldungen.
 
-###Beschreibung
-<p>Hinweis: Dieses Plugin benötigt die aktuelle Version von: Formular Baukasten Professional - Individuelle und frei gestaltbare Formulare</p>
+### Highlights
 
-<p>Mit diesem Plugin kannst du deine Kundenanmeldungen erweitern. Deine Gewerbekunden können bereits bei der Anmeldung zum Beispiel erforderliche Dokumente hochladen.</p>
+- Frei gestaltbare Formulare
+- Autocomplete
+- Captcha Code
+- Datei Upload
 
-<p>Die Captcha Funktion verhindert zusätzlich Botanmeldungen.</p>
+# Form Building Kit Add-On - Extended customer login
 
-<p>Gerne lasse ich mich durch Anregungen und Vorschlägen inspirieren, kurze Mail an mich reicht: info@moorleiche.com</p>
+With this plugin you can extend your customer registrations.
+Your business customers can upload documents that are required for
+example already during registration.
 
-###Highlights
-Frei gestaltbare Formulare
-Autocomplete
-Captcha Code
-Datei Upload
+The Captcha function additionally prevents bot registrations.
 
-##Features
-
-##English
-
-###Display name
-Form Building Kit Add-On - Extended customer login
-
-###Short description
-With this plugin you can extend your customer registrations. Your business customers can upload documents that are required for example already during registration.
-
-###Description
-<p>Note: This plugin requires the current version of: Form Building Kit Professional - Individual and freely designable forms.</p>
-
-<p>With this plugin you can extend your customer registrations. Your business customers can upload documents that are required for example already during registration.</p>
-
-<p>The Captcha function additionally prevents bot registrations.</p>
-
-<p>I like to be inspired by suggestions and proposals, a short mail to me is enough: info@moorleiche.com</p>
-
-###Highlights
-Freely designable forms
-Autocomplete
-captcha code
-File upload
-
-##Features
+### Highlights
+- Freely designable forms
+- Autocomplete
+- captcha code
+- File upload

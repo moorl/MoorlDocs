@@ -2,9 +2,7 @@
 
 ![Logo](images/plugin.png)
 
-_Hinweis: Dieses Plugin benötigt die aktuelle Version des Moorleiche Foundation Plugins._
-
-_Du findest dieses Plugin hier: https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html_
+_Hinweis: Dieses Plugin benötigt die aktuelle Version des [Foundation / Basis Plugin](../MoorlFoundation/index.md)._
 
 ---
 
@@ -14,10 +12,10 @@ Deine Formulare lassen sich als CMS Elemente in deine Einkaufswelten einbinden. 
 
 **Add-Ons:**
 
-1. Erweiterte Kundenregistrierung
-2. Erweiterter Warenkorb
-3. Erweiterte Produkteigenschaften / Custom Products
-4. Individuelle Produktanfrage
+1. [Erweiterte Kundenregistrierung](../MoorlFormRegistration/index.md)
+2. [Erweiterter Warenkorb](../MoorlFormCartExtend/index.md)
+3. [Erweiterte Produkteigenschaften / Custom Products](../MoorlFormCartLineItem/index.md)
+4. [Individuelle Produktanfrage](../MoorlFormProductRequest/index.md)
 
 **Mögliche Einsatzgebiete:**
 
@@ -50,11 +48,11 @@ Deine Formulare lassen sich als CMS Elemente in deine Einkaufswelten einbinden. 
 | ---: |:---:| ---|
 | 1.0.0 | 30.04.2020 | Erste Version des Plugins veröffentlicht |
 
+
+
 # Form Building Kit Professional - Individual and freely designable forms
 
-_Note: This plugin requires the current version of the Moorleiche Foundation Plugin._
-
-_You can find this plugin here: https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html_
+_Note: This plugin requires the current version of [Foundation / Basis Plugin](../MoorlFoundation/index.md)._
 
 ---
 
@@ -79,14 +77,18 @@ There are also other interesting add-ons.
 4. Tax questionnaires
 5. Individual entries in database, e.g. leads - example plugin for dealer search (enter as dealer) follows
 
-I like to be inspired by suggestions and proposals, a short mail to me is enough: info@moorleiche.com
-
 ### Highlights
-Freely designable forms
-Autocomplete
-captcha code
-File upload and e-mail attachments
-Send a copy
 
-## Features
-Elements for the shopping worlds
+- Freely designable forms
+- Autocomplete
+- captcha code
+- File upload and e-mail attachments
+- Send a copy
+
+### Features
+- Elements for the shopping worlds
+
+### Changelog
+| Version | Date | Changes |
+| ---: |:---:| ---|
+| 1.0.0 | 2020-30-04 | First version |

@@ -1,47 +1,31 @@
-##Deutsch
+# Foundation / Basis Plugin
 
-###Anzeigename
-Hersteller Slider für Erlebniswelten
+![Logo](images/plugin.png)
 
-###Kurzbeschreibung
-Dieses Plugin ermöglicht es, die Logos Deiner Hersteller als Slider in den Erlebniswelten abzubilden. Bei Klick auf den Link wirst Du auf die Seite des Herstellers weiter geleitet.
+## Foundation wird von folgenden Plugins verwendet
 
-###Beschreibung
-Hinweis: Dieses Plugin benötigt die aktuelle Version des Moorleiche Foundation Plugins.
+- CMS Call to Action Banner
+- CMS Brand Slider
+- CMS Testimonials
+- CMS Shop the Look
+- Responsive Bildergallerie
+- [Händler- und Filialensuche](../MoorlMerchantFinder/index.md)
+- Wordpress Feed
+- Download Center
+- [Formular Baukasten](../MoorlFormBuilder/index.md)
 
-Du findest dieses Plugin hier: https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html
+## Es beinhaltet folgende Funktionen
 
-Dieses Plugin ermöglicht es, die Logos Deiner Hersteller als Slider in den Erlebniswelten abzubilden. Bei Klick auf den Link wirst Du auf die Seite des Herstellers weiter geleitet.
+- Fontawesome 5 Free - https://fontawesome.com
+- Animate.css - https://daneden.github.io/animate.css
+- Plugin-Interne Übersetzungen
+- Plugin-Bedingte Ergänzungen (z.B. CMS Block Bezeichnungen)
+- Nützliche Stylesheet Ergänzungen
 
-Gerne lasse ich mich durch Anregungen und Vorschlägen inspirieren, kurze Mail an mich reicht: info@moorleiche.com
+## Zusätzliche Funktionen:
 
-###Highlights
-Hersteller können festgelegt werden
+- Simple Ein- und Ausblend Animationen bein Scrollen oder mit dem Mauszeiger
+- Zusätzliche Button Styles z.B. für Facebook, Amazon, Discord usw.
+- Font Awesome 5 Free im Backend eingebunden
 
-Es können auch nur Hersteller angezeigt werden, die Logos besitzen
-
-Optional ob Hersteller Logos anklickbar sind
-
-##English
-
-###Display name
-Manufacturer slider for the shopping worlds
-
-###Short description
-This plugin allows you to display the logos of your manufacturers as sliders in the shopping worlds. By clicking on the link you will be redirected to the manufacturer's website.
-
-###Description
-Note: This plugin requires the latest version of the Moorleiche Foundation Plugin.
-
-You can find this plugin here: https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html
-
-This plugin allows you to display the logos of your manufacturers as sliders in the adventure worlds. By clicking on the link you will be redirected to the manufacturer's website.
-
-I like to be inspired by suggestions and ideas, a short mail to me is enough: info@moorleiche.com
-
-###Highlights
-Manufacturers may be specified
-
-Only manufacturers with logos can be displayed
-
-Optional if manufacturer logos are clickable
+Die Funktionen der externen Anbieter können deaktiviert werden (z.B. Wenn Fontawesome 5 bereits über das Theme eingebunden wurde)

@@ -10,15 +10,19 @@ extra_css:
 extra_javascript:
 nav:
     - Home: 'index.md'
-    - Häufig gestellte Fragen (FAQ): faq.md
-    - Foundation / Basis Plugin: foundation.md
+    - Häufig gestellte Fragen (FAQ): 'faq.md'
+    - Foundation / Basis Plugin: 'MoorlFoundation/index.md'
     - Händler- und Filialensuche:
-        - Allgemeines: MoorlMerchantFinder/index.md
-        - Add-On - Händlerauswahl: MoorlMerchantPicker/index.md
+        - Allgemeines: 'MoorlMerchantFinder/index.md'
+        - Add-On - Händlerauswahl: 'MoorlMerchantPicker/index.md'
     - Formular Baukasten:
-        - Allgemeines: MoorlFormBuilder/index.md
-        - Setup Guide: MoorlFormBuilder/setup.md
-        - User Guide: MoorlFormBuilder/user.md
+        - Allgemeines: 'MoorlFormBuilder/index.md'
+        - Setup Guide: 'MoorlFormBuilder/setup.md'
+        - User Guide: 'MoorlFormBuilder/user.md'
+        - Add-On - Kundenregistrierung: 'MoorlFormRegistration/index.md'
+        - Add-On - Erweiterter Warenkorb: 'MoorlFormCartExtend/index.md'
+        - Add-On - Custom Products: 'MoorlFormCartLineItem/index.md'
+        - Add-On - Produktanfrage: 'MoorlFormProductRequest/index.md'
 
     - Shopware Store: 'https://store.shopware.com/moori.html'
     - Kontakt: 'mailto:info@moorleiche.com'
