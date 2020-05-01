@@ -61,7 +61,7 @@ Nun sollte hier ein neuer Eintrag erscheinen, der aktiv genutzt werden kann.
 
 ![Plugin Konfiguration](images/setup-5.png)
 
-### Formular in den Erlebinswelten einfügen
+### Formular in den Erlebniswelten einfügen
 
 Gehen Sie nun in die Erlebniswelten, unter der Kategorie 'Formulare' befindet sich ein Formular Baukasten Block. Diesen
 ziehen Sie nun einfach via Drag&Drop in den Inhalts-Bereich.

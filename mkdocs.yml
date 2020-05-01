@@ -1,42 +1,25 @@
-site_name: Documentation of Shopware 6 Plugins and Themes by moori
-repo_url: https://github.com/wa-pgeorg/documentation-moorl-sw6
+site_name: moori - Shopware 6 Plugin Dokumentation
+repo_url: https://github.com/moorl/documentation-moorl-sw6
 edit_uri: blob/master/docs-source/
 theme:
     name: 'material'
 docs_dir: docs-source
-dev_addr: 0.0.0.0:8000
 site_dir: docs-html
 extra_css:
-    - extra.css
+    - 'extra.css'
 extra_javascript:
 nav:
-    - Allgemeines: general.md
+    - Home: 'index.md'
     - Häufig gestellte Fragen (FAQ): faq.md
     - Foundation / Basis Plugin: foundation.md
-    - Händler- und Filialensuche mit OpenStreetMap:
-        - Allgemein: MoorlMerchantFinder/index.md
-        - Add-On - Händlerauswahl beim Checkout: MoorlMerchantPicker/index.md
-    - Formular Baukasten Professional - Individuelle und frei gestaltbare Formulare:
-        - Allgemein: MoorlFormBuilder/index.md
-        - Add-On - Zusätzliche Checkout Information: MoorlFormCartExtend/index.md
-        - Add-On - Zusätzliche Checkout Information: MoorlFormCartExtend/index.md
-        - Add-On - Zusätzliche Checkout Information: MoorlFormCartExtend/index.md
-        - Add-On - Zusätzliche Checkout Information: MoorlFormCartExtend/index.md
-        - Add-On - Zusätzliche Checkout Information: MoorlFormCartExtend/index.md
-        - Add-On - Zusätzliche Checkout Information: MoorlFormCartExtend/index.md
-    - CMS und Erlebniswelten Plugins:
-        - Hersteller Slider für Erlebniswelten: MoorlFormCartExtend/index.md
-        - Angebots Countdown für Erlebniswelten: MoorlFormCartExtend/index.md
-        - Hersteller Slider für Erlebniswelten: MoorlFormCartExtend/index.md
-        - Angebots Countdown für Erlebniswelten: MoorlFormCartExtend/index.md
-        - Hersteller Slider für Erlebniswelten: MoorlFormCartExtend/index.md
-        - Angebots Countdown für Erlebniswelten: MoorlFormCartExtend/index.md
-        - Hersteller Slider für Erlebniswelten: MoorlFormCartExtend/index.md
-        - Angebots Countdown für Erlebniswelten: MoorlFormCartExtend/index.md
-    - Wordpress Connector: MoorlFormCartExtend/index.md
-    - Login mit Facebook, Google, Amazon, Paypal usw...: MoorlFormCartExtend/index.md
-    - Videos in Produktgallerie abspielen: MoorlFormCartExtend/index.md
-    - Download Center: MoorlFormCartExtend/index.md
-    - Themes:
-        - HUE Theme: MoorlFormCartExtend/index.md
-        - Caprice Theme: MoorlFormCartExtend/index.md
+    - Händler- und Filialensuche:
+        - Allgemeines: MoorlMerchantFinder/index.md
+        - Add-On - Händlerauswahl: MoorlMerchantPicker/index.md
+    - Formular Baukasten:
+        - Allgemeines: MoorlFormBuilder/index.md
+        - Setup Guide: MoorlFormBuilder/setup.md
+        - User Guide: MoorlFormBuilder/user.md
+
+    - Shopware Store: 'https://store.shopware.com/moori.html'
+    - Kontakt: 'mailto:info@moorleiche.com'
+    - Impressum: 'https://moorleiche.com/impressum/'
