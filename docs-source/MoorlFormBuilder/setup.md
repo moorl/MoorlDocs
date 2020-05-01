@@ -1,8 +1,8 @@
-#Formular Baukasten Professional - Individuelle und frei gestaltbare Formulare
+# Formular Baukasten Professional - Individuelle und frei gestaltbare Formulare
 
-##Installation
+## Installation
 
-###Vorwort
+### Vorwort
 
 Bevor Sie mit der Installation des Formular Baukastens beginnen,
 überlegen Sie sich bitte für welchen Anwendungsfall Sie vorhaben
@@ -15,14 +15,14 @@ bis hin zu komplexen Datenbank- oder Schnittstellen-Anbindungen.
 Die Konfiguration ist aufgrund der Komplexität auch nur für erfahrene Anwender geeignet,
 eine Fehlkonfiguration kann sich negativ auf Ihr System auswirken.
 
-###Vorbereitung
+### Vorbereitung
 
 Bitte bereiten Sie sich auf die Installation gut vor und beachten Sie folgende Schritte:
 1. Machen Sie ein Backup Ihres Systems
 2. Installieren Sie aktuellste Version von 'moori Foundation', dieses Plugin beinhaltet grundlegende Funktionen
 3. Installieren Sie nun den Formular Baukasten
 
-###Erste Einstellungen
+### Erste Einstellungen
 
 Sobald Sie das Plugin installiert und aktiviert haben, gehen Sie zu aller erst in die 
 Hauptkonfiguration und setzen Sie nötigen Einstellungen: z.B. Datei-Endungen für 
@@ -36,7 +36,7 @@ Anschließend finden Sie das Plugin unter:
 
 ![Plugin Konfiguration](images/setup-2.png)
 
-###Erstes Formular anlegen
+### Erstes Formular anlegen
 
 Sie finden nun eine Liste mit einigen Beispielen, nicht alle Beispiele können Sie direkt 
 einsetzen. Dazu fehlen Ihnen die sogenannten Add-Ons, diese die optional zusätzlich erwerben können.
@@ -61,7 +61,7 @@ Nun sollte hier ein neuer Eintrag erscheinen, der aktiv genutzt werden kann.
 
 ![Plugin Konfiguration](images/setup-5.png)
 
-###Formular in den Erlebinswelten einfügen
+### Formular in den Erlebinswelten einfügen
 
 Gehen Sie nun in die Erlebniswelten, unter der Kategorie 'Formulare' befindet sich ein Formular Baukasten Block. Diesen
 ziehen Sie nun einfach via Drag&Drop in den Inhalts-Bereich.
