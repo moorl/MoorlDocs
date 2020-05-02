@@ -6,8 +6,13 @@ theme:
 docs_dir: docs-source
 site_dir: docs-html
 extra_css:
+    - 'https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css'
     - 'extra.css'
 extra_javascript:
+    - 'https://code.jquery.com/jquery-3.5.0.slim.min.js'
+    - 'https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js'
+    - 'extra.js'
+
 nav:
     - Home: 'index.md'
     - Häufig gestellte Fragen (FAQ): 'faq.md'
