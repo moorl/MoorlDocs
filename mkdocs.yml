@@ -24,6 +24,7 @@ nav:
         - Allgemeines: 'MoorlFormBuilder/index.md'
         - Setup Guide: 'MoorlFormBuilder/setup.md'
         - User Guide: 'MoorlFormBuilder/user.md'
+        - E-Mail Templates: 'MoorlFormBuilder/mail_templates.md'
         - Add-On - Kundenregistrierung: 'MoorlFormRegistration/index.md'
         - Add-On - Erweiterter Warenkorb: 'MoorlFormCartExtend/index.md'
         - Add-On - Custom Products: 'MoorlFormCartLineItem/index.md'
