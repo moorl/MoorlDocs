@@ -19,6 +19,7 @@ nav:
     - Foundation / Basis Plugin: 'MoorlFoundation/index.md'
     - Händler- und Filialensuche:
         - Allgemeines: 'MoorlMerchantFinder/index.md'
+        - Setup Guide: 'MoorlMerchantFinder/setup.md'
         - Add-On - Händlerauswahl: 'MoorlMerchantPicker/index.md'
     - Formular Baukasten:
         - Allgemeines: 'MoorlFormBuilder/index.md'
