@@ -25,7 +25,7 @@ Deine Formulare lassen sich als CMS Elemente in deine Einkaufswelten einbinden. 
 4. Steuerfragebögen
 5. Individuelle Einträge in Datenbank, z.B. Leads - Beispiel Plugin für Händlersuche (als Händler eintragen) folgt
 
-### Highlights
+## Highlights
 - Frei gestaltbare Formulare
 - Autocomplete
 - Captcha Code

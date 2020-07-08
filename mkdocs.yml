@@ -17,6 +17,9 @@ nav:
     - Home: 'index.md'
     - Häufig gestellte Fragen (FAQ): 'faq.md'
     - Foundation / Basis Plugin: 'MoorlFoundation/index.md'
+    - Magazin / Blog:
+        - Allgemeines: 'MoorlMagazine/index.md'
+        - Feed API Guide (EN): 'MoorlMagazine/feed-api.md'
     - Händler- und Filialensuche:
         - Allgemeines: 'MoorlMerchantFinder/index.md'
         - Setup Guide: 'MoorlMerchantFinder/setup.md'
