@@ -102,7 +102,7 @@ Example:
 | seoUrl | bool | Add SEO urls to the given articles |
 | categoryId | string(32) | Filter articles by category ID |
 | tags | array | Filter articles by multiple tag names |
-| search | string | search all articles for a specific keyword |
+| search | string | Search all articles for a specific keyword |
 
 ### Return
 

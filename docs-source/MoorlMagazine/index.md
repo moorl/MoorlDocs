@@ -14,9 +14,10 @@ Für die Einkaufwelten stehen Ihnen viele Möglichkeiten zur Präsentation Ihres
 
 Fügen Sie einen Slider auf Ihre Startseite ein und nutzen Sie für Ihre Magazin-Seite das Dynamische Suchformular mit Pagination und Kategorie-Filter.
 
-Dank einer API Schnittstelle können Ihre Beiträge auch von Externen Anbietern geladen werden (Ähmlich Wordpress Feed)
+Dank einer API Schnittstelle können Ihre Beiträge auch von Externen Anbietern geladen werden (Ähnlich Wordpress Feed)
 
 Diese Funktionen werden noch umgesetzt:
+
 - CMS Seiten nutzbar
 - Produkte verknüpfen
 - Kommentarbereich (Add-On für Formularbaukasten)
