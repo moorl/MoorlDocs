@@ -40,7 +40,9 @@ Es ist auch möglich ganze Bereiche per HTML zu wrappen, dazu kann man eigenes H
 verwenden um einen Bereich zu öffnen und zu schließen.
 
 Dazu sind folgende Regeln zu beachten:
+
 1. Checkbox (Keine Eltern Elemente) muss angeklickt sein
+
 2. im HTML muss das Attribut ``data-form-conditions='{{ formConditions }}'`` eingefügt werden
 
 #### Konfiguration
