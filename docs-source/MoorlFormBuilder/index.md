@@ -34,6 +34,18 @@ Deine Formulare lassen sich als CMS Elemente in deine Einkaufswelten einbinden. 
 
 ## Features
 - Erlebniswelten Elemente
+- Mehrfachauswahl mit Bildern
+- Mehrfachauswahl aus beliebigen Datenbank Tabellen
+- Bootstrap 4 Standard
+- Eigene HTML Wrapper möglich
+- Vielseitige Events für EVA Prozesse
+- Direkte Datenbank Anbindungen
+- Logging / Verlauf
+- Newsletter Anmeldung
+- Eigenes CSS
+- Twig Template Snippets
+- Import / Export vom Formularen
+- Bedingungen zum ein- und ausblenden von Eingabefeldern
 
 ## Installation
 
@@ -42,6 +54,11 @@ Deine Formulare lassen sich als CMS Elemente in deine Einkaufswelten einbinden. 
 ## Bedienung
 
 [Hier geht es zum User-Guide](user.md)
+
+## Demos und Beispiele
+
+Hier gibt es einige Beispiele für die unterschiedlichsten Verwendungs-
+fällen des Formular Baukastens.
 
 ## Changelog
 | Version | Datum | Änderungen |
