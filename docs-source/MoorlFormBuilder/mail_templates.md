@@ -40,13 +40,21 @@ Ab Version 1.3.8 können Sie eine einfache Zusammenfassung der Formular Inhalte 
 
 ````twig
 {# In der Bestellbestätigung (Add-On benötigt) #}
-{{ order.extensions.MoorlFormBuilderCartExtend.first.summaryHTML|raw }}
+{% if order.extensions.MoorlFormBuilderCartExtend is defined %}
+    {{ order.extensions.MoorlFormBuilderCartExtend.first.summaryHTML|raw }}
+{% endif %}
+
+{% if order.customFields.moorl_fb_code is defined %}
+    <p><strong>Meine Zusatzangaben:</strong> {{ order.customFields.moorl_fb_code }}</p>
+{% endif %}
 
 {# In der Bestellbestätigung die Warenkorbposition (Add-On benötigt) #}
-<tr rowspan="5">
-    {% if lineItem.payload.MoorlFormBuilderCartLineItem is defined %}
-        {{ lineItem.payload.MoorlFormBuilderCartLineItem.summaryHTML|raw }}
-    {% endif %}
+<tr>
+    <td colspan="5">
+        {% if lineItem.payload.MoorlFormBuilderCartLineItem is defined %}
+            {{ lineItem.payload.MoorlFormBuilderCartLineItem.summaryHTML|raw }}
+        {% endif %}
+    </td>
 </tr>
 
 {# Kontakt #}
