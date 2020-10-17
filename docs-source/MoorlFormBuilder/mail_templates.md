@@ -43,7 +43,11 @@ Ab Version 1.3.8 können Sie eine einfache Zusammenfassung der Formular Inhalte 
 {{ order.extensions.MoorlFormBuilderCartExtend.first.summaryHTML|raw }}
 
 {# In der Bestellbestätigung die Warenkorbposition (Add-On benötigt) #}
-{{ lineItem.extensions.MoorlFormBuilderCartLineItem.summaryHTML|raw }}
+<tr rowspan="5">
+    {% if lineItem.payload.MoorlFormBuilderCartLineItem is defined %}
+        {{ lineItem.payload.MoorlFormBuilderCartLineItem.summaryHTML|raw }}
+    {% endif %}
+</tr>
 
 {# Kontakt #}
 {{ form.summaryHTML|raw }}
