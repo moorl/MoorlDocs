@@ -7,7 +7,7 @@ Flip Box für Erlebniswelten
 Dieses Plugin ermöglich es in den Einkaufswelten Flip Boxen mit einer Vorder- und Rückseite darzustellen. Diese Boxen lassen sich im Backend vielfältig gestalten.
 
 ###Beschreibung
-Hinweis: Dieses Plugin benötigt die aktuelle Version des Moorleiche Foundation Plugins.
+Hinweis: Dieses Plugin benötigt die aktuelle Version des moori Foundation Plugins.
 
 Du findest dieses Plugin hier: https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html
 
@@ -37,7 +37,7 @@ Flip Box for the shopping worlds
 This plugin allows you to display flip boxes with a front and back side in the shopping worlds. These boxes can be designed in the backend in many different ways.
 
 ###Description
-Note: This plugin requires the latest version of the Moorleiche Foundation Plugin.
+Note: This plugin requires the latest version of the moori Foundation Plugin.
 
 You can find this plugin here: https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html
 

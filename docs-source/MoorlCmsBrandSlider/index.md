@@ -7,7 +7,7 @@ Hersteller Slider für Erlebniswelten
 Dieses Plugin ermöglicht es, die Logos Deiner Hersteller als Slider in den Erlebniswelten abzubilden. Bei Klick auf den Link wirst Du auf die Seite des Herstellers weiter geleitet.
 
 ###Beschreibung
-Hinweis: Dieses Plugin benötigt die aktuelle Version des Moorleiche Foundation Plugins.
+Hinweis: Dieses Plugin benötigt die aktuelle Version des moori Foundation Plugins.
 
 Du findest dieses Plugin hier: 
 https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html
@@ -30,7 +30,7 @@ Manufacturer slider for the shopping worlds
 This plugin allows you to display the logos of your manufacturers as sliders in the shopping worlds. By clicking on the link you will be redirected to the manufacturer's website.
 
 ###Description
-Note: This plugin requires the latest version of the Moorleiche Foundation Plugin.
+Note: This plugin requires the latest version of the moori Foundation Plugin.
 
 You can find this plugin here: 
 https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html

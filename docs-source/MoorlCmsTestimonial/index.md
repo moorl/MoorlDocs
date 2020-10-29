@@ -7,7 +7,7 @@ Testimonials für Erlebniswelten
 Mit diesem Plugin kannst du einfach kleine Testimonials in den Einkaufswelten erstellen. Zu jedem Testimonial lassen sich die Bilder, Zitate und die Bewertung frei bearbeiten.
 
 ###Beschreibung
-Hinweis: Dieses Plugin benötigt die aktuelle Version des Moorleiche Foundation Plugins.
+Hinweis: Dieses Plugin benötigt die aktuelle Version des moori Foundation Plugins.
 
 Du findest dieses Plugin hier: https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html
 
@@ -35,7 +35,7 @@ Testimonials for the shopping worlds
 With this plugin you can easily create little testimonials in the shopping worlds. For each testimonial you can freely edit the pictures, quotes and the rating.
 
 ###Description
-Note: This plugin requires the latest version of the Moorleiche Foundation Plugin.
+Note: This plugin requires the latest version of the moori Foundation Plugin.
 
 You can find this plugin here: https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html
 

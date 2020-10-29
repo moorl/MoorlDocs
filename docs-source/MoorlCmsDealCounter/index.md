@@ -10,7 +10,7 @@ Dieses Plugin ermöglicht es Dir, Deine Angebote prominent in den Einkaufswelten
 
 ###Beschreibung
 
-<p><strong>Hinweis:</strong> Dieses Plugin benötigt die aktuelle Version des Moorleiche Foundation Plugins.</p>
+<p><strong>Hinweis:</strong> Dieses Plugin benötigt die aktuelle Version des moori Foundation Plugins.</p>
 
 <p>Du findest dieses Plugin hier: <a href="https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html">https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html</a></p>
 
@@ -31,7 +31,7 @@ Offer countdown for shopping worlds
 This plugin enables you to place your offers prominently in the shopping worlds. A countdown counter shows your customer how long the offer is valid.
 
 ###Description
-<p>Note: This plugin requires the current version of the Moorleiche Foundation Plugin.</p>
+<p>Note: This plugin requires the current version of the moori Foundation Plugin.</p>
 
 <p>You can find this plugin here: <a href="https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html">https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html</a></p>
 

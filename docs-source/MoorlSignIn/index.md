@@ -6,7 +6,7 @@ Login mit Facebook, Google, Amazon, Paypal usw...
 ###Kurzbeschreibung
 Mit nur wenigen Klicks sind deine Kunden online. Erspare lästige Login- und Registrierungsprozesse. Kein Double-Opt-In kein und "Passwort wiederherstellen" notwendig.
 ###Beschreibung
-<p><strong>Hinweis:</strong> Dieses Plugin benötigt die aktuelle Version des Moorleiche Foundation Plugins.</p>
+<p><strong>Hinweis:</strong> Dieses Plugin benötigt die aktuelle Version des moori Foundation Plugins.</p>
 
 <p>Du findest dieses Plugin hier: <a href="https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html">https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html</a></p>
 
@@ -43,7 +43,7 @@ Login with Facebook, Google, Amazon, Paypal etc...
 With just a few clicks your customers are online. Save annoying login and registration processes. No Double-Opt-In no and "password recovery" necessary.
 
 ###Description
-<p><strong>Note:</strong> This plugin requires the latest version of the Moorleiche Foundation Plugin.</p>
+<p><strong>Note:</strong> This plugin requires the latest version of the moori Foundation Plugin.</p>
 
 <p>You can find this plugin here: <a href="https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html">https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html</a></p>
 

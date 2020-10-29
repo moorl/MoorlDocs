@@ -7,7 +7,7 @@ Instagram Feed für Erlebniswelten
 Verbinde mit diesem Plugin ganz einfach Dein öffentliches Instagram Profil als Medien-Feed mit deinem Shop. Es ist keine zusätzliche Einrichtung notwendig.
 
 ###Beschreibung
-<p><strong>Hinweis:</strong> Dieses Plugin benötigt die aktuelle Version des Moorleiche Foundation Plugins.</p>
+<p><strong>Hinweis:</strong> Dieses Plugin benötigt die aktuelle Version des moori Foundation Plugins.</p>
 
 <p>Du findest dieses Plugin hier: <a href="https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html">https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html</a></p>
 
@@ -29,7 +29,7 @@ Instagram Feed for shopping worlds
 With this plugin you can easily connect your public Instagram profile as media feed to your shop. You can set your feed in the shopping worlds as a slider or grid.
 
 ###Description
-<p>Note: This plugin requires the current version of the Moorleiche Foundation Plugin.</p>
+<p>Note: This plugin requires the current version of the moori Foundation Plugin.</p>
 
 <p>You can find this plugin here: <a href="https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html">https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html</a></p>
 

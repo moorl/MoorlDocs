@@ -7,7 +7,7 @@ Wordpress Feed - Dein Blog in deinem Shop anzeigen lassen
 Verbinde deinen Shop ganz einfach mit deinem Wordpress Blog. Profitiere von den Vorteilen von Wordpress und erspare dir viel Zeit beim Einrichten des Shopinternen Blogs.
 
 ###Beschreibung
-<p><strong>Hinweis:</strong>Dieses Plugin benötigt die aktuelle Version des Moorleiche Foundation Plugins.</p>
+<p><strong>Hinweis:</strong>Dieses Plugin benötigt die aktuelle Version des moori Foundation Plugins.</p>
 
 <p>Du findest dieses Plugin hier: <a href="https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html">https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html</a></p>
 
@@ -34,7 +34,7 @@ Wordpress Feed - Display your blog in your shop
 Simply connect your shop with your Wordpress Blog. Benefit from the advantages of Wordpress and save yourself a lot of time when setting up your shop internal blog.
 
 ###Description
-Note: This plugin requires the latest version of the Moorleiche Foundation Plugin.
+Note: This plugin requires the latest version of the moori Foundation Plugin.
 
 You can find this plugin here: https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html
 

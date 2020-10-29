@@ -7,7 +7,7 @@ Shop the Look für Erlebniswelten
 Steigere einfach deine Conversion mit Shop the Look und biete Deinen Kunden fertige Einrichtungen, Outfits oder Bundles direkt in Deinen Erlebniswelten an
 
 ###Beschreibung
-<p><strong>Hinweis:</strong> Dieses Plugin benötigt die aktuelle Version des Moorleiche Foundation Plugins.</p>
+<p><strong>Hinweis:</strong> Dieses Plugin benötigt die aktuelle Version des moori Foundation Plugins.</p>
 
 <p>Du findest dieses Plugin hier: <a href="https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html">https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html</a></p>
 
@@ -31,7 +31,7 @@ Shop the Look for shoppings worlds
 Simply increase your conversion with Shop the Look and offer your customers ready-made facilities, outfits or bundles directly in your shopping worlds
 
 ###Description
-<p><strong>Note:</strong> This plugin requires the latest version of the Moorleiche Foundation Plugin.</p>
+<p><strong>Note:</strong> This plugin requires the latest version of the moori Foundation Plugin.</p>
 
 <p>You can find this plugin here: <a href="https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html">https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html</a></p>
 
