@@ -17,6 +17,9 @@ nav:
     - Home: 'index.md'
     - Häufig gestellte Fragen (FAQ): 'faq.md'
     - Foundation / Basis Plugin: 'MoorlFoundation/index.md'
+    - Login Facebook, Google usw:
+        - Allgemeines: 'MoorlSignIn/index.md'
+        - Quickstart Facebook: 'MoorlSignIn/facebook.md'
     - Magazin / Blog:
         - Allgemeines: 'MoorlMagazine/index.md'
         - Feed API Guide (EN): 'MoorlMagazine/feed-api.md'
