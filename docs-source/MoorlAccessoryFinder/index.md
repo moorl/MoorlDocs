@@ -43,7 +43,7 @@ Sie finden die Filtergruppen hier:
 
 ![Logo](images/af1.JPG)
 
-Dort legen Sie eine neue FIltergruppe an:
+Dort legen Sie eine neue Filtergruppe an:
 
 ![Logo](images/af2.JPG)
 
@@ -85,7 +85,7 @@ Ein Blick in das Frontend verrät, ob die Zuweisungen gelungen sind.
 Um den Filter anwenden zu können, brauchen Sie nun eine Anpassung im Kategorie-Listing.
 Gehen die auf die Blöcke "Sidebar" und ziehen Sie das Element "Zubehör Filter" in das Template.
 
-Nachdem Sie die CMS Seite gespiechert haben, stellen Sie sicher, ob diese Seite auch der
+Nachdem Sie die CMS Seite gespeichert haben, stellen Sie sicher, ob diese Seite auch der
 Kategorie zugewiesen wurde, in der sich die Zubehör-Produkte befinden.
 
 ![Logo](images/af13.JPG)
@@ -153,7 +153,7 @@ You can find the filter groups here:
 
 ![Logo](images/af1.JPG)
 
-There you create a new FIltergroup:
+There you create a new Filtergroup:
 
 ![Logo](images/af2.JPG)
 
