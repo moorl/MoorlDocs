@@ -35,11 +35,14 @@ nav:
         - Newsletter: 'MoorlFormBuilder/newsletter.md'
         - Events: 'MoorlFormBuilder/events.md'
         - Interaktive Formulare: 'MoorlFormBuilder/interactive.md'
+        - FAQ: 'MoorlFormBuilder/faq.md'
         - Add-On - Kundenregistrierung: 'MoorlFormRegistration/index.md'
         - Add-On - Erweiterter Warenkorb: 'MoorlFormCartExtend/index.md'
         - Add-On - Custom Products: 'MoorlFormCartLineItem/index.md'
         - Add-On - Produktanfrage: 'MoorlFormProductRequest/index.md'
-
+    - Zubehör Finder:
+        - Allgemeines: 'MoorlAccessoryFinder/index.md'
+        - Feed API Guide (EN): 'MoorlAccessoryFinder/index.md'
     - Shopware Store: 'https://store.shopware.com/moori.html'
     - Kontakt: 'mailto:info@moorleiche.com'
     - Impressum: 'https://moorleiche.com/impressum/'
