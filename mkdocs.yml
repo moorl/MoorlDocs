@@ -17,6 +17,7 @@ nav:
     - Home: 'index.md'
     - Häufig gestellte Fragen (FAQ): 'faq.md'
     - Foundation / Basis Plugin: 'MoorlFoundation/index.md'
+    - Demo Daten installieren: 'MoorlFoundation/demo-assistant.md'
     - Login Facebook, Google usw:
         - Allgemeines: 'MoorlSignIn/index.md'
         - Quickstart Facebook: 'MoorlSignIn/facebook.md'
@@ -40,9 +41,10 @@ nav:
         - Add-On - Erweiterter Warenkorb: 'MoorlFormCartExtend/index.md'
         - Add-On - Custom Products: 'MoorlFormCartLineItem/index.md'
         - Add-On - Produktanfrage: 'MoorlFormProductRequest/index.md'
+    - Video Kurs LMS:
+        - Allgemeines: 'MoorlVideoCourse/index.md'
     - Zubehör Finder:
         - Allgemeines: 'MoorlAccessoryFinder/index.md'
-        - Feed API Guide (EN): 'MoorlAccessoryFinder/index.md'
     - Shopware Store: 'https://store.shopware.com/moori.html'
     - Kontakt: 'mailto:info@moorleiche.com'
     - Impressum: 'https://moorleiche.com/impressum/'
