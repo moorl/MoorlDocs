@@ -16,14 +16,14 @@ Name des Eingabe-Elementes genutzt:
 
 ````twig
 {# Nutzen Sie das z.B. für die Betreffzeile Ihrer E-Mail #}
-{{ form.getFormData('subject') }} - {{ salesChannel.name }}
+{{ form.getDataValue('subject') }} - {{ salesChannel.name }}
 ````
 
 Auch der Titel eines Eingabe-Elementes lässt sich ausgeben:
 
 ````twig
 {# Nutzen Sie das z.B. für die Betreffzeile Ihrer E-Mail #}
-{{ form.getFormLabel('subject') }}: {{ form.getFormData('subject') }} - {{ salesChannel.name }}
+{{ form.getDataLabel('subject') }}: {{ form.getDataValue('subject') }} - {{ salesChannel.name }}
 ````
 
 ## Templates und Helfer ab Version 1.3.8
