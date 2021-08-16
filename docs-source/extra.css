@@ -1,3 +1,14 @@
-/*h1 + p {
-    text-align: center;
-}*/
+:root {
+    /*--md-primary-fg-color:        #d95030;
+    --md-primary-fg-color--light: #dd6246;
+    --md-primary-fg-color--dark:  #ca4425;*/
+}
+
+.md-grid {
+    max-width: 100%;
+}
+
+.md-sidebar--primary {
+    width: auto;
+    min-width: 20rem;
+}

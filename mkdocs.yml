@@ -1,6 +1,4 @@
-site_name: moori - Shopware 6 Plugin Dokumentation
-repo_url: https://github.com/moorl/documentation-moorl-sw6
-edit_uri: blob/master/docs-source/
+site_name: moori SW6 Plugin Docs
 theme:
     name: 'material'
 docs_dir: docs-source
@@ -13,38 +11,62 @@ extra_javascript:
     - 'jquery.fancybox.min.js'
     - 'extra.js'
 
-nav:
-    - Home: 'index.md'
-    - Häufig gestellte Fragen (FAQ): 'faq.md'
-    - Foundation / Basis Plugin: 'MoorlFoundation/index.md'
-    - Demo Daten installieren: 'MoorlFoundation/demo-assistant.md'
-    - Login Facebook, Google usw:
-        - Allgemeines: 'MoorlSignIn/index.md'
-        - Quickstart Facebook: 'MoorlSignIn/facebook.md'
-    - Magazin / Blog:
-        - Allgemeines: 'MoorlMagazine/index.md'
-        - Feed API Guide (EN): 'MoorlMagazine/feed-api.md'
-    - Händler- und Filialensuche:
-        - Allgemeines: 'MoorlMerchantFinder/index.md'
-        - Setup Guide: 'MoorlMerchantFinder/setup.md'
-        - Add-On - Händlerauswahl: 'MoorlMerchantPicker/index.md'
-    - Formular Baukasten:
-        - Allgemeines: 'MoorlFormBuilder/index.md'
-        - Setup Guide: 'MoorlFormBuilder/setup.md'
-        - User Guide: 'MoorlFormBuilder/user.md'
-        - E-Mail Templates: 'MoorlFormBuilder/mail_templates.md'
-        - Newsletter: 'MoorlFormBuilder/newsletter.md'
-        - Events: 'MoorlFormBuilder/events.md'
-        - Interaktive Formulare: 'MoorlFormBuilder/interactive.md'
-        - FAQ: 'MoorlFormBuilder/faq.md'
-        - Add-On - Kundenregistrierung: 'MoorlFormRegistration/index.md'
-        - Add-On - Erweiterter Warenkorb: 'MoorlFormCartExtend/index.md'
-        - Add-On - Custom Products: 'MoorlFormCartLineItem/index.md'
-        - Add-On - Produktanfrage: 'MoorlFormProductRequest/index.md'
-    - Video Kurs LMS:
-        - Allgemeines: 'MoorlVideoCourse/index.md'
-    - Zubehör Finder:
-        - Allgemeines: 'MoorlAccessoryFinder/index.md'
+
+pages:
+    - English:
+        - Frequently asked questions: 'faq-en.md'
+        - Foundation Plugin: 'MoorlFoundation/index-en.md'
+        - Install demo data: 'MoorlFoundation/demo-assistant-en.md'
+
+        - Accessory Finder - Car Parts, Printer Supplies: 'MoorlAccessoryFinder/index-en.md'
+
+    - Deutsch:
+        - Häufig gestellte Fragen: 'faq.md'
+        - Foundation Plugin: 'MoorlFoundation/index.md'
+        - Demo Daten installieren: 'MoorlFoundation/demo-assistant.md'
+
+        - Zubehör Finder - Kompatibilitäts Filter: 'MoorlAccessoryFinder/index.md'
+        - Hersteller Slider für Erlebniswelten: 'MoorlCmsBrandSlider/index.md'
+        - HTML Erlebniswelten Element mit Twig Compiler: 'MoorlCmsTwig/index.md'
+        - Formular Baukasten Professional:
+            - Allgemeines: 'MoorlFormBuilder/index.md'
+            - Setup Guide: 'MoorlFormBuilder/setup.md'
+            - User Guide: 'MoorlFormBuilder/user.md'
+            - E-Mail Templates: 'MoorlFormBuilder/mail_templates.md'
+            - Newsletter: 'MoorlFormBuilder/newsletter.md'
+            - Events: 'MoorlFormBuilder/events.md'
+            - Interaktive Formulare: 'MoorlFormBuilder/interactive.md'
+            - FAQ: 'MoorlFormBuilder/faq.md'
+            - Add-Ons / Erweiterungen:
+                - Add-On - Kundenregistrierung: 'MoorlFormRegistration/index.md'
+                - Add-On - Erweiterter Warenkorb: 'MoorlFormCartExtend/index.md'
+                - Add-On - Custom Products: 'MoorlFormCartLineItem/index.md'
+                - Add-On - Produktanfrage: 'MoorlFormProductRequest/index.md'
+        - Videos in der Produkt Galerie abspielen: 'MoorlCmsTwig/index.md'
+        - Login mit Facebook, Google usw...:
+              - Allgemeines: 'MoorlSignIn/index.md'
+              - Quickstart Facebook: 'MoorlSignIn/facebook.md'
+        - Shop the Look für Erlebniswelten: 'MoorlCmsTwig/index.md'
+        - Shopware 6 Blog (inkl. Wordpress Import):
+              - Allgemeines: 'MoorlMagazine/index.md'
+              - Feed API Guide (EN): 'MoorlMagazine/feed-api.md'
+        - Testimonials für Erlebniswelten: 'MoorlCmsTwig/index.md'
+        - Händler- und Filialensuche mit OpenStreetMap:
+              - Allgemeines: 'MoorlMerchantFinder/index.md'
+              - Setup Guide: 'MoorlMerchantFinder/setup.md'
+              - Add-On - Händlerauswahl: 'MoorlMerchantPicker/index.md'
+        - Responsive Bildergalerie für Erlebniswelten: 'MoorlCmsTwig/index.md'
+        - Angebots Countdown für Erlebniswelten: 'MoorlCmsTwig/index.md'
+        - Bankverbindung für Zahlungsarten: 'MoorlCmsTwig/index.md'
+        - Call to Action Banner für Erlebniswelten: 'MoorlCmsTwig/index.md'
+        - Produktberater nach Entscheidungsstruktur: 'MoorlCmsTwig/index.md'
+        - Countdown Timer für Rabatt Aktionen: 'MoorlCmsTwig/index.md'
+        - Responsiver 360 Grad Bildbetrachter: 'MoorlCmsTwig/index.md'
+        - Produkt Add-Ons & Zubehör für Shopware 6: 'MoorlCmsTwig/index.md'
+        - Kunden Zugangsverwaltung: 'MoorlCmsTwig/index.md'
+        - Video Kurs LMS:
+            - Allgemeines: 'MoorlVideoCourse/index.md'
+
     - Shopware Store: 'https://store.shopware.com/moori.html'
     - Kontakt: 'mailto:info@moorleiche.com'
     - Impressum: 'https://moorleiche.com/impressum/'
