@@ -19,7 +19,7 @@ pages:
         - Install demo data: 'MoorlFoundation/demo-assistant-en.md'
 
         - Accessory Finder - Car Parts, Printer Supplies: 'MoorlAccessoryFinder/index-en.md'
-
+        - Customer access management: 'MoorlCustomerAccounts/index-en.md'
     - Deutsch:
         - Häufig gestellte Fragen: 'faq.md'
         - Foundation Plugin: 'MoorlFoundation/index.md'
@@ -28,6 +28,7 @@ pages:
         - Zubehör Finder - Kompatibilitäts Filter: 'MoorlAccessoryFinder/index.md'
         - Hersteller Slider für Erlebniswelten: 'MoorlCmsBrandSlider/index.md'
         - HTML Erlebniswelten Element mit Twig Compiler: 'MoorlCmsTwig/index.md'
+        - Kunden Zugangsverwaltung: 'MoorlCustomerAccounts/index.md'
         - Formular Baukasten Professional:
             - Allgemeines: 'MoorlFormBuilder/index.md'
             - Setup Guide: 'MoorlFormBuilder/setup.md'
@@ -63,7 +64,6 @@ pages:
         - Countdown Timer für Rabatt Aktionen: 'MoorlCmsTwig/index.md'
         - Responsiver 360 Grad Bildbetrachter: 'MoorlCmsTwig/index.md'
         - Produkt Add-Ons & Zubehör für Shopware 6: 'MoorlCmsTwig/index.md'
-        - Kunden Zugangsverwaltung: 'MoorlCmsTwig/index.md'
         - Video Kurs LMS: 'MoorlVideoCourse/index.md'
 
     - Shopware Store: 'https://store.shopware.com/moori.html'
