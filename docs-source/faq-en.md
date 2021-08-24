@@ -25,5 +25,3 @@ If this is the case, feel free to contact me immediately! My email address is in
 ## I am missing an important function
 
 I am always open for improvement suggestions, reasonable extensions are usually implemented with pleasure. I plan to develop my plugins with your help, wherever the journey goes.
-
-Translated with www.DeepL.com/Translator (free version)

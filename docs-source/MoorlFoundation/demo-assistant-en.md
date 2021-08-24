@@ -19,5 +19,3 @@ Click on Start...
 After a short while the demo data is ready to use!
 
 ![](images/demo-assistant-02.jpg)
-
-Translated with www.DeepL.com/Translator (free version)

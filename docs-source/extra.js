@@ -1,3 +1,7 @@
+$('.md-content p > a').each(function () {
+    $(this).attr('target','_blank');
+});
+
 $('.md-content p > img').each(function () {
     let url = this.src;
     let alt = this.alt;

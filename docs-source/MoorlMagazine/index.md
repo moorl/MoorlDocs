@@ -2,6 +2,8 @@
 
 _Hinweis: Dieses Plugin benötigt die aktuelle Version des [Foundation / Basis Plugin](../MoorlFoundation/index.md)._
 
+[Hier geht's zur Demo](https://demo.moori.net/Magazine-Demo/)
+
 ---
 
 Sie benötigen Hilfe beim Umzug von Shopware 5 oder von Wordpress? Dann kontaktieren Sie mich!

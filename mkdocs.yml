@@ -3,6 +3,9 @@ theme:
     name: 'material'
 docs_dir: docs-source
 site_dir: docs-html
+site_url: 'https://docs.moori.net'
+extra:
+    disqus: 'moori'
 extra_css:
     - 'jquery.fancybox.min.css'
     - 'extra.css'
@@ -20,6 +23,8 @@ pages:
 
         - Accessory Finder - Car Parts, Printer Supplies: 'MoorlAccessoryFinder/index-en.md'
         - Customer access management: 'MoorlCustomerAccounts/index-en.md'
+        - Listing Interrupter for Shopware 6: 'MoorlInterrupter/index-en.md'
+
     - Deutsch:
         - Häufig gestellte Fragen: 'faq.md'
         - Foundation Plugin: 'MoorlFoundation/index.md'
@@ -43,11 +48,12 @@ pages:
                 - Add-On - Erweiterter Warenkorb: 'MoorlFormCartExtend/index.md'
                 - Add-On - Custom Products: 'MoorlFormCartLineItem/index.md'
                 - Add-On - Produktanfrage: 'MoorlFormProductRequest/index.md'
+        - Listing Störer für Shopware 6: 'MoorlInterrupter/index.md'
         - Videos in der Produkt Galerie abspielen: 'MoorlCmsTwig/index.md'
         - Login mit Facebook, Google usw...:
               - Allgemeines: 'MoorlSignIn/index.md'
               - Quickstart Facebook: 'MoorlSignIn/facebook.md'
-        - Shop the Look für Erlebniswelten: 'MoorlCmsTwig/index.md'
+        - Shop the Look für Erlebniswelten: 'MoorlShopTheLook/index.md'
         - Shopware 6 Blog (inkl. Wordpress Import):
               - Allgemeines: 'MoorlMagazine/index.md'
               - Feed API Guide (EN): 'MoorlMagazine/feed-api.md'
@@ -59,13 +65,13 @@ pages:
         - Responsive Bildergalerie für Erlebniswelten: 'MoorlCmsTwig/index.md'
         - Angebots Countdown für Erlebniswelten: 'MoorlCmsTwig/index.md'
         - Bankverbindung für Zahlungsarten: 'MoorlCmsTwig/index.md'
-        - Call to Action Banner für Erlebniswelten: 'MoorlCmsTwig/index.md'
+        - Call to Action Banner für Erlebniswelten: 'MoorlCmsCtaBanner/index.md'
         - Produktberater nach Entscheidungsstruktur: 'MoorlCmsTwig/index.md'
-        - Countdown Timer für Rabatt Aktionen: 'MoorlCmsTwig/index.md'
+        - Countdown Timer für Rabatt Aktionen: 'MoorlProductPromo/index.md'
         - Responsiver 360 Grad Bildbetrachter: 'MoorlCmsTwig/index.md'
-        - Produkt Add-Ons & Zubehör für Shopware 6: 'MoorlCmsTwig/index.md'
+        - Produkt Add-Ons & Zubehör für Shopware 6: 'MoorlProductAccessories/index.md'
         - Video Kurs LMS: 'MoorlVideoCourse/index.md'
 
     - Shopware Store: 'https://store.shopware.com/moori.html'
-    - Kontakt: 'mailto:info@moorleiche.com'
+    - Shopware Demo Page: 'https://demo.moori.net/'
     - Impressum: 'https://moorleiche.com/impressum/'

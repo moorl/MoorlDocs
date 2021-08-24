@@ -2,6 +2,8 @@
 
 _Note: This plugin requires the current version of [Foundation / Basis Plugin](../MoorlFoundation/index.md)._
 
+[Click here for the demo](https://demo.moori.net/Zubehoer-Finder-Demo/)
+
 ---
 
 With this plugin you create for your store a comprehensive filter option for accessories of any kind.

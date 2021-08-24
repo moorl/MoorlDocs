@@ -29,5 +29,3 @@
 - Font Awesome 5 Free included in the backend
 
 The functions of the external providers can be deactivated (e.g. if Fontawesome 5 is already included in the theme).
-
-Translated with www.DeepL.com/Translator (free version)
