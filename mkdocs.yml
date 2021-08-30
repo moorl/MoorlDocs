@@ -39,6 +39,7 @@ pages:
             - Setup Guide: 'MoorlFormBuilder/setup.md'
             - User Guide: 'MoorlFormBuilder/user.md'
             - E-Mail Templates: 'MoorlFormBuilder/mail_templates.md'
+            - Elemente: 'MoorlFormBuilder/elements.md'
             - Newsletter: 'MoorlFormBuilder/newsletter.md'
             - Events: 'MoorlFormBuilder/events.md'
             - Interaktive Formulare: 'MoorlFormBuilder/interactive.md'
