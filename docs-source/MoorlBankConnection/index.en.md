@@ -1,0 +1,3 @@
+# Bank Connection for Shopware 6
+
+In Progress...

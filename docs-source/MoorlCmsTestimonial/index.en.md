@@ -1,0 +1,1 @@
+# Testimonials for shopping worlds

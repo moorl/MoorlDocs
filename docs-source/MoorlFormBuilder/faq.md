@@ -1,4 +1,4 @@
-# Oft gestellte Fragen und Antworten (FAQ)
+# Häufig gestellte Fragen (FAQ)
 
 ## Kann ich ein Formular in meinem Template nutzen?
 

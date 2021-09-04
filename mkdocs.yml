@@ -1,10 +1,67 @@
 site_name: moori SW6 Plugin Docs
 theme:
     name: 'material'
+    features:
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.top
+        - navigation.tracking
+    palette:
+        - scheme: default
+          toggle:
+              icon: material/toggle-switch-off-outline
+              name: Switch to dark mode
+        - scheme: slate
+          accent: light green
+          primary: deep orange
+          toggle:
+              icon: material/toggle-switch
+              name: Switch to light mode
+plugins:
+    - i18n:
+          default_language: de
+          languages:
+              de: Deutsch
+              en: English
+              nl: Nederlands
+          nav_translations:
+              de:
+                  Documentation: App Dokumentation
+                  MoorlCms: Erlebniswelten CMS Apps
+                  MoorlFormBuilder: Formular Baukasten
+                  Extensions: Erweiterungen
+                  MoorlSignIn: Login mit Facebook, Google usw
+                  MoorlMagazine: Blog mit Wordpress Import
+                  MoorlMerchantFinder: Händler- und Filialiensuche
+                  Imprint: Impressum
+              en:
+                  Documentation: App Documentation
+                  MoorlCms: Shopping worlds CMS Apps
+                  MoorlFormBuilder: Form Builder
+                  Extensions: Extensions
+                  MoorlSignIn: Sign-In with Facebook, Google etc
+                  MoorlMagazine: Blog with Wordpress Import
+                  MoorlMerchantFinder: Merchant- and Storefinder
+                  Imprint: Imprint
+              nl:
+                  Documentation: App Documentatie
+                  Imprint: Afdruk
+
+    - search
 docs_dir: docs-source
 site_dir: docs-html
 site_url: 'https://docs.moori.net'
 extra:
+    consent:
+        title: Cookie consent
+        description: >
+            We use cookies to recognize your repeated visits and preferences, as well
+            as to measure the effectiveness of our documentation and whether users
+            find what they're searching for. With your consent, you're helping us to
+            make our documentation better.
+        cookies:
+            matomo: Matomo Tracker
+            custom: Disqus Board
     disqus: 'moori'
 extra_css:
     - 'jquery.fancybox.min.css'
@@ -15,64 +72,62 @@ extra_javascript:
     - 'extra.js'
 
 
-pages:
-    - English:
-        - Frequently asked questions: 'faq-en.md'
-        - Foundation Plugin: 'MoorlFoundation/index-en.md'
-        - Install demo data: 'MoorlFoundation/demo-assistant-en.md'
+nav:
+    - Documentation:
+        - 'faq.md'
+        - 'MoorlFoundation/index.md'
+        - 'MoorlFoundation/demo-assistant.md'
 
-        - Accessory Finder - Car Parts, Printer Supplies: 'MoorlAccessoryFinder/index-en.md'
-        - Customer access management: 'MoorlCustomerAccounts/index-en.md'
-        - Listing Interrupter for Shopware 6: 'MoorlInterrupter/index-en.md'
-
-    - Deutsch:
-        - Häufig gestellte Fragen: 'faq.md'
-        - Foundation Plugin: 'MoorlFoundation/index.md'
-        - Demo Daten installieren: 'MoorlFoundation/demo-assistant.md'
-
-        - Zubehör Finder - Kompatibilitäts Filter: 'MoorlAccessoryFinder/index.md'
-        - Hersteller Slider für Erlebniswelten: 'MoorlCmsBrandSlider/index.md'
-        - HTML Erlebniswelten Element mit Twig Compiler: 'MoorlCmsTwig/index.md'
-        - Kunden Zugangsverwaltung: 'MoorlCustomerAccounts/index.md'
-        - Formular Baukasten Professional:
-            - Allgemeines: 'MoorlFormBuilder/index.md'
-            - Setup Guide: 'MoorlFormBuilder/setup.md'
-            - User Guide: 'MoorlFormBuilder/user.md'
-            - E-Mail Templates: 'MoorlFormBuilder/mail_templates.md'
-            - Elemente: 'MoorlFormBuilder/elements.md'
-            - Newsletter: 'MoorlFormBuilder/newsletter.md'
-            - Events: 'MoorlFormBuilder/events.md'
-            - Interaktive Formulare: 'MoorlFormBuilder/interactive.md'
-            - FAQ: 'MoorlFormBuilder/faq.md'
-            - Add-Ons / Erweiterungen:
-                - Add-On - Kundenregistrierung: 'MoorlFormRegistration/index.md'
-                - Add-On - Erweiterter Warenkorb: 'MoorlFormCartExtend/index.md'
-                - Add-On - Custom Products: 'MoorlFormCartLineItem/index.md'
-                - Add-On - Produktanfrage: 'MoorlFormProductRequest/index.md'
-        - Listing Störer für Shopware 6: 'MoorlInterrupter/index.md'
-        - Videos in der Produkt Galerie abspielen: 'MoorlCmsTwig/index.md'
-        - Login mit Facebook, Google usw...:
-              - Allgemeines: 'MoorlSignIn/index.md'
-              - Quickstart Facebook: 'MoorlSignIn/facebook.md'
-        - Shop the Look für Erlebniswelten: 'MoorlShopTheLook/index.md'
-        - Shopware 6 Blog (inkl. Wordpress Import):
-              - Allgemeines: 'MoorlMagazine/index.md'
-              - Feed API Guide (EN): 'MoorlMagazine/feed-api.md'
-        - Testimonials für Erlebniswelten: 'MoorlCmsTwig/index.md'
-        - Händler- und Filialensuche mit OpenStreetMap:
-              - Allgemeines: 'MoorlMerchantFinder/index.md'
-              - Setup Guide: 'MoorlMerchantFinder/setup.md'
-              - Add-On - Händlerauswahl: 'MoorlMerchantPicker/index.md'
-        - Responsive Bildergalerie für Erlebniswelten: 'MoorlCmsTwig/index.md'
-        - Angebots Countdown für Erlebniswelten: 'MoorlCmsTwig/index.md'
-        - Bankverbindung für Zahlungsarten: 'MoorlCmsTwig/index.md'
-        - Call to Action Banner für Erlebniswelten: 'MoorlCmsCtaBanner/index.md'
-        - Produktberater nach Entscheidungsstruktur: 'MoorlCmsTwig/index.md'
-        - Countdown Timer für Rabatt Aktionen: 'MoorlProductPromo/index.md'
-        - Responsiver 360 Grad Bildbetrachter: 'MoorlCmsTwig/index.md'
-        - Produkt Add-Ons & Zubehör für Shopware 6: 'MoorlProductAccessories/index.md'
-        - Video Kurs LMS: 'MoorlVideoCourse/index.md'
+        - 'Moorl360DegreeViewer/index.md'
+        - 'MoorlAccessoryFinder/index.md'
+        - 'MoorlAutoLogout/index.md'
+        - 'MoorlBankConnection/index.md'
+        - 'MoorlDownloadCenter/index.md'
+        - MoorlCms:
+            - 'MoorlCmsBrandSlider/index.md'
+            - 'MoorlCmsCtaBanner/index.md'
+            - 'MoorlCmsDealCounter/index.md'
+            - 'MoorlCmsFlipBox/index.md'
+            - 'MoorlCmsInstagram/index.md'
+            - 'MoorlCmsTestimonial/index.md'
+            - 'MoorlCmsTwig/index.md'
+            - 'MoorlShopTheLook/index.md'
+            - 'MoorlFancyboxGallery/index.md'
+        - 'MoorlCustomerAccounts/index.md'
+        - MoorlFormBuilder:
+            - 'MoorlFormBuilder/index.md'
+            - 'MoorlFormBuilder/setup.md'
+            - 'MoorlFormBuilder/user.md'
+            - 'MoorlFormBuilder/mail_templates.md'
+            - 'MoorlFormBuilder/elements.md'
+            - 'MoorlFormBuilder/newsletter.md'
+            - 'MoorlFormBuilder/events.md'
+            - 'MoorlFormBuilder/interactive.md'
+            - 'MoorlFormBuilder/faq.md'
+            - Extensions:
+                - 'MoorlFormRegistration/index.md'
+                - 'MoorlFormCartExtend/index.md'
+                - 'MoorlFormCartLineItem/index.md'
+                - 'MoorlFormProductRequest/index.md'
+        - 'MoorlInterrupter/index.md'
+        - MoorlSignIn:
+              - 'MoorlSignIn/index.md'
+              - 'MoorlSignIn/facebook.md'
+        - MoorlMagazine:
+              - 'MoorlMagazine/index.md'
+              - 'MoorlMagazine/feed-api.md'
+        - MoorlMerchantFinder:
+              - 'MoorlMerchantFinder/index.md'
+              - 'MoorlMerchantFinder/setup.md'
+              - 'MoorlMerchantPicker/index.md'
+        - 'MoorlProductAccessories/index.md'
+        - 'MoorlProductConsultant/index.md'
+        - 'MoorlProductPromo/index.md'
+        - 'MoorlProductVideo/index.md'
+        - 'MoorlRevSlider/index.md'
+        - 'MoorlVideoCourse/index.md'
 
     - Shopware Store: 'https://store.shopware.com/moori.html'
     - Shopware Demo Page: 'https://demo.moori.net/'
-    - Impressum: 'https://moorleiche.com/impressum/'
+    - Imprint: 'https://moorleiche.com/impressum/'
+    - 'tags.md'

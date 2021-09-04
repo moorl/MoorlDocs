@@ -1,0 +1,3 @@
+# Use Slider Revolution in Shopware 6
+
+In Progress...

@@ -1,6 +1,4 @@
-# Formular Baukasten Professional - Individuelle und frei gestaltbare Formulare
-
-## Newsletter
+# Newsletter
 
 Ab Version 1.2 kann der Shopbetreiber seinem Kunden eine Kombination aus
 Kontaktformular und Newsletter-Anmeldung anbieten.

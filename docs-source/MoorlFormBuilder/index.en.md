@@ -1,4 +1,4 @@
-# Form Building Kit Professional - Individual and freely designable forms
+# Form Builder
 
 _Note: This plugin requires the current version of [Foundation / Basis Plugin](../MoorlFoundation/index.md)._
 

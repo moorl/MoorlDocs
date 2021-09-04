@@ -11,6 +11,10 @@
         width: auto;
         min-width: 20rem;
     }
+
+    .md-search__inner {
+        width: 32rem;
+    }
 }
 
 a[href*="//"]:not([href*="docs.moori.net"]):after {

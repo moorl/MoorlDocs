@@ -7,7 +7,7 @@ spice up. This way your customers will be made aware of interesting actions and
 made aware.
 
 _By the way: The app
-[Call to Action Banner for World of Experience](../MoorlCmsCtaBanner/index-en.md)
+[Call to Action Banner for World of Experience](../MoorlCmsCtaBanner/index.en.md)
 is the perfect complement._
 
 ![](images/mi-01.jpg)
@@ -27,10 +27,10 @@ and install it.
 ## Installation
 
 1. install
-   [Foundation](../MoorlFoundation/index-en.md)
+   [Foundation](../MoorlFoundation/index.en.md)
 
 2. optional: In this app there is a
-   [Demo Package](../MoorlFoundation/demo-assistant-en.md)
+   [Demo Package](../MoorlFoundation/demo-assistant.en.md)
    is included.
 
 You can access the app via the menu item "Catalogues > Listing Interrupter".

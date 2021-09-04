@@ -1,4 +1,4 @@
-# Formular Baukasten Add-On - Erweiterte Kundenanmeldung
+# Erweiterte Kundenanmeldung
 
 Mit diesem Plugin kannst du deine Kundenanmeldungen erweitern. 
 Deine Gewerbekunden können bereits bei der Anmeldung zum Beispiel erforderliche Dokumente hochladen.

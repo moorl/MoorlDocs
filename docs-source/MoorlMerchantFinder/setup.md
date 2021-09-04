@@ -1,4 +1,4 @@
-# Händler- und Filialensuche mit OpenStreetMap
+# Händler- und Filialensuche 
 
 ## Installation
 

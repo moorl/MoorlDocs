@@ -1,4 +1,4 @@
-# Formular Baukasten Professional - Individuelle und frei gestaltbare Formulare
+# Formular Baukasten Professional
 
 ![Logo](images/plugin.png)
 

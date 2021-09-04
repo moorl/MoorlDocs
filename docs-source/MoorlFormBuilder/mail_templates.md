@@ -1,6 +1,4 @@
-# Formular Baukasten Professional - Individuelle und frei gestaltbare Formulare
-
-## Templates und Helfer ab Version 1.3.25
+# Templates und Helfer
 
 Ab Version 1.3.25 gibt es diese neuen Funktionen um die Gestaltung des E-Mail Templates
 zu vereinfachen.

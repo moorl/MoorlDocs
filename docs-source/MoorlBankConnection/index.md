@@ -1,0 +1,3 @@
+# Bankverbindung für Shopware 6
+
+In Arbeit...

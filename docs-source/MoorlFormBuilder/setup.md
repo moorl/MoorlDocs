@@ -1,6 +1,4 @@
-# Formular Baukasten Professional - Individuelle und frei gestaltbare Formulare
-
-## Installation
+# Installation
 
 ### Vorwort
 
