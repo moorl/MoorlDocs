@@ -77,8 +77,6 @@ extra:
             make our documentation better.
         cookies:
             matomo: Matomo Tracker
-            custom: Disqus Board
-    disqus: 'moori'
 extra_css:
     - jquery.fancybox.min.css
     - extra.css
