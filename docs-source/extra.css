@@ -6,6 +6,16 @@
     max-width: 100%;
 }
 
+.md-content img {
+    width: 100%;
+    max-width: 480px;
+}
+
+a[data-fancybox] {
+    display: block;
+    text-align: center;
+}
+
 @media screen and (min-width: 76.25em) {
     .md-sidebar--primary {
         width: auto;
