@@ -45,25 +45,6 @@ plugins:
                   MoorlMerchantFinder: Merchant- and Storefinder
                   MoorlCreator: Public profiles
                   Imprint: Imprint
-              nl:
-                  Documentation: App Documentatie
-                  MoorlCms: Winkelwerelden CMS Apps
-                  MoorlFormBuilder: Formulierenbouwer
-                  Extensions: Extensies
-                  MoorlSignIn: Aanmelden met Facebook, Google etc
-                  MoorlMagazine: Blog met Wordpress Import
-                  MoorlMerchantFinder: Handelaar- en Winkelzoeker
-                  Imprint: Afdruk
-              zh:
-                  Documentation: 应用程序文档
-                  MoorlCms: 购物世界的CMS应用
-                  MoorlFormBuilder: 表单生成器
-                  Extensions: 扩展程序
-                  MoorlSignIn: 用Facebook、Google等登录
-                  MoorlMagazine: 带有Wordpress导入的博客
-                  MoorlMerchantFinder: 商家和商店搜索器
-                  Imprint: 版本说明
-
     - search
 docs_dir: docs-source
 site_dir: docs-html
@@ -84,6 +65,7 @@ nav:
         - 'MoorlFoundation/listing.md'
 
         - 'MoorlCreator/index.md'
+        - 'MoorlGetTheLook/index.md'
         - 'Moorl360DegreeViewer/index.md'
         - 'MoorlAccessoryFinder/index.md'
         - 'MoorlAutoLogout/index.md'
