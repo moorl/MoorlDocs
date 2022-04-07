@@ -1,3 +1,0 @@
-# Autoren Verwaltung
-
-In Arbeit...

@@ -10,6 +10,7 @@ $('.md-content p > img').each(function () {
 });
 
 var _paq = window._paq = window._paq || [];
+_paq.push(["setDoNotTrack", true]);
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
 (function() {

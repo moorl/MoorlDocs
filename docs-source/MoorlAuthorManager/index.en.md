@@ -1,3 +1,0 @@
-# Author Manager
-
-In Arbeit...

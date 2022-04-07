@@ -5,7 +5,6 @@ theme:
         - navigation.tabs
         - navigation.tabs.sticky
         - navigation.top
-        - navigation.tracking
     palette:
         - scheme: default
           toggle:
@@ -34,6 +33,7 @@ plugins:
                   MoorlSignIn: Login mit Facebook, Google usw
                   MoorlMagazine: Blog mit Wordpress Import
                   MoorlMerchantFinder: Händler- und Filialiensuche
+                  MoorlCreator: Öffentliche Profile
                   Imprint: Impressum
               en:
                   Documentation: App Documentation
@@ -43,6 +43,7 @@ plugins:
                   MoorlSignIn: Sign-In with Facebook, Google etc
                   MoorlMagazine: Blog with Wordpress Import
                   MoorlMerchantFinder: Merchant- and Storefinder
+                  MoorlCreator: Public profiles
                   Imprint: Imprint
               nl:
                   Documentation: App Documentatie
@@ -67,16 +68,6 @@ plugins:
 docs_dir: docs-source
 site_dir: docs-html
 site_url: 'https://docs.moori.net'
-extra:
-    consent:
-        title: Cookie consent
-        description: >
-            We use cookies to recognize your repeated visits and preferences, as well
-            as to measure the effectiveness of our documentation and whether users
-            find what they're searching for. With your consent, you're helping us to
-            make our documentation better.
-        cookies:
-            matomo: Matomo Tracker
 extra_css:
     - jquery.fancybox.min.css
     - extra.css
@@ -92,6 +83,7 @@ nav:
         - 'MoorlFoundation/demo-assistant.md'
         - 'MoorlFoundation/listing.md'
 
+        - 'MoorlCreator/index.md'
         - 'Moorl360DegreeViewer/index.md'
         - 'MoorlAccessoryFinder/index.md'
         - 'MoorlAutoLogout/index.md'
@@ -140,8 +132,6 @@ nav:
         - 'MoorlProductVideo/index.md'
         - 'MoorlRevSlider/index.md'
         - 'MoorlVideoCourse/index.md'
-
     - Shopware Store: 'https://store.shopware.com/moori.html'
     - Shopware Demo Page: 'https://demo.moori.net/'
     - Imprint: 'https://moorleiche.com/impressum/'
-    - 'tags.md'
