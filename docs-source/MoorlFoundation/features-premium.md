@@ -1,6 +1,12 @@
 # Foundation Premium Features
 
-Die Premium Features können mit dem Foundation Unlocker aktiviert werden.
+Die Premium Features sind ein fester Bestandteil des moori Foundation Plugins.
+
+Diese Features lassen sich für einen geringen Zeitraum nutzen, sind jedoch nur für Nutzer mit Adminrechten
+verfügbar und werden noch vor Shopware 6.5 Release entfernt.
+
+Die Demopakete meiner Plugins enthalten einige vorgefertigte Features für eine bessere Darstellung im
+Storefront, es wird lediglich nur nicht im Admin ohne "Foundation Premium Features" konfigurierbar sein.
 
 ![](images/mfu-01.jpg)
 
@@ -58,16 +64,57 @@ Diese können mit ebenfalls drei verschiedenen Auslösern gestartet werden:
 
 ### Zusätzliche Layouts/Blöcke
 
+Es befinden sich über 30+ Blocklayouts im moori Foundation Plugin.
+
 ![](images/mfu-08.jpg)
+
+Die Spaltenlayouts
+
 ![](images/mfu-09.jpg)
+
+Die Gridlayouts
+
 ![](images/mfu-10.jpg)
+
+Die Slider-Layouts
+
+_Hinweis: Der "Interaktive Slider" ersetzt die anderen Layouts, da man diesem
+bis zu 20+ Slides zuweisen und frei konfigurieren kann._
+
 ![](images/mfu-11.jpg)
+
+Der "Interaktive Slider" im Detail
+
 ![](images/mfu-12.jpg)
+
 ![](images/mfu-13.jpg)
+
+### Zusätzliche Sektionen
+
+Aktuell gibt es eine Sektion in der man zwei bis vier Spalten bestimmen kann.
+
+Jede Spalte hat Einstellungen:
+
+1. Responsives Verhalten: Breite und anzeigen/ausblenden abhängig vom Endgerät.
+2. Angeheftet mit einem Abstand nach oben (z.B. wenn es ein angeheftetes Hauptmenü gibt).
+3. Horizontale und vertikale Anordnung der Elemente innerhalb der Spalte.
+
 ![](images/mfu-14.jpg)
+
 ![](images/mfu-15.jpg)
+
+### Beispiele
+
+Installiere das [Demo Paket](../MoorlFoundation/demo-assistant.md) um die Beispiele zu sehen.
+
 ![](images/mfu-16.jpg)
+
+Die Beispielseite im Storefront
+
 ![](images/mfu-17.jpg)
+
 ![](images/mfu-18.jpg)
+
 ![](images/mfu-19.jpg)
+
 ![](images/mfu-20.jpg)
