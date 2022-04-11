@@ -1,4 +1,4 @@
-# Staging Testumgebungen
+# Staging und Testumgebungen
 
 ---
 
@@ -42,7 +42,9 @@ folgende  [Hinweise](../faq.md) im FAQ Bereich._
 
 - min. PHP v7.4
 - php.ini: max_execution_time > 120 (größer als 2 Minuten)
-- Server muss das Ausführen von Befehlen durch PHP unterstützen
+- Server muss das Ausführen von Befehlen durch PHP unterstützen (Eine Liste an Anbietern
+  befindet sich am Ende dieser Seite)
+- Die APP_URL in der .env-Datei des Live Systems muss richtig konfiguert sein!
 
 ### Basiskonfiguration
 
@@ -51,8 +53,65 @@ Informationen zu den Prozessen in einer Logdatei gespeichert.
 
 ### Testumgebung erstellen
 
-Bevor du eine Testumgebung erstellen kannst, wird ein Systemcheck durch das Plugin 
-ausgeführt. 
+Das Plugin befindet sich unter "Einstellungen" - "Erweiterungen" - "Staging".
+
+![](images/ms-01.jpg)
+
+Hier findest du eine Liste mit deinen Staging Systemen. 
+Klicke oben rechts auf "Neues Staging System".
+
+![](images/ms-02.jpg)
+
+Nun wird ein kurzer Systemcheck ausgeführt um zu prüfen ob das Plugin mit 
+deinem Webserver kompatibel ist. Sollte es hier einen Fehler geben, kannst du 
+das Plugin leider nicht nutzen und musst entweder einen anderen Webserver nehmen
+oder dich für ein alternatives Staging Plugin entscheiden.
+
+Der Name deines Staging-Systems ist auch zugleich das Unterverzeichnis wo du dein
+Staging System erreichst. Du kannst den Namen auch leer lassen, dann wird automatisch
+ein Name generiert.
+
+![](images/ms-03.jpg)
+
+![](images/ms-04.jpg)
+
+Im nächsten Schritt gibst du die Zugangsdaten zu der Datenbank deines Staging Systems
+ein. Zur Sicherheit überprüft das Plugin, ob du nicht versehentlich die Daten deiner
+Live Datenbank eingibst.
+
+![](images/ms-05.jpg)
+
+![](images/ms-06.jpg)
+
+Wurde die Verbindung zur Datenbank erfolgreich hergestellt, kannst du nun eigene 
+Einstellungen für Vorgänge vornehmen. Die Voreinstellungen entsprechen Empfehlungen
+bezüglich Performance und Datenschutz.
+
+**Achtung**
+
+Solltest du die Medien Verzeichnisse ausschließen, wird automatisch eine Verlinkung zu den
+Medien deines Live-Shops gesetzt. Das heißt, wenn du im Medien-Manager im Staging System
+Dateien entfernst, werden diese auch im Live-System entfernt.
+
+![](images/ms-07.jpg)
+
+![](images/ms-08.jpg)
+
+![](images/ms-09.jpg)
+
+Nun kannst du das Staging System erstellen. Die Vorgänge werden Schritt für Schritt
+durchlaufen.
+
+Falls es einen Fehler gibt, kann das möglicherweise daran liegen, dass deine php.ini 
+falsch konfiguriert ist. Hinweise dazu findest du am Anfang dieser Seite.
+
+![](images/ms-10.jpg)
+
+Sobald das Staging System erstellt wurde, kannst du über die Links auf Admin oder
+Storefront zugreifen.
+
+![](images/ms-11.jpg)
+
 
 ## Hinweise zu Hosting Anbietern
 
