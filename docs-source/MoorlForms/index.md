@@ -92,6 +92,7 @@ Hier kannst du nun ein neues Formular erstellen oder importieren.
 Du kannst generell die Sichtbarkeit der Formulare und der Elemente hier konfigurieren.
 
 Ein Formular/Element...
+
 - nur in einem bestimmten Zeitraum anzeigen
 - nur in einem bestimmten Verkaufskanal anzeigen
 - nur für ein gewähltes Liefer-Land anzeigen
@@ -99,9 +100,11 @@ Ein Formular/Element...
 - nur für eine bestimmte Kundengruppe anzeigen
 
 Ein produktspezifisches Formular...
+
 - kann einem Produkt-Stream zugewiesen werden
 
 Ein Element der Gruppe Sektionen...
+
 - kann hier einem Hintergrundbild zugewiesen werden
 
 Einige dieser Zuweisungen sind nur in den Formular Baukasten 2 Add-Ons verfügbar!
@@ -177,6 +180,14 @@ Die Funktion "Kopie senden" und "Empfänger nach Auswahlbedingung" gibt es im Cl
 ![](images/fb-16.jpg)
 
 ![](images/fb-17.jpg)
+
+## CMS Einstellungen
+
+Das Formular hat keinen eigenen Block, sondern ist über das "Element Austauschen"-Symbol erreichbar!
+
+Nachdem das CMS Element eingefügt wurde, kann man Formulare vom Typ CMS oder Test der CMS Seite zuweisen.
+
+![](images/fb-22.jpg)
 
 ## Ausgabe im Storefront
 

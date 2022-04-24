@@ -91,6 +91,7 @@ Here you can create or import a new form.
 You can generally configure the visibility of forms and elements here.
 
 Show a form/element...
+
 - show only in a certain period of time
 - only display in a certain sales channel
 - show only for a selected delivery country
@@ -98,9 +99,11 @@ Show a form/element...
 - Display only for a selected customer group
 
 A product-specific form...
+
 - can be assigned to a product stream
 
 An element of the group Sections...
+
 - can be assigned to a background image here
 
 Some of these assignments are only available in the Form Builder 2 Add-Ons!
@@ -176,6 +179,14 @@ The function "Send copy" and "Recipient according to selection condition" are av
 ![](images/fb-16.jpg)
 
 ![](images/fb-17.jpg)
+
+## CMS settings
+
+The form does not have its own block, but can be accessed via the "Replace element" icon!
+
+After the CMS element has been inserted, you can assign forms of type CMS or Test to the CMS page.
+
+![](images/fb-22.jpg)
 
 ## Output in the storefront
 
