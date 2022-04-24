@@ -1,19 +1,19 @@
-# Form builder 2
+# Form Builder 2
 
 ---
 
 This plugin is based on a fundamental redevelopment of the
-[Form builder](../MoorlFormBuilder/index.md) and offers maximum
+[Form Builder](../MoorlFormBuilder/index.md) and offers maximum
 flexibility and integrity for Shopware 6.
 
-## Note for all customers who already own the form builder
+## Note for all customers who already own the Form Builder
 
 This plugin has a fundamentally different structure and does not offer the possibility to migrate the previous forms.
 migrate the previous forms.
 
 Unfortunately, it is also not possible to duplicate/transfer the subscriptions after consultation with Shopware.
 
-As I do not want to create a disadvantage for my existing customers, the form builder will continue to be
+As I do not want to create a disadvantage for my existing customers, the Form Builder will continue to be
 will continue to be provided with updates. But no new functions will be developed.
 
 For all interested parties with active subscriptions I offer a 50% discount for Basis and Add-Ons.
@@ -27,7 +27,7 @@ affordable price. All further functions can be obtained.
 
 It is also possible to create your own add-ons, a developer documentation will follow soon.
 
-1. classic add-on*: Contains all functions of the [Form builder](../MoorlFormBuilder/index.md).
+1. classic add-on*: Contains all functions of the [Form Builder](../MoorlFormBuilder/index.md).
 2. slides & popup add-on*: Provides new sections for more beautiful forms
 3. customer add-on**: Customised forms for registration and customer area
 4. custom products add-on**: Additional information on products incl. price calculation
@@ -39,7 +39,7 @@ It is also possible to create your own add-ons, a developer documentation will f
 
 ## What is this plugin good for?
 
-The Shopware 6 _Form builder 2_ plugin makes it child's play to create complex forms with independent
+The Shopware 6 _Form Builder 2_ plugin makes it child's play to create complex forms with independent
 task areas.
 
 It is modular, so processes and individual fields can be expanded as desired.
@@ -51,8 +51,8 @@ the following [notes](../faq.md) in the FAQ section.
 
 1. install
    [Foundation](../MoorlFoundation/index.md)
-2. install Form Construction Kit 2 in the Plugin Manager
-3. go to: Contents | Form Construction Kit 2
+2. install Form Builder 2 in the Plugin Manager
+3. go to: Contents | Form Builder 2
 
 Here you can create or import a new form.
 
@@ -182,7 +182,7 @@ The function "Send copy" and "Recipient according to selection condition" are av
 ### Form validation
 
 The example form is of type "Test" the client-side validation is deactivated.
-The form builder 2 supports recursive server-side validation of the input fields!
+The Form Builder 2 supports recursive server-side validation of the input fields!
 
 ![](images/fb-18.jpg)
 
