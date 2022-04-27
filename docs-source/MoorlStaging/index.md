@@ -36,6 +36,8 @@ einsatzbereit und jegliche Risiken sind auf einem Minimum beschränkt.
 _Hinweis: Falls du Probleme mit dem Plugin hast, bitte beachte 
 folgende  [Hinweise](../faq.md) im FAQ Bereich._
 
+Hinweis: Die Staging Systeme werden bei Deinstallation des Plugins NICHT gelöscht
+
 ## Einstellungen
 
 ### Systemanforderungen
@@ -50,6 +52,11 @@ folgende  [Hinweise](../faq.md) im FAQ Bereich._
 
 In der Basiskonfiguration kannst du den Logger des Plugins aktivieren. So werden weitere
 Informationen zu den Prozessen in einer Logdatei gespeichert.
+
+Du kannst diese Logdatei mit dem "Frosh Tools" Plugin einsehen.
+
+Zudem gibt es einen Kompatibilitätsmodus für diverse Hosting Anbieter. Weitere
+Info dazu findest du am Ende dieser Dokumentation.
 
 ### Testumgebung erstellen
 
@@ -123,3 +130,10 @@ Storefront zugreifen.
 | ALL-INKL.COM - PrivatPlus | JA | |
 | ALL-INKL.COM - Premium | JA | |
 | ALL-INKL.COM - Business | JA | |
+
+### Profihost
+
+In den Plugin Einstellungen Hosting Kompatibilitätsmodus auf
+Profihost (MariaDB) oder Profihost (MySQL) stellen. Wichtig dabei ist,
+dass die Staging Umgebung dieselbe Datenbank-Art (MySQL oder MariaDB)
+wie der Live-Shop nutzt!
