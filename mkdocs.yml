@@ -22,8 +22,6 @@ plugins:
           languages:
               de: Deutsch
               en: English
-              nl: Nederlands
-              zh: 中国
           nav_translations:
               de:
                   Documentation: App Dokumentation
@@ -70,6 +68,7 @@ nav:
         - 'MoorlCreator/index.md'
         - 'MoorlGetTheLook/index.md'
         - 'MoorlForms/index.md'
+        - 'MoorlFormsClassic/index.md'
         - 'Moorl360DegreeViewer/index.md'
         - 'MoorlAccessoryFinder/index.md'
         - 'MoorlAutoLogout/index.md'

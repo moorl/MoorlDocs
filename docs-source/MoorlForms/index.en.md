@@ -27,7 +27,7 @@ affordable price. All further functions can be obtained.
 
 It is also possible to create your own add-ons, a developer documentation will follow soon.
 
-1. classic add-on*: Contains all functions of the [Form Builder](../MoorlFormBuilder/index.md).
+1. [Classic Add-On](../MoorlFormsClassic/index.md): Contains all functions of the [Form Builder](../MoorlFormBuilder/index.md).
 2. slides & popup add-on*: Provides new sections for more beautiful forms
 3. customer add-on**: Customised forms for registration and customer area
 4. custom products add-on**: Additional information on products incl. price calculation

@@ -28,7 +28,7 @@ erlangt werden.
 
 Es ist auch möglich eigene Add-Ons zu erstellen, dazu folgt demnächst eine Entwickler-Dokumentation.
 
-1. Classic Add-On*: Beinhaltet alle Funktionen des [Formular Baukastens](../MoorlFormBuilder/index.md)
+1. [Classic Add-On](../MoorlFormsClassic/index.md): Beinhaltet alle Funktionen des [Formular Baukastens](../MoorlFormBuilder/index.md)
 2. Slides & Popup Add-On*: Stellt neue Sektionen für schönere Formulare bereit
 3. Customer Add-On**: Kundenspezifische Formulare für Registrierung und Kundenbereich
 4. Custom Products Add-On**: Zusätzliche Angaben zu Produkten inkl. Preiskalkulation
