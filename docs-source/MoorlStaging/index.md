@@ -137,3 +137,9 @@ In den Plugin Einstellungen Hosting Kompatibilitätsmodus auf
 Profihost (MariaDB) oder Profihost (MySQL) stellen. Wichtig dabei ist,
 dass die Staging Umgebung dieselbe Datenbank-Art (MySQL oder MariaDB)
 wie der Live-Shop nutzt!
+
+| Paket | Unterstützt | Hinweise |
+| ----------- | ----------- | ----------- |
+| Managed Hosting | NEIN | Symlinks nicht verfügbar |
+| Managed Shop-Hosting | NEIN | Symlinks nicht verfügbar |
+| Managed Server (FlexServer) | JA | |

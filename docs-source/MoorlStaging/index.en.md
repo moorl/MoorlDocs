@@ -137,3 +137,9 @@ In the plug-in settings, set Hosting compatibility mode to
 Profihost (MariaDB) or Profihost (MySQL). It is important
 that the staging environment uses the same type of database (MySQL or MariaDB)
 as the live shop!
+
+| Package | Supported | Notes |
+| ----------- | ----------- | ----------- |
+| Managed Hosting | NO | Symlinks not available |
+| Managed Shop-Hosting | NO | Symlinks not available |
+| Managed Server (FlexServer) | YES | |
