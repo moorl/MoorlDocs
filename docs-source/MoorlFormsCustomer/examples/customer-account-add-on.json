@@ -1,0 +1,345 @@
+{
+  "type": "customer-account",
+  "active": true,
+  "technicalName": "new_form",
+  "relatedEntity": "customer",
+  "config": {},
+  "actions": [
+    "mail"
+  ],
+  "name": "Example: Customer account",
+  "successMessage": "well done!",
+  "errorMessage": "Something went wrong :(",
+  "id": "f82f273a556546c2b40673a735789231",
+  "elements": [
+    {
+      "parentId": "a68630b9da834a01ac14d918e12ec7ce",
+      "afterId": "f3c9278d7ede4d2181c9742e45d7813e",
+      "formId": "f82f273a556546c2b40673a735789231",
+      "childCount": 0,
+      "level": 2,
+      "path": "|a68630b9da834a01ac14d918e12ec7ce|",
+      "type": "textarea",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "description",
+      "entityMapping": "customFields.moorl_fb_code",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Description",
+      "id": "0d069d6ce2d145e6a27c1e09365083e8"
+    },
+    {
+      "parentId": "a68630b9da834a01ac14d918e12ec7ce",
+      "formId": "f82f273a556546c2b40673a735789231",
+      "childCount": 0,
+      "level": 2,
+      "path": "|a68630b9da834a01ac14d918e12ec7ce|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "firstName",
+      "entityMapping": "firstName",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "First name",
+      "id": "3dbd4820a0ca44128b4ec687a9b0e394"
+    },
+    {
+      "parentId": "a68630b9da834a01ac14d918e12ec7ce",
+      "afterId": "0d069d6ce2d145e6a27c1e09365083e8",
+      "formId": "f82f273a556546c2b40673a735789231",
+      "childCount": 0,
+      "level": 2,
+      "path": "|a68630b9da834a01ac14d918e12ec7ce|",
+      "type": "form-submit",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "save",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Save",
+      "id": "80d1659a77984b60b12f0c6bef9ca4ba"
+    },
+    {
+      "formId": "f82f273a556546c2b40673a735789231",
+      "childCount": 6,
+      "level": 1,
+      "type": "card",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "d3adca54d1384e099a275801193f6ddc",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Example: Customer account",
+      "id": "a68630b9da834a01ac14d918e12ec7ce"
+    },
+    {
+      "parentId": "a68630b9da834a01ac14d918e12ec7ce",
+      "afterId": "3dbd4820a0ca44128b4ec687a9b0e394",
+      "formId": "f82f273a556546c2b40673a735789231",
+      "childCount": 0,
+      "level": 2,
+      "path": "|a68630b9da834a01ac14d918e12ec7ce|",
+      "type": "upload",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "businessRegistration",
+      "entityMapping": "customFields.moorl_fb_media",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Business registration",
+      "id": "b60b347946c74213b7f0b3d42a506479"
+    },
+    {
+      "parentId": "a68630b9da834a01ac14d918e12ec7ce",
+      "afterId": "b60b347946c74213b7f0b3d42a506479",
+      "formId": "f82f273a556546c2b40673a735789231",
+      "childCount": 0,
+      "level": 2,
+      "path": "|a68630b9da834a01ac14d918e12ec7ce|",
+      "type": "email",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "email",
+      "entityMapping": "email",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Email",
+      "id": "f3c9278d7ede4d2181c9742e45d7813e"
+    },
+    {
+      "parentId": "a68630b9da834a01ac14d918e12ec7ce",
+      "afterId": "80d1659a77984b60b12f0c6bef9ca4ba",
+      "formId": "f82f273a556546c2b40673a735789231",
+      "childCount": 0,
+      "level": 2,
+      "path": "|a68630b9da834a01ac14d918e12ec7ce|",
+      "type": "form-feedback",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "feedback",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Feedback",
+      "id": "fc7277a9d0da4557a1cb0e4af207b6d1"
+    }
+  ]
+}

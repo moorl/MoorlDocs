@@ -1,0 +1,208 @@
+{
+  "type": "customer-register",
+  "active": true,
+  "technicalName": "new_form",
+  "relatedEntity": "customer",
+  "config": {
+    "css": [],
+    "slider": [],
+    "animateInOut": [],
+    "cssAttributes": []
+  },
+  "actions": [
+    "mail"
+  ],
+  "name": "Example: Customer registration",
+  "successMessage": "well done!",
+  "errorMessage": "Something went wrong :(",
+  "id": "6cb04f644b4247b7b7469c634bf4b7cb",
+  "elements": [
+    {
+      "formId": "6cb04f644b4247b7b7469c634bf4b7cb",
+      "childCount": 3,
+      "level": 1,
+      "type": "card",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "88b1d8cf967a4e7fa2af31d98f4a09b2",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Example: Customer registration",
+      "id": "0831c2ae10d24ccf81444acb8036ba26"
+    },
+    {
+      "parentId": "0831c2ae10d24ccf81444acb8036ba26",
+      "afterId": "9418aaa91f264dfb8eb48f6483571cbd",
+      "formId": "6cb04f644b4247b7b7469c634bf4b7cb",
+      "childCount": 0,
+      "level": 2,
+      "path": "|0831c2ae10d24ccf81444acb8036ba26|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "required": true,
+      "technicalName": "affiliateCode",
+      "entityMapping": "affiliateCode",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Affiliate code",
+      "id": "311e14aadea444e696a108a69ff419d2"
+    },
+    {
+      "parentId": "0831c2ae10d24ccf81444acb8036ba26",
+      "afterId": "9418aaa91f264dfb8eb48f6483571cbd",
+      "formId": "6cb04f644b4247b7b7469c634bf4b7cb",
+      "childCount": 0,
+      "level": 2,
+      "path": "|0831c2ae10d24ccf81444acb8036ba26|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "required": true,
+      "technicalName": "campaignCode",
+      "entityMapping": "campaignCode",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Campaign code",
+      "id": "412ca16c732e48d0a90a4bbc4e039e0d"
+    },
+    {
+      "parentId": "0831c2ae10d24ccf81444acb8036ba26",
+      "formId": "6cb04f644b4247b7b7469c634bf4b7cb",
+      "childCount": 0,
+      "level": 2,
+      "path": "|0831c2ae10d24ccf81444acb8036ba26|",
+      "type": "upload",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "businessRegistration",
+      "entityMapping": "customFields.moorl_fb_media",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Business registration",
+      "id": "9418aaa91f264dfb8eb48f6483571cbd"
+    }
+  ]
+}
