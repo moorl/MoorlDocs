@@ -1,4 +1,4 @@
-# Classic Add-On for "Form Builder 2
+#Product-Configurator Add-On for "Form Builder 2"
 
 ---
 

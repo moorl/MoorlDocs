@@ -1,9 +1,9 @@
-# Classic Add-On for "Form Builder 2
+#Customer Forms Add-On for "Form Builder 2
 
 ---
 
-With this add-on for [Form Builder 2](../MoorlForms/index.md), you have new
-new possibilities at your disposal.
+With this add-on for [Form Builder 2](../MoorlForms/index.md)
+you can use customised forms for registration or the account area!
 
 ##Note for all customers who already own the Form Builder
 
@@ -19,63 +19,51 @@ For all interested parties with active subscriptions I offer a 50% discount for 
 The migration of the forms will also be taken care of on request.
 However, there may be differences in appearance, I will not match these.
 
-##New elements
+##New form types
 
 ![](images/fbc-01.jpg)
 
-1. element of the type "repeater
-2. elements that are only shown under certain conditions
-3. send copy to customer
-4. offer newsletter registration
+![](images/fbc-04.jpg)
 
-##Form Actions
+- Forms for the account area
+- Forms for registration
+
+##Mapping
+
+Customised forms offer the possibility to write the input fields into database fields.
+
+For example, the customer can upload a business registration, the mapping to the file is in a
+custom field.
 
 ![](images/fbc-02.jpg)
 
-- Send a copy to the customer
-- Offer newsletter subscription
-
-Note: If the actions are selected, the corresponding element must also be inserted in the structure area!
-must be inserted!
-
-## Example forms for download
-
-- [Classic Add-On](examples/classic-add-on.json)
-
-###Newsletter registration
-
 ![](images/fbc-03.jpg)
 
-Note on the technical names of the elements when the newsletter subscription is activated.
+##Example forms for download
 
-###Send copy
+- [Customer-Account Form Add-On](examples/customer-account-add-on.json)
+- [Customer-Registration Form Add-On](examples/customer-registration-add-on.json)
 
-![](images/fbc-04.jpg)
+###Customer-Account
 
-"Send copy to customer" can be offered in different variations.
-
-###Conditions
-
-![](images/fbc-05.jpg)
-
-Build conditions to show or hide an element.
-
-###Extension for elements of the type "Option
+The forms for the customer account are automatically included in the navigation.
 
 ![](images/fbc-06.jpg)
 
-By means of a selected option, the recipient's e-mail address can be influenced.
-This way, depending on the request type, the mails end up in the right mailbox!
-
-###Configuration for "Repeater" elements
+The form adopts the appropriate database fields based on the mapping properties.
 
 ![](images/fbc-07.jpg)
 
-The repeater element can have a min and a max property. In addition, the buttons can be
-buttons can be individually labelled.
-
-##Example of the output of an e-mail with a repeater element
+When saving, the data is again saved in the mapped database fields.
 
 ![](images/fbc-08.jpg)
 
 ![](images/fbc-09.jpg)
+
+Optionally, the shop owner can be informed of a change by e-mail.
+
+###Customer registration
+
+The form for customer registration does not require any components as it is integrated into the existing form.
+
+![](images/fbc-05.jpg)
