@@ -37,6 +37,10 @@ It is also possible to create your own add-ons, a developer documentation will f
 
 (\* In development, \*\* In concept phase)
 
+## Example Add-On for developers
+
+[Example Add-On](https://github.com/moorl/MoorlFormsExample)
+
 ## What is this plugin good for?
 
 The Shopware 6 _Form Builder 2_ plugin makes it child's play to create complex forms with independent

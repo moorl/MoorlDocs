@@ -20,7 +20,7 @@ Für alle Interessenten mit aktiven Subscriptions biete ich einen 50% Rabatt fü
 Die Migration der Formulare wird auf Wunsch ebenfalls übernommen.
 Es kann jedoch zu Abweichungen im Aussehen kommen, diese werde ich nicht abgleichen.
 
-##Add-Ons
+## Add-Ons
 
 Dieses Plugin wurde in seiner Basis Version um einige Funktionen gekürzt, damit es zu einem
 erschwinglichen Preis angeboten werden kann. Alle weiteren Funktionen können durch Add-Ons
@@ -37,6 +37,10 @@ Es ist auch möglich eigene Add-Ons zu erstellen, dazu folgt demnächst eine Ent
 7. Kundenindividuelle Add-Ons auf Anfrage
 
 (\* In Entwicklung, \*\* In Konzeptphase)
+
+## Beispiel Add-On für Entwickler
+
+[Example Add-On](https://github.com/moorl/MoorlFormsExample)
 
 ## Wofür ist dieses Plugin gut?
 
