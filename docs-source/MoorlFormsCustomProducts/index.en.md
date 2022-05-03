@@ -3,7 +3,8 @@
 ---
 
 With this add-on for [Form Builder 2](../MoorlForms/index.md) you can make products
-individually configurable and influence the price!
+individually configurable and influence the price! Input fields can be
+database fields!
 
 ##Note for all customers who already own the Form Builder
 
@@ -23,7 +24,7 @@ However, there may be differences in appearance, I will not match these.
 
 - [Product Configurator Add-On](examples/custom-products-add-on.json)
 
-##New form of the type "Product Configurator
+##New form of the type "Product Configurator"
 
 With this form you can on the one hand influence the product prices via the options and on the other hand you can use the mapping.
 on the other hand you can use the mapping to save the configuration in custom-fields

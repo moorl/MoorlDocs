@@ -4,6 +4,7 @@
 
 With this add-on for [Form Builder 2](../MoorlForms/index.md)
 you can use customised forms for registration or the account area!
+Offer your customers more options to edit their accounts.
 
 ##Note for all customers who already own the Form Builder
 

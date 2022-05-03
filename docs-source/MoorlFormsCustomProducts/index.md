@@ -3,7 +3,8 @@
 ---
 
 Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) kannst du Produkte 
-individuell konfigurierbar machen und den Preis beeinflussen!
+individuell konfigurierbar machen und den Preis beeinflussen! Eingabefelder lassen sich
+Datenbankfeldern zuweisen!
 
 ##Hinweis für alle Kunden, die den Formular Baukasten bereits besitzen
 
