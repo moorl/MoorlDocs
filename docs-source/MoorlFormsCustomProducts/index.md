@@ -1,9 +1,9 @@
-# Produkt-Konfigurator Add-On für "Formular Baukasten 2"
+#Produkt-Konfigurator Add-On für "Formular Baukasten 2"
 
 ---
 
-Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) stehen
-dir neue Möglichkeiten zur Verfügung.
+Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) kannst du Produkte 
+individuell konfigurierbar machen und den Preis beeinflussen!
 
 ##Hinweis für alle Kunden, die den Formular Baukasten bereits besitzen
 
@@ -19,64 +19,105 @@ Für alle Interessenten mit aktiven Subscriptions biete ich einen 50% Rabatt fü
 Die Migration der Formulare wird auf Wunsch ebenfalls übernommen.
 Es kann jedoch zu Abweichungen im Aussehen kommen, diese werde ich nicht abgleichen.
 
-##Neue Elemente
+##Beispiel Formulare zum Download
 
-![](images/fbc-01.jpg)
+- [Produkt-Konfigurator Add-On](examples/custom-products-add-on.json)
 
-1. Element vom Typ "Repeater"
-2. Elemente die nur unter bestimmten Voraussetzungen eingeblendet werden
-3. Kopie an den Kunden senden
-4. Newsletter Anmeldung anbieten
+##Neues Formular vom Typ "Produkt-Konfigurator"
 
-##Formular Aktionen
+Mit diesem Formular kannst du einerseits die Produktpreise über die Optionen beeinflussen und
+andererseits kannst du das Mapping nutzen, um die Konfiguration in Custom-Feldern zu speichern
+z.B. für weitere technische Verarbeitung der Daten.
 
-![](images/fbc-02.jpg)
+![](images/fbcp-01.jpg)
 
-- Kopie an den Kunden senden
-- Newsletter Anmeldung anbieten
+Beispiel Formular.
 
-Hinweis: Wenn die Aktionen gewählt sind, muss auch das entsprechende Element im Strukturbereich
-eingefügt werden!
+![](images/fbcp-04.jpg)
 
-## Beispiel Formulare zum Download
+Die zugeordnete Entität ist vom Typ "order_line_item", diese gleicht dem Namen der Datenbank-Tabelle.
+Dort wird der Payload und die Custom-Felder deiner Produkt-Konfiguration gespeichert!
 
-- [Classic Add-On](examples/classic-add-on.json)
+![](images/fbcp-02.jpg)
 
-###Newsletter Anmeldung
+![](images/fbcp-03.jpg)
 
-![](images/fbc-03.jpg)
+Bevor du mit der Preiskonfiguration startest, musst das Formular...
 
-Hinweis zu den technischen Namen der Elemente, wenn die Newsletter-Anmeldung aktiviert ist.
+1. einer dynamischen Produktgruppe zuweisen.
+2. eine Steuerrate zuweisen.
 
-###Kopie senden
+Die dynamische Produktgruppe sagt aus, für welche Produkte das Formular aktiviert wird.
 
-![](images/fbc-04.jpg)
+Es ist auch möglich mehrere Formulare für die Produkte zu kombinieren! Achte jedoch darauf,
+dass du immer individuelle technische Namen für deine Eingabefelder nutzt!
 
-"Kopie an den Kunden senden" kann in verschiedenen Variationen angeboten werden.
+##Preisdefinitionen
 
-###Bedingungen
+Du kannst für die Optionen Preisdefinitionen festlegen.
 
-![](images/fbc-05.jpg)
+![](images/fbcp-05.jpg)
 
-Aufbau von Bedingungen um ein Element ein- oder auszublenden.
+Absolute Preise können zum Produktpreis aufgeschlagen werden.
 
-###Erweiterung für Elemente vom Typ "Option"
+Leider ist es nicht möglich negative Preise einzugeben, ich arbeite jedoch schon an einer Lösung dieses Problems.
 
-![](images/fbc-06.jpg)
+![](images/fbcp-06.jpg)
 
-Anhand einer ausgewählten Option kann die Empfänger E-Mail-Adresse beeinflusst werden.
-So landen je nach Anfrage-Typ die Mails im richtigen Postfach!
+Prozentuale Preise sind relativ zum Preis des Produktes. Du kannst auch negative prozentuale Preise definieren.
 
-###Konfiguration für "Repeater" Elemente
+###Mapping
 
-![](images/fbc-07.jpg)
+Sofern die Daten aus der Entität "order_line_item" für eine weitere technische Verarbeitung relevant sind 
+kannst du die Eingabefelder zu Datenbankfeldern zuweisen!
 
-Das Repeater-Element kann eine min und eine max Eigenschaft haben. Außerdem lassen sich
-die Buttons individuell beschriften.
+![](images/fbcp-07.jpg)
 
-##Beispiel der Ausgabe einer E-Mail mit einem Repeater-Element
+###Storefront
 
-![](images/fbc-08.jpg)
+In diesem Beispiel siehst du den Produkt-Konfigurator in Aktion!
 
-![](images/fbc-09.jpg)
+![](images/fbcp-08.jpg)
+
+Hier gibt es die Möglichkeit einen Text, ein Upload und verschiedene Optionen auszuwählen.
+
+![](images/fbcp-09.jpg)
+
+Der Preis aktualisiert sich anhand der Auswahl, die der Kunde trifft.
+
+![](images/fbcp-10.jpg)
+
+Die Anzahl der Produkte wird ebenfalls beachtet.
+
+![](images/fbcp-11.jpg)
+
+Die Konfiguration ist abgeschlossen, ab in den Warenkorb!
+
+![](images/fbcp-12.jpg)
+
+![](images/fbcp-13.jpg)
+
+Kleine Nachbesserungen können vor Bestellabschluss jederzeit durchgeführt werden!
+
+![](images/fbcp-14.jpg)
+
+In der Bestellübersicht wird die Konfiguration in Textform angezeigt.
+
+###Admin
+
+Solltest du das Mapping nicht nutzen, hast du trotzdem jederzeit Zugriff auf die Konfiguration.
+
+![](images/fbcp-15.jpg)
+
+Gehe dazu in die Bestellübersicht und wähle im Kontextmenü "Zeige Konfiguration".
+
+![](images/fbcp-16.jpg)
+
+Die rot markierten Platzhalter überträgst du in all deine E-Mail und Dokumenten Templates, damit die 
+Konfiguration auch für den Kunden weiterhin ersichtlich sind.
+
+![](images/fbcp-17.jpg)
+
+Da die Custom-Felder für Bestellpositionen nicht im Admin ersichtlich sind, ist hier ein Screenshot aus
+der Datenbank zur Veranschaulichung, dass das Feld richtig gespeichert wurde.
 

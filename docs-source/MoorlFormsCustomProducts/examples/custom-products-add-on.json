@@ -1,0 +1,586 @@
+{
+  "taxId": "7d3433a7b6704d37be637b69b478c0b0",
+  "productStreamId": "cd28f005d9074840b54a40e3fe202b7d",
+  "type": "custom-product",
+  "active": true,
+  "technicalName": "custom_product",
+  "config": {
+    "css": [],
+    "slider": [],
+    "animateInOut": [],
+    "cssAttributes": []
+  },
+  "actions": {},
+  "name": "Example: Configurator Add-On",
+  "successMessage": "well done!",
+  "errorMessage": "Something went wrong :(",
+  "id": "fb134f55806f444491747a461afa1056",
+  "tax": {
+    "taxRate": 19,
+    "name": "Standard rate",
+    "position": 1,
+    "customFields": null,
+    "createdAt": "2022-04-24T16:34:12.249+00:00",
+    "updatedAt": null,
+    "apiAlias": null,
+    "id": "7d3433a7b6704d37be637b69b478c0b0",
+    "products": [],
+    "rules": [],
+    "shippingMethods": []
+  },
+  "elements": [
+    {
+      "formId": "fb134f55806f444491747a461afa1056",
+      "childCount": 4,
+      "level": 1,
+      "type": "card",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "d3820f258f334e0fb1b054cd0b6945c0",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Example: Configurator Add-On",
+      "id": "027bc2317296471b8f188376e025ee4c"
+    },
+    {
+      "parentId": "c3130b1e49184ebd973b3a28c7a6c588",
+      "formId": "fb134f55806f444491747a461afa1056",
+      "childCount": 0,
+      "level": 3,
+      "path": "|027bc2317296471b8f188376e025ee4c|c3130b1e49184ebd973b3a28c7a6c588|",
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "none",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "none",
+      "optionPrice": [
+        {
+          "currencyId": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+          "net": 0,
+          "gross": 0,
+          "linked": true,
+          "listPrice": null,
+          "percentage": null,
+          "regulationPrice": null,
+          "extensions": []
+        }
+      ],
+      "optionType": "percentage",
+      "optionPercentage": 0,
+      "id": "18bfc0d6e81b49afb3d1bf43ee819cf8"
+    },
+    {
+      "parentId": "d92c9fb271f8452e8e6a5acbc9f7e3ba",
+      "afterId": "2f19b50472404254acc71b59241ed12d",
+      "formId": "fb134f55806f444491747a461afa1056",
+      "childCount": 0,
+      "level": 3,
+      "path": "|027bc2317296471b8f188376e025ee4c|d92c9fb271f8452e8e6a5acbc9f7e3ba|",
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "sandblasted",
+      "config": {},
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Sandblasted",
+      "optionPrice": [
+        {
+          "currencyId": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+          "net": 16.806722689076,
+          "gross": 20,
+          "linked": true,
+          "listPrice": null,
+          "percentage": null,
+          "regulationPrice": null,
+          "extensions": []
+        }
+      ],
+      "optionType": "absolute-surcharge",
+      "optionPercentage": 50,
+      "id": "2293f100bb164ed292795543e9fe2943"
+    },
+    {
+      "parentId": "d92c9fb271f8452e8e6a5acbc9f7e3ba",
+      "formId": "fb134f55806f444491747a461afa1056",
+      "childCount": 0,
+      "level": 3,
+      "path": "|027bc2317296471b8f188376e025ee4c|d92c9fb271f8452e8e6a5acbc9f7e3ba|",
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "goldPlated",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Gold-plated",
+      "optionPrice": [
+        {
+          "currencyId": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+          "net": 0,
+          "gross": 0,
+          "linked": true,
+          "listPrice": null,
+          "percentage": null,
+          "regulationPrice": null,
+          "extensions": []
+        }
+      ],
+      "optionType": "percentage",
+      "optionPercentage": 50,
+      "id": "2f19b50472404254acc71b59241ed12d"
+    },
+    {
+      "parentId": "d92c9fb271f8452e8e6a5acbc9f7e3ba",
+      "afterId": "95d9b8e12d934e0280a478dc70aa7f91",
+      "formId": "fb134f55806f444491747a461afa1056",
+      "childCount": 0,
+      "level": 3,
+      "path": "|027bc2317296471b8f188376e025ee4c|d92c9fb271f8452e8e6a5acbc9f7e3ba|",
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "signedByChuckNorris",
+      "config": {},
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Signed by Chuck Norris",
+      "optionPrice": [
+        {
+          "currencyId": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+          "net": 1123.5294117647,
+          "gross": 1337,
+          "linked": true,
+          "listPrice": null,
+          "percentage": null,
+          "regulationPrice": null,
+          "extensions": []
+        }
+      ],
+      "optionType": "absolute-surcharge",
+      "id": "3f9b255b3d1a4463bb8b601ebe72da5a"
+    },
+    {
+      "parentId": "d92c9fb271f8452e8e6a5acbc9f7e3ba",
+      "formId": "fb134f55806f444491747a461afa1056",
+      "childCount": 0,
+      "level": 3,
+      "path": "|027bc2317296471b8f188376e025ee4c|d92c9fb271f8452e8e6a5acbc9f7e3ba|",
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "useRecycledMaterial",
+      "config": {},
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Use recycled material",
+      "optionPrice": [
+        {
+          "currencyId": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+          "net": 0,
+          "gross": 0,
+          "linked": true,
+          "listPrice": null,
+          "percentage": null,
+          "regulationPrice": null,
+          "extensions": []
+        }
+      ],
+      "optionType": "percentage",
+      "optionPercentage": -40,
+      "id": "51605825050648249d3f380d1b15eabd"
+    },
+    {
+      "parentId": "c3130b1e49184ebd973b3a28c7a6c588",
+      "afterId": "a88702f0c3bd4642ba67fcea64d317a2",
+      "formId": "fb134f55806f444491747a461afa1056",
+      "childCount": 0,
+      "level": 3,
+      "path": "|027bc2317296471b8f188376e025ee4c|c3130b1e49184ebd973b3a28c7a6c588|",
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "allInclusive",
+      "config": {},
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "All inclusive",
+      "optionPrice": [
+        {
+          "currencyId": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+          "net": 0,
+          "gross": 0,
+          "linked": true,
+          "listPrice": null,
+          "percentage": null,
+          "regulationPrice": null,
+          "extensions": []
+        }
+      ],
+      "optionType": "percentage",
+      "optionPercentage": 25,
+      "id": "55a521cae870422399a917e51ba54315"
+    },
+    {
+      "parentId": "027bc2317296471b8f188376e025ee4c",
+      "formId": "fb134f55806f444491747a461afa1056",
+      "childCount": 0,
+      "level": 2,
+      "path": "|027bc2317296471b8f188376e025ee4c|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "engraving",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Engraving",
+      "placeholder": "Maybe the name of your first love?",
+      "id": "8098fd3cfdec4d628f7cdb9452e60735"
+    },
+    {
+      "parentId": "d92c9fb271f8452e8e6a5acbc9f7e3ba",
+      "afterId": "2293f100bb164ed292795543e9fe2943",
+      "formId": "fb134f55806f444491747a461afa1056",
+      "childCount": 0,
+      "level": 3,
+      "path": "|027bc2317296471b8f188376e025ee4c|d92c9fb271f8452e8e6a5acbc9f7e3ba|",
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "setWithDiamonds",
+      "config": {},
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Set with diamonds",
+      "optionPrice": [
+        {
+          "currencyId": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+          "net": 0,
+          "gross": 0,
+          "linked": true,
+          "listPrice": null,
+          "percentage": null,
+          "regulationPrice": null,
+          "extensions": []
+        }
+      ],
+      "optionType": "percentage",
+      "optionPercentage": 200,
+      "id": "95d9b8e12d934e0280a478dc70aa7f91"
+    },
+    {
+      "parentId": "c3130b1e49184ebd973b3a28c7a6c588",
+      "afterId": "18bfc0d6e81b49afb3d1bf43ee819cf8",
+      "formId": "fb134f55806f444491747a461afa1056",
+      "childCount": 0,
+      "level": 3,
+      "path": "|027bc2317296471b8f188376e025ee4c|c3130b1e49184ebd973b3a28c7a6c588|",
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "theftProtection",
+      "config": {},
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Theft protection",
+      "optionPrice": [
+        {
+          "currencyId": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+          "net": 0,
+          "gross": 0,
+          "linked": true,
+          "listPrice": null,
+          "percentage": null,
+          "regulationPrice": null,
+          "extensions": []
+        }
+      ],
+      "optionType": "percentage",
+      "optionPercentage": 15,
+      "id": "a88702f0c3bd4642ba67fcea64d317a2"
+    },
+    {
+      "parentId": "027bc2317296471b8f188376e025ee4c",
+      "afterId": "8098fd3cfdec4d628f7cdb9452e60735",
+      "formId": "fb134f55806f444491747a461afa1056",
+      "childCount": 0,
+      "level": 2,
+      "path": "|027bc2317296471b8f188376e025ee4c|",
+      "type": "upload",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "picture",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Picture",
+      "id": "bad965a2b12d4123b51f260ceb5098d0"
+    },
+    {
+      "parentId": "027bc2317296471b8f188376e025ee4c",
+      "afterId": "bad965a2b12d4123b51f260ceb5098d0",
+      "formId": "fb134f55806f444491747a461afa1056",
+      "childCount": 3,
+      "level": 2,
+      "path": "|027bc2317296471b8f188376e025ee4c|",
+      "type": "radio-group",
+      "active": true,
+      "visible": true,
+      "required": true,
+      "technicalName": "insurance",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Insurance",
+      "tooltip": "This insurance is valid for 12 months",
+      "id": "c3130b1e49184ebd973b3a28c7a6c588"
+    },
+    {
+      "parentId": "027bc2317296471b8f188376e025ee4c",
+      "afterId": "c3130b1e49184ebd973b3a28c7a6c588",
+      "formId": "fb134f55806f444491747a461afa1056",
+      "childCount": 5,
+      "level": 2,
+      "path": "|027bc2317296471b8f188376e025ee4c|",
+      "type": "checkbox-group",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "refining",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Refining",
+      "id": "d92c9fb271f8452e8e6a5acbc9f7e3ba"
+    }
+  ]
+}
