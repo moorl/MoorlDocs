@@ -6,7 +6,7 @@ With this add-on for [Form Builder 2](../MoorlForms/index.md) you can make produ
 individually configurable and influence the price! Input fields can be
 database fields!
 
-##Note for all customers who already own the Form Builder
+## Note for all customers who already own the Form Builder
 
 This plugin has a fundamentally different structure and does not offer the possibility to migrate the previous forms.
 migrate the previous forms.
@@ -20,11 +20,11 @@ For all interested parties with active subscriptions I offer a 50% discount for 
 The migration of the forms will also be taken care of on request.
 However, there may be differences in appearance, I will not match these.
 
-##Example forms for download
+## Example forms for download
 
 - [Product Configurator Add-On](examples/custom-products-add-on.json)
 
-##New form of the type "Product Configurator"
+## New form of the type "Product Configurator"
 
 With this form you can on the one hand influence the product prices via the options and on the other hand you can use the mapping.
 on the other hand you can use the mapping to save the configuration in custom-fields
@@ -53,7 +53,7 @@ The dynamic product group tells you for which products the form will be activate
 It is also possible to combine several forms for the products! However, make sure
 that you always use individual technical names for your input fields!
 
-##Price definitions
+## Price definitions
 
 You can define price definitions for the options.
 
@@ -67,14 +67,14 @@ Unfortunately it is not possible to enter negative prices, but I am already work
 
 Percentage prices are relative to the price of the product. You can also define negative percentage prices.
 
-###Mapping
+### apping
 
 If the data from the "order_line_item" entity is relevant for further technical processing, you can map the input fields to database fields.
 you can map the input fields to database fields!
 
 ![](images/fbcp-07.jpg)
 
-###Storefront
+## Storefront
 
 In this example you can see the product configurator in action!
 
@@ -104,7 +104,7 @@ Small adjustments can be made at any time before the order is completed!
 
 The configuration is displayed in text form in the order overview.
 
-###Admin
+## Admin
 
 If you do not use the mapping, you can still access the configuration at any time.
 

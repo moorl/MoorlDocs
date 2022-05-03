@@ -6,7 +6,7 @@ With this add-on for [Form Builder 2](../MoorlForms/index.md)
 you can use customised forms for registration or the account area!
 Offer your customers more options to edit their accounts.
 
-##Note for all customers who already own the Form Builder
+## Note for all customers who already own the Form Builder
 
 This plugin has a fundamentally different structure and does not offer the possibility to migrate the previous forms.
 migrate the previous forms.
@@ -20,7 +20,7 @@ For all interested parties with active subscriptions I offer a 50% discount for 
 The migration of the forms will also be taken care of on request.
 However, there may be differences in appearance, I will not match these.
 
-##New form types
+## New form types
 
 ![](images/fbc-01.jpg)
 
@@ -29,7 +29,7 @@ However, there may be differences in appearance, I will not match these.
 - Forms for the account area
 - Forms for registration
 
-##Mapping
+## Mapping
 
 Customised forms offer the possibility to write the input fields into database fields.
 
@@ -40,12 +40,12 @@ custom field.
 
 ![](images/fbc-03.jpg)
 
-##Example forms for download
+## Example forms for download
 
 - [Customer-Account Form Add-On](examples/customer-account-add-on.json)
 - [Customer-Registration Form Add-On](examples/customer-registration-add-on.json)
 
-###Customer-Account
+### Customer-Account
 
 The forms for the customer account are automatically included in the navigation.
 
@@ -63,7 +63,7 @@ When saving, the data is again saved in the mapped database fields.
 
 Optionally, the shop owner can be informed of a change by e-mail.
 
-###Customer registration
+### Customer registration
 
 The form for customer registration does not require any components as it is integrated into the existing form.
 

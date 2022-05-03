@@ -6,7 +6,7 @@ Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) kannst du
 Kundenspezifische Formulare für die Registrierung oder dem Account-Bereich nutzen!
 Biete deinen Kunden mehr Möglichkeiten.
 
-##Hinweis für alle Kunden, die den Formular Baukasten bereits besitzen
+## Hinweis für alle Kunden, die den Formular Baukasten bereits besitzen
 
 Dieses Plugin ist grundlegend anders aufgebaut und bietet keine Möglichkeit, die bisherigen
 Formulare zu migrieren.
@@ -20,7 +20,7 @@ Für alle Interessenten mit aktiven Subscriptions biete ich einen 50% Rabatt fü
 Die Migration der Formulare wird auf Wunsch ebenfalls übernommen.
 Es kann jedoch zu Abweichungen im Aussehen kommen, diese werde ich nicht abgleichen.
 
-##Neue Formular-Typen
+## Neue Formular-Typen
 
 ![](images/fbc-01.jpg)
 
@@ -29,7 +29,7 @@ Es kann jedoch zu Abweichungen im Aussehen kommen, diese werde ich nicht abgleic
 - Formulare für den Account-Bereich
 - Formulare für die Registrierung
 
-##Mapping
+## Mapping
 
 Kundenspezifische Formulare bieten die Möglichkeit die Eingabefelder in Datenbankfelder zu schreiben.
 
@@ -40,12 +40,12 @@ Custom-Feld.
 
 ![](images/fbc-03.jpg)
 
-##Beispiel Formulare zum Download
+## Beispiel Formulare zum Download
 
 - [Kunden-Account Formular Add-On](examples/customer-account-add-on.json)
 - [Kunden-Registrierung Formular Add-On](examples/customer-registration-add-on.json)
 
-###Kunden-Account
+### Kunden-Account
 
 Die Formulare für den Kunden-Account werden automatisch in der Navigation eingebunden.
 
@@ -63,7 +63,7 @@ Auch beim Speichern werden die Daten wieder in den zugeordneten Datenbankfeldern
 
 Optional kann der Shopbetreiber per E-Mail über eine Änderung informiert werden.
 
-###Kunden-Registrierung
+### Kunden-Registrierung
 
 Das Formular für die Kundenregistrierung benötigt keine Bauteile, da es in das bestehende
 Formular integriert wird.

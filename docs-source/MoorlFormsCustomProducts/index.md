@@ -6,7 +6,7 @@ Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) kannst du 
 individuell konfigurierbar machen und den Preis beeinflussen! Eingabefelder lassen sich
 Datenbankfeldern zuweisen!
 
-##Hinweis für alle Kunden, die den Formular Baukasten bereits besitzen
+## Hinweis für alle Kunden, die den Formular Baukasten bereits besitzen
 
 Dieses Plugin ist grundlegend anders aufgebaut und bietet keine Möglichkeit, die bisherigen
 Formulare zu migrieren.
@@ -20,11 +20,11 @@ Für alle Interessenten mit aktiven Subscriptions biete ich einen 50% Rabatt fü
 Die Migration der Formulare wird auf Wunsch ebenfalls übernommen.
 Es kann jedoch zu Abweichungen im Aussehen kommen, diese werde ich nicht abgleichen.
 
-##Beispiel Formulare zum Download
+## Beispiel Formulare zum Download
 
 - [Produkt-Konfigurator Add-On](examples/custom-products-add-on.json)
 
-##Neues Formular vom Typ "Produkt-Konfigurator"
+## Neues Formular vom Typ "Produkt-Konfigurator"
 
 Mit diesem Formular kannst du einerseits die Produktpreise über die Optionen beeinflussen und
 andererseits kannst du das Mapping nutzen, um die Konfiguration in Custom-Feldern zu speichern
@@ -53,7 +53,7 @@ Die dynamische Produktgruppe sagt aus, für welche Produkte das Formular aktivie
 Es ist auch möglich mehrere Formulare für die Produkte zu kombinieren! Achte jedoch darauf,
 dass du immer individuelle technische Namen für deine Eingabefelder nutzt!
 
-##Preisdefinitionen
+## Preisdefinitionen
 
 Du kannst für die Optionen Preisdefinitionen festlegen.
 
@@ -67,14 +67,14 @@ Leider ist es nicht möglich negative Preise einzugeben, ich arbeite jedoch scho
 
 Prozentuale Preise sind relativ zum Preis des Produktes. Du kannst auch negative prozentuale Preise definieren.
 
-###Mapping
+## Mapping
 
 Sofern die Daten aus der Entität "order_line_item" für eine weitere technische Verarbeitung relevant sind 
 kannst du die Eingabefelder zu Datenbankfeldern zuweisen!
 
 ![](images/fbcp-07.jpg)
 
-###Storefront
+## Storefront
 
 In diesem Beispiel siehst du den Produkt-Konfigurator in Aktion!
 
@@ -104,7 +104,7 @@ Kleine Nachbesserungen können vor Bestellabschluss jederzeit durchgeführt werd
 
 In der Bestellübersicht wird die Konfiguration in Textform angezeigt.
 
-###Admin
+## Admin
 
 Solltest du das Mapping nicht nutzen, hast du trotzdem jederzeit Zugriff auf die Konfiguration.
 
