@@ -1,4 +1,4 @@
-# Foundation / Basis Plugin
+# Foundation | Basis Version
 
 ![Logo](images/plugin.png)
 

@@ -1,3 +1,3 @@
-# Foundation Free Features
+# Foundation | Free Features
 
 ...under development

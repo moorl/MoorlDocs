@@ -1,4 +1,4 @@
-# Product-Request Add-On | Form Builder 2
+# Form Builder 2 | Product-Request Add-On
 
 With this add-on for [Form Builder 2](../MoorlForms/index.md) you can
 additional forms for your products. Products with forms

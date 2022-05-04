@@ -63,15 +63,15 @@ nav:
         - 'MoorlFoundation/listing.md'
         - 'MoorlFoundation/features-free.md'
         - 'MoorlFoundation/features-premium.md'
-        - 'MoorlStaging/index.md'
-
         - 'MoorlCreator/index.md'
         - 'MoorlGetTheLook/index.md'
+        - 'MoorlMagazine/index.md'
         - 'MoorlForms/index.md'
         - 'MoorlFormsClassic/index.md'
         - 'MoorlFormsCustomProducts/index.md'
         - 'MoorlFormsCustomer/index.md'
         - 'MoorlFormsProduct/index.md'
+        - 'MoorlStaging/index.md'
         - 'Moorl360DegreeViewer/index.md'
         - 'MoorlAccessoryFinder/index.md'
         - 'MoorlAutoLogout/index.md'
@@ -107,9 +107,6 @@ nav:
         - MoorlSignIn:
               - 'MoorlSignIn/index.md'
               - 'MoorlSignIn/facebook.md'
-        - MoorlMagazine:
-              - 'MoorlMagazine/index.md'
-              - 'MoorlMagazine/feed-api.md'
         - MoorlMerchantFinder:
               - 'MoorlMerchantFinder/index.md'
               - 'MoorlMerchantFinder/setup.md'
@@ -118,8 +115,6 @@ nav:
         - 'MoorlProductConsultant/index.md'
         - 'MoorlProductPromo/index.md'
         - 'MoorlProductVideo/index.md'
-        - 'MoorlRevSlider/index.md'
-        - 'MoorlVideoCourse/index.md'
     - Shopware Store: 'https://store.shopware.com/moori.html'
     - Shopware Demo Page: 'https://demo.moori.net/'
     - Imprint: 'https://moorleiche.com/impressum/'

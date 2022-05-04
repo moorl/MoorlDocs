@@ -1,4 +1,4 @@
-# Public profiles
+# Public Profiles | Base Version
 
 [Click here for demo](https://https://demo.moori.net/Profile/)
 

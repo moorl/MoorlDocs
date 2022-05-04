@@ -1,4 +1,4 @@
-# Foundation Premium Features
+# Foundation | Premium Features
 
 The Premium Features are an integral part of the moori Foundation Plugin.
 

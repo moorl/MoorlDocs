@@ -1,4 +1,4 @@
-# Magazine - Ein Shopware 6 Blog
+# Öffentliche Profile | Magazine Add-On
 
 _Hinweis: Dieses Plugin benötigt die aktuelle Version des [Foundation / Basis Plugin](../MoorlFoundation/index.md)._
 

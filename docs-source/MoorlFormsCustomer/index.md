@@ -1,4 +1,4 @@
-# Kunden-Formulare Add-On | Formular Baukasten 2
+# Formular Baukasten 2 | Kunden-Formulare Add-On
 
 Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) kannst du
 Kundenspezifische Formulare für die Registrierung oder dem Account-Bereich nutzen!

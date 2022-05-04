@@ -1,4 +1,4 @@
-# Get-The-Look! - Add-On für "Öffentliche Profile"
+# Öffentliche Profile | Get-The-Look Add-On
 
 [Hier geht's zur Demo](https://https://demo.moori.net/Looks/)
 

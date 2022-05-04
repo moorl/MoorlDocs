@@ -1,4 +1,4 @@
-# Product-Configurator Add-On | Form Builder 2
+# Form Builder 2 | Product-Configurator Add-On
 
 With this add-on for [Form Builder 2](../MoorlForms/index.md) you can make products
 individually configurable and influence the price! Input fields can be

@@ -1,4 +1,4 @@
-# Foundation Listings und Slider
+# Foundation | Listings und Slider
 
 verfügbar ab Shopware 6.4
 

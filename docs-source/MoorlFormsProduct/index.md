@@ -1,4 +1,4 @@
-# Produkt-Anfrage Add-On | Formular Baukasten 2
+# Formular Baukasten 2 | Produkt-Anfrage Add-On
 
 Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) kannst du
 zusätzliche Formulare für deine Produkte bereitstellen. Produkte mit Formularen
