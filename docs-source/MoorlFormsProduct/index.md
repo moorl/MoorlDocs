@@ -22,7 +22,7 @@ Es kann jedoch zu Abweichungen im Aussehen kommen, diese werde ich nicht abgleic
 
 - [Produkt-Anfrage Add-On](examples/product-request-add-on.json)
 
-## Neue Formular von Typ "Produkt-Anfrage"
+## Neues Formular von Typ "Produkt-Anfrage"
 
 Mit diesem Formular kannst du auf der Produkt-Detail Seite die Möglichkeit
 bieten, Anfragen zum Produkt zu stellen.
