@@ -1,6 +1,4 @@
-# Produkt-Konfigurator Add-On für "Formular Baukasten 2"
-
----
+# Produkt-Konfigurator Add-On | Formular Baukasten 2
 
 Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) kannst du Produkte 
 individuell konfigurierbar machen und den Preis beeinflussen! Eingabefelder lassen sich

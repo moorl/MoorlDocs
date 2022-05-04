@@ -1,6 +1,4 @@
-# Formular Baukasten 2
-
----
+# Formular Baukasten 2 | Basis Version
 
 Dieses Plugin basiert auf einer Grundlegenden Neuentwicklung des
 [Formular Baukastens](../MoorlFormBuilder/index.md) und bietet maximale
@@ -33,14 +31,14 @@ Es ist auch möglich eigene Add-Ons zu erstellen, dazu folgt demnächst eine Ent
 3. [Kunden-Formulare Add-On](../MoorlFormsCustomer/index.md): Kundenspezifische Formulare für Registrierung und Kundenbereich
 4. [Produkt-Konfigurator Add-On](../MoorlFormsCustomProducts/index.md): Zusätzliche Angaben zu Produkten inkl. Preiskalkulation
 5. Order Add-On**: Zusätzliche Angaben zur Bestellung inkl. Preiskalkulation auf den Warenkorb
-6. Produktanfrage Add-On**: Produktspezifische Anfrage-Formulare
+6. [Produkt-Anfrage Add-On](../MoorlFormsProduct/index.md): Produktspezifische Anfrage-Formulare
 7. Kundenindividuelle Add-Ons auf Anfrage
 
 (\* In Entwicklung, \*\* In Konzeptphase)
 
 ## Beispiel Add-On für Entwickler
 
-[Example Add-On](https://github.com/moorl/MoorlFormsExample)
+[Beispiel Add-On](https://github.com/moorl/MoorlFormsExample)
 
 ## Wofür ist dieses Plugin gut?
 

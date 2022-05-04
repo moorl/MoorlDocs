@@ -1,6 +1,4 @@
-# Form Builder 2
-
----
+# Form Builder 2 | Base Version
 
 This plugin is based on a fundamental redevelopment of the
 [Form Builder](../MoorlFormBuilder/index.md) and offers maximum
@@ -32,7 +30,7 @@ It is also possible to create your own add-ons, a developer documentation will f
 3. [Customer-Forms Add-On](../MoorlFormsCustomer/index.md): Customised forms for registration and customer area
 4. [Product-Configurator Add-On](../MoorlFormsCustomProducts/index.md): Additional information on products incl. price calculation
 5. Order Add-On**: Additional order details incl. price calculation on the shopping basket
-6. product enquiry add-on**: Product-specific enquiry forms
+6. [Product-Request Add-On](../MoorlFormsProduct/index.md): Product-specific enquiry forms
 7. customer-specific add-ons on request
 
 (\* In development, \*\* In concept phase)

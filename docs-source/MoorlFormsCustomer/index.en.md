@@ -1,6 +1,4 @@
-# Customer Forms Add-On for "Form Builder 2
-
----
+# Customer Forms Add-On | Form Builder 2
 
 With this add-on for [Form Builder 2](../MoorlForms/index.md)
 you can use customised forms for registration or the account area!

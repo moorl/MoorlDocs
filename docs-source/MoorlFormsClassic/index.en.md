@@ -1,6 +1,4 @@
-# Classic Add-On for "Form Builder 2"
-
----
+# Classic Add-On | Form Builder 2
 
 With this add-on for [Form Builder 2](../MoorlForms/index.md), you have new
 new possibilities at your disposal.

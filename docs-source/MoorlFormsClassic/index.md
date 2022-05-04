@@ -1,6 +1,4 @@
-# Classic Add-On für "Formular Baukasten 2"
-
----
+# Classic Add-On | Formular Baukasten 2
 
 Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) stehen
 dir neue Möglichkeiten zur Verfügung.

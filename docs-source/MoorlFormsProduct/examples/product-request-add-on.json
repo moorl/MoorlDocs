@@ -1,0 +1,423 @@
+{
+  "productStreamId": "07dd7f48095d4952869c88d0c42fb4cb",
+  "type": "product-request",
+  "active": true,
+  "technicalName": "new_form",
+  "relatedEntity": "product",
+  "config": {
+    "css": [],
+    "slider": [],
+    "animateInOut": [],
+    "cssAttributes": [],
+    "productRequestPopup": true,
+    "productRequestDisableBuyForm": true
+  },
+  "actions": [
+    "mail"
+  ],
+  "name": "Example: Product request",
+  "successMessage": "well done!",
+  "errorMessage": "Something went wrong :(",
+  "id": "b1a752d4878c48df8b1ec6fe42a31efb",
+  "elements": [
+    {
+      "afterId": "e61e04917b01450c82e819ac8d90ed12",
+      "formId": "b1a752d4878c48df8b1ec6fe42a31efb",
+      "childCount": 0,
+      "level": 1,
+      "type": "form-feedback",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "feedback",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Feedback",
+      "id": "36cef39db5a544d6aea3c9418121c0cb"
+    },
+    {
+      "afterId": "98d6b2e528334c23bbeeefb49cc1d072",
+      "formId": "b1a752d4878c48df8b1ec6fe42a31efb",
+      "childCount": 0,
+      "level": 1,
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "name",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Name",
+      "id": "59394f9aa8214a2ab069012ab8c723d4"
+    },
+    {
+      "afterId": "59394f9aa8214a2ab069012ab8c723d4",
+      "formId": "b1a752d4878c48df8b1ec6fe42a31efb",
+      "childCount": 0,
+      "level": 1,
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "disabled": true,
+      "required": false,
+      "technicalName": "product",
+      "entityMapping": "name",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Product",
+      "id": "8ef4d12306134457bcfe48672c249e19"
+    },
+    {
+      "formId": "b1a752d4878c48df8b1ec6fe42a31efb",
+      "childCount": 0,
+      "level": 1,
+      "type": "email",
+      "active": true,
+      "visible": true,
+      "required": true,
+      "technicalName": "email",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "E-Mail",
+      "id": "98d6b2e528334c23bbeeefb49cc1d072"
+    },
+    {
+      "afterId": "c0847749746d4579ab8324af359d1acb",
+      "formId": "b1a752d4878c48df8b1ec6fe42a31efb",
+      "childCount": 0,
+      "level": 1,
+      "type": "textarea",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "question",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Question",
+      "id": "bb684bcdc97b43b6867c68caec2637ea"
+    },
+    {
+      "afterId": "8ef4d12306134457bcfe48672c249e19",
+      "formId": "b1a752d4878c48df8b1ec6fe42a31efb",
+      "childCount": 0,
+      "level": 1,
+      "type": "hidden",
+      "active": true,
+      "visible": true,
+      "disabled": true,
+      "required": false,
+      "technicalName": "productNumber",
+      "entityMapping": "productNumber",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Product number",
+      "id": "c0847749746d4579ab8324af359d1acb"
+    },
+    {
+      "afterId": "fabae1c379ac4e18b9a666834e1ba405",
+      "formId": "b1a752d4878c48df8b1ec6fe42a31efb",
+      "childCount": 0,
+      "level": 1,
+      "type": "form-notice",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "hints",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Hints",
+      "id": "e61e04917b01450c82e819ac8d90ed12"
+    },
+    {
+      "afterId": "bb684bcdc97b43b6867c68caec2637ea",
+      "formId": "b1a752d4878c48df8b1ec6fe42a31efb",
+      "childCount": 0,
+      "level": 1,
+      "type": "form-tos",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "tos",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "TOS",
+      "id": "fabae1c379ac4e18b9a666834e1ba405"
+    }
+  ]
+}
