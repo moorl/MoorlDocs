@@ -122,6 +122,10 @@ Storefront zugreifen.
 
 ## Hinweise zu Hosting Anbietern
 
+Sofern der Server generell einen SSH Zugang anbietet und auf Apache basiert, sollte das Plugin problemlos funktionieren.
+
+Server auf NGINX-Basis benötigen eine zusätzliche Konfiguration damit das Testsystem erreichbar ist.
+
 ### ALL-INKL.COM
 
 | Paket | Unterstützt | Hinweise |

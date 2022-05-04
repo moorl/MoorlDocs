@@ -122,6 +122,10 @@ Storefront via the links.
 
 ## Notes on hosting providers
 
+If the server generally offers SSH access and is based on Apache, the plugin should work without any problems.
+
+Servers based on NGINX require an additional configuration so that the test system is accessible.
+
 ### ALL-INKL.COM
 
 | Package | Supported | Notes |
