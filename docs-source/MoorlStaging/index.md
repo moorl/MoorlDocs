@@ -140,6 +140,6 @@ wie der Live-Shop nutzt!
 
 | Paket | Unterstützt | Hinweise |
 | ----------- | ----------- | ----------- |
-| Managed Hosting | NEIN | Symlinks nicht verfügbar |
-| Managed Shop-Hosting | NEIN | Symlinks nicht verfügbar |
-| Managed Server (FlexServer) | JA | |
+| Managed Hosting | Ja | Apache Server muss neu gestartet werden |
+| Managed Shop-Hosting | Ja | Apache Server muss neu gestartet werden |
+| Managed Server (FlexServer) | JA | Apache Server muss neu gestartet werden |

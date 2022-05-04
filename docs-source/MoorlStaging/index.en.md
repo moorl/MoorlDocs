@@ -140,6 +140,6 @@ as the live shop!
 
 | Package | Supported | Notes |
 | ----------- | ----------- | ----------- |
-| Managed Hosting | NO | Symlinks not available |
-| Managed Shop-Hosting | NO | Symlinks not available |
-| Managed Server (FlexServer) | YES | |
+| Managed Hosting | YES | Apache server must be restarted |
+| Managed Shop-Hosting | YES | Apache server must be restarted |
+| Managed Server (FlexServer) | YES | Apache server must be restarted |
