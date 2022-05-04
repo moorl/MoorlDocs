@@ -65,6 +65,6 @@ So könnte das Popup nun aussehen!
 
 1. Newsletter Anmeldung anbieten, wenn der Kunde 60 Sekunden auf derselben Seite verweilt.
 2. Rabatt-Code anbieten, wenn der Kunde den Bestellabschluss verlassen will.
-3. Feedback- oder Bewertungsformular auf der Bestellbestätigung
+3. Feedback- oder Bewertungsformular auf der Bestellbestätigung.
 
 uvm...
