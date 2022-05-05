@@ -27,11 +27,12 @@ It is also possible to create your own add-ons, a developer documentation will f
 
 1. [Classic Add-On](../MoorlFormsClassic/index.md): Contains all functions of the [Form Builder](../MoorlFormBuilder/index.md).
 2. [Exit-Intent-Popups Add-On](../MoorlFormsPopup/index.md): Use forms as popup
-3. [Customer-Forms Add-On](../MoorlFormsCustomer/index.md): Customised forms for registration and customer area
-4. [Product-Configurator Add-On](../MoorlFormsCustomProducts/index.md): Additional information on products incl. price calculation
-5. Order Add-On**: Additional order details incl. price calculation on the shopping basket
-6. [Product-Request Add-On](../MoorlFormsProduct/index.md): Product-specific enquiry forms
-7. customer-specific add-ons on request
+3. [Slides Add-On](../MoorlFormsSlides/index.md): Use slides
+4. [Customer-Forms Add-On](../MoorlFormsCustomer/index.md): Customised forms for registration and customer area
+5. [Product-Configurator Add-On](../MoorlFormsCustomProducts/index.md): Additional information on products incl. price calculation
+6. Order Add-On**: Additional order details incl. price calculation on the shopping basket
+7. [Product-Request Add-On](../MoorlFormsProduct/index.md): Product-specific enquiry forms
+8. customer-specific add-ons on request
 
 (\* In development, \*\* In concept phase)
 

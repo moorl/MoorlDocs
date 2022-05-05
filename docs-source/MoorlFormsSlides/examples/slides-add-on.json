@@ -1,0 +1,1790 @@
+{
+  "type": "popup",
+  "active": true,
+  "technicalName": "new_form",
+  "config": {
+    "css": {
+      "backgroundColor": "#000000"
+    },
+    "popup": {
+      "borderless": true,
+      "triggerOnce": false,
+      "triggerDelay": 2,
+      "triggerEvent": "onLoad",
+      "triggerRoute": null
+    },
+    "slider": [],
+    "animateInOut": [],
+    "cssAttributes": []
+  },
+  "actions": [
+    "mail"
+  ],
+  "name": "Example: Slides Add-On",
+  "successMessage": "well done!",
+  "errorMessage": "Something went wrong :(",
+  "id": "60cd53f6e0c446b38c13e40273d1948a",
+  "elements": [
+    {
+      "parentId": "ce2bea73311b4057b493016103b32a64",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 1,
+      "level": 3,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|ce2bea73311b4057b493016103b32a64|",
+      "type": "section",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "pdLeft",
+      "config": {
+        "css": {
+          "display": "flex",
+          "alignItems": "center",
+          "backgroundColor": ""
+        },
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "4",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "flash",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "PD Left",
+      "id": "085f322f314d4a7fa20ba0cbcc0c27d2"
+    },
+    {
+      "parentId": "ce2bea73311b4057b493016103b32a64",
+      "afterId": "085f322f314d4a7fa20ba0cbcc0c27d2",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 3,
+      "level": 3,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|ce2bea73311b4057b493016103b32a64|",
+      "type": "section",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "pdRight",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "4",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "PD Right",
+      "id": "096d784e430f4359b7708d46fc8ac0a2"
+    },
+    {
+      "parentId": "ae04870c57544542ba53e6f5cf6d264a",
+      "afterId": "822a98f70a4c4c22addb0251d51f7c5b",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 5,
+      "level": 3,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|ae04870c57544542ba53e6f5cf6d264a|",
+      "type": "section",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "finish",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "6",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Finish",
+      "id": "09ef72c8231e468ca7effd0f9a98fd55"
+    },
+    {
+      "parentId": "9d8a92bbfe7e446db172131aa6a577eb",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 1,
+      "level": 2,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|",
+      "type": "slide",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "intro",
+      "config": {
+        "css": {
+          "backgroundColor": "#ffc2c2"
+        },
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Intro",
+      "id": "1076a09066594864b2dcfb83e1156cac"
+    },
+    {
+      "parentId": "09ef72c8231e468ca7effd0f9a98fd55",
+      "afterId": "822a98f70a4c4c22addb0251d51f7c5b",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 0,
+      "level": 4,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|ae04870c57544542ba53e6f5cf6d264a|09ef72c8231e468ca7effd0f9a98fd55|",
+      "type": "form-feedback",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "feedback",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Feedback",
+      "id": "13513d5983544d109d1f4919b211cfe9"
+    },
+    {
+      "parentId": "096d784e430f4359b7708d46fc8ac0a2",
+      "afterId": "4f04852c45a746a88f155f199c911dc0",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 0,
+      "level": 4,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|ce2bea73311b4057b493016103b32a64|096d784e430f4359b7708d46fc8ac0a2|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "jobTitle",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Job title",
+      "id": "2224c0654320464180a58052412ecfc7"
+    },
+    {
+      "parentId": "da275a25d12442e79bfb5565950b89e1",
+      "afterId": "53de67271cd14fa1a67e732011970e5d",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 0,
+      "level": 4,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|6cd3583f923a4737851fc31bdc653317|da275a25d12442e79bfb5565950b89e1|",
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "no",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "No",
+      "optionPrice": [
+        {
+          "currencyId": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+          "net": 0,
+          "gross": 0,
+          "linked": true,
+          "listPrice": null,
+          "percentage": null,
+          "regulationPrice": null,
+          "extensions": []
+        }
+      ],
+      "id": "35ca58e211634446a37279de5a25852d"
+    },
+    {
+      "parentId": "096d784e430f4359b7708d46fc8ac0a2",
+      "afterId": "d1b23bcb80bb473e8ddef0f82d310f44",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 0,
+      "level": 4,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|ce2bea73311b4057b493016103b32a64|096d784e430f4359b7708d46fc8ac0a2|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "required": true,
+      "technicalName": "firstName",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "First name",
+      "id": "4f04852c45a746a88f155f199c911dc0"
+    },
+    {
+      "parentId": "da275a25d12442e79bfb5565950b89e1",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 0,
+      "level": 4,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|6cd3583f923a4737851fc31bdc653317|da275a25d12442e79bfb5565950b89e1|",
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "yes",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Yes",
+      "optionPrice": [
+        {
+          "currencyId": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+          "net": 0,
+          "gross": 0,
+          "linked": true,
+          "listPrice": null,
+          "percentage": null,
+          "regulationPrice": null,
+          "extensions": []
+        }
+      ],
+      "id": "53de67271cd14fa1a67e732011970e5d"
+    },
+    {
+      "parentId": "1076a09066594864b2dcfb83e1156cac",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 0,
+      "level": 3,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|1076a09066594864b2dcfb83e1156cac|",
+      "type": "html",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "someText",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "6",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {},
+      "name": "Some text",
+      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "id": "56122abb0e77415282dbad017d22a882"
+    },
+    {
+      "parentId": "77bb14b43f224b9eaa86c0dbe1b22d78",
+      "afterId": "ac00dcbae0304c24bc9f56b6fff1415b",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 0,
+      "level": 4,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|955054f5aa904daf83e13104338ef355|77bb14b43f224b9eaa86c0dbe1b22d78|",
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "maybe",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Maybe",
+      "optionPrice": [
+        {
+          "currencyId": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+          "net": 0,
+          "gross": 0,
+          "linked": true,
+          "listPrice": null,
+          "percentage": null,
+          "regulationPrice": null,
+          "extensions": []
+        }
+      ],
+      "id": "6b2e28e4ab704e228d47c6a5b7a63530"
+    },
+    {
+      "parentId": "9d8a92bbfe7e446db172131aa6a577eb",
+      "afterId": "ce2bea73311b4057b493016103b32a64",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 1,
+      "level": 2,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|",
+      "type": "slide",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "question1",
+      "config": {
+        "css": {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "backgroundColor": "#efffc2"
+        },
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Question 1",
+      "id": "6cd3583f923a4737851fc31bdc653317"
+    },
+    {
+      "parentId": "da275a25d12442e79bfb5565950b89e1",
+      "afterId": "8b53339fbb784c3ca9f19bab5d51b258",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 0,
+      "level": 4,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|6cd3583f923a4737851fc31bdc653317|da275a25d12442e79bfb5565950b89e1|",
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "maybe",
+      "config": {},
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Maybe",
+      "optionPrice": [
+        {
+          "currencyId": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+          "net": 0,
+          "gross": 0,
+          "linked": true,
+          "listPrice": null,
+          "percentage": null,
+          "regulationPrice": null,
+          "extensions": []
+        }
+      ],
+      "id": "7003f17e996e43c8a1e9c58da0273ec3"
+    },
+    {
+      "parentId": "955054f5aa904daf83e13104338ef355",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 3,
+      "level": 3,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|955054f5aa904daf83e13104338ef355|",
+      "type": "radio-group",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "wouldYouBuyThisPlugin",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": "-1",
+          "inherit": false
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Would you buy this plugin?",
+      "id": "77bb14b43f224b9eaa86c0dbe1b22d78"
+    },
+    {
+      "parentId": "09ef72c8231e468ca7effd0f9a98fd55",
+      "afterId": "ac92ace043784676b02f9c49c8084214",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 0,
+      "level": 4,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|ae04870c57544542ba53e6f5cf6d264a|09ef72c8231e468ca7effd0f9a98fd55|",
+      "type": "form-submit",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "submit",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "animateInOut": [],
+        "cssAttributes": {
+          "class": "btn btn-lg btn-block btn-primary"
+        }
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": "-1",
+          "inherit": false
+        }
+      },
+      "conditions": {},
+      "animation": {},
+      "name": "Submit",
+      "id": "822a98f70a4c4c22addb0251d51f7c5b"
+    },
+    {
+      "parentId": "da275a25d12442e79bfb5565950b89e1",
+      "afterId": "7003f17e996e43c8a1e9c58da0273ec3",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 0,
+      "level": 4,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|6cd3583f923a4737851fc31bdc653317|da275a25d12442e79bfb5565950b89e1|",
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "shopware5IsBetter!",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Shopware 5 is better!",
+      "optionPrice": [
+        {
+          "currencyId": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+          "net": 0,
+          "gross": 0,
+          "linked": true,
+          "listPrice": null,
+          "percentage": null,
+          "regulationPrice": null,
+          "extensions": []
+        }
+      ],
+      "id": "8b53339fbb784c3ca9f19bab5d51b258"
+    },
+    {
+      "parentId": "77bb14b43f224b9eaa86c0dbe1b22d78",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 0,
+      "level": 4,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|955054f5aa904daf83e13104338ef355|77bb14b43f224b9eaa86c0dbe1b22d78|",
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "yes",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Yes",
+      "optionPrice": [
+        {
+          "currencyId": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+          "net": 0,
+          "gross": 0,
+          "linked": true,
+          "listPrice": null,
+          "percentage": null,
+          "regulationPrice": null,
+          "extensions": []
+        }
+      ],
+      "id": "953a74ff8f4741bd9f7aebb46ba64e17"
+    },
+    {
+      "parentId": "9d8a92bbfe7e446db172131aa6a577eb",
+      "afterId": "6cd3583f923a4737851fc31bdc653317",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 1,
+      "level": 2,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|",
+      "type": "slide",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "question2",
+      "config": {
+        "css": {
+          "backgroundColor": "#c2ffda"
+        },
+        "slider": [],
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Question 2",
+      "id": "955054f5aa904daf83e13104338ef355"
+    },
+    {
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 5,
+      "level": 1,
+      "type": "slides",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "f97e122882484fcca46be808acb762f6",
+      "config": {
+        "css": {
+          "display": "flex",
+          "padding": "",
+          "flexWrap": "nowrap",
+          "minHeight": "500px",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "backgroundColor": "#f47c7c"
+        },
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "animateInOut": {
+          "delay": 500,
+          "duration": 1000,
+          "animateIn": "fadeInDown",
+          "animateOut": "lightSpeedOut"
+        },
+        "cssAttributes": []
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Hey, wanna take a short survey?",
+      "id": "9d8a92bbfe7e446db172131aa6a577eb"
+    },
+    {
+      "parentId": "09ef72c8231e468ca7effd0f9a98fd55",
+      "afterId": "cbd0fe83385c4d5da576057e4771fd73",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 0,
+      "level": 4,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|ae04870c57544542ba53e6f5cf6d264a|09ef72c8231e468ca7effd0f9a98fd55|",
+      "type": "form-tos",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "tos",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "TOS",
+      "id": "a46aeeddbfb0495595815556ef3e7ccf"
+    },
+    {
+      "parentId": "77bb14b43f224b9eaa86c0dbe1b22d78",
+      "afterId": "953a74ff8f4741bd9f7aebb46ba64e17",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 0,
+      "level": 4,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|955054f5aa904daf83e13104338ef355|77bb14b43f224b9eaa86c0dbe1b22d78|",
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "no",
+      "config": {},
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "No",
+      "optionPrice": [
+        {
+          "currencyId": "b7d2554b0ce847cd82f3ac9bd1c0dfca",
+          "net": 0,
+          "gross": 0,
+          "linked": true,
+          "listPrice": null,
+          "percentage": null,
+          "regulationPrice": null,
+          "extensions": []
+        }
+      ],
+      "id": "ac00dcbae0304c24bc9f56b6fff1415b"
+    },
+    {
+      "parentId": "09ef72c8231e468ca7effd0f9a98fd55",
+      "afterId": "a46aeeddbfb0495595815556ef3e7ccf",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 0,
+      "level": 4,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|ae04870c57544542ba53e6f5cf6d264a|09ef72c8231e468ca7effd0f9a98fd55|",
+      "type": "form-notice",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "info",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Info",
+      "id": "ac92ace043784676b02f9c49c8084214"
+    },
+    {
+      "parentId": "9d8a92bbfe7e446db172131aa6a577eb",
+      "afterId": "955054f5aa904daf83e13104338ef355",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 1,
+      "level": 2,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|",
+      "type": "slide",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "finish",
+      "config": {
+        "css": {
+          "display": "flex",
+          "flexDirection": "column",
+          "backgroundColor": "#c2d2ff"
+        },
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Finish",
+      "id": "ae04870c57544542ba53e6f5cf6d264a"
+    },
+    {
+      "parentId": "09ef72c8231e468ca7effd0f9a98fd55",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 0,
+      "level": 4,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|ae04870c57544542ba53e6f5cf6d264a|09ef72c8231e468ca7effd0f9a98fd55|",
+      "type": "textarea",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "leaveAComment",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Leave a comment",
+      "id": "cbd0fe83385c4d5da576057e4771fd73"
+    },
+    {
+      "parentId": "9d8a92bbfe7e446db172131aa6a577eb",
+      "afterId": "1076a09066594864b2dcfb83e1156cac",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 2,
+      "level": 2,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|",
+      "type": "slide",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "personalData",
+      "config": {
+        "css": {
+          "backgroundColor": "#ffe2c2"
+        },
+        "slider": [],
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Personal Data",
+      "id": "ce2bea73311b4057b493016103b32a64"
+    },
+    {
+      "parentId": "096d784e430f4359b7708d46fc8ac0a2",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 0,
+      "level": 4,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|ce2bea73311b4057b493016103b32a64|096d784e430f4359b7708d46fc8ac0a2|",
+      "type": "email",
+      "active": true,
+      "visible": true,
+      "required": true,
+      "technicalName": "email",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "E-Mail address",
+      "id": "d1b23bcb80bb473e8ddef0f82d310f44"
+    },
+    {
+      "parentId": "6cd3583f923a4737851fc31bdc653317",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 4,
+      "level": 3,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|6cd3583f923a4737851fc31bdc653317|",
+      "type": "radio-group",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "doYouLikeShopware6",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": "-1",
+          "inherit": false
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Do you like Shopware 6?",
+      "id": "da275a25d12442e79bfb5565950b89e1"
+    },
+    {
+      "parentId": "085f322f314d4a7fa20ba0cbcc0c27d2",
+      "formId": "60cd53f6e0c446b38c13e40273d1948a",
+      "childCount": 0,
+      "level": 4,
+      "path": "|9d8a92bbfe7e446db172131aa6a577eb|ce2bea73311b4057b493016103b32a64|085f322f314d4a7fa20ba0cbcc0c27d2|",
+      "type": "html",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "pdDescription",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "PD Description",
+      "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et",
+      "id": "dded9188ae0a4fd7a788f112b53c4f96"
+    }
+  ]
+}
