@@ -16,13 +16,17 @@ For all interested parties with active subscriptions I offer a 50% discount for 
 The migration of the forms will also be taken care of on request.
 However, there may be differences in appearance, I will not match these.
 
+## Example forms for download
+
+- [Slides Add-On](examples/slides-add-on.json)
+
 ## New element of type "Slides"
 
 This element is very demanding in configuration, but also powerful in application.
 
-![](images/fbs-01.jpg)
-
 ## Configuration
+
+![](images/fbs-01.jpg)
 
 Name the back and forward buttons.
 

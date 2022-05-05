@@ -16,13 +16,17 @@ Für alle Interessenten mit aktiven Subscriptions biete ich einen 50% Rabatt fü
 Die Migration der Formulare wird auf Wunsch ebenfalls übernommen.
 Es kann jedoch zu Abweichungen im Aussehen kommen, diese werde ich nicht abgleichen.
 
+## Beispiel Formulare zum Download
+
+- [Slides Add-On](examples/slides-add-on.json)
+
 ## Neues Element von Typ "Slides"
 
 Dieses Element ist in der Konfiguration sehr anspruchsvoll, aber auch mächtig in der Anwendung.
 
-![](images/fbs-01.jpg)
-
 ## Konfiguration
+
+![](images/fbs-01.jpg)
 
 Benenne die vor- und zurück Buttons.
 
