@@ -1,4 +1,4 @@
-site_name: moori SW6 Plugin Docs
+site_name: Shopware 6 Plugin Dokumentation von moori
 theme:
     name: 'material'
     features:
