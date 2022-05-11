@@ -44,8 +44,8 @@ plugins:
                   MoorlCreator: Public profiles
                   Imprint: Imprint
     - search
-docs_dir: docs-source
-site_dir: docs-html
+docs_dir: 'docs-source'
+site_dir: 'docs-html'
 site_url: 'https://docs.moori.net'
 extra_css:
     - jquery.fancybox.min.css
