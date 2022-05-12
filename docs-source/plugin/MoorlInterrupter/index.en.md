@@ -1,4 +1,4 @@
-# Listing Interrupter for Shopware 6
+# Listing Interrupter
 
 [Click here for the demo](https://demo.moori.net/Stoerer-im-Listing-Demo/)
 

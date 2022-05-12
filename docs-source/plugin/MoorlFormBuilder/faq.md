@@ -1,4 +1,4 @@
-# Häufig gestellte Fragen (FAQ)
+# Formular Baukasten | FAQ
 
 ## Kann ich ein Formular in meinem Template nutzen?
 

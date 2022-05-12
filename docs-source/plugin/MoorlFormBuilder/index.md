@@ -1,68 +1,19 @@
-# Formular Baukasten Professional
+# Formular Baukasten | Basis Version
 
-![Logo](images/plugin.png)
+## Wichtiger Hinweis
 
-_Hinweis: Dieses Plugin benötigt die aktuelle Version des [Foundation / Basis Plugin](../MoorlFoundation/index.md)._
+Ich bedanke mich für das Vertrauen, die vielen Downloads und das positive Feedback für den Formular Baukasten!
 
-[Hier geht's zur Demo](https://demo.moori.net/Formular-Baukasten/)
+In den letzten Änderungswünschen ist mir aufgefallen, dass das Plugin an seine technisch möglichen Grenzen stößt. Viele der inklusiven Features sind für die meisten Shopbetreiber überhaupt nicht notwendig und belasten unter anderem auch unnötig den Geldbeutel. Die Erweiterbarkeit für Entwickler ist aktuell nur durch Events möglich und deckt nur einen kleinen Teil davon ab, was eigentlich für die professionelle Weiterentwicklung für komplexe Prozesse notwendig wäre. Viele setzen deshalb auch lieber auf kostspielige Eigenentwicklungen für individuelle Formulare.
 
----
+Mit eurem Feedback der letzten zwei Jahre und meinem jetzigen Kentnisstand über das Shopware-System habe ich das Plugin grundlegend neu entwickelt! Es wird einerseits zu einem günstigeren Preis angeboten (mit grundelegenden Features) und kann durch neue Add-Ons in der Funktionalität erweitert werden.
 
-Mit diesem Plugin hast du die Möglichkeit individuelle Formulare zu erstellen. Diese Formulare unterstützen Datei Uploads als E-Mail Anhang, Captcha Spamschutz und Datenbankanbindungen.
+Die Neu-Entwicklung richtet sich unter anderem auch an Entwickler und Agenturen, die eigene oder Kundenspezifische Add-Ons für das Plugin bauen möchten. Ein Beispiel-Plugin für Entwickler ist frei in GitHub zugänglich.
 
-Deine Formulare lassen sich als CMS Elemente in deine Einkaufswelten einbinden. Außerdem gibt es weitere interessante Add-Ons.
+Weitere Infos findest du hier:
 
-**Add-Ons:**
+[Formular Baukasten 2 | Dokumentation](../MoorlForms/index.md)
 
-1. [Erweiterte Kundenregistrierung](../MoorlFormRegistration/index.md)
-2. [Erweiterter Warenkorb](../MoorlFormCartExtend/index.md)
-3. [Erweiterte Produkteigenschaften / Custom Products](../MoorlFormCartLineItem/index.md)
-4. [Individuelle Produktanfrage](../MoorlFormProductRequest/index.md)
+[Formular Baukasten 2 | Shopware Store](https://store.shopware.com/detail/index/sArticle/2300041)
 
-**Mögliche Einsatzgebiete:**
-
-1. Kontakt Anfragen
-2. Reklamationen / Widerruf
-3. Umfragen / Kundenmeinungen
-4. Steuerfragebögen
-5. Individuelle Einträge in Datenbank, z.B. Leads - Beispiel Plugin für Händlersuche (als Händler eintragen) folgt
-
-## Highlights
-- Frei gestaltbare Formulare
-- Autocomplete
-- Captcha Code
-- Datei Upload und E-Mail Anhänge
-- Kopie senden
-
-## Features
-- Erlebniswelten Elemente
-- Mehrfachauswahl mit Bildern
-- Mehrfachauswahl aus beliebigen Datenbank Tabellen
-- Bootstrap 4 Standard
-- Eigene HTML Wrapper möglich
-- Vielseitige Events für EVA Prozesse
-- Direkte Datenbank Anbindungen
-- Logging / Verlauf
-- Newsletter Anmeldung
-- Eigenes CSS
-- Twig Template Snippets
-- Import / Export vom Formularen
-- Bedingungen zum ein- und ausblenden von Eingabefeldern
-
-## Installation
-
-[Hier geht es zum Setup-Guide](setup.md)
-
-## Bedienung
-
-[Hier geht es zum User-Guide](user.md)
-
-## Demos und Beispiele
-
-Hier gibt es einige Beispiele für die unterschiedlichsten Verwendungs-
-fällen des Formular Baukastens.
-
-## Changelog
-| Version | Datum | Änderungen |
-| ---: |:---:| ---|
-| 1.0.0 | 30.04.2020 | Erste Version des Plugins veröffentlicht |
+Dieses Plugin wird auch weiterhin Sicherheitsrelevante Updates und Fehlerbehebungen erhalten.

@@ -1,3 +1,3 @@
-# Responsive Bildergallerie
+# Erlebniswelten | Responsive Bildergalerie
 
 In Arbeit...

@@ -1,4 +1,4 @@
-##Deutsch
+# Social Login
 
 ###Anzeigename
 Login mit Facebook, Google, Amazon, Paypal usw...

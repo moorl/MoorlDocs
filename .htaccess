@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^en/Moorl(.*)$ /en/plugin/Moorl$1 [R=301]
+RewriteRule ^Moorl(.*)$ /plugin/Moorl$1 [R=301]

@@ -1,1 +1,1 @@
-# Brand Slider
+# Shopping Experiences | Brand Slider

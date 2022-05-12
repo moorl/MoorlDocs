@@ -1,4 +1,4 @@
-# Händler- und Filialensuche 
+# Händlersuche | Installation
 
 ## Installation
 

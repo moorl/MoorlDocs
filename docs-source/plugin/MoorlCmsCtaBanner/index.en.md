@@ -1,4 +1,4 @@
-# Call to Action banner for shopping worlds
+# Shopping Experiences | Call to Action banner
 
 [Click here for the demo](https://demo.moori.net/Call-To-Action-Banner-Demo/)
 

@@ -1,4 +1,4 @@
-# Login mit Facebook - Quickstart
+# Social Login | Facebook
 
 Abgeleitet von der offiziellen Facebook Developers Dokumentation:
 

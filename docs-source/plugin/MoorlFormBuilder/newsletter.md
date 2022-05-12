@@ -1,4 +1,4 @@
-# Newsletter
+# Formular Baukasten | Newsletter
 
 Ab Version 1.2 kann der Shopbetreiber seinem Kunden eine Kombination aus
 Kontaktformular und Newsletter-Anmeldung anbieten.

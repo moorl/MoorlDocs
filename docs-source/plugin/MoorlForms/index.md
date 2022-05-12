@@ -4,7 +4,7 @@ Dieses Plugin basiert auf einer Grundlegenden Neuentwicklung des
 [Formular Baukastens](../MoorlFormBuilder/index.md) und bietet maximale
 Flexibilität und Integrität für Shopware 6.
 
-##Hinweis für alle Kunden, die den Formular Baukasten bereits besitzen
+## Hinweis für alle Kunden, die den Formular Baukasten bereits besitzen
 
 Dieses Plugin ist grundlegend anders aufgebaut und bietet keine Möglichkeit, die bisherigen
 Formulare zu migrieren.

@@ -1,4 +1,4 @@
-# Product Add-Ons & Accessories for Shopware 6
+# Product Add-Ons & Accessories
 
 [Click here for the demo](https://demo.moori.net/Demo-PC/MPA001)
 

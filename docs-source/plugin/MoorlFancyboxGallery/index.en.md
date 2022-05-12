@@ -1,3 +1,3 @@
-# Responsive picture gallery
+# Shopping Experiences | Responsive picture gallery
 
 In Progress...

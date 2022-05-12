@@ -1,4 +1,4 @@
-# Listing Störer für Shopware 6
+# Listing Störer
 
 [Hier geht's zur Demo](https://demo.moori.net/Stoerer-im-Listing-Demo/)
 

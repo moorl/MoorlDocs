@@ -19,6 +19,9 @@ theme:
         name: Switch to light mode
 markdown_extensions:
   - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 plugins:
   - i18n:
       default_language: de
@@ -53,7 +56,7 @@ nav:
   - Blog:
       - 'blog/index.md'
       - 2022:
-          - 'blog/test-post.md'
+          - 'blog/2022/form-builder-2.md'
   - Plugin Dokumentation:
       - 'plugin/index.md'
       - 'plugin/MoorlFoundation/index.md'
@@ -71,23 +74,11 @@ nav:
       - 'plugin/MoorlFormsProduct/index.md'
       - 'plugin/MoorlFormsPopup/index.md'
       - 'plugin/MoorlFormsSlides/index.md'
-      - 'plugin/MoorlStaging/index.md'
-      - 'plugin/MoorlExtCat/index.md'
-      - 'plugin/Moorl360DegreeViewer/index.md'
-      - 'plugin/MoorlAccessoryFinder/index.md'
-      - 'plugin/MoorlAutoLogout/index.md'
-      - 'plugin/MoorlBankConnection/index.md'
-      - 'plugin/MoorlDownloadCenter/index.md'
-      - 'plugin/MoorlCmsBrandSlider/index.md'
-      - 'plugin/MoorlCmsCtaBanner/index.md'
-      - 'plugin/MoorlCmsDealCounter/index.md'
-      - 'plugin/MoorlCmsFlipBox/index.md'
-      - 'plugin/MoorlCmsInstagram/index.md'
-      - 'plugin/MoorlCmsTestimonial/index.md'
-      - 'plugin/MoorlCmsTwig/index.md'
-      - 'plugin/MoorlShopTheLook/index.md'
-      - 'plugin/MoorlFancyboxGallery/index.md'
-      - 'plugin/MoorlCustomerAccounts/index.md'
+
+      - 'plugin/MoorlMerchantFinder/index.md'
+      - 'plugin/MoorlMerchantFinder/setup.md'
+      - 'plugin/MoorlMerchantPicker/index.md'
+
       - 'plugin/MoorlFormBuilder/index.md'
       - 'plugin/MoorlFormBuilder/setup.md'
       - 'plugin/MoorlFormBuilder/user.md'
@@ -97,12 +88,26 @@ nav:
       - 'plugin/MoorlFormBuilder/events.md'
       - 'plugin/MoorlFormBuilder/interactive.md'
       - 'plugin/MoorlFormBuilder/faq.md'
+
+      - 'plugin/MoorlCmsBrandSlider/index.md'
+      - 'plugin/MoorlCmsCtaBanner/index.md'
+      - 'plugin/MoorlCmsFlipBox/index.md'
+      - 'plugin/MoorlCmsTestimonial/index.md'
+      - 'plugin/MoorlCmsTwig/index.md'
+      - 'plugin/MoorlShopTheLook/index.md'
+      - 'plugin/MoorlFancyboxGallery/index.md'
+
+      - 'plugin/MoorlStaging/index.md'
+      - 'plugin/MoorlExtCat/index.md'
+      - 'plugin/Moorl360DegreeViewer/index.md'
+      - 'plugin/MoorlAccessoryFinder/index.md'
+      - 'plugin/MoorlAutoLogout/index.md'
+      - 'plugin/MoorlBankConnection/index.md'
+      - 'plugin/MoorlDownloadCenter/index.md'
+      - 'plugin/MoorlCustomerAccounts/index.md'
       - 'plugin/MoorlInterrupter/index.md'
       - 'plugin/MoorlSignIn/index.md'
       - 'plugin/MoorlSignIn/facebook.md'
-      - 'plugin/MoorlMerchantFinder/index.md'
-      - 'plugin/MoorlMerchantFinder/setup.md'
-      - 'plugin/MoorlMerchantPicker/index.md'
       - 'plugin/MoorlProductAccessories/index.md'
       - 'plugin/MoorlProductConsultant/index.md'
       - 'plugin/MoorlProductPromo/index.md'

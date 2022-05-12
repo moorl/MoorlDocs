@@ -1,4 +1,4 @@
-# Kategorie Listing und Slider
+# Erlebniswelten | Kategorie Listing und Slider
 
 [Hier geht's zur Demo](https://demo.moori.net/)
 
@@ -8,7 +8,7 @@ durch Text im Bild keine Vorteile in der Suchmaschinenoptimierung und wirst wahr
 Probleme mit der Mobilen Ansicht haben.
 
 _Übrigens: Die App
-[Listing Störer für Shopware 6](../MoorlListingInterrupter/index.md)
+[Listing Störer](../MoorlListingInterrupter/index.md)
 ist die perfekte Ergänzung._
 
 ![](images/cta-storefront-01.jpg)

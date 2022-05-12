@@ -1,4 +1,4 @@
-# Templates und Helfer
+# Formular Baukasten | Templates und Helfer
 
 Ab Version 1.3.25 gibt es diese neuen Funktionen um die Gestaltung des E-Mail Templates
 zu vereinfachen.

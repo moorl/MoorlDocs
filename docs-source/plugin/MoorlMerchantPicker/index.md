@@ -1,4 +1,4 @@
-# Händler- und Filialensuche Add-On - Händlerauswahl beim Checkout
+# Händlersuche | Händlerauswahl Add-On
 
 ![Logo](images/plugin.png)
 
