@@ -2,3 +2,5 @@ RewriteEngine On
 
 RewriteRule ^en/Moorl(.*)$ /en/plugin/Moorl$1 [R=301]
 RewriteRule ^Moorl(.*)$ /plugin/Moorl$1 [R=301]
+RewriteRule ^en/faq/$ /en/plugin [R=301]
+RewriteRule ^faq/$ /plugin [R=301]
