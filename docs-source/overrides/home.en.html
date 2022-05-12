@@ -1,0 +1,76 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+{{ super() }}
+<style>
+    .md-header {
+        position: initial;
+    }
+    .md-main__inner {
+        margin: 0;
+    }
+    .md-content {
+        display: none;
+    }
+    @media screen and (min-width: 60em) {
+        .md-sidebar--secondary {
+            display: none;
+        }
+    }
+    @media screen and (min-width: 76.25em) {
+        .md-sidebar--primary {
+            display: none;
+        }
+    }
+</style>
+
+<section class="mdx-container">
+    <div class="md-grid md-typeset">
+        <div class="mdx-hero">
+            <div class="mdx-hero__image">
+                <img src="/assets/images/illustration.png" alt="" width="1659" height="1200" draggable="false">
+            </div>
+
+            <div class="mdx-hero__content">
+                <h1>Shopware 6 Plugins developed by moori</h1>
+
+                <p>
+                    Hi! I'm Philipp or also known as the bog body. Why bog body?
+                    Yes well, that's a well-kept insider secret!
+                    Because of the many confusing questions, I have since changed my name to moori.
+                    I like to make small talk, but time is money - so let's cater to your needs instead!
+                </p>
+                <p>
+                    If you have a Shopware 6 shop, then you have probably already come across one or the other of my plugins.
+                    Here you will find a bundled knowledge database about my plugins and maybe the
+                    one or the other hint on useful features.
+                </p>
+                <p>
+                    I am very tech oriented and fundamentally lazy, so in general the presentation
+                    of my plugins in the store is rather poor to mediocre. But I assure you - appearances are deceptive...
+                </p>
+
+                <a href="{{ 'en/blog/' | url }}" title="To the blog" class="md-button">
+                    To the blog
+                </a>
+
+                <a href="{{ 'en/plugin/' | url }}" title="Zur Plugin Dokumentation" class="md-button">
+                    To plugin documentation
+                </a>
+
+                <h2>Treat yourself to the Shopware 6 Themes by Robin</h2>
+
+                <a href="https://rh-webdesign.com/" target="_blank" rel="noopener" title="Robin Humpert | RH-Webdesign" class="md-button md-button--primary">
+                    Robin Humpert | RH-Webdesign
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+<!-- Content -->
+{% block content %}{% endblock %}
+
+<!-- Application footer -->
+{% block footer %}{% endblock %}

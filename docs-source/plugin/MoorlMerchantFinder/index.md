@@ -1,4 +1,4 @@
-# Händler- und Filialensuche 
+# Händlersuche | Basis Version
 
 ![Logo](images/plugin.png)
 

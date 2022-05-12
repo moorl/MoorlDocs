@@ -1,0 +1,76 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+{{ super() }}
+<style>
+    .md-header {
+        position: initial;
+    }
+    .md-main__inner {
+        margin: 0;
+    }
+    .md-content {
+        display: none;
+    }
+    @media screen and (min-width: 60em) {
+        .md-sidebar--secondary {
+            display: none;
+        }
+    }
+    @media screen and (min-width: 76.25em) {
+        .md-sidebar--primary {
+            display: none;
+        }
+    }
+</style>
+
+<section class="mdx-container">
+    <div class="md-grid md-typeset">
+        <div class="mdx-hero">
+            <div class="mdx-hero__image">
+                <img src="/assets/images/illustration.png" alt="" width="1659" height="1200" draggable="false">
+            </div>
+
+            <div class="mdx-hero__content">
+                <h1>Shopware 6 Plugins entwickelt von moori</h1>
+
+                <p>
+                    Hi! Ich bin Philipp oder auch als die Moorleiche bekannt. Warum Moorleiche?
+                    Ja nun, das ist ein gut behütetes Insider-Geheimnis!
+                    Wegen der vielen verwirrenden Fragen, hab ich mich mittlerweile zu moori umgetauft.
+                    Ich halte gerne Smalltalk, aber Zeit ist Geld - Lass uns deshalb lieber auf deine Bedürfnisse eingehen!
+                </p>
+                <p>
+                    Wenn du einen Shopware 6 Shop hast, dann bist du sicher schon über das eine oder andere Plugin von
+                    mir gestolpert. Hier findest du eine gebündelte Wissensdatenbank zu meinen Plugins und vielleicht den
+                    einen oder anderen Hinweis auf nützliche Features.
+                </p>
+                <p>
+                    Ich bin sehr technik orientiert und grundlegend Faul, deshalb ist im allgemeinen die Präsentation
+                    meiner Plugins im Store eher schlecht bis mittelmäßig. Aber ich versichere dir - der Schein trügt...
+                </p>
+
+                <a href="{{ 'blog/' | url }}" title="Zum Blog" class="md-button">
+                    Zum Blog
+                </a>
+
+                <a href="{{ 'plugin/' | url }}" title="Zur Plugin Dokumentation" class="md-button">
+                    Zur Plugin Dokumentation
+                </a>
+
+                <h2>Gönn dir die Shopware 6 Themes von Robin</h2>
+
+                <a href="https://rh-webdesign.com/" target="_blank" rel="noopener" title="Robin Humpert | RH-Webdesign" class="md-button md-button--primary">
+                    Robin Humpert | RH-Webdesign
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+<!-- Content -->
+{% block content %}{% endblock %}
+
+<!-- Application footer -->
+{% block footer %}{% endblock %}

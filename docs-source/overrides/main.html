@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+    <link rel="stylesheet" href="{{ '/assets/css/mkdocs-material.css' | url }}"/>
+    <link rel="stylesheet" href="{{ '/assets/css/extra.css' | url }}"/>
+    <link rel="stylesheet" href="{{ '/assets/css/jquery.fancybox.min.css' | url }}"/>
+{% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+    <script src="{{ '/assets/js/jquery-3.5.0.slim.min.js' | url }}"></script>
+    <script src="{{ '/assets/js/jquery.fancybox.min.js' | url }}"></script>
+    <script src="{{ '/assets/js/extra.js' | url }}"></script>
+{% endblock %}

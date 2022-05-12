@@ -1,4 +1,4 @@
-# Merchant- and Storefinder
+# Store Locator | Base Version
 
 _Note: This plugin requires the current version of [Foundation / Basis Plugin](../MoorlFoundation/index.md)._
 

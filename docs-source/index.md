@@ -1,3 +1,4 @@
-# Home
-
-Diese Dokumentation befindet sich zurzeit im Aufbau.
+---
+template: home.html
+title: Shopware 6 Plugins entwickelt von moori
+---
