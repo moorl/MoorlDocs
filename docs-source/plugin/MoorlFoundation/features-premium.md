@@ -83,7 +83,7 @@ bis zu 20+ Slides zuweisen und frei konfigurieren kann._
 
 ![](images/mfu-11.jpg)
 
-Der "Interaktive Slider" im Detail
+#### Der "Interaktive Slider" im Detail
 
 ![](images/mfu-12.jpg)
 
