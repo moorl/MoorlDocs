@@ -1,8 +1,8 @@
 ---
+description: Probleme bei der Shopware 6 Installation oder bei moori Plugins? Hier findest du Hilfe!
 tags:
-- faq
-- how-to
-description: Probleme bei der Shopware Installation oder bei moori Apps? Hier findest du Hilfe!
+- FAQ
+- Anleitung
 ---
 
 # Häufig gestellte Fragen (FAQ)

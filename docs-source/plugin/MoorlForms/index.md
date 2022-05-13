@@ -1,22 +1,29 @@
+---
+description: Dieses Plugin basiert auf einer grundlegenden Neuentwicklung des Formular Baukastens und bietet maximale Flexibilität und Integrität für Shopware 6.
+tags:
+- Shopware 6 Plugin
+- Formulare erstellen
+- B2B
+- E-Mail senden
+---
+
 # Formular Baukasten 2 | Basis Version
 
-Dieses Plugin basiert auf einer Grundlegenden Neuentwicklung des
+Dieses Plugin basiert auf einer grundlegenden Neuentwicklung des
 [Formular Baukastens](../MoorlFormBuilder/index.md) und bietet maximale
 Flexibilität und Integrität für Shopware 6.
 
-## Hinweis für alle Kunden, die den Formular Baukasten bereits besitzen
+!!! note "Hinweis für alle Kunden, die den Formular Baukasten bereits besitzen"
 
-Dieses Plugin ist grundlegend anders aufgebaut und bietet keine Möglichkeit, die bisherigen
-Formulare zu migrieren.
-
-Leider ist es nach Absprache mit Shopware auch nicht möglich die Subscriptions zu duplizieren/übertragen.
-
-Da ich meinen bisherigen Kunden keinen Nachteil schaffen möchte, wird der Formular Baukasten
-weiterhin mit Updates versorgt. Aber es werden keine neuen Funktionen mehr entwickelt.
-
-Für alle Interessenten mit aktiven Subscriptions biete ich einen 50% Rabatt für Basis und Add-Ons. 
-Die Migration der Formulare wird auf Wunsch ebenfalls übernommen.
-Es kann jedoch zu Abweichungen im Aussehen kommen, diese werde ich nicht abgleichen.
+    Dieses Plugin ist grundlegend anders aufgebaut und bietet keine Möglichkeit, die bisherigen Formulare zu migrieren.
+          
+    Leider ist es nach Absprache mit Shopware auch nicht möglich die Subscriptions zu duplizieren/übertragen.
+          
+    Da ich meinen bisherigen Kunden keinen Nachteil schaffen möchte, wird der Formular Baukasten weiterhin mit Updates versorgt. Aber es werden keine neuen Funktionen mehr entwickelt.
+          
+    Für alle Interessenten mit aktiven Subscriptions biete ich einen 50% Gutschein für Basis und Add-Ons.
+    
+    Der Gutschein wird individuell ausgestellt und ist nicht mit Rabattaktionen kommulierbar.
 
 ## Beispiel Formulare zum Download
 
@@ -54,8 +61,9 @@ Es ist modular aufgebaut, so lassen sich Prozesse und einzelne Felder beliebig e
 
 ## Installation
 
-_Hinweis: Falls du Probleme mit dem Plugin hast, bitte beachte 
-folgende  [Hinweise](../faq.md) im FAQ Bereich._
+!!! note
+
+      Falls du Probleme mit dem Plugin hast, bitte beachte folgende [Hinweise](../faq.md) im FAQ Bereich.
 
 1. Installiere
    [Foundation](../MoorlFoundation/index.md)

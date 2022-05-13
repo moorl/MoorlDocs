@@ -1,22 +1,27 @@
+---
+description: This plugin is based on a fundamental redevelopment of the form builder and offers maximum flexibility and integrity for Shopware 6.
+tags:
+- Shopware 6 Plugin
+- Build forms
+- B2B
+- Send E-Mail
+---
+
 # Form Builder 2 | Base Version
 
-This plugin is based on a fundamental redevelopment of the
-[Form Builder](../MoorlFormBuilder/index.md) and offers maximum
-flexibility and integrity for Shopware 6.
+This plugin is based on a fundamental redevelopment of the [Form Builder](../MoorlFormBuilder/index.md) and offers maximum flexibility and integrity for Shopware 6.
 
-## Note for all customers who already own the Form Builder
+!!! note "Note for all customers who already own the Form Builder"
 
-This plugin has a fundamentally different structure and does not offer the possibility to migrate the previous forms.
-migrate the previous forms.
-
-Unfortunately, it is also not possible to duplicate/transfer the subscriptions after consultation with Shopware.
-
-As I do not want to create a disadvantage for my existing customers, the Form Builder will continue to be
-will continue to be provided with updates. But no new functions will be developed.
-
-For all interested parties with active subscriptions I offer a 50% discount for Basis and Add-Ons.
-The migration of the forms will also be taken care of on request.
-However, there may be differences in appearance, I will not match these.
+    This plugin has a fundamentally different structure and does not offer the possibility to migrate the previous forms.
+          
+    Unfortunately, it is also not possible to duplicate/transfer the subscriptions after consultation with Shopware.
+          
+    Since I don't want to put my existing customers at a disadvantage, the form construction kit will continue to be provided with updates. But no new functions will be developed.
+          
+    For all interested parties with active subscriptions I offer a 50% voucher for Basis and Add-Ons.
+    
+    The voucher is issued individually and cannot be combined with discount campaigns.
 
 ## Example forms for download
 
@@ -53,8 +58,9 @@ It is modular, so processes and individual fields can be expanded as desired.
 
 ## Installation
 
-Note: If you have any problems with the plugin, please note
-the following [notes](../faq.md) in the FAQ section.
+!!! note
+
+    If you have any problems with the plugin, please note the following [notes](../faq.md) in the FAQ section.
 
 1. install
    [Foundation](../MoorlFoundation/index.md)

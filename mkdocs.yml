@@ -18,11 +18,17 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
 markdown_extensions:
+  - meta
   - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 plugins:
+  - tags:
+      tags_file: tags.md
   - i18n:
       default_language: de
       languages:
