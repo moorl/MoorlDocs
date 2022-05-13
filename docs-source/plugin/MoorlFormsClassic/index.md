@@ -17,6 +17,10 @@ Für alle Interessenten mit aktiven Subscriptions biete ich einen 50% Rabatt fü
 Die Migration der Formulare wird auf Wunsch ebenfalls übernommen.
 Es kann jedoch zu Abweichungen im Aussehen kommen, diese werde ich nicht abgleichen.
 
+## Beispiel Formulare zum Download
+
+- [Classic Add-On](examples/classic-add-on.json)
+
 ##Neue Elemente
 
 ![](images/fbc-01.jpg)
@@ -35,10 +39,6 @@ Es kann jedoch zu Abweichungen im Aussehen kommen, diese werde ich nicht abgleic
 
 Hinweis: Wenn die Aktionen gewählt sind, muss auch das entsprechende Element im Strukturbereich
 eingefügt werden!
-
-## Beispiel Formulare zum Download
-
-- [Classic Add-On](examples/classic-add-on.json)
 
 ###Newsletter Anmeldung
 

@@ -18,6 +18,10 @@ For all interested parties with active subscriptions I offer a 50% discount for 
 The migration of the forms will also be taken care of on request.
 However, there may be differences in appearance, I will not match these.
 
+## Example forms for download
+
+- [Simple contact form](examples/simple-contact-form.json)
+
 ## Add-Ons
 
 This plugin has been shortened in its basic version by some functions, so that it can be offered at an affordable price.
@@ -58,10 +62,6 @@ the following [notes](../faq.md) in the FAQ section.
 3. go to: Contents | Form Builder 2
 
 Here you can create or import a new form.
-
-## Example forms for download
-
-- [Simple contact form](examples/simple-contact-form.json)
 
 ## Settings
 

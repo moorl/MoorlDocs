@@ -18,6 +18,10 @@ Für alle Interessenten mit aktiven Subscriptions biete ich einen 50% Rabatt fü
 Die Migration der Formulare wird auf Wunsch ebenfalls übernommen.
 Es kann jedoch zu Abweichungen im Aussehen kommen, diese werde ich nicht abgleichen.
 
+## Beispiel Formulare zum Download
+
+- [Einfaches Kontaktformular](examples/simple-contact-form.json)
+
 ## Add-Ons
 
 Dieses Plugin wurde in seiner Basis Version um einige Funktionen gekürzt, damit es zu einem
@@ -59,10 +63,6 @@ folgende  [Hinweise](../faq.md) im FAQ Bereich._
 3. Gehe zu: Inhalte | Formular Baukasten 2
    
 Hier kannst du nun ein neues Formular erstellen oder importieren.
-
-## Beispiel Formulare zum Download
-
-- [Einfaches Kontaktformular](examples/simple-contact-form.json)
 
 ## Einstellungen
 

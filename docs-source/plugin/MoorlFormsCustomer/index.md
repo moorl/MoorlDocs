@@ -18,6 +18,11 @@ Für alle Interessenten mit aktiven Subscriptions biete ich einen 50% Rabatt fü
 Die Migration der Formulare wird auf Wunsch ebenfalls übernommen.
 Es kann jedoch zu Abweichungen im Aussehen kommen, diese werde ich nicht abgleichen.
 
+## Beispiel Formulare zum Download
+
+- [Kunden-Account Formular Add-On](examples/customer-account-add-on.json)
+- [Kunden-Registrierung Formular Add-On](examples/customer-registration-add-on.json)
+
 ## Neue Formular-Typen
 
 ![](images/fbc-01.jpg)
@@ -37,11 +42,6 @@ Custom-Feld.
 ![](images/fbc-02.jpg)
 
 ![](images/fbc-03.jpg)
-
-## Beispiel Formulare zum Download
-
-- [Kunden-Account Formular Add-On](examples/customer-account-add-on.json)
-- [Kunden-Registrierung Formular Add-On](examples/customer-registration-add-on.json)
 
 ### Kunden-Account
 

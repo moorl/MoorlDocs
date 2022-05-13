@@ -67,7 +67,9 @@ nav:
       - 'plugin/MoorlCreator/index.md'
       - 'plugin/MoorlGetTheLook/index.md'
       - 'plugin/MoorlMagazine/index.md'
+
       - 'plugin/MoorlForms/index.md'
+      - 'plugin/MoorlForms/how-tos.md'
       - 'plugin/MoorlFormsClassic/index.md'
       - 'plugin/MoorlFormsCustomProducts/index.md'
       - 'plugin/MoorlFormsCustomer/index.md'

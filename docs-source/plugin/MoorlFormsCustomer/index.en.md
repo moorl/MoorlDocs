@@ -18,6 +18,11 @@ For all interested parties with active subscriptions I offer a 50% discount for 
 The migration of the forms will also be taken care of on request.
 However, there may be differences in appearance, I will not match these.
 
+## Example forms for download
+
+- [Customer-Account Form Add-On](examples/customer-account-add-on.json)
+- [Customer-Registration Form Add-On](examples/customer-registration-add-on.json)
+
 ## New form types
 
 ![](images/fbc-01.jpg)
@@ -37,11 +42,6 @@ custom field.
 ![](images/fbc-02.jpg)
 
 ![](images/fbc-03.jpg)
-
-## Example forms for download
-
-- [Customer-Account Form Add-On](examples/customer-account-add-on.json)
-- [Customer-Registration Form Add-On](examples/customer-registration-add-on.json)
 
 ### Customer-Account
 
