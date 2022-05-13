@@ -12,5 +12,5 @@
 
 !!! note
 
-    If you have any problems with the plugin, please note the following [notes](../faq.md) in the FAQ section.
+    If you have any problems with the plugin, please note the following [notes](../) in the FAQ section.
 

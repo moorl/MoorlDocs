@@ -13,7 +13,7 @@ inspire your customers. Benefit from longer visitor time.
 ## Installation
 
 _Note: If you have problems with the plugin, please note the following [notes
-the following [hints](../faq.md) in the FAQ section._
+the following [hints](../) in the FAQ section._
 
 1. install
    [Foundation](../MoorlFoundation/index.md)

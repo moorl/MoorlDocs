@@ -13,7 +13,7 @@ Kunden inspirieren. Profitiere von längerer Besucherzeit.
 ## Installation
 
 _Hinweis: Falls du Probleme mit dem Plugin hast, bitte beachte
-folgende  [Hinweise](../faq.md) im FAQ Bereich._
+folgende  [Hinweise](../) im FAQ Bereich._
 
 1.  Installiere
     [Foundation](../MoorlFoundation/index.md)

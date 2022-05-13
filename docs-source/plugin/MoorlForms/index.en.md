@@ -60,7 +60,7 @@ It is modular, so processes and individual fields can be expanded as desired.
 
 !!! note
 
-    If you have any problems with the plugin, please note the following [notes](../faq.md) in the FAQ section.
+    If you have any problems with the plugin, please note the following [notes](../) in the FAQ section.
 
 1. install
    [Foundation](../MoorlFoundation/index.md)

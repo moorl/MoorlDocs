@@ -63,7 +63,7 @@ Es ist modular aufgebaut, so lassen sich Prozesse und einzelne Felder beliebig e
 
 !!! note
 
-      Falls du Probleme mit dem Plugin hast, bitte beachte folgende [Hinweise](../faq.md) im FAQ Bereich.
+      Falls du Probleme mit dem Plugin hast, bitte beachte folgende [Hinweise](../) im FAQ Bereich.
 
 1. Installiere
    [Foundation](../MoorlFoundation/index.md)

@@ -5,7 +5,7 @@ verfügbar ab Shopware 6.4
 Alle moori Plugins mit Listings erhalten ein CMS mit diesen oder ähnlichen Einstellungen.
 
 _Hinweis: Falls du das Element nicht im Admin findest, 
-beachte folgende  [Hinweise](../faq.md)_
+beachte folgende  [Hinweise](../)_
 
 ## Was ist das Listing Element
 

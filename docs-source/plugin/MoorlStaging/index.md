@@ -34,7 +34,7 @@ einsatzbereit und jegliche Risiken sind auf einem Minimum beschränkt.
 ## Installation
 
 _Hinweis: Falls du Probleme mit dem Plugin hast, bitte beachte 
-folgende  [Hinweise](../faq.md) im FAQ Bereich._
+folgende  [Hinweise](../) im FAQ Bereich._
 
 Hinweis: Die Staging Systeme werden bei Deinstallation des Plugins NICHT gelöscht
 

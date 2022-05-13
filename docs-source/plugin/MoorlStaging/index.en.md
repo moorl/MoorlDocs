@@ -34,7 +34,7 @@ and any risks are kept to a minimum.
 ## Installation
 
 Note: If you have any problems with the plugin, please note the following
-the following [notes](../faq.md) in the FAQ section._
+the following [notes](../) in the FAQ section._
 
 Note: The staging systems are NOT deleted when the plug-in is uninstalled.
 
