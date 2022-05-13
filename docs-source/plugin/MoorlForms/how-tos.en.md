@@ -37,3 +37,27 @@ Deactivate the "Add to cart" button, your customer can now alternatively request
 ![](images/how-to-05.jpg)
 
 In the form settings you make an assignment for the dynamic product group.
+
+## Write custom fields for newsletter subscriptions
+
+**Classic Add-On**
+
+With the element "Nested fields" you can use structured input fields. With this you can also write custom fields for newsletter registration, among other things.
+
+In Shopware itself, structured input fields can also be found in the addresses for customer registration.
+
+![](images/how-to-06.jpg)
+
+Use the element "Nested Fields" and use the technical name `customFields`. There you create further input elements.
+
+![](images/how-to-07.jpg)
+
+In the HTML view of the form we now see how the input element is named.
+
+![](images/how-to-08.jpg)
+
+If the data was entered validly, the column `custom_fields` is filled with the correct data.
+
+!!! note
+
+    This function only supports input of type `string` and `boolean`.
