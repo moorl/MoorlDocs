@@ -1,11 +1,11 @@
-# Formular Baukasten 2 | Anleitungen
-
 ---
 description: Hier findest du viele nützliche Tipps und Tricks für die Einrichtung deiner individuellen Formulare in Shopware 6.
 tags:
 - Formulare erstellen
 - Anleitung
 ---
+
+# Formular Baukasten 2 | Anleitungen
 
 ## In Eingabefeldern SVG Icons nutzen
 
