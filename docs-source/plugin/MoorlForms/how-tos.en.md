@@ -1,3 +1,10 @@
+---
+description: Here you will find many useful tips and tricks for setting up your individual forms in Shopware 6.
+tags:
+- Build forms
+- Tutorial
+---
+
 # Form Builder 2 | How-To
 
 ## Use SVG icons in input fields
@@ -19,6 +26,16 @@ To determine the appropriate name, go to the following pages:
 - Shopware: [https://component-library.shopware.com/icons/](https://component-library.shopware.com/icons/)
 
 ![](images/how-to-02.jpg)
+
+## Individualise send button
+
+**Basic version**
+
+You can give the send button its own stylesheet classes.
+
+To do this, go to the "Stylesheet" tab and insert the desired classes accordingly.
+
+![](images/how-to-09.jpg)
 
 ## Product requests only for products that are not in stock
 

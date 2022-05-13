@@ -1,5 +1,12 @@
 # Formular Baukasten 2 | Anleitungen
 
+---
+description: Hier findest du viele nützliche Tipps und Tricks für die Einrichtung deiner individuellen Formulare in Shopware 6.
+tags:
+- Formulare erstellen
+- Anleitung
+---
+
 ## In Eingabefeldern SVG Icons nutzen
 
 **Basis Version**
@@ -19,6 +26,16 @@ Um den passenden Namen zu ermitteln, gehe dazu auf folgende Seiten:
 - Shopware: [https://component-library.shopware.com/icons/](https://component-library.shopware.com/icons/)
 
 ![](images/how-to-02.jpg)
+
+## Absende-Button individualisieren
+
+**Basis Version**
+
+Du kannst dem Absende-Button eigene Stylesheet-Klassen geben.
+
+Gehe dazu in den Reiter "Stylesheet" und füge entsprechend die gewünschten Klassen ein.
+
+![](images/how-to-09.jpg)
 
 ## Produkt Anfragen nur für Produkte, die nicht lagernd sind
 
