@@ -13,6 +13,20 @@ tags:
 
 With this login plugin you can let your customers log in to your shop via OAuth 2.0. Many well-known providers such as Facebook, Google etc. are supported.
 
+## What is this plugin good for?
+
+Social media is omnipresent, use this to your advantage.
+
+The goal of every shop operator is that the customer ends up at the check-out. Unfortunately, it is necessary that your customers register and log in.
+
+You can shorten this path with this plugin by offering quick options via social media logins for registration and login!
+
+Your customer clicks on the button "Log in with..." and is redirected to the provider's page. If they are logged in, they will immediately find out what information is requested from your shop. This is usually: e-mail and full name.
+
+**New customers** can complete the registration process more quickly, as only missing information needs to be added to the data record. If your customer has registered via a social media platform, he or she can still log in via the usual login process using the e-mail address stored.
+
+**Existing customers** can simply log in to your shop via Facebook and the like, as long as the email addresses used match - quick and convenient.
+
 ## What is possible with this plugin?
 
 You can use this plugin for a variety of possible applications.

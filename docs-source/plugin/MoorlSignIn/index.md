@@ -13,6 +13,20 @@ tags:
 
 Mit diesem Login Plugin kannst du deine Kunden via OAuth 2.0 in deinem Shop anmelden lassen. Viele bekannte Anbieter wie z.B. Facebook, Google usw. werden unterstützt.
 
+## Wofür ist dieses Plugin gut?
+
+Social Media ist allgegenwärtig, nutze dies zu deinem Vorteil.
+
+Eines jeden Shop Betreibers Ziel ist es, dass der Kunde beim Check-out landet. Leider ist es notwendig, dass deine Kunden sich registrieren und anmelden.
+
+Diesen Weg kannst du mit diesem Plugin verkürzen, indem du schnelle Möglichkeiten über Social Media Logins für Registration und Anmeldung anbietest!
+
+Dein Kunde klickt auf den Button "Anmelden mit..." und wird auf die Seite des Providers weitergeleitet. Sofern eingeloggt erfährt er sofort, welche Informationen von deinem Shop abgefragt werden. Dies sind in der Regel: E-Mail und vollständiger Name.
+
+**Neukunden** können den Registrierungsprozess schneller abschließen, da der Datensatz nur um fehlende Informationen ergänzt werden muss. Sofern sich dein Kunde über eine Social Media Plattform registriert hat, kann er sich trotzdem über üblichen Login-Prozess mit der hinterlegten E-Mail-Adresse anmelden.
+
+**Bestandskunden** können sich einfach über Facebook und Co. in Deinem Shop anmelden, sofern die verwendeten E-Mail-Adressen übereinstimmen – Schnell und bequem.
+
 ## Was ist mit diesem Plugin möglich?
 
 Du kannst dieses Plugin für eine Vielzahl von möglichen Anwendungsbereichen einsetzen.
