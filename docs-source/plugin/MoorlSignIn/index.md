@@ -1,73 +1,100 @@
-# Social Login
+---
+description: Mit diesem Login Plugin kannst du deine Kunden via OAuth 2.0 in deinem Shop anmelden lassen. Viele bekannte Anbieter wie z.B. Facebook, Google usw. werden unterstützt.
+tags:
+- Shopware 6 Plugin
+- OAuth 2.0
+- Keycloak
+- B2B
+- Token
+- Privater Shop
+---
 
-###Anzeigename
-Login mit Facebook, Google, Amazon, Paypal usw...
+# Login mit Facebook, Google, Keycloak... | OAuth 2.0
 
-###Kurzbeschreibung
-Mit nur wenigen Klicks sind deine Kunden online. Erspare lästige Login- und Registrierungsprozesse. Kein Double-Opt-In kein und "Passwort wiederherstellen" notwendig.
-###Beschreibung
-<p><strong>Hinweis:</strong> Dieses Plugin benötigt die aktuelle Version des moori Foundation Plugins.</p>
+Mit diesem Login Plugin kannst du deine Kunden via OAuth 2.0 in deinem Shop anmelden lassen. Viele bekannte Anbieter wie z.B. Facebook, Google usw. werden unterstützt.
 
-<p>Du findest dieses Plugin hier: <a href="https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html">https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html</a></p>
+## Was ist mit diesem Plugin möglich?
 
-<p>Dieses Plugin erleichtert deinen Kunden das Einloggen und das Registrieren in deinem Shop! Auch bereits registrierte Kunden können sich mit ihren Social Media Accounts einloggen - jedoch muss die E-Mail Adresse mit der E-Mail Adresse des Anbieters übereinstimmen.</p>
+Du kannst dieses Plugin für eine Vielzahl von möglichen Anwendungsbereichen einsetzen.
 
-<p>Neukunden können optional ihren Registrierungsprozess vervollständigen - damit alle relevanten Kundendaten beim ersten Login vorhanden sind.</p>
+### Registrierung oder Anmeldung mit XXX
 
-<p>Dieses Plugin umfasst folgende Anbieter:</p>
-<ol>
-<li>Facebook</li>
-<li>Google</li>
-<li>Amazon (nicht Amazon Pay)</li>
-<li>Paypal</li>
-</ol>
+Viele deiner Kunden sind bereits auf XXX angemeldet und nutzen das Login Feature auch bereits für andere Webseiten.
 
-<p>Dein Kunde klickt auf den Button "Anmelden mit ..." und wird dann auf eine Seite des Anbieters weiter geleitet. Dort erhält der Kunde Informationen, welche Daten von deinem Shop abgefragt werden - dies sind in der Regel: E-Mail Adresse, Vorname und Nachname.</p>
+Der große Vorteil ist, dass deine Kunden kein Passwort benötigen. Der Shop erhält mit der Zustimmung deiner Kunden über XXX Zugriff auf essenzielle persönliche Daten (E-Mail, Name, Adresse).
 
-<p>Wenn ein Kunde sich mit einer E-Mal Adresse über einen Login Button registriert hat, kann dieser sich immer noch mit dem üblichen Loginprozess einloggen.</p>
+Daten, die nicht zur Verfügung gestellt wurden, können nachträglich durch deinen Kunden ergänzt werden. Der Checkout ist auch erst dann möglich, sobald alle notwendigen Daten verfügbar sind.
 
-<p>Gerne lasse ich mich durch Anregungen und Vorschlägen inspirieren, kurze Mail an mich reicht: info@moorleiche.com</p>
+Wiederkehrende Kunden können den Login via XXX verwenden...
 
-###Highlights
-One-Click Login
-Vier Vorkonfigurationen
-DSGVO konform (Bitte Datenschutzbestimmungen ergänzen)
-Responsiv
+!!! note "Hinweis zu der E-Mail Adresse"
 
-##English
+    Man kann aktuell auch Facebook Konten ohne E-Mail Adresse anlegen. Diese Konten werden durch das Plugin nicht akzeptiert.
 
-###Display name
-Login with Facebook, Google, Amazon, Paypal etc...
+    Nutzt der Kunde z.B. bei Facebook und bei Google dieselbe E-Mail Adresse, kann dieser sich mit einer der beiden Provider anmelden. Die E-Mail Adresse dient als Identifikator für den Kunden.
 
-###Short description
-With just a few clicks your customers are online. Save annoying login and registration processes. No Double-Opt-In no and "password recovery" necessary.
+### Privater Shop
 
-###Description
-<p><strong>Note:</strong> This plugin requires the latest version of the moori Foundation Plugin.</p>
+Du kannst den Shop für Kunden ohne Account bei einem bestimmten OAuth 2.0 Provider unzugänglich machen. 
 
-<p>You can find this plugin here: <a href="https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html">https://store.shopware.com/moorl50852475974f/moorleiche-foundation-plugin.html</a></p>
+Es ist auch möglich den Kunden direkt zum Login eines Providers weiterzuleiten.
 
-<p>This plugin makes it easier for your customers to log in and register in your shop! Even registered customers can log in with their social media accounts - but the email address must match the provider's email address.</p>
+### OAuth 2.0 Tokens von anderen Anwendungen teilen
 
-<p>New customers can optionally complete their registration process - so that all relevant customer data is available at the first login.</p>
+Du hast z.B. eine App, welche deine Kunden über denselben Provider authentifiziert?
 
-<p>This plugin includes the following providers:</p>
+Teile einfach den Token via URL, deine Kunden sind dann automatisch im Shop eingeloggt.
 
-<ol>
-<li>Facebook</li>
-<li>Google</li>
-<li>Amazon (not Amazon Pay)</li>
-<li>Paypal</li>
-</ol>
+### Das Plugin unterstützt sechs weit verbreitete Provider
 
-<p>Your customer clicks on the button "Login with ..." and will be redirected to a page of the provider. There the customer receives information, which data are queried by your Shop - these are usually: E-Mail address, first name and surname.</p>
+Du kannst direkt mit den Providern Facebook, Google, Amazon, Paypal, Apple und Keycloak loslegen.
 
-<p>If a customer has registered with an email address via a login button, he can still log in with the usual login process.</p>
+Ist dein Provider nicht dabei? Du hast die Möglichkeit einen weiteren individuellen Provider mit einem OAuth 2.0 Standard Protokoll einzurichten.
 
-<p>I like to be inspired by suggestions and ideas, a short mail to me is enough: info@moorleiche.com</p>
+## Konfiguration
 
-###Highlights
-One-Click Login
-Four preconfigurations
-DSGVO compliant (please add data protection provisions)
-responsive
+Folgende Standard Einstellungen können durchgeführt werden.
+
+![](images/oauth2-login-01.jpg)
+
+- Aktivieren
+- Debugging aktivieren
+- Im Dropdown Menü anzeigen
+- Standard Registrierung ausblenden
+- Der Kunde muss das Anmeldeformular ausfüllen
+- Platzierung (über/unter) dem Login-Formular
+- Checkbox für Datenschutz anzeigen
+
+In den meisten Fällen bekommen wir vom Provider zu wenig Informationen, hier können die Standard-Werte für den Kunden definiert werden.
+
+![](images/oauth2-login-02.jpg)
+
+Jeder Provider hat eine eigene Konfiguration. Du kannst Provider einzeln aktivieren und deaktivieren.
+
+![](images/oauth2-login-03.jpg)
+
+Beispiel: Facebook Konfiguration.
+
+!!! note "Hinweis zu der Einrichtung der Provider"
+
+    Dieses Plugin bietet ausschließlich die technischen Voraussetzungen um OAuth 2.0 Provider zu konfigurieren.
+
+    Jedoch gibt es hier keine Anleitungen, wie man z.B. ein Facebook oder Google Login einrichtet.
+
+    Die Konfiguration für "Custom SignIn" erfordert ein technisches Grundverständnis für das OAuth 2.0 Protokoll.
+
+    Die Variablen "email, firstName, lastName, zipcode, street, city" dienen als Mapping vom Provider zu Shopware 6.
+
+![](images/oauth2-login-04.jpg)
+
+Hier sind die Einstellungen für den geteilten Token aus anderen Apps.
+
+![](images/oauth2-login-05.jpg)
+
+Einstellungen für den privaten Shop Modus.
+
+## Ansicht im Storefront
+
+Einige Buttons und Icons stehen bereits für den passenden Provider zur Verfügung.
+
+![](images/oauth2-login-06.jpg)
