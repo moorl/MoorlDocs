@@ -27,6 +27,24 @@ Um den passenden Namen zu ermitteln, gehe dazu auf folgende Seiten:
 
 ![](images/how-to-02.jpg)
 
+## Datenbank mit Formularen befüllen
+
+**Basis Version**
+
+Du kannst mithilfe des Formular Baukasten 2 selbst Datenbank-Einträge in Shopware 6 schreiben.
+
+Dazu stehen dir nützliche Features zur Verfügung. Gehe dazu in den Formular-Einstellungen in den Reiter "Zuweisung" und wähle eine Tabelle aus.
+
+![](images/how-to-10.jpg)
+
+Anschließend kannst du ein Eingabefeld zu einer Tabellenspalte zuweisen.
+
+![](images/how-to-11.jpg)
+
+Bitte achte darauf, dass du Pflichtfelder entsprechend kennzeichnest.
+
+Du findest hier ein Beispiel-Formular: [Entity Mapping Formular](examples/entity-mapping-form.json)
+
 ## Absende-Button individualisieren
 
 **Basis Version**

@@ -1,0 +1,353 @@
+{
+  "type": "cms",
+  "active": true,
+  "technicalName": "new_form",
+  "relatedEntity": "product_manufacturer",
+  "config": {
+    "css": [],
+    "popup": {
+      "triggerOnce": true
+    },
+    "slider": [],
+    "animateInOut": [],
+    "cssAttributes": []
+  },
+  "actions": [
+    "mail"
+  ],
+  "name": "Example: Entity mapping form",
+  "successMessage": "well done!",
+  "errorMessage": "Something went wrong :(",
+  "id": "f2fbc7cd46394912999bff698913e5ab",
+  "elements": [
+    {
+      "parentId": "83e9a348a55744c991436e27a41984bd",
+      "afterId": "9caf5cad5e7048839806b66f1002d03c",
+      "formId": "f2fbc7cd46394912999bff698913e5ab",
+      "childCount": 0,
+      "level": 2,
+      "path": "|83e9a348a55744c991436e27a41984bd|",
+      "type": "upload",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "logo",
+      "entityMapping": "mediaId",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Logo",
+      "id": "278a95ab513f4cb6a1a79e169c8996f3"
+    },
+    {
+      "parentId": "83e9a348a55744c991436e27a41984bd",
+      "formId": "f2fbc7cd46394912999bff698913e5ab",
+      "childCount": 0,
+      "level": 2,
+      "path": "|83e9a348a55744c991436e27a41984bd|",
+      "type": "html",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "infoText",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Info text",
+      "content": "<p>Here you can add a product manufacturer with a Form Builder 2 form.</p>\n",
+      "id": "7429aaeff2574b4f8c741ec46b13b447"
+    },
+    {
+      "afterId": "df9351b74d62436eb2724e8a37744ab5",
+      "formId": "f2fbc7cd46394912999bff698913e5ab",
+      "childCount": 0,
+      "level": 1,
+      "type": "form-feedback",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "feedback",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Feedback",
+      "id": "7bbd29cfcb7249b6977c4ae571c86e68"
+    },
+    {
+      "formId": "f2fbc7cd46394912999bff698913e5ab",
+      "childCount": 4,
+      "level": 1,
+      "type": "card",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "e2661976200a4425b8ebe1ccc6ac4b45",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Example: Entity mapping form",
+      "id": "83e9a348a55744c991436e27a41984bd"
+    },
+    {
+      "parentId": "83e9a348a55744c991436e27a41984bd",
+      "afterId": "bb3a0cf9a796423d99334656749c6b33",
+      "formId": "f2fbc7cd46394912999bff698913e5ab",
+      "childCount": 0,
+      "level": 2,
+      "path": "|83e9a348a55744c991436e27a41984bd|",
+      "type": "textarea",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "description",
+      "entityMapping": "description",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Description",
+      "id": "9caf5cad5e7048839806b66f1002d03c"
+    },
+    {
+      "parentId": "83e9a348a55744c991436e27a41984bd",
+      "afterId": "7429aaeff2574b4f8c741ec46b13b447",
+      "formId": "f2fbc7cd46394912999bff698913e5ab",
+      "childCount": 0,
+      "level": 2,
+      "path": "|83e9a348a55744c991436e27a41984bd|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "required": true,
+      "technicalName": "name",
+      "entityMapping": "name",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Name",
+      "id": "bb3a0cf9a796423d99334656749c6b33"
+    },
+    {
+      "afterId": "83e9a348a55744c991436e27a41984bd",
+      "formId": "f2fbc7cd46394912999bff698913e5ab",
+      "childCount": 0,
+      "level": 1,
+      "type": "form-submit",
+      "active": true,
+      "visible": true,
+      "required": false,
+      "technicalName": "submit",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Submit",
+      "id": "df9351b74d62436eb2724e8a37744ab5"
+    }
+  ]
+}

@@ -3,6 +3,7 @@ description: This plugin is based on a fundamental redevelopment of the form bui
 tags:
 - Shopware 6 Plugin
 - Build forms
+- File upload
 - B2B
 - Send E-Mail
 ---
@@ -26,6 +27,9 @@ This plugin is based on a fundamental redevelopment of the [Form Builder](../Moo
 ## Example forms for download
 
 - [Simple contact form](examples/simple-contact-form.json)
+- [Entity mapping formular](examples/entity-mapping-form.json)
+
+Further examples can be found in the respective documentation of the add-ons!
 
 ## Add-Ons
 

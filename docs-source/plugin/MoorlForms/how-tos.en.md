@@ -27,6 +27,24 @@ To determine the appropriate name, go to the following pages:
 
 ![](images/how-to-02.jpg)
 
+## Fill database with forms
+
+**Basic version**
+
+You can write your own database entries in Shopware 6 with the help of the Form Builder 2.
+
+Useful features are available for this purpose. To do this, go to the "Assignment" tab in the form settings and select a table.
+
+![](images/how-to-10.jpg)
+
+Then you can assign an input field to a table column.
+
+![](images/how-to-11.jpg)
+
+Please make sure that you mark mandatory fields accordingly.
+
+You can find an example form here: [Entity mapping form](examples/entity-mapping-form.json)
+
 ## Individualise send button
 
 **Basic version**

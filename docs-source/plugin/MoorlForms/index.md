@@ -3,6 +3,7 @@ description: Dieses Plugin basiert auf einer grundlegenden Neuentwicklung des Fo
 tags:
 - Shopware 6 Plugin
 - Formulare erstellen
+- Datei-Upload
 - B2B
 - E-Mail senden
 ---
@@ -28,6 +29,9 @@ Flexibilität und Integrität für Shopware 6.
 ## Beispiel Formulare zum Download
 
 - [Einfaches Kontaktformular](examples/simple-contact-form.json)
+- [Entity Mapping Formular](examples/entity-mapping-form.json)
+
+Weitere Beispiele findest du in der jeweiligen Dokumentation der Add-Ons!
 
 ## Add-Ons
 

@@ -1,7 +1,15 @@
+---
+description: This add-on for Form Builder 2 provides new features. Repeater elements, send copy to customer, dynamic forms, newsletter subscription and much more.
+tags:
+- Repeater elements
+- Send copy to customer
+- Dynamic forms
+- Newsletter subscription
+---
+
 # Form Builder 2 | Classic Add-On
 
-With this add-on for [Form Builder 2](../MoorlForms/index.md), you have new
-new possibilities at your disposal.
+With this add-on for [Form Builder 2](../MoorlForms/index.md), you have new possibilities at your disposal.
 
 !!! note "Note for all customers who already own the Form Builder"
 
@@ -18,6 +26,7 @@ new possibilities at your disposal.
 ## Example forms for download
 
 - [Classic Add-On](examples/classic-add-on.json)
+- [Return form](examples/return-form.json)
 
 ## New elements
 

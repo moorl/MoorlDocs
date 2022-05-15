@@ -1,7 +1,15 @@
+---
+description: Dieses Add-On für Formular Baukasten 2 stellt neue Features bereit. Repeater Elemente, Kopie an den Kunden senden, dynamische Formulare, Newsletter Anmeldung uvm.
+tags:
+- Repeater Elemente
+- Kopie an den Kunden senden
+- Dynamische Formulare
+- Newsletter Anmeldung
+---
+
 # Formular Baukasten 2 | Classic Add-On
 
-Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) stehen
-dir neue Möglichkeiten zur Verfügung.
+Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) stehen dir neue Möglichkeiten zur Verfügung.
 
 !!! note "Hinweis für alle Kunden, die den Formular Baukasten bereits besitzen"
 
@@ -18,6 +26,7 @@ dir neue Möglichkeiten zur Verfügung.
 ## Beispiel Formulare zum Download
 
 - [Classic Add-On](examples/classic-add-on.json)
+- [Rückgabe Formular](examples/return-form.json)
 
 ##Neue Elemente
 
