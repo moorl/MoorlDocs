@@ -10,7 +10,8 @@
     },
     "slider": [],
     "animateInOut": [],
-    "cssAttributes": []
+    "cssAttributes": [],
+    "writeDatabase": true
   },
   "actions": [
     "mail"
