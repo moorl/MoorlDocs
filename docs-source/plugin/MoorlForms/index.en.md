@@ -27,7 +27,7 @@ This plugin is based on a fundamental redevelopment of the [Form Builder](../Moo
 ## Example forms for download
 
 - [Simple contact form](examples/simple-contact-form.json)
-- [Entity mapping formular](examples/entity-mapping-form.json)
+- [Entity mapping form](examples/entity-mapping-form.json)
 
 Further examples can be found in the respective documentation of the add-ons!
 
