@@ -28,7 +28,7 @@ Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) stehen dir
 - [Classic Add-On](examples/classic-add-on.json)
 - [Rückgabe Formular](examples/return-form.json)
 
-##Neue Elemente
+## Neue Elemente
 
 ![](images/fbc-01.jpg)
 
@@ -37,7 +37,7 @@ Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) stehen dir
 3. Kopie an den Kunden senden
 4. Newsletter Anmeldung anbieten
 
-##Formular Aktionen
+## Formular Aktionen
 
 ![](images/fbc-02.jpg)
 
@@ -47,39 +47,39 @@ Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) stehen dir
 Hinweis: Wenn die Aktionen gewählt sind, muss auch das entsprechende Element im Strukturbereich
 eingefügt werden!
 
-###Newsletter Anmeldung
+### Newsletter Anmeldung
 
 ![](images/fbc-03.jpg)
 
 Hinweis zu den technischen Namen der Elemente, wenn die Newsletter-Anmeldung aktiviert ist.
 
-###Kopie senden
+### Kopie senden
 
 ![](images/fbc-04.jpg)
 
 "Kopie an den Kunden senden" kann in verschiedenen Variationen angeboten werden.
 
-###Bedingungen
+### Bedingungen
 
 ![](images/fbc-05.jpg)
 
 Aufbau von Bedingungen um ein Element ein- oder auszublenden.
 
-###Erweiterung für Elemente vom Typ "Option"
+### Erweiterung für Elemente vom Typ "Option"
 
 ![](images/fbc-06.jpg)
 
 Anhand einer ausgewählten Option kann die Empfänger E-Mail-Adresse beeinflusst werden.
 So landen je nach Anfrage-Typ die Mails im richtigen Postfach!
 
-###Konfiguration für "Repeater" Elemente
+### Konfiguration für "Repeater" Elemente
 
 ![](images/fbc-07.jpg)
 
 Das Repeater-Element kann eine min und eine max Eigenschaft haben. Außerdem lassen sich
 die Buttons individuell beschriften.
 
-##Beispiel der Ausgabe einer E-Mail mit einem Repeater-Element
+## Beispiel der Ausgabe einer E-Mail mit einem Repeater-Element
 
 ![](images/fbc-08.jpg)
 
