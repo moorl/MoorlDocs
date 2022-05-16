@@ -34,11 +34,11 @@ Shopware distinguishes between blocks and elements.
 For example, a block can also consist of several elements. 
 Generally you have access to the elements here:
 
-![Enkaufswelten Editor](images/faq-1-1.png)
+![Enkaufswelten Editor](images/faq-1-1.jpg)
 
 Now you can select the corresponding element!
 
-![Enkaufswelten Editor](images/faq-1-2.png)
+![Enkaufswelten Editor](images/faq-1-2.jpg)
 
 ## Errors in the Shopware 6 shop
 

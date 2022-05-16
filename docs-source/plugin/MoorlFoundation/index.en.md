@@ -1,6 +1,6 @@
 # Foundation | Base Version
 
-![Logo](images/plugin.png)
+![Logo](images/plugin.jpg)
 
 ## Foundation is used by the following plugins
 

@@ -26,13 +26,13 @@ Sobald Sie das Plugin installiert und aktiviert haben, gehen Sie zu aller erst i
 Hauptkonfiguration und setzen Sie nötigen Einstellungen: z.B. Datei-Endungen für 
 Benutzer-Uploads frei geben.
 
-![Plugin Konfiguration](images/setup-1.png)
+![Plugin Konfiguration](images/setup-1.jpg)
 
 Anschließend finden Sie das Plugin unter:
 
 *Admin Menü > Inhalte > Formular Baukasten*
 
-![Plugin Konfiguration](images/setup-2.png)
+![Plugin Konfiguration](images/setup-2.jpg)
 
 ### Erstes Formular anlegen
 
@@ -45,34 +45,34 @@ mit diesem Plugin wunderbar umsetzen (lassen), sprechen Sie dazu mit Ihrem Diens
 In der Grundversion können Sie freie Individuelle Kontaktformulare anlegen und in Ihre Einkaufswelten einfügen, 
 eine detaillierte Erklärung zu den Einstellungsmöglichkeiten finden Sie im nachkommenden Sheet.
 
-![Plugin Konfiguration](images/setup-3.png)
+![Plugin Konfiguration](images/setup-3.jpg)
 
 Legen Sie sich eine Kopie eines Beispiel-Kontaktformulares an. Anschließend öffnet sich eine neue Seite. Für die Ersteinrichtung
 sind die Felder 'Medien Ordner' und 'Aktiv' relevant. Wählen Sie zunächst einen Order aus, auf dem Benutzer-Uploads
 gespeichert werden sollen. Geben Sie optional einem E-Mail Empfänger ein, lassen Sie dieses Feld leer - geht die E-Mail 
 an die Shopbetreiber Adresse, die in den Stammdaten des Shops hinterlegt sind. 
 
-![Plugin Konfiguration](images/setup-4.png)
+![Plugin Konfiguration](images/setup-4.jpg)
 
 Legen Sie den Schalter 'Aktiv' um und klicken Sie anschließend auf 'Speichern'. Gehen Sie anschließend eine Seite zurück.
 Nun sollte hier ein neuer Eintrag erscheinen, der aktiv genutzt werden kann.
 
-![Plugin Konfiguration](images/setup-5.png)
+![Plugin Konfiguration](images/setup-5.jpg)
 
 ### Formular in den Erlebniswelten einfügen
 
 Gehen Sie nun in die Erlebniswelten, unter der Kategorie 'Formulare' befindet sich ein Formular Baukasten Block. Diesen
 ziehen Sie nun einfach via Drag&Drop in den Inhalts-Bereich.
 
-![Plugin Konfiguration](images/setup-6.png)
+![Plugin Konfiguration](images/setup-6.jpg)
 
 In der Konfiguration des Elementes wählen Sie nun Ihr zuvor erstelltes Formular.
 
-![Plugin Konfiguration](images/setup-7.png)
+![Plugin Konfiguration](images/setup-7.jpg)
 
 Das war`s - Sie können nun das Formular im Frontend testen!
 
-![Plugin Konfiguration](images/setup-8.png)
+![Plugin Konfiguration](images/setup-8.jpg)
 
 
 

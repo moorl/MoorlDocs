@@ -20,17 +20,17 @@ ausblendet anhand eines Keywords.
 
 #### Konfiguration
 
-![Plugin Konfiguration](images/interactive-1.png)
+![Plugin Konfiguration](images/interactive-1.jpg)
 
 #### Ergebnis
 
 Ohne Keyword:
 
-![Plugin Konfiguration](images/interactive-2.png)
+![Plugin Konfiguration](images/interactive-2.jpg)
 
 Mit Keyword:
 
-![Plugin Konfiguration](images/interactive-3.png)
+![Plugin Konfiguration](images/interactive-3.jpg)
 
 ### Beispiel 2 - Ganze Bereiche
 
@@ -45,17 +45,17 @@ Dazu sind folgende Regeln zu beachten:
 
 #### Konfiguration
 
-![Plugin Konfiguration](images/interactive-4.png)
+![Plugin Konfiguration](images/interactive-4.jpg)
 
 #### Ergebnis
 
 Ohne Keyword:
 
-![Plugin Konfiguration](images/interactive-5.png)
+![Plugin Konfiguration](images/interactive-5.jpg)
 
 Mit Keyword:
 
-![Plugin Konfiguration](images/interactive-6.png)
+![Plugin Konfiguration](images/interactive-6.jpg)
 
 #### Spezial Feature
 

@@ -1,6 +1,6 @@
 # Händlersuche | Basis Version
 
-![Logo](images/plugin.png)
+![Logo](images/plugin.jpg)
 
 _Hinweis: Dieses Plugin benötigt die aktuelle Version des [Foundation / Basis Plugin](../MoorlFoundation/index.md)._
 

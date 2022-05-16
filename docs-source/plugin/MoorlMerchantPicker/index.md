@@ -1,6 +1,6 @@
 # Händlersuche | Händlerauswahl Add-On
 
-![Logo](images/plugin.png)
+![Logo](images/plugin.jpg)
 
 Nutze diese Erweiterung um deinen Kunden die Möglichkeit zu geben einen 
 Fachhändler aus seiner Nähe auszuwählen. Bei der Bestellung kann der 

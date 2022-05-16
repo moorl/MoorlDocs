@@ -11,7 +11,7 @@ Die Detailübersicht besteht aus:
 3. Liste der Eingabe-Elemente
 4. Element Einstellungen
 
-![Plugin Konfiguration](images/user-1.png)
+![Plugin Konfiguration](images/user-1.jpg)
 
 ## Formular Einstellungen
 
@@ -20,7 +20,7 @@ Die Detailübersicht besteht aus:
 Es gibt Formulartypen für unterschiedliche Zwecke, diese Formulartypen werden durch die Add-Ons erweitert.
 Im Standard gibt es ausschließlich Formulartyp 'CMS Element' für einfache Kontaktformulare. 
 
-![Plugin Konfiguration](images/user-2.png)
+![Plugin Konfiguration](images/user-2.jpg)
 
 **Die weiteren Typen kurz erklärt:**
 
@@ -35,7 +35,7 @@ Warenkorb Position - ist jedoch nur einmalig pro Bestellung pflegbar
 
 ### Generelle Einstellungen
 
-![Plugin Konfiguration](images/user-3.png)
+![Plugin Konfiguration](images/user-3.jpg)
 
 - Name: Der Name für das Formular im Backend
 - Titel: Ein Übersetzbarer Titel für die Ausgabe im Frontend
@@ -59,16 +59,16 @@ Funktion ist noch in der Konzeptphase
 
 #### Produkt Beziehung
 
-![Plugin Konfiguration](images/user-4.png)
+![Plugin Konfiguration](images/user-4.jpg)
 
 Die Produktbeziehungen sind für viele Add-Ons relevant.
 
-![Plugin Konfiguration](images/user-5.png)
+![Plugin Konfiguration](images/user-5.jpg)
 
 So lassen sich zum Beispiel in der Config des Add-Ons 'Erweiterter Warenkorb' regeln, 
 wann dieses Formular in Frontend angezeigt werden soll.
 
-![Plugin Konfiguration](images/user-6.png)
+![Plugin Konfiguration](images/user-6.jpg)
 
 Die Verknüpfung 'Produkt' und 'Formular' sind bidirektional - es können für ein Produkt Formulare 
 mit unterschiedlichen Verwendungszwecken zugewiesen werden.
@@ -78,12 +78,12 @@ mit unterschiedlichen Verwendungszwecken zugewiesen werden.
 Diese Zuweisung spielt eine große Rolle und ist für Datenbankeinträge sowie Formular Add-Ons
 mit Datenspeicherung relevant.
 
-![Plugin Konfiguration](images/user-7.png)
+![Plugin Konfiguration](images/user-7.jpg)
 
 So nutzt zum Beispiel die erweiterte Kundenregistrierung die 'customer' Eintität um Benutzereingaben
 wie zum Beispiel die Kundennummer in der Datenbank zu speichern.
 
-![Plugin Konfiguration](images/user-8.png)
+![Plugin Konfiguration](images/user-8.jpg)
 
 So kann man wie in diesem Beispiel die Kundennummer Matchen/Mappen. 
 In besonderen Fällen dürfen Einträge nur einmalig sein, dafür ist der
@@ -129,7 +129,7 @@ in den E-Mail Vorlagen genutzt werden:
 Mit Hilfe des Stylesheets lassen sich Formulare optisch per CSS anpassen, die Formular ID für den CSS Selektor
 entnehmen Sie auf der Addresszeile Ihres Browsers:
 
-![Plugin Konfiguration](images/user-9.png)
+![Plugin Konfiguration](images/user-9.jpg)
 
 ## Liste der Eingabe-Elemente
 
@@ -139,7 +139,7 @@ neue Elemente hinzugefügt werden.
 Auch können Elemente verschoben, dupliziert und gelöscht werden. Die Änderungen sind erst damm aktiv, 
 sobald das Formular gespeichert wurde.
 
-![Plugin Konfiguration](images/user-10.png)
+![Plugin Konfiguration](images/user-10.jpg)
 
 ## Element Einstellungen
 
@@ -155,7 +155,7 @@ Im Standart werden Beispiele in Deutsch und ich Englisch geliefert.
 Die hier sichtbaren Element Typen sind Bestandteil des Plugins, die ausgegrauten Typen sind für kommende
 Updates geplant.
 
-![Plugin Konfiguration](images/user-11.png)
+![Plugin Konfiguration](images/user-11.jpg)
 
 Es gibt für jeden Typen individuelle Einstellmöglichkeiten, welche nun erklärt werden.
 
@@ -163,7 +163,7 @@ Es gibt für jeden Typen individuelle Einstellmöglichkeiten, welche nun erklär
 
 Fast jedes Element nutzt diese Einstellmöglichkeiten.
 
-![Plugin Konfiguration](images/user-12.png)
+![Plugin Konfiguration](images/user-12.jpg)
 
 - Bezeichnung / Label: Steht für eine Kurze Beschriftung des Eingabe Elementes
 - Name: Der Technische Name des Eingabe Elementes, dieses Feld wird nicht übersetzt
@@ -179,22 +179,22 @@ Für Optionen, Mehrfachauswähl und Checkbox-Gruppen können die Optionen ebenfa
 Mindestens eine Option ist Pflicht. Das Kontrollfeld 'richtig' sind zum Beispiel für Multiple Choice
 Aufgaben geeignet. Die Bezeichnungen sind übersetzbar - die technischen Werte nicht.
 
-![Plugin Konfiguration](images/user-13.png)
+![Plugin Konfiguration](images/user-13.jpg)
 
 Für Numerische Eingabe Elemente lassen sich hier die Min- und Maxwerte sowie die Schritte definieren.
 
-![Plugin Konfiguration](images/user-16.png)
+![Plugin Konfiguration](images/user-16.jpg)
 
 ### Element Wrapper
 
 Das Eingabe Element lässt sich durch den sogenannten 'Wrapper' nochmal beliebig anpassen.
 
-![Plugin Konfiguration](images/user-15.png)
+![Plugin Konfiguration](images/user-15.jpg)
 
 Sofern Sie Bootstrap Grid verwenden, kann hier die Breite des Elements bestimmt werden. Außerdem
 kann unabhängig der Breite ein Zeilenumbruch erzwungen werden.
 
-![Plugin Konfiguration](images/user-14.png)
+![Plugin Konfiguration](images/user-14.jpg)
 
 ### Auto Vervollständigung
 
@@ -202,7 +202,7 @@ Mit Hilfe der Auto Vervollständigung können bereits vorhandene Werte einer bel
 dem System genutzt werden. So lassen sich beispielsweise bekannte Produkt Titel oder Artikelnummern
 aus dem System hervorragend für eine Erleichterte Eingabe durch den Benutzer verwenden.
 
-![Plugin Konfiguration](images/user-17.png)
+![Plugin Konfiguration](images/user-17.jpg)
 
 ### Mapping/Matching Zuweisungsfeld
 
@@ -212,7 +212,7 @@ Datenbank-Feld eine Bentzer-Eingabe abgelegt wird.
 Das Kontrollfeld 'Unique Check' dient zur Validierung von Duplikat-Einträgen. So wird sicher gestellt
 dass nur eine Kundennummer oder nur eine E-Mail Adresse im System hinterlegt werden kann.
 
-![Plugin Konfiguration](images/user-18.png)
+![Plugin Konfiguration](images/user-18.jpg)
 
 
 

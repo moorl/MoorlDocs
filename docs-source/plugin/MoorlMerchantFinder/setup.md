@@ -17,11 +17,11 @@ Hauptkonfiguration und setzen Sie nötigen Einstellungen.
 Sobald bekannt ist, auf welcher Kategorie Seite die Händlersuche aktiv ist,
 legen Sie diese hier fest.
 
-![Plugin Konfiguration](images/setup-1.png)
+![Plugin Konfiguration](images/setup-1.jpg)
 
 Diese Einstellungen können Sie optional anpassen.
 
-![Plugin Konfiguration](images/setup-2.png)
+![Plugin Konfiguration](images/setup-2.jpg)
 
 1. Suchparameter in URL übergeben: Die Suchparameter können zu dem Link hinzugefügt werden,
 so ist es beispielsweise möglich GET Variablen von externen Formularen zu übergeben (PLZ Suche im Footer Bereich etc.)
@@ -37,7 +37,7 @@ Beispiele finden Sie [hier](https://leaflet-extras.github.io/leaflet-providers/p
 Sie haben die Möglichkeit Ihre eigenen Marker zu erstellen, hierfür gibt es ein hilfreiches
 Beispiel in der [Leaflet Dokumentation](https://leafletjs.com/examples/custom-icons/)
 
-![Plugin Konfiguration](images/setup-3.png)
+![Plugin Konfiguration](images/setup-3.jpg)
 
 ## Händlersuche Konfigurieren
 
@@ -45,21 +45,21 @@ Beispiel in der [Leaflet Dokumentation](https://leafletjs.com/examples/custom-ic
 
 Sie finden die Liste unter dem Punkt Inhalte > Händlersuche
 
-![Plugin Konfiguration](images/setup-4.png)
+![Plugin Konfiguration](images/setup-4.jpg)
 
 ### Händler Liste
 
 Dort finden Sie bereits einige Beispiel Daten, machen Sie ein Export der Daten damit Sie sehen,
 wie der CSV Import im Idealfall aussehen könnte.
 
-![Plugin Konfiguration](images/setup-5.png)
+![Plugin Konfiguration](images/setup-5.jpg)
 
 ### Import Assistent
 
 Sie können jedes beliebige CSV Importieren, stellen Sie sicher, dass der Import UTF-8 kodiert ist.
 Ein Export aus Excel ist in der Regel nicht UTF-8 kodiert.
 
-![Plugin Konfiguration](images/setup-6.png)
+![Plugin Konfiguration](images/setup-6.jpg)
 
 Wählen Sie die Zuweisung von CSV zum gewünschten Feld im Dropdown aus. Setzen Sie einen Haken
 bei "Positionen aus OpenStreetMap beziehen" sofern Sie nur die Adressen und keine Koordinaten
@@ -88,7 +88,7 @@ entspricht einer hohen Priorität
 - CSM Seite: ID der CMS Seite für extra Inhalte, wird in einem Popup geöffnet
 - Sonstige Angaben...
 
-![Plugin Konfiguration](images/setup-7.png)
+![Plugin Konfiguration](images/setup-7.jpg)
 
 - Sales Channel: Wenn gesetzt dann wird der Händler nur im ausgewählten Sales Channel angezeigt
 - Kategorien
@@ -96,19 +96,19 @@ entspricht einer hohen Priorität
 - Tags: Händler können nach Tags gefiltert werden
 - Hersteller: Händler können nach Herstellern gefiltert werden
 
-![Plugin Konfiguration](images/setup-8.png)
+![Plugin Konfiguration](images/setup-8.jpg)
 
 Adressdaten des Händlers
 
-![Plugin Konfiguration](images/setup-9.png)
+![Plugin Konfiguration](images/setup-9.jpg)
 
 Manuelle Auswahl der Koordinaten
 
-![Plugin Konfiguration](images/setup-10.png)
+![Plugin Konfiguration](images/setup-10.jpg)
 
 Marker Einstellungen
 
-![Plugin Konfiguration](images/setup-11.png)
+![Plugin Konfiguration](images/setup-11.jpg)
 
 ## Einkaufswelten einrichten
 
@@ -117,16 +117,16 @@ Sobald Sie Ihre Händler konfiguriert haben, können Sie Ihre Einkaufswelten ein
 Gehen Sie auf den Block "moori Merchant Finder" und ziehen Sie diesen in den Inhalts-
 Bereich Ihrer CMS Seite.
 
-![Plugin Konfiguration](images/setup-12.png)
+![Plugin Konfiguration](images/setup-12.jpg)
 
 Nun erscheint das Element.
 
-![Plugin Konfiguration](images/setup-13.png)
+![Plugin Konfiguration](images/setup-13.jpg)
 
 In den Einstellungen können Sie verschiedene Styles für die Ansicht auswählen.
 Es lassen Sich auch bei Bedarf vordefinierte Filter einstellen.
 
-![Plugin Konfiguration](images/setup-14.png)
+![Plugin Konfiguration](images/setup-14.jpg)
 
 ## Kategorie zuordnen
 
@@ -139,7 +139,7 @@ Vergessen Sie nicht diese Kategorie in den Plugin-Einstellungen auszuwählen.
 
 So sollte die Händlersuche im Storefront aussehen.
 
-![Plugin Konfiguration](images/setup-15.png)
+![Plugin Konfiguration](images/setup-15.jpg)
 
 
 

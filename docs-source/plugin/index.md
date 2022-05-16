@@ -34,11 +34,11 @@ Shopware unterscheidet zwischen Blöcken und Elementen.
 So kann beispielsweise ein Block auch aus mehreren Elementen bestehen. 
 Generell hast du Zugriff auf die Elemente hier:
 
-![Enkaufswelten Editor](images/faq-1-1.png)
+![Enkaufswelten Editor](images/faq-1-1.jpg)
 
 Nun kannst du das entsprechende Element auswählen!
 
-![Enkaufswelten Editor](images/faq-1-2.png)
+![Enkaufswelten Editor](images/faq-1-2.jpg)
 
 ## Fehler im Shopware 6 Shop
 
