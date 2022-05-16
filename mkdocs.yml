@@ -30,10 +30,15 @@ plugins:
   - tags:
       tags_file: tags.md
   - i18n:
+      material_alternate: true
       default_language: de
       languages:
-        de: Deutsch
-        en: English
+        de:
+          name: Deutsch
+          build: false
+        en:
+          name: English
+          build: true
       nav_translations:
         en:
           Blog: Blog
@@ -50,6 +55,15 @@ plugins:
 docs_dir: 'docs-source'
 site_dir: 'docs-html'
 site_url: 'https://docs.moori.net'
+extra:
+  alternate:
+    - name: Deutsch
+      link: ./
+      lang: de
+      default: true
+    - name: English
+      link: ./en/
+      lang: en
 extra_css:
   - jquery.fancybox.min.css
   - extra.css
