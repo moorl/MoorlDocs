@@ -157,7 +157,7 @@ For this you need the link to your WordPress API. If your posts are well structu
 
 All posts, categories and comments are now automatically transferred to your shop via the scheduled task!
 
-You need a sufficient PHP configuration for the automatic import. The value 'max_execution_time' in PHP should be 600 seconds.
+You need a sufficient PHP configuration for the automatic import. The value `max_execution_time` in PHP should be 600 seconds.
 
 !!! note
 
