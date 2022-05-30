@@ -10,7 +10,7 @@ Further add-ons follow for this plug-in.
 
 **Add-Ons:**
 
-1. [Blog with Wordpress Import](../MoorlMagazine/index.md)
+1. [Magazine](../MoorlMagazine/index.md)
 2. [Get-The-Look!](../MoorlGetTheLook/index.md)
 
 ## What is this plugin good for?
@@ -28,12 +28,8 @@ through the CMS pages, you can decide which content appears on the profile page.
 _Note: If you have any problems with the plugin, please note the following [notes
 the following [hints](../) in the FAQ section._
 
-1. install
-   [Foundation](../MoorlFoundation/index.md)
-   
-2. optional: In this app there is a
-   [Demo Package](../MoorlFoundation/demo-assistant.md)
-   Included.
+1. install [Foundation](../MoorlFoundation/index.md)
+2. optional: In this app there is a [Demo Package](../MoorlFoundation/demo-assistant.md) included.
 
 ## Settings
 
