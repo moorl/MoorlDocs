@@ -1,6 +1,18 @@
+---
+description: The premium features of the moori Foundation Plugin offer you an indispensable selection of Shopware 6 extensions for daily use.
+tags:
+- Shopware 6 plugin
+- CMS
+- sections
+- blocks
+- elements
+- animations
+- Content Marketing
+---
+
 # Foundation | Premium Features
 
-The Premium Features are an integral part of the moori Foundation Plugin.
+The premium features of the moori Foundation Plugin offer you an indispensable selection of Shopware 6 extensions for daily use.
 
 These features can be used for a limited period of time, but are only available 
 users with admin rights and will be removed before Shopware 6.5 release.
@@ -57,8 +69,8 @@ There are three types of animations:
 These can also be started with three different triggers:
 
 1. element is partially visible
-1. element is completely visible
-1. mouse is over the element
+2. element is completely visible
+3. mouse is over the element
 
 ![](images/mfu-07.jpg)
 

@@ -1,12 +1,22 @@
+---
+description: Die Premium Features des moori Foundation Plugins bieten dir eine unverzichtbare Auswahl an Shopware 6 Erweiterungen für den täglichen Gebrauch.
+tags:
+- Shopware 6 Plugin
+- CMS
+- Sektionen
+- Blöcke
+- Elemente
+- Animationen
+- Content Marketing
+---
+
 # Foundation | Premium Features
 
-Die Premium Features sind ein fester Bestandteil des moori Foundation Plugins.
+Die Premium Features des moori Foundation Plugins bieten dir eine unverzichtbare Auswahl an Shopware 6 Erweiterungen für den täglichen Gebrauch.
 
-Diese Features lassen sich für einen geringen Zeitraum nutzen, sind jedoch nur für Nutzer mit Adminrechten
-verfügbar und werden noch vor Shopware 6.5 Release entfernt.
+Diese Features lassen sich für einen geringen Zeitraum nutzen, sind jedoch nur für Nutzer mit Adminrechten verfügbar und werden noch vor Shopware 6.5 Release entfernt.
 
-Die Demopakete meiner Plugins enthalten einige vorgefertigte Features für eine bessere Darstellung im
-Storefront, es wird lediglich nur nicht im Admin ohne "Foundation Premium Features" konfigurierbar sein.
+Die Demopakete meiner Plugins enthalten einige vorgefertigte Features für eine bessere Darstellung im Storefront, es wird lediglich nur nicht im Admin ohne "Foundation Premium Features" konfigurierbar sein.
 
 ![](images/mfu-01.jpg)
 
@@ -57,8 +67,8 @@ vielseitigen Animationen ausgestattet werden. Es gibt drei Typen für Animatione
 Diese können mit ebenfalls drei verschiedenen Auslösern gestartet werden:
 
 1. Element ist teilweise sichtbar
-1. Element ist ganz sichtbar
-1. Maus befindet sich über dem Element
+2. Element ist ganz sichtbar
+3. Maus befindet sich über dem Element
 
 ![](images/mfu-07.jpg)
 
