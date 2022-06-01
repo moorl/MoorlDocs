@@ -81,6 +81,7 @@ I am always open to suggestions for improvement, sensible enhancements are usual
 I like to develop new plugins and always bring in my own ideas. I aim to develop plugins that are as high-quality and comprehensive as possible and that are also suitable for Shopware's Community Store.
 
 Here we always both profit from:
+
 1. you get an affordable plugin tailored to your needs
 2. your plugin is automatically developed further for you and is always compatible with the latest Shopware version
 3. I can offer the plugin to other shop owners at an affordable price.
@@ -96,6 +97,7 @@ Feel free to send me a request via email :)
 For a new start with Shopware 6, I offer a complete package together with a narrow selection of specialised programmers and designers.
 
 The services include
+
 - Web server setup
 - Shop installation
 - Migration from Shopware 5 or other shop systems (Prestashop, xt:commerce, Shopify etc.)

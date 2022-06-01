@@ -81,6 +81,7 @@ Für Verbesserungsvorschläge bin ich immer offen, sinnvolle Erweiterungen werde
 Ich entwickle gerne neue Plugins und bringe stets auch eigene Ideen mit ein. Ich verfolge das Ziel, möglichst hochwertige und umfangreiche Plugins zu entwickeln, die auch für den Community Store von Shopware geeignet sind.
 
 Hier profitieren wir immer beide von:
+
 1. Du erhältst ein günstiges Plugin auf deine Bedürfnisse abgestimmt
 2. Dein Plugin wird automatisch für dich weiter entwickelt und ist immer mit der neuesten Shopware Version kompatibel
 3. Ich kann das Plugin auch anderen Shopbetreibern zu einem erschwinglichen Preis anbieten
@@ -96,6 +97,7 @@ Stell mir gerne eine Anfrage per E-Mail :)
 Für einen neuen Start mit Shopware 6 biete ich zusammen mit einer engen Auswahl an spezialisierten Programmierern und Designern ein Komplettpaket an.
 
 Zu den Dienstleistungen gehören z.B.
+
 - Webserver einrichten
 - Shop-Installation
 - Migration aus Shopware 5 oder anderen Shopsystemen (Prestashop, xt:commerce, Shopify usw.)
