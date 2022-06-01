@@ -44,7 +44,7 @@ Dieses CMS Element kannst du auf beliebigen CMS Seiten platzieren, es stellt Sha
 
 Das Inhaltsverzeichnis ist speziell für die Plugins [Magazine Add-On](../MoorlMagazine/index.md) und [Öffentliche Profile](../MoorlCreator/index.md) entwickelt worden.
 
-Es baut eine dynamische Navigation für den Inhaltsbereich auf, dazu werden den HTML Tags h2, h3, h4 unf h5 ID-Attribute zugewiesen.
+Es baut eine dynamische Navigation für den Inhaltsbereich auf, dazu werden den HTML Tags h2, h3, h4 und h5 ID-Attribute zugewiesen.
 
 ![](images/free-features-toc.jpg)
 
