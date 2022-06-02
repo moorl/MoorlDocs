@@ -2,8 +2,8 @@
 description: Forms are an important part of online business and facilitate the everyday life of every shop owner. Here you will find the answers to the most frequently asked questions.
 tags:
 - Shopware 6 Forms
-- FAQ (FREQUENTLY ASKED QUESTIONS)
-- instructions
+- FAQ
+- Instructions
 ---
 
 # Form Builder 2 | FAQ
