@@ -10,9 +10,18 @@ tags:
 
 # Formular Baukasten 2 | Basis Version
 
-Dieses Plugin basiert auf einer grundlegenden Neuentwicklung des
-[Formular Baukastens](../MoorlFormBuilder/index.md) und bietet maximale
-Flexibilität und Integrität für Shopware 6.
+Dieses Plugin basiert auf einer grundlegenden Neuentwicklung des [Formular Baukastens](../MoorlFormBuilder/index.md) und bietet maximale Flexibilität und Integrität für Shopware 6.
+
+## Eigene Formulare für Shopware 6
+
+- Du möchtest eigene Formulare in Shopware erstellen? 
+- Du hast keine Shopware Professional Subscription, möchtest aber nicht auf dieses essenzielle Feature verzichten?
+- Die Möglichkeiten des Formular Baukastens von Shopware Professional reichen nicht aus?
+- Du baust komplexe Formulare und suchst nach einer guten Basis für deine individuellen Anpassungen?
+
+Solltest du eine dieser Fragen mit "Ja" beantworten können, dann bist du hier jedenfalls nicht auf dem Holzweg!
+
+### Warum eigene Formulare 
 
 !!! note "Hinweis für alle Kunden, die den Formular Baukasten bereits besitzen"
 

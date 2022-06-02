@@ -96,6 +96,7 @@ nav:
       - 'plugin/MoorlFormsProduct/index.md'
       - 'plugin/MoorlFormsPopup/index.md'
       - 'plugin/MoorlFormsSlides/index.md'
+      - 'plugin/MoorlForms/faq.md'
 
       - 'plugin/MoorlMerchantFinder/index.md'
       - 'plugin/MoorlMerchantFinder/setup.md'

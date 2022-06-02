@@ -12,6 +12,15 @@ tags:
 
 This plugin is based on a fundamental redevelopment of the [Form Builder](../MoorlFormBuilder/index.md) and offers maximum flexibility and integrity for Shopware 6.
 
+## Custom forms for Shopware 6
+
+- You want to create your own forms in Shopware?
+- You don't have a Shopware Professional subscription, but don't want to do without this essential feature?
+- The possibilities of the Shopware Professional form builder are not enough?
+- You build complex forms and are looking for a good basis for your individual adjustments?
+
+If you can answer one of these questions with "yes", then you are definitely on the right track!
+
 !!! note "Note for all customers who already own the Form Builder"
 
     This plugin has a fundamentally different structure and does not offer the possibility to migrate the previous forms.
