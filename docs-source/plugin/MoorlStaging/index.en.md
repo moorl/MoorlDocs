@@ -147,3 +147,16 @@ as the live shop!
 | Managed Hosting | YES | Apache server must be restarted |
 | Managed Shop-Hosting | YES | Apache server must be restarted |
 | Managed Server (FlexServer) | YES | Apache server must be restarted |
+
+### Hosteurope
+
+| Paket | Unterstützt | Hinweise |
+| ----------- | ----------- | ----------- |
+| WebHosting - Basic | YES | |
+| WebHosting - Medium | YES | |
+| WebHosting - Premium | YES | |
+| WebHosting - Supreme | YES | |
+| WebServer - Basic SSD | YES | |
+| WebServer - Medium SSD | YES | |
+| WebServer - Premium SSD | YES | |
+| WebServer - Supreme SSD | YES | |

@@ -147,3 +147,16 @@ wie der Live-Shop nutzt!
 | Managed Hosting | Ja | Apache Server muss neu gestartet werden |
 | Managed Shop-Hosting | Ja | Apache Server muss neu gestartet werden |
 | Managed Server (FlexServer) | JA | Apache Server muss neu gestartet werden |
+
+### Hosteurope
+
+| Paket | Unterstützt | Hinweise |
+| ----------- | ----------- | ----------- |
+| WebHosting - Basic | JA | |
+| WebHosting - Medium | JA | |
+| WebHosting - Premium | JA | |
+| WebHosting - Supreme | JA | |
+| WebServer - Basic SSD | JA | |
+| WebServer - Medium SSD | JA | |
+| WebServer - Premium SSD | JA | |
+| WebServer - Supreme SSD | JA | |
