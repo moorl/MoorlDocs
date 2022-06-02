@@ -183,7 +183,7 @@ Hier wird ein Standard Layout des Add-Ons genutzt.
 
 ![](images/mm-18.jpg)
 
-1. Inahltsverzeichnis (Table of contents)
+1. Inhaltsverzeichnis (Table of contents)
 2. Share-Buttons
 3. Downloads (leer)
 4. Einkaufsliste (leer)
@@ -199,7 +199,7 @@ Einkaufsliste und Downloads gefüllt.
 
 ![](images/mm-20.jpg)
 
-1. Vor/Zurück Naviation
+1. Vor/Zurück Navigation
 2. Weitere Beiträge
 
 ### Beispiel Blog-Autor
