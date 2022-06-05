@@ -8,7 +8,7 @@ durch Text im Bild keine Vorteile in der Suchmaschinenoptimierung und wirst wahr
 Probleme mit der Mobilen Ansicht haben.
 
 _Übrigens: Die App
-[Listing Störer](../MoorlListingInterrupter/index.md)
+[Listing Störer](../MoorlInterrupter/index.md)
 ist die perfekte Ergänzung._
 
 ![](images/cta-storefront-01.jpg)

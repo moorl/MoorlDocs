@@ -8,7 +8,7 @@ text in the image does not give you any advantages in search engine optimisation
 have problems with the mobile view.
 
 _By the way: The app
-[Listing Interrupter for Shopware 6](../MoorlListingInterrupter/index.en.md)
+[Listing Interrupter for Shopware 6](../MoorlInterrupter/index.en.md)
 is the perfect complement._
 
 ![](images/cta-storefront-01.jpg)
