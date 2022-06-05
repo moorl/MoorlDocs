@@ -24,6 +24,29 @@
     {% endif %}
 
     <link rel="stylesheet" href="{{ '/assets/css/mkdocs-material.css' | url }}"/>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "AggregateRating",
+            "itemReviewed": {
+                "@type": "LocalBusiness",
+                "name": "moori",
+                "url": "https://store.shopware.com/moori.html",
+                "address" : {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Salbeiweg 31",
+                    "addressLocality": "Paderborn",
+                    "addressRegion": "NRW",
+                    "postalCode": "33100",
+                    "addressCountry": "DE"
+                }
+            },
+            "ratingValue": "9",
+            "bestRating": "10",
+            "ratingCount": "73"
+        }
+    </script>
 {% endblock %}
 
 {% block scripts %}
