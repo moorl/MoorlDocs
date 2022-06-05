@@ -1,19 +1,40 @@
+---
+description: This plugin for Shopware 6 offers you the possibility to create product and accessory bundles. Within bundles, you can set individual prices for the accessories.
+tags:
+- Shopware 6 Plugin
+- Accessories
+- Bundles
+---
+
 # Product Add-Ons & Accessories
+
+This plugin for Shopware 6 offers you the possibility to create product and accessory bundles. Within bundles, you can set individual prices for the accessories.
 
 [Click here for the demo](https://demo.moori.net/Demo-PC/MPA001)
 
-With this plugin you also get a ready demo package.
-You can find this demo package via "Settings | Plugins | Demo Assistant".
-and install it.
+## What is this plugin good for?
+
+With this plugin you have the possibility to offer add-ons or accessories for your products.
+
+Add-ons can be grouped by their own categories, so it is possible for the customer to select only one add-on for the offered product.
+
+Accessories without categories are offered as an option to the product. There you can offer services or insurances around the product, for example.
+
+Select the option "Create bundles" in the plug-in configuration to freely determine the prices of the add-ons or accessories, so you have full control over the pricing.
+
+Set products or accessories to sale, so unavailable parts are greyed out and cannot be ordered for the period.
+
+The display of availability can also be determined in the plug-in settings.
 
 ## Installation
 
-1. install
-   [Foundation](../MoorlFoundation/index.md)
+!!! note
 
-2. optional: In this app there is a
-   [Demo Package](../MoorlFoundation/demo-assistant.md)
-   Included.
+      If you have problems with the plugin, please read the following [notes](../) in the FAQ section.
+
+1. install [Foundation](../MoorlFoundation/index.md)
+2. install Product Add-Ons & Accessories
+3. optional: In this app there is a [Demo Package](../MoorlFoundation/demo-assistant.md) included.
 
 ## Configuration
 

@@ -137,10 +137,7 @@ Server auf NGINX-Basis benötigen eine zusätzliche Konfiguration damit das Test
 
 ### Profihost
 
-In den Plugin Einstellungen Hosting Kompatibilitätsmodus auf
-Profihost (MariaDB) oder Profihost (MySQL) stellen. Wichtig dabei ist,
-dass die Staging Umgebung dieselbe Datenbank-Art (MySQL oder MariaDB)
-wie der Live-Shop nutzt!
+In den Plugin Einstellungen Hosting Kompatibilitätsmodus auf Profihost (MariaDB) oder Profihost (MySQL) stellen. Wichtig dabei ist, dass die Staging Umgebung dieselbe Datenbank-Art (MySQL oder MariaDB) wie der Live-Shop nutzt!
 
 | Paket | Unterstützt | Hinweise |
 | ----------- | ----------- | ----------- |
@@ -149,6 +146,8 @@ wie der Live-Shop nutzt!
 | Managed Server (FlexServer) | JA | Apache Server muss neu gestartet werden |
 
 ### Hosteurope
+
+Es wurde eine schlechte Performance beim Klonen der Datenbank beobachtet. Trotzdem ließen sich auf Hosteurope problemlos Staging Systeme erstellen.
 
 | Paket | Unterstützt | Hinweise |
 | ----------- | ----------- | ----------- |

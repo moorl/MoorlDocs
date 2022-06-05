@@ -137,10 +137,7 @@ Servers based on NGINX require an additional configuration so that the test syst
 
 ### Profihost
 
-In the plug-in settings, set Hosting compatibility mode to
-Profihost (MariaDB) or Profihost (MySQL). It is important
-that the staging environment uses the same type of database (MySQL or MariaDB)
-as the live shop!
+In the plug-in settings, set Hosting compatibility mode to Profihost (MariaDB) or Profihost (MySQL). It is important that the staging environment uses the same type of database (MySQL or MariaDB) as the live shop!
 
 | Package | Supported | Notes |
 | ----------- | ----------- | ----------- |
@@ -150,7 +147,9 @@ as the live shop!
 
 ### Hosteurope
 
-| Paket | Unterstützt | Hinweise |
+Poor performance was observed when cloning the database. Nevertheless, staging systems could be created on Hosteurope without any problems.
+
+| Package | Supported | Notes |
 | ----------- | ----------- | ----------- |
 | WebHosting - Basic | YES | |
 | WebHosting - Medium | YES | |

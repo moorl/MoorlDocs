@@ -1,20 +1,41 @@
+---
+description: Dieses Plugin für Shopware 6 bietet dir die Möglichkeit, Produkt- und Zubehör-Bundles zu erstellen. Innerhalb von Bundles, kannst du individuelle Preise für das Zubehör bestimmen.
+tags:
+- Shopware 6 Plugin
+- Zubehör
+- Bundles
+---
+
 # Produkt Add-Ons & Zubehör
+
+Dieses Plugin für Shopware 6 bietet dir die Möglichkeit, Produkt- und Zubehör-Bundles zu erstellen. Innerhalb von Bundles, kannst du individuelle Preise für das Zubehör bestimmen.
 
 [Hier geht's zur Demo](https://demo.moori.net/Demo-PC/MPA001)
 
-Mit dieses Plugin erhältst Du auch wieder ein fertiges Demopaket.
-Du kannst dieses Demo Paket über "Einstellungen | Plugins | Demo Assistent" finden
-und Installieren.
+## Wofür ist dieses Plugin gut?
+
+Mit diesem Plugin hast du die Möglichkeit zu deinen Produkten Add-Ons oder Zubehörteile anzubieten. 
+
+Add-Ons können durch eigene Kategorien gruppiert werden, so ist es dem Kunden möglich nur jeweils ein Add-On für das angebotene Produkt auszuwählen. 
+
+Zubehör ohne Kategorien werden optional zum Produkt angeboten. Dort kannst du zum Beispiel Dienstleistungen oder Versicherungen rund um das Produkt anbieten. 
+
+Wähle die Option "Bundles erstellen" in der Plugin Konfiguration um die Preise der Add-Ons oder des Zubehörs frei zu bestimmen, so hast du für die Preisgestaltung die volle Kontrolle. 
+
+Stelle Produkte oder Zubehör auf Abverkauf, so werden nicht verfügbare Teile ausgegraut und sind für den Zeitraum nicht bestellbar. 
+
+Auch die Anzeige der Verfügbarkeit kann in den Plugin Einstellungen bestimmt werden.
 
 ## Installation
 
-1.  Installiere
-    [Foundation](../MoorlFoundation/index.md)
+!!! note
 
-2.  Optional: In dieser App ist ein
-    [Demo Paket](../MoorlFoundation/demo-assistant.md)
-    Enthalten.
-    
+      Falls du Probleme mit dem Plugin hast, bitte beachte folgende [Hinweise](../) im FAQ Bereich.
+
+1. Installiere [Foundation](../MoorlFoundation/index.md)
+2. Installiere Produkt Add-Ons & Zubehör
+3. Optional: In dieser App ist ein [Demo Paket](../MoorlFoundation/demo-assistant.md) enthalten.
+
 ## Konfiguration
 
 Du findest die Konfiguration generell unter den Produkt- oder den Kategorie-Details.
@@ -27,13 +48,11 @@ Gib einen Namen und eine Sortierung ein, die anderen Felder sind aktuell nicht r
 
 ![](images/admin-02.jpg)
 
-Die Add-Ons sind aus technischer Sicht keine Pseudoprodukte sondern __reale__ Produkte, 
-beim Einkauf werden die Lagerbestände aktualisiert.
+Die Add-Ons sind aus technischer Sicht keine Pseudoprodukte, sondern __reale__ Produkte, beim Einkauf werden die Lagerbestände aktualisiert.
 
 ![](images/admin-03.jpg)
 
-Hier kannst du nun die Add-Ons/Zubehörprodukte konfigurieren. Du hast folgene Möglichkeiten bzgl.
-der Preisgestaltung:
+Hier kannst du nun die Add-Ons/Zubehörprodukte konfigurieren. Du hast folgene Möglichkeiten bzgl. der Preisgestaltung:
 
 - Angepasster Preis: Ja = Preis kann selbst definiert werden, Nein = Standardpreis des Produktes
 - Ist Standard: Diese Option ist vorausgewählt
@@ -62,9 +81,7 @@ Beispiel:
 
 ### Kategorie-Ebene
 
-Sofern sich die Konfigurationen mehrfach wiederholen, lohnt es sich die Konfigurationen auf 
-Kategorie-Ebene zu erstellen. Dabei werden alle Produkte, die mit dieser Kategorie verbunden sind
-berücksichtigt.
+Sofern sich die Konfigurationen mehrfach wiederholen, lohnt es sich die Konfigurationen auf Kategorie-Ebene zu erstellen. Dabei werden alle Produkte, die mit dieser Kategorie verbunden sind berücksichtigt.
 
 ![](images/admin-07.jpg)
 
@@ -84,4 +101,3 @@ So sieht der Konfigurator auf der Produkt-Detailseite aus:
 Und so im Warenkorb:
 
 ![](images/storefront-03.jpg)
-

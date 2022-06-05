@@ -119,6 +119,7 @@ nav:
       - 'plugin/MoorlCmsTwig/index.md'
       - 'plugin/MoorlShopTheLook/index.md'
       - 'plugin/MoorlFancyboxGallery/index.md'
+      - 'plugin/MoorlCmsCategoryListing/index.md'
 
       - 'plugin/MoorlStaging/index.md'
       - 'plugin/MoorlExtCat/index.md'
