@@ -1,8 +1,6 @@
 # Form Builder 2 | Product-Configurator Add-On
 
-With this add-on for [Form Builder 2](../MoorlForms/index.md) you can make products
-individually configurable and influence the price! Input fields can be
-database fields!
+With this add-on for [Form Builder 2](../MoorlForms/index.md) you can make products individually configurable and influence the price! Input fields can be database fields!
 
 !!! note "Note for all customers who already own the Form Builder"
 
@@ -22,9 +20,7 @@ database fields!
 
 ## New form of the type "Product Configurator"
 
-With this form you can on the one hand influence the product prices via the options and on the other hand you can use the mapping.
-on the other hand you can use the mapping to save the configuration in custom-fields
-e.g. for further technical processing of the data.
+With this form you can on the one hand influence the product prices via the options and on the other hand you can use the mapping to save the configuration in custom-fields e.g. for further technical processing of the data.
 
 ![](images/fbcp-01.jpg)
 
@@ -32,8 +28,7 @@ Example form.
 
 ![](images/fbcp-04.jpg)
 
-The assigned entity is of the type "order_line_item", this is similar to the name of the database table.
-The payload and the custom fields of your product configuration are stored there!
+The assigned entity is of the type "order_line_item", this is similar to the name of the database table. The payload and the custom fields of your product configuration are stored there!
 
 ![](images/fbcp-02.jpg)
 
@@ -46,8 +41,7 @@ Before you start with the price configuration, you must...
 
 The dynamic product group tells you for which products the form will be activated.
 
-It is also possible to combine several forms for the products! However, make sure
-that you always use individual technical names for your input fields!
+It is also possible to combine several forms for the products! However, make sure that you always use individual technical names for your input fields!
 
 ## Price definitions
 
@@ -63,10 +57,9 @@ Unfortunately it is not possible to enter negative prices, but I am already work
 
 Percentage prices are relative to the price of the product. You can also define negative percentage prices.
 
-### apping
+## Mapping
 
 If the data from the "order_line_item" entity is relevant for further technical processing, you can map the input fields to database fields.
-you can map the input fields to database fields!
 
 ![](images/fbcp-07.jpg)
 
@@ -110,10 +103,8 @@ To do this, go to the order overview and select "Show configuration" in the cont
 
 ![](images/fbcp-16.jpg)
 
-Transfer the placeholders marked in red into all your e-mail and document templates, so that the
-configuration is still visible to the customer.
+Transfer the placeholders marked in red into all your e-mail and document templates, so that the configuration is still visible to the customer.
 
 ![](images/fbcp-17.jpg)
 
-Since the custom fields for order items are not visible in the admin, here is a screenshot from the
-the database to show that the field has been saved correctly.
+Since the custom fields for order items are not visible in the admin, here is a screenshot from the database to show that the field has been saved correctly.
