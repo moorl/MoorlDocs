@@ -21,8 +21,6 @@ Dieses Plugin basiert auf einer grundlegenden Neuentwicklung des [Formular Bauka
 
 Solltest du eine dieser Fragen mit "Ja" beantworten können, dann bist du hier jedenfalls nicht auf dem Holzweg!
 
-### Warum eigene Formulare 
-
 !!! note "Hinweis für alle Kunden, die den Formular Baukasten bereits besitzen"
 
     Dieses Plugin ist grundlegend anders aufgebaut und bietet keine Möglichkeit, die bisherigen Formulare zu migrieren.

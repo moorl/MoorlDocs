@@ -1,4 +1,4 @@
-site_name: Shopware 6 Plugin Dokumentation von moori
+site_name: Shopware 6 Plugin Dokumentation
 theme:
   name: 'material'
   custom_dir: docs-source/overrides
