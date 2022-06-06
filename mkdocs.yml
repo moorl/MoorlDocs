@@ -82,8 +82,10 @@ nav:
       - 'plugin/MoorlFoundation/index.md'
       - 'plugin/MoorlFoundation/demo-assistant.md'
       - 'plugin/MoorlFoundation/listing.md'
+      - 'plugin/MoorlFoundation/advanced-search.md'
       - 'plugin/MoorlFoundation/features-free.md'
       - 'plugin/MoorlFoundation/features-premium.md'
+
       - 'plugin/MoorlCreator/index.md'
       - 'plugin/MoorlGetTheLook/index.md'
       - 'plugin/MoorlMagazine/index.md'
