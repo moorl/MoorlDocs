@@ -115,6 +115,16 @@ Each column has settings:
 
 ![](images/mfu-15.jpg)
 
+### Advanced settings for sections
+
+Further settings can be made for the sections, such as font colour, background colour, top/bottom offset and transitions.
+
+There are also some experimental functions.
+
+![](images/section-advanced-settings-01.jpg)
+
+For B2B shops, sections can be restricted for sales channels or customer groups.
+
 ### Examples
 
 Install the [Demo Package](../MoorlFoundation/demo-assistant.md) to see the examples.

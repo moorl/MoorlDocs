@@ -113,6 +113,16 @@ Jede Spalte hat Einstellungen:
 
 ![](images/mfu-15.jpg)
 
+### Erweiterte Einstellungen für Sektionen
+
+Für die Sektionen können weitere Einstellungen wie Schriftfarbe, Hintergrundfarbe, Versatz nach oben/unten und Übergänge vorgenommen werden.
+
+Außerdem gibt es einige experimentelle Funktionen.
+
+![](images/section-advanced-settings-01.jpg)
+
+Für B2B Shops können Sektionen für Verkaufskanäle oder Kundengruppen eingeschränkt werden.
+
 ### Beispiele
 
 Installiere das [Demo Paket](../MoorlFoundation/demo-assistant.md) um die Beispiele zu sehen.
