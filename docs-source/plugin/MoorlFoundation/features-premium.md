@@ -101,7 +101,7 @@ bis zu 20+ Slides zuweisen und frei konfigurieren kann._
 
 ### Zusätzliche Sektionen
 
-Aktuell gibt es eine Sektion in der man zwei bis vier Spalten bestimmen kann.
+Aktuell gibt es eine Sektion, in der man zwei bis vier Spalten bestimmen kann.
 
 Jede Spalte hat Einstellungen:
 
