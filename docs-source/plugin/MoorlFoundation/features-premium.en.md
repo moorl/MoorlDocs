@@ -30,6 +30,14 @@ The features are activated/deactivated with `ALT+M` (Linux/Windows) or `CONTROL+
 
 A message announces that the features have been activated.
 
+## Automatic translations
+
+Starting with moori Foundation version 1.4.800 you can now translate fields automatically. To do this, you need an API key from DeepL Pro. You can enter the API key in the plugin settings. There you can determine the source and target languages. The formality determines whether you address your customers with more ore less formality.
+
+![](images/auto-translation-01.jpg)
+
+In addition to the fields for products and categories, other data sets can also be translated in the moori plugins. You can find more details in the settings of these plugins.
+
 ## CMS Features
 
 The plugin offers a number of useful CMS features, which are explained in detail here.
