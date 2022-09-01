@@ -57,6 +57,10 @@ Leider ist es nicht möglich negative Preise einzugeben, ich arbeite jedoch scho
 
 Prozentuale Preise sind relativ zum Preis des Produktes. Du kannst auch negative prozentuale Preise definieren.
 
+## Längen- und Flächenberechnungen
+
+Mithilfe der Felder vom Typ "Nummer" oder "Nummernbereich" kannst du den Basispreis des Produktes mit dem Wert im Feld multiplizieren. Vorsicht: Wenn du diese Berechnung mit den Optionen nutzt, werden die Optionen ebenfalls multipliziert!
+
 ## Mapping
 
 Sofern die Daten aus der Entität "order_line_item" für eine weitere technische Verarbeitung relevant sind, kannst du die Eingabefelder zu Datenbankfeldern zuweisen!

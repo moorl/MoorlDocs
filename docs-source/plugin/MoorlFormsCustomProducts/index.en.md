@@ -57,6 +57,10 @@ Unfortunately it is not possible to enter negative prices, but I am already work
 
 Percentage prices are relative to the price of the product. You can also define negative percentage prices.
 
+## Length and area calculations
+
+Using the fields of type "Number" or "Number range" you can multiply the base price of the product with the value in the field. Caution: If you use this calculation with the options, the options will also be multiplied!
+
 ## Mapping
 
 If the data from the "order_line_item" entity is relevant for further technical processing, you can map the input fields to database fields.
