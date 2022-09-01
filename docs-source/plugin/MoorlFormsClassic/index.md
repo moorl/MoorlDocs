@@ -44,8 +44,15 @@ Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) stehen dir
 - Kopie an den Kunden senden
 - Newsletter Anmeldung anbieten
 
-Hinweis: Wenn die Aktionen gewählt sind, muss auch das entsprechende Element im Strukturbereich
-eingefügt werden!
+Hinweis: Wenn die Aktionen gewählt sind, muss auch das entsprechende Element im Strukturbereich eingefügt werden!
+
+### Weiterleitungen
+
+Nachdem ein Formular erfolgreich abgesendet wurde, kann man den Nutzer auf eine Seite weiterleiten. Das ist z.B. sinnvoll um ein Ereignis mit dem Google Tag Manager zu erfassen.
+
+![](images/forms-classic-redirect-01.jpg)
+
+![](images/forms-classic-redirect-02.jpg)
 
 ### Newsletter Anmeldung
 

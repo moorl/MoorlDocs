@@ -47,6 +47,14 @@ With this add-on for [Form Builder 2](../MoorlForms/index.md), you have new poss
 Note: If the actions are selected, the corresponding element must also be inserted in the structure area!
 must be inserted!
 
+### Redirects
+
+After a form has been successfully submitted, you can redirect the user to a page. This is useful, for example, to record an event with the Google Tag Manager.
+
+![](images/forms-classic-redirect-01.jpg)
+
+![](images/forms-classic-redirect-02.jpg)
+
 ### Newsletter registration
 
 ![](images/fbc-03.jpg)

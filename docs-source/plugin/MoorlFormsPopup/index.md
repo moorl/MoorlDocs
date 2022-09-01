@@ -47,7 +47,7 @@ wird das Popup sich als "Exit-Intent" öffnen.
 ## Randlose Popups
 
 Du musst das Popup nicht zwingend für Formulare nutzen, sondern kannst auch andere Inhalte anzeigen.
-Zum Beispiel einen Rabatt-Code wenn der Kunde nach einer bestimmten Zeit den Bestellabschluss verlässt?
+Zum Beispiel einen Rabatt-Code, wenn der Kunde nach einer bestimmten Zeit den Bestellabschluss verlässt?
 
 ![](images/fbp-05.jpg)
 
