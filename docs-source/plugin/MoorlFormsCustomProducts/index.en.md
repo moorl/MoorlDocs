@@ -2,21 +2,10 @@
 
 With this add-on for [Form Builder 2](../MoorlForms/index.md) you can make products individually configurable and influence the price! Input fields can be database fields!
 
-!!! note "Note for all customers who already own the Form Builder"
-
-    This plugin has a fundamentally different structure and does not offer the possibility to migrate the previous forms.
-          
-    Unfortunately, it is also not possible to duplicate/transfer the subscriptions after consultation with Shopware.
-          
-    Since I don't want to put my existing customers at a disadvantage, the form construction kit will continue to be provided with updates. But no new functions will be developed.
-          
-    For all interested parties with active subscriptions I offer a 50% voucher for Basis and Add-Ons.
-    
-    The voucher is issued individually and cannot be combined with discount campaigns.
-
 ## Example forms for download
 
 - [Product Configurator Add-On](examples/custom-products-add-on.json)
+- [Product Configurator Add-On (Area calculation)](examples/custom-products-add-on-ac.json)
 
 ## New form of the type "Product Configurator"
 
@@ -60,6 +49,12 @@ Percentage prices are relative to the price of the product. You can also define 
 ## Length and area calculations
 
 Using the fields of type "Number" or "Number range" you can multiply the base price of the product with the value in the field. Caution: If you use this calculation with the options, the options will also be multiplied!
+
+![](images/area-calc-01.jpg)
+
+![](images/area-calc-02.jpg)
+
+![](images/area-calc-03.jpg)
 
 ## Mapping
 

@@ -1,0 +1,177 @@
+{
+  "type": "custom-product",
+  "active": true,
+  "useCaptcha": false,
+  "sendMail": false,
+  "insertDatabase": false,
+  "technicalName": "custom_product",
+  "relatedEntity": "order_line_item",
+  "config": {
+    "css": [],
+    "slider": [],
+    "animateInOut": [],
+    "cssAttributes": []
+  },
+  "actions": {},
+  "name": "Example: Configurator Add-On  (Area calculation)",
+  "id": "52ae70db4b444a5d8f75de78bc131974",
+  "elements": [
+    {
+      "parentId": "696aefce0a41404ab1ab9bcf22a60067",
+      "afterId": "6c3e7c844fb84573b6da526df3d04aa7",
+      "formId": "52ae70db4b444a5d8f75de78bc131974",
+      "childCount": 0,
+      "level": 2,
+      "path": "|696aefce0a41404ab1ab9bcf22a60067|",
+      "type": "number",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": 0,
+      "required": true,
+      "technicalName": "width",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 5,
+          "min": 1,
+          "step": 0.01,
+          "priceMultiplier": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Width (meters)",
+      "defaultValue": "1",
+      "customFields": {},
+      "id": "16912bbccbdb4ad68538a9b3e72500fd"
+    },
+    {
+      "formId": "52ae70db4b444a5d8f75de78bc131974",
+      "childCount": 2,
+      "level": 1,
+      "type": "card",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "d3820f258f334e0fb1b054cd0b6945c0",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Example: Configurator Add-On",
+      "customFields": {},
+      "id": "696aefce0a41404ab1ab9bcf22a60067"
+    },
+    {
+      "parentId": "696aefce0a41404ab1ab9bcf22a60067",
+      "formId": "52ae70db4b444a5d8f75de78bc131974",
+      "childCount": 0,
+      "level": 2,
+      "path": "|696aefce0a41404ab1ab9bcf22a60067|",
+      "type": "number",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": 0,
+      "required": true,
+      "technicalName": "length",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 5,
+          "min": 1,
+          "step": 0.01,
+          "priceMultiplier": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Length (meters)",
+      "defaultValue": "1",
+      "customFields": {},
+      "id": "6c3e7c844fb84573b6da526df3d04aa7"
+    }
+  ]
+}

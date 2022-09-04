@@ -2,21 +2,10 @@
 
 Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) kannst du Produkte individuell konfigurierbar machen und den Preis beeinflussen! Eingabefelder lassen sich Datenbankfeldern zuweisen!
 
-!!! note "Hinweis für alle Kunden, die den Formular Baukasten bereits besitzen"
-
-    Dieses Plugin ist grundlegend anders aufgebaut und bietet keine Möglichkeit, die bisherigen Formulare zu migrieren.
-          
-    Leider ist es nach Absprache mit Shopware auch nicht möglich die Subscriptions zu duplizieren/übertragen.
-          
-    Da ich meinen bisherigen Kunden keinen Nachteil schaffen möchte, wird der Formular Baukasten weiterhin mit Updates versorgt. Aber es werden keine neuen Funktionen mehr entwickelt.
-          
-    Für alle Interessenten mit aktiven Subscriptions biete ich einen 50% Gutschein für Basis und Add-Ons.
-    
-    Der Gutschein wird individuell ausgestellt und ist nicht mit Rabattaktionen kommulierbar.
-
 ## Beispiel Formulare zum Download
 
 - [Produkt-Konfigurator Add-On](examples/custom-products-add-on.json)
+- [Produkt-Konfigurator Add-On (Flächenberechnung)](examples/custom-products-add-on-ac.json)
 
 ## Neues Formular vom Typ "Produkt-Konfigurator"
 
@@ -60,6 +49,12 @@ Prozentuale Preise sind relativ zum Preis des Produktes. Du kannst auch negative
 ## Längen- und Flächenberechnungen
 
 Mithilfe der Felder vom Typ "Nummer" oder "Nummernbereich" kannst du den Basispreis des Produktes mit dem Wert im Feld multiplizieren. Vorsicht: Wenn du diese Berechnung mit den Optionen nutzt, werden die Optionen ebenfalls multipliziert!
+
+![](images/area-calc-01.jpg)
+
+![](images/area-calc-02.jpg)
+
+![](images/area-calc-03.jpg)
 
 ## Mapping
 
