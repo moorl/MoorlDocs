@@ -1,0 +1,262 @@
+{
+  "productStreamId": "ada24196203447c1bc32a8e633a4159f",
+  "type": "order",
+  "active": true,
+  "insertDatabase": false,
+  "technicalName": "order_form",
+  "relatedEntity": "order",
+  "config": {},
+  "actions": {},
+  "name": "Example: Order Add-On",
+  "successMessage": "well done!",
+  "errorMessage": "Something went wrong :(",
+  "id": "fd636dbc4792452cbf8110b921ee09ce",
+  "elements": [
+    {
+      "parentId": "b2f73020326441d29a8eebeb60909962",
+      "formId": "fd636dbc4792452cbf8110b921ee09ce",
+      "childCount": 0,
+      "level": 2,
+      "path": "|b2f73020326441d29a8eebeb60909962|",
+      "type": "date",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": true,
+      "technicalName": "desiredDeliveryDate",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Desired delivery date",
+      "id": "115f83a80abf40688b6c394692ced995"
+    },
+    {
+      "parentId": "b2f73020326441d29a8eebeb60909962",
+      "afterId": "e6d2bfc9beda42589acf53f9eb755132",
+      "formId": "fd636dbc4792452cbf8110b921ee09ce",
+      "childCount": 0,
+      "level": 2,
+      "path": "|b2f73020326441d29a8eebeb60909962|",
+      "type": "textarea",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "comment",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Comment",
+      "id": "2f52b2749a1b42a2af6d2ec5f37b4575"
+    },
+    {
+      "formId": "fd636dbc4792452cbf8110b921ee09ce",
+      "childCount": 4,
+      "level": 1,
+      "type": "card",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "3db6df7ee5204364a62b57c6024d0c4e",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Example: Order Add-On",
+      "id": "b2f73020326441d29a8eebeb60909962"
+    },
+    {
+      "parentId": "b2f73020326441d29a8eebeb60909962",
+      "afterId": "115f83a80abf40688b6c394692ced995",
+      "formId": "fd636dbc4792452cbf8110b921ee09ce",
+      "childCount": 0,
+      "level": 2,
+      "path": "|b2f73020326441d29a8eebeb60909962|",
+      "type": "tel",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": true,
+      "technicalName": "telephoneNumberForDelivery",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Telephone number for delivery",
+      "id": "c772c37e95124ad68b2e9a737d33e1fb"
+    },
+    {
+      "parentId": "b2f73020326441d29a8eebeb60909962",
+      "afterId": "c772c37e95124ad68b2e9a737d33e1fb",
+      "formId": "fd636dbc4792452cbf8110b921ee09ce",
+      "childCount": 0,
+      "level": 2,
+      "path": "|b2f73020326441d29a8eebeb60909962|",
+      "type": "switch",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "packAsAGift",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Pack as a gift",
+      "id": "e6d2bfc9beda42589acf53f9eb755132"
+    }
+  ]
+}

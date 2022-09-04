@@ -21,18 +21,6 @@ This plugin is based on a fundamental redevelopment of the [Form Builder](../Moo
 
 If you can answer one of these questions with "yes", then you are definitely on the right track!
 
-!!! note "Note for all customers who already own the Form Builder"
-
-    This plugin has a fundamentally different structure and does not offer the possibility to migrate the previous forms.
-          
-    Unfortunately, it is also not possible to duplicate/transfer the subscriptions after consultation with Shopware.
-          
-    Since I don't want to put my existing customers at a disadvantage, the form construction kit will continue to be provided with updates. But no new functions will be developed.
-          
-    For all interested parties with active subscriptions I offer a 50% voucher for Basis and Add-Ons.
-    
-    The voucher is issued individually and cannot be combined with discount campaigns.
-
 ## Example forms for download
 
 - [Simple contact form](examples/simple-contact-form.json)
@@ -52,7 +40,7 @@ It is also possible to create your own add-ons, a developer documentation will f
 3. [Slides Add-On](../MoorlFormsSlides/index.md): Use slides
 4. [Customer-Forms Add-On](../MoorlFormsCustomer/index.md): Customised forms for registration and customer area
 5. [Product-Configurator Add-On](../MoorlFormsCustomProducts/index.md): Additional information on products incl. price calculation
-6. Order Add-On**: Additional order details incl. price calculation on the shopping basket
+6. [Order Add-On](../MoorlFormsOrder/index.md): Additional order details (incl. price calculation on the shopping cart**)
 7. [Product-Request Add-On](../MoorlFormsProduct/index.md): Product-specific enquiry forms
 8. customer-specific add-ons on request
 

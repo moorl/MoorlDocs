@@ -1,20 +1,6 @@
 # Form Builder 2 | Customer Forms Add-On
 
-With this add-on for [Form Builder 2](../MoorlForms/index.md)
-you can use customised forms for registration or the account area!
-Offer your customers more options to edit their accounts.
-
-!!! note "Note for all customers who already own the Form Builder"
-
-    This plugin has a fundamentally different structure and does not offer the possibility to migrate the previous forms.
-          
-    Unfortunately, it is also not possible to duplicate/transfer the subscriptions after consultation with Shopware.
-          
-    Since I don't want to put my existing customers at a disadvantage, the form construction kit will continue to be provided with updates. But no new functions will be developed.
-          
-    For all interested parties with active subscriptions I offer a 50% voucher for Basis and Add-Ons.
-    
-    The voucher is issued individually and cannot be combined with discount campaigns.
+With this add-on for [Form Builder 2](../MoorlForms/index.md) you can use customised forms for registration or the account area! Offer your customers more options to edit their accounts.
 
 ## Example forms for download
 

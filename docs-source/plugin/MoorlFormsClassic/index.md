@@ -11,18 +11,6 @@ tags:
 
 Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) stehen dir neue Möglichkeiten zur Verfügung.
 
-!!! note "Hinweis für alle Kunden, die den Formular Baukasten bereits besitzen"
-
-    Dieses Plugin ist grundlegend anders aufgebaut und bietet keine Möglichkeit, die bisherigen Formulare zu migrieren.
-          
-    Leider ist es nach Absprache mit Shopware auch nicht möglich die Subscriptions zu duplizieren/übertragen.
-          
-    Da ich meinen bisherigen Kunden keinen Nachteil schaffen möchte, wird der Formular Baukasten weiterhin mit Updates versorgt. Aber es werden keine neuen Funktionen mehr entwickelt.
-          
-    Für alle Interessenten mit aktiven Subscriptions biete ich einen 50% Gutschein für Basis und Add-Ons.
-    
-    Der Gutschein wird individuell ausgestellt und ist nicht mit Rabattaktionen kommulierbar.
-
 ## Beispiel Formulare zum Download
 
 - [Classic Add-On](examples/classic-add-on.json)

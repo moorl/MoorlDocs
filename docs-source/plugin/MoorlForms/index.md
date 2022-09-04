@@ -21,18 +21,6 @@ Dieses Plugin basiert auf einer grundlegenden Neuentwicklung des [Formular Bauka
 
 Solltest du eine dieser Fragen mit "Ja" beantworten können, dann bist du hier jedenfalls nicht auf dem Holzweg!
 
-!!! note "Hinweis für alle Kunden, die den Formular Baukasten bereits besitzen"
-
-    Dieses Plugin ist grundlegend anders aufgebaut und bietet keine Möglichkeit, die bisherigen Formulare zu migrieren.
-          
-    Leider ist es nach Absprache mit Shopware auch nicht möglich die Subscriptions zu duplizieren/übertragen.
-          
-    Da ich meinen bisherigen Kunden keinen Nachteil schaffen möchte, wird der Formular Baukasten weiterhin mit Updates versorgt. Aber es werden keine neuen Funktionen mehr entwickelt.
-          
-    Für alle Interessenten mit aktiven Subscriptions biete ich einen 50% Gutschein für Basis und Add-Ons.
-    
-    Der Gutschein wird individuell ausgestellt und ist nicht mit Rabattaktionen kommulierbar.
-
 ## Beispiel Formulare zum Download
 
 - [Einfaches Kontaktformular](examples/simple-contact-form.json)
@@ -53,7 +41,7 @@ Es ist auch möglich eigene Add-Ons zu erstellen, dazu folgt demnächst eine Ent
 3. [Slides Add-On](../MoorlFormsSlides/index.md): Nutze Slides
 4. [Kunden-Formulare Add-On](../MoorlFormsCustomer/index.md): Kundenspezifische Formulare für Registrierung und Kundenbereich
 5. [Produkt-Konfigurator Add-On](../MoorlFormsCustomProducts/index.md): Zusätzliche Angaben zu Produkten inkl. Preiskalkulation
-6. Order Add-On**: Zusätzliche Angaben zur Bestellung inkl. Preiskalkulation auf den Warenkorb
+6. [Bestellung Add-On](../MoorlFormsOrder/index.md): Zusätzliche Angaben zur Bestellung (inkl. Preiskalkulation auf den Warenkorb**)
 7. [Produkt-Anfrage Add-On](../MoorlFormsProduct/index.md): Produktspezifische Anfrage-Formulare
 8. Kundenindividuelle Add-Ons auf Anfrage
 
