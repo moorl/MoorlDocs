@@ -18,7 +18,7 @@ Erstelle ein neues Formular. Wähle den Typ "Erweiterte Bestellung" aus.
 
 Anschließend ist eine Produktzuweisung notwendig. Das Formular erscheint nur dann, sofern ein zugewiesenes Produkt im Warenkorb liegt.
 
-Die Zuweisung erfolg über eine dynamische Produktgruppe.
+Die Zuweisung erfolgt über eine dynamische Produktgruppe.
 
 ![](images/order-add-on-02.jpg)
 
