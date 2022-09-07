@@ -7,6 +7,16 @@ tags:
 
 # Form Builder 2 | How-To
 
+## Insert form into Twig template
+
+**Basic version**
+
+For theme developers and programmers, there is a special Twig snippet to integrate self-created forms directly into a template.
+
+Simply use the snippet ``{% fb_form 'new_form' %}``.
+
+You can pass the technical name or the exact ID of the form as a parameter.
+
 ## Use SVG icons in input fields
 
 **Basic version**

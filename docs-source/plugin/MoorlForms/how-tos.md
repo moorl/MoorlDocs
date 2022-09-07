@@ -7,6 +7,16 @@ tags:
 
 # Formular Baukasten 2 | Anleitungen
 
+## Formular in Twig Template einbauen
+
+**Basis Version**
+
+Für Theme-Entwickler und Programmierer gibt es ein spezielles Twig-Snippet, um selbst erstellte Formulare direkt in ein Template einzubinden.
+
+Nutze dazu das einfach das Snippet ``{% fb_form 'new_form' %}``.
+
+Du kannst den technischen Namen oder die exakte ID des Formulars als Parameter übergeben.
+
 ## In Eingabefeldern SVG Icons nutzen
 
 **Basis Version**
