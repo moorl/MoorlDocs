@@ -57,9 +57,25 @@ Before you send a support ticket or mail, please get the correct log files.
 
 [https://docs.shopware.com/de/shopware-6-de/tutorials-und-faq/fehlermeldungen-debuggen](https://docs.shopware.com/de/shopware-6-de/tutorials-und-faq/fehlermeldungen-debuggen)
 
-### The plugin does not run
+If you are sure that a moori plugin is responsible for your error, then skip this answer.
 
-If the plugin does not start for some reason, first check if you have the latest Shopware version and if the plugin is up to date.
+### The plugin is not running
+
+#### After updating the plugin
+
+Please always read the plugin notes before updating, this is especially true for major version jumps.
+
+__So long as there is a problem: Do not delete anything manually via FTP or from the database!__
+
+Most of the time you will find the necessary hints for solving the problem in the change log of the plugin. I summarise most of the problems here:
+
+1. the SEO url is not created: Reset the plugin: Deactivate once and activate again. Here, the SEO Url Templates and other relevant contents of the plugin are reinstalled. If you have adjusted the SEO Url template, you will have to adjust it again after the reset. If you have a multilingual shop, you must translate the titles/entity names, otherwise an SEO Url will certainly always be generated incorrectly.
+
+2. other problem: reset the plugin: deactivate once and activate again.
+
+#### Other causes
+
+If the plugin does not start for some reason, first check whether you have the current Shopware version and also whether the plugin is up to date.
 
 If this is the case, please contact me immediately! My email address is info@moorleiche.com, I try to react as soon as possible.
 
