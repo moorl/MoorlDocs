@@ -1,45 +1,61 @@
-# Händlersuche | Basis Version
-
-![Logo](images/plugin.jpg)
-
-_Hinweis: Dieses Plugin benötigt die aktuelle Version des [Foundation / Basis Plugin](../MoorlFoundation/index.md)._
-
-[Hier geht's zur Demo](https://demo.moori.net/Zubehoer-Finder-Demo/)
-
+---
+description: Zeigt Händler, Verkaufsfilialen und weitere Standorte auf deinen Shopseiten an. Als Basis dient OpenStreetMap und ist vollständig individualisierbar.
+tags:
+- Shopware 6 Plugin
+- Händlersuche
+- Standorte
+- Store Locator
+- OpenStreetMap
 ---
 
-Dieses Plugin umfasst die Grundfunktionen für eine Händlersuche. 
-Du kannst einen beliebigen CSV Export einbinden und mit Hilfe des 
-Import Assistenten ergänzen. Durch die OpenStreetMap API kannst du 
-die Positionen für die Karte beim Import berechnen lassen. Diese 
-API erfordert keinen Schlüssel, wie zum Beispiel Google Maps.
+# Händlersuche | Basis Version
 
-Der Storefront-Controller wurde in der Version 1.1.0 entfernt, 
-die Einrichtung geht jetzt ausschließlich nur über die Erlebniswelten.
+Zeigt Händler, Verkaufsfilialen und weitere Standorte auf deinen Shopseiten an. Als Basis dient OpenStreetMap und ist vollständig individualisierbar.
 
-Geplante Updates für die nächsten 6 Monate (nach Priorität sortiert):
+## Konfiguration
 
-1. Twig Blöcke in den Templates anlegen
-2. Import / Export inlusive Tags, Hersteller und Kategorien
-3. Einbinden von eigenen Map-Tiles - siehe: https://leaflet-extras.github.io/leaflet-providers/preview/
-4. Popup mit Kontaktformular um dem Händler direkt via E-Mail zu Kontaktieren
-5. Anlegen und Verknüpfen von CMS Seiten für Händler
-6. Bessere Usability für die Vollbild-Händlersuche
-7. Zwei weitere Designs und Farbschemen
+Dieses Plugin nutzt die Grundfunktionen des moori Foundation Plugins:
 
-### Highlights
+- Open Street Map
+- Map Marker
+- Import und Export
 
-- OpenStreetMap auf der Shopseite
-- Import Assistent
-- Umkreissuche anhand der PLZ oder der Stadt
-- Verschiedene Styles und Vollbild-Händlersuche
-- Extra Filtermöglichkeiten: Tags, Kategorien und Hersteller
+Hinweise zur Konfiguration findest du [hier](../MoorlFoundation/index.md).
 
-### Features
+## Im Aufbau
 
-- Erlebniswelten Elemente
-- Hersteller Logos für jeden Händler im Frontend sichtbar
-- Smoothe Zoom Effekte und Automatisches Scrollen zum ausgewählten Händler
-- Standard Design passt sich dem Shopdesign an
-- Umkreissuche mit Angabe der Entfernung
-- Erleichterte Einrichtung dank Demo Daten
+Diese Seite befindet sich aktuell in Aufbau, bitte schau später nochmal nach oder nimm Kontakt zu mir auf.
+
+![](images/merchant-finder-01.jpg)
+
+![](images/merchant-finder-02.jpg)
+
+![](images/merchant-finder-03.jpg)
+
+![](images/merchant-finder-04.jpg)
+
+![](images/merchant-finder-05.jpg)
+
+![](images/merchant-finder-06.jpg)
+
+![](images/merchant-finder-07.jpg)
+
+![](images/merchant-finder-20.jpg)
+
+![](images/merchant-finder-21.jpg)
+
+![](images/merchant-finder-22.jpg)
+
+![](images/merchant-finder-23.jpg)
+
+![](images/merchant-finder-24.jpg)
+
+![](images/merchant-finder-25.jpg)
+
+![](images/merchant-finder-26.jpg)
+
+![](images/merchant-finder-27.jpg)
+
+![](images/merchant-finder-28.jpg)
+
+![](images/merchant-finder-29.jpg)

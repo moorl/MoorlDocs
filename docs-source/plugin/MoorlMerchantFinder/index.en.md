@@ -1,41 +1,64 @@
-# Store Locator | Base Version
-
-_Note: This plugin requires the current version of [Foundation / Basis Plugin](../MoorlFoundation/index.md)._
-
+---
+description: Displays dealers, sales outlets and other locations on your shop pages. It is based on OpenStreetMap and can be fully customised.
+tags:
+- Shopware 6 Plugin
+- dealer search
+- store locations
+- Store Locator
+- OpenStreetMap
 ---
 
-This plugin contains the basic functions for a dealer search.
-You can include any CSV export and complete it with the help
-of the import wizard. Through the OpenStreetMap API you can
-calculate the positions for the map during import. This API
-does not require a key, such as Google Maps.
+# Store Locator | Basic Version
 
-Attention: The storefront-controller has been removed in version 1.1.0,
-the setup is now only possible via the adventure worlds.
+Displays dealers, sales outlets and other locations on your shop pages. OpenStreetMap serves as the basis and can be fully customised.
 
-Planned updates for the next 6 months (sorted by priority):
+## Configuration
 
-1. Create Twig blocks in the templates
-2. Import / Export including tags, manufacturers and categories
-3. Integration of own map tiles - see: https://leaflet-extras.github.io/leaflet-providers/preview/
-4. Popup with contact form to contact the dealer directly via e-mail
-5. Creating and linking CMS pages for traders
-6. Better usability for the full-screen dealer search
-7. Two further designs and colour schemes
+This plugin uses the basic functions of the moori Foundation plugin:
 
-### Highlights
+- Open Street Map
+- Map Marker
+- Import and Export
 
-- OpenStreetMap on the shop page
-- import wizard
-- Circumference search using the postcode or the city
-- Different styles and full screen dealer search
-- Extra filter options: Tags, categories and manufacturers
+Configuration instructions can be found [here](../MoorlFoundation/index.md).
 
-### Features
+## Under construction
 
-- Elements for the shopping worlds
-- Manufacturer logos visible for every dealer in the frontend
-- Smoothe zoom effects and automatic scrolling to the selected dealer
-- Standard Design adapts to the shop design
-- Circumference search with indication of distance
-- Simplified setup thanks to demo data
+This page is currently under construction, please check back later or contact me.
+
+![](images/merchant-finder-01.jpg)
+
+![](images/merchant-finder-02.jpg)
+
+![](images/merchant-finder-03.jpg)
+
+![](images/merchant-finder-04.jpg)
+
+![](images/merchant-finder-05.jpg)
+
+![](images/merchant-finder-06.jpg)
+
+![](images/merchant-finder-07.jpg)
+
+![](images/merchant-finder-20.jpg)
+
+![](images/merchant-finder-21.jpg)
+
+![](images/merchant-finder-22.jpg)
+
+![](images/merchant-finder-23.jpg)
+
+![](images/merchant-finder-24.jpg)
+
+![](images/merchant-finder-25.jpg)
+
+![](images/merchant-finder-26.jpg)
+
+![](images/merchant-finder-27.jpg)
+
+![](images/merchant-finder-28.jpg)
+
+![](images/merchant-finder-29.jpg)
+
+
+Translated with www.DeepL.com/Translator (free version)

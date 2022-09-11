@@ -102,7 +102,6 @@ nav:
       - 'plugin/MoorlForms/faq.md'
 
       - 'plugin/MoorlMerchantFinder/index.md'
-      - 'plugin/MoorlMerchantFinder/setup.md'
       - 'plugin/MoorlMerchantPicker/index.md'
 
       - 'plugin/MoorlFormBuilder/index.md'
