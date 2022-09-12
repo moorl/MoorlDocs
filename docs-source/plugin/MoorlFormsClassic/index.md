@@ -24,6 +24,7 @@ Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) stehen dir
 2. Elemente die nur unter bestimmten Voraussetzungen eingeblendet werden
 3. Kopie an den Kunden senden
 4. Newsletter Anmeldung anbieten
+5. Zwischenspeicherung von Formulardaten für bessere Benutzerfreundlichkeit
 
 ## Formular Aktionen
 

@@ -20,10 +20,11 @@ With this add-on for [Form Builder 2](../MoorlForms/index.md), you have new poss
 
 ![](images/fbc-01.jpg)
 
-1. element of the type "repeater
-2. elements that are only shown under certain conditions
-3. send copy to customer
-4. offer newsletter registration
+1. Element of the type "repeater"
+2. Elements that are only shown under certain conditions
+3. Send copy to customer
+4. Offer newsletter registration
+5. Caching of form data for better usability
 
 ## Form Actions
 
