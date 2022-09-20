@@ -1,0 +1,2461 @@
+{
+  "type": "cms",
+  "active": true,
+  "insertDatabase": false,
+  "technicalName": "responsive_example",
+  "config": {},
+  "actions": [
+    "mail"
+  ],
+  "name": "Example: Responsive form",
+  "successMessage": "well done!",
+  "errorMessage": "Something went wrong :(",
+  "id": "3e90fb1e0d744931b5ba941a63ad2634",
+  "elements": [
+    {
+      "parentId": "d40f6253990b446586efc4d29ae9d3a6",
+      "afterId": "57333fd219684e329526663175b5fa61",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 3,
+      "path": "|82d6e2423fd34eca8b53fba71223528f|d40f6253990b446586efc4d29ae9d3a6|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": true,
+      "technicalName": "eMailAddress",
+      "config": {
+        "css": [],
+        "slider": [],
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "6",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "E-Mail address",
+      "id": "06560100362f4ed09bce51d37fd43441"
+    },
+    {
+      "parentId": "d40f6253990b446586efc4d29ae9d3a6",
+      "afterId": "211323cea8e64162949e8fa2d6ca93fa",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 3,
+      "path": "|82d6e2423fd34eca8b53fba71223528f|d40f6253990b446586efc4d29ae9d3a6|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": true,
+      "technicalName": "firstName",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slider": [],
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "5",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "First name",
+      "id": "06b3f25940674a91b4fbee4d2b7940c0"
+    },
+    {
+      "afterId": "82d6e2423fd34eca8b53fba71223528f",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 4,
+      "level": 1,
+      "type": "card",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "request",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": false
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Request",
+      "id": "0896d4e3bd85498ea9cfbb5679357699"
+    },
+    {
+      "afterId": "0896d4e3bd85498ea9cfbb5679357699",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 1,
+      "type": "form-notice",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "hints",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Hints",
+      "id": "0ab736ee97cc471bab2482013c8fc596"
+    },
+    {
+      "parentId": "0896d4e3bd85498ea9cfbb5679357699",
+      "afterId": "eaa69ac88db6490b8d51a4dfb736730b",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 3,
+      "level": 2,
+      "path": "|0896d4e3bd85498ea9cfbb5679357699|",
+      "type": "form-row",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "request2",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Request 2",
+      "id": "1b674eeb155b411ea06e0670e8cecd0d"
+    },
+    {
+      "parentId": "d40f6253990b446586efc4d29ae9d3a6",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 3,
+      "path": "|82d6e2423fd34eca8b53fba71223528f|d40f6253990b446586efc4d29ae9d3a6|",
+      "type": "select",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": true,
+      "technicalName": "salutation",
+      "selection": "salutation",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slider": [],
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "2",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Salutation",
+      "id": "211323cea8e64162949e8fa2d6ca93fa"
+    },
+    {
+      "parentId": "1b674eeb155b411ea06e0670e8cecd0d",
+      "afterId": "69c9c5812ef243b2a2be69fb90cb6911",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 3,
+      "path": "|0896d4e3bd85498ea9cfbb5679357699|1b674eeb155b411ea06e0670e8cecd0d|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "model2",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slider": [],
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "4",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Model",
+      "id": "45547869ebe54b9083a3a3b35b397a1a"
+    },
+    {
+      "parentId": "0896d4e3bd85498ea9cfbb5679357699",
+      "afterId": "1b674eeb155b411ea06e0670e8cecd0d",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 2,
+      "path": "|0896d4e3bd85498ea9cfbb5679357699|",
+      "type": "textarea",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "comment",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slider": [],
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": false
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Comment",
+      "id": "5268c8e00e774a9795c6a10e11afb93b"
+    },
+    {
+      "parentId": "d40f6253990b446586efc4d29ae9d3a6",
+      "afterId": "06b3f25940674a91b4fbee4d2b7940c0",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 3,
+      "path": "|82d6e2423fd34eca8b53fba71223528f|d40f6253990b446586efc4d29ae9d3a6|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": true,
+      "technicalName": "lastName",
+      "config": {
+        "css": [],
+        "slider": [],
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "5",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Last name",
+      "id": "57333fd219684e329526663175b5fa61"
+    },
+    {
+      "parentId": "1b674eeb155b411ea06e0670e8cecd0d",
+      "afterId": "dec935b35c8e4280b10a7ce2597f06c8",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 3,
+      "path": "|0896d4e3bd85498ea9cfbb5679357699|1b674eeb155b411ea06e0670e8cecd0d|",
+      "type": "number",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "amountOfDevices2",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slider": [],
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "4",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Amount of devices",
+      "id": "5b2951037d3f4abc9ef631cac6c7342b"
+    },
+    {
+      "afterId": "71f3ada51e6f4453902c5c297ba8cfb8",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 1,
+      "type": "form-feedback",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "feedback",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Feedback",
+      "id": "5c148e5424c5450c887ec62fe3bc7689"
+    },
+    {
+      "parentId": "eaa69ac88db6490b8d51a4dfb736730b",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 3,
+      "path": "|0896d4e3bd85498ea9cfbb5679357699|eaa69ac88db6490b8d51a4dfb736730b|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "manufacturer1",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slider": [],
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "4",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Manufacturer",
+      "id": "69c9c5812ef243b2a2be69fb90cb6911"
+    },
+    {
+      "afterId": "aedde1080e02403b80a8c4ad689a7d89",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 1,
+      "type": "form-submit",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "submit",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Submit",
+      "id": "71f3ada51e6f4453902c5c297ba8cfb8"
+    },
+    {
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 1,
+      "level": 1,
+      "type": "card",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "762e5e6267434c308b98e63826f62b2a",
+      "config": {
+        "css": {
+          "display": null
+        },
+        "card": {
+          "collapsed": false,
+          "collapsible": false
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slider": [],
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Example: Responsive form",
+      "id": "82d6e2423fd34eca8b53fba71223528f"
+    },
+    {
+      "parentId": "d40f6253990b446586efc4d29ae9d3a6",
+      "afterId": "ecc37bf12bd242fcbefee2832009e56f",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 3,
+      "path": "|82d6e2423fd34eca8b53fba71223528f|d40f6253990b446586efc4d29ae9d3a6|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": true,
+      "technicalName": "number",
+      "config": {
+        "css": [],
+        "slider": [],
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "1",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Number",
+      "id": "8902665caa154504bc1c55829f31c8d0"
+    },
+    {
+      "parentId": "d40f6253990b446586efc4d29ae9d3a6",
+      "afterId": "baccbda526ed46969d87afb9e3daec2f",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 3,
+      "path": "|82d6e2423fd34eca8b53fba71223528f|d40f6253990b446586efc4d29ae9d3a6|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": true,
+      "technicalName": "phoneNumber",
+      "config": {
+        "css": [],
+        "slider": [],
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "6",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Phone number",
+      "id": "8aaea715202b414eb0fbebbffe6e0a5d"
+    },
+    {
+      "parentId": "d40f6253990b446586efc4d29ae9d3a6",
+      "afterId": "06560100362f4ed09bce51d37fd43441",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 3,
+      "path": "|82d6e2423fd34eca8b53fba71223528f|d40f6253990b446586efc4d29ae9d3a6|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": true,
+      "technicalName": "company",
+      "config": {
+        "css": [],
+        "slider": [],
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "6",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Company",
+      "id": "90a92c9dc2a8446fad2e4d53e191914c"
+    },
+    {
+      "parentId": "d40f6253990b446586efc4d29ae9d3a6",
+      "afterId": "8aaea715202b414eb0fbebbffe6e0a5d",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 3,
+      "path": "|82d6e2423fd34eca8b53fba71223528f|d40f6253990b446586efc4d29ae9d3a6|",
+      "type": "select",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "country",
+      "selection": "country",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "6",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Country",
+      "id": "90b2492d45fc4cb79dc78af8f28bc2fa"
+    },
+    {
+      "parentId": "d40f6253990b446586efc4d29ae9d3a6",
+      "afterId": "8902665caa154504bc1c55829f31c8d0",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 3,
+      "path": "|82d6e2423fd34eca8b53fba71223528f|d40f6253990b446586efc4d29ae9d3a6|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": true,
+      "technicalName": "postcode",
+      "config": {
+        "css": [],
+        "slider": [],
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "2",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Postcode",
+      "id": "94a187df09724bb79712bc499e06ffdb"
+    },
+    {
+      "parentId": "eaa69ac88db6490b8d51a4dfb736730b",
+      "afterId": "dec935b35c8e4280b10a7ce2597f06c8",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 3,
+      "path": "|0896d4e3bd85498ea9cfbb5679357699|eaa69ac88db6490b8d51a4dfb736730b|",
+      "type": "number",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "amountOfDevices1",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slider": [],
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "4",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Amount of devices",
+      "id": "9d5e3d35ba6444efbdffc04acd29df92"
+    },
+    {
+      "afterId": "0ab736ee97cc471bab2482013c8fc596",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 1,
+      "type": "form-tos",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "privacyCheck",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Privacy check",
+      "id": "aedde1080e02403b80a8c4ad689a7d89"
+    },
+    {
+      "parentId": "0896d4e3bd85498ea9cfbb5679357699",
+      "afterId": "5268c8e00e774a9795c6a10e11afb93b",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 2,
+      "path": "|0896d4e3bd85498ea9cfbb5679357699|",
+      "type": "switch",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "callMeBack",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slider": [],
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": false
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Call me back",
+      "id": "b9653ab5e8e2452bbb30dfcc83f98397"
+    },
+    {
+      "parentId": "d40f6253990b446586efc4d29ae9d3a6",
+      "afterId": "94a187df09724bb79712bc499e06ffdb",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 3,
+      "path": "|82d6e2423fd34eca8b53fba71223528f|d40f6253990b446586efc4d29ae9d3a6|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": true,
+      "technicalName": "city",
+      "config": {
+        "css": [],
+        "slider": [],
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "4",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "City",
+      "id": "baccbda526ed46969d87afb9e3daec2f"
+    },
+    {
+      "parentId": "82d6e2423fd34eca8b53fba71223528f",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 11,
+      "level": 2,
+      "path": "|82d6e2423fd34eca8b53fba71223528f|",
+      "type": "form-row",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "sender",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Sender",
+      "id": "d40f6253990b446586efc4d29ae9d3a6"
+    },
+    {
+      "parentId": "eaa69ac88db6490b8d51a4dfb736730b",
+      "afterId": "69c9c5812ef243b2a2be69fb90cb6911",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 3,
+      "path": "|0896d4e3bd85498ea9cfbb5679357699|eaa69ac88db6490b8d51a4dfb736730b|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "model1",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slider": [],
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "4",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Model",
+      "id": "dec935b35c8e4280b10a7ce2597f06c8"
+    },
+    {
+      "parentId": "0896d4e3bd85498ea9cfbb5679357699",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 3,
+      "level": 2,
+      "path": "|0896d4e3bd85498ea9cfbb5679357699|",
+      "type": "form-row",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "request1",
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": {},
+      "conditions": {},
+      "animation": {},
+      "name": "Request 1",
+      "id": "eaa69ac88db6490b8d51a4dfb736730b"
+    },
+    {
+      "parentId": "d40f6253990b446586efc4d29ae9d3a6",
+      "afterId": "90a92c9dc2a8446fad2e4d53e191914c",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 3,
+      "path": "|82d6e2423fd34eca8b53fba71223528f|d40f6253990b446586efc4d29ae9d3a6|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": true,
+      "technicalName": "street",
+      "config": {
+        "css": [],
+        "slider": [],
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "5",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Street",
+      "id": "ecc37bf12bd242fcbefee2832009e56f"
+    },
+    {
+      "parentId": "1b674eeb155b411ea06e0670e8cecd0d",
+      "formId": "3e90fb1e0d744931b5ba941a63ad2634",
+      "childCount": 0,
+      "level": 3,
+      "path": "|0896d4e3bd85498ea9cfbb5679357699|1b674eeb155b411ea06e0670e8cecd0d|",
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "required": false,
+      "technicalName": "manufacturer2",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 999999,
+          "min": 0,
+          "step": 1,
+          "priceMultiplier": 1
+        },
+        "slider": [],
+        "slides": {
+          "nextClass": "btn btn-light",
+          "offsetTop": 60,
+          "prevClass": "btn btn-light",
+          "autoScrollTop": true
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": "4",
+          "inherit": false
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": {},
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "name": "Manufacturer",
+      "id": "fd3043e06517450d90230808ec20279c"
+    }
+  ]
+}

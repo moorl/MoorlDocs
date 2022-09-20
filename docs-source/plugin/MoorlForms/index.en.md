@@ -25,6 +25,7 @@ If you can answer one of these questions with "yes", then you are definitely on 
 
 - [Simple contact form](examples/simple-contact-form.json)
 - [Entity mapping form](examples/entity-mapping-form.json)
+- [Responsive form](examples/responsive-form.json)
 
 Further examples can be found in the respective documentation of the add-ons!
 

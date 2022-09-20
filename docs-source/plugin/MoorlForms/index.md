@@ -25,6 +25,7 @@ Solltest du eine dieser Fragen mit "Ja" beantworten können, dann bist du hier j
 
 - [Einfaches Kontaktformular](examples/simple-contact-form.json)
 - [Entity Mapping Formular](examples/entity-mapping-form.json)
+- [Responsives Formular](examples/responsive-form.json)
 
 Weitere Beispiele findest du in der jeweiligen Dokumentation der Add-Ons!
 
