@@ -140,3 +140,9 @@ Es wurde eine schlechte Performance beim Klonen der Datenbank beobachtet. Trotzd
 | WebServer - Medium SSD | JA | |
 | WebServer - Premium SSD | JA | |
 | WebServer - Supreme SSD | JA | |
+
+### Mittwald
+
+In den Plugin Einstellungen Hosting Kompatibilitätsmodus auf Mittwald stellen. 
+
+In den Einstellungen des Mittwald-Hostings muss SSH verfügbar sein und die Binary "rsync" aktiviert werden!

@@ -140,3 +140,9 @@ Poor performance was observed when cloning the database. Nevertheless, staging s
 | WebServer - Medium SSD | YES | |
 | WebServer - Premium SSD | YES | |
 | WebServer - Supreme SSD | YES | |
+
+### Mittwald
+
+In the plugin settings, set Hosting compatibility mode to Mittwald.
+
+SSH must be available in the Mittwald hosting settings and the binary "rsync" must be activated!
