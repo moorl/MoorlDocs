@@ -3621,14 +3621,6 @@
       "custom1": null,
       "custom2": null,
       "storefrontTemplate": null
-    },
-    "4902f6b8be404d88a5880cf2b15eabc5": {
-      "name": "New Form",
-      "successMessage": "well done!",
-      "errorMessage": "Something went wrong :(",
-      "custom1": null,
-      "custom2": null,
-      "storefrontTemplate": null
     }
   }
 }
