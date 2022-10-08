@@ -7,6 +7,16 @@
     max-width: 70rem;
 }
 
+@supports selector(::-webkit-scrollbar) {
+    [dir=ltr] .md-sidebar__inner {
+        padding-right: calc(100% - 20.5rem);
+    }
+
+    [dir=rtl] .md-sidebar__inner {
+        padding-left: calc(100% - 20.5rem)
+    }
+}
+
 .md-content img {
     max-width: 480px;
 }
