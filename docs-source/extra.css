@@ -11,6 +11,16 @@
     max-width: 480px;
 }
 
+.md-consent__controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.md-consent__controls > label {
+    text-align: center;
+}
+
 a[data-fancybox] {
     display: block;
     text-align: center;

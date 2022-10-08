@@ -1,4 +1,6 @@
 site_name: Shopware 6 Plugin Dokumentation
+copyright: >
+  <a href="#__consent">Change cookie settings</a>
 theme:
   name: 'material'
   custom_dir: docs-source/overrides
@@ -64,6 +66,19 @@ extra:
     - name: English
       link: ./en/
       lang: en
+  consent:
+    title: Cookie consent
+    description: >
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    cookies:
+      matomo: Matomo Analytics
+    actions:
+      - manage
+      - accept
+      - reject
 extra_css:
   - jquery.fancybox.min.css
   - extra.css
