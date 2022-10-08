@@ -27,12 +27,13 @@ Du kannst SVG Icons innerhalb der Eingabefelder nutzen. Dazu liefert das moori F
 
 Gib dazu `icon|<pack>|<name>` ein.
 
-- pack: Name des Icon-Pakets, z.B. far, fas, fab (FontAwesome 5) oder solid, regular (Shopware)
+- pack: Name des Icon-Pakets, z.B. far, fas, fab (FontAwesome 5), fa6r, fa6s, fa6b (FontAwesome 6) oder default (Shopware)
 - name: Name des Icons
 
 Um den passenden Namen zu ermitteln, gehe dazu auf folgende Seiten:
 
 - FontAwesome 5: [https://fontawesome.com/v5/search](https://fontawesome.com/v5/search)
+- FontAwesome 6: [https://fontawesome.com/search](https://fontawesome.com/search)
 - Shopware: [https://component-library.shopware.com/icons/](https://component-library.shopware.com/icons/)
 
 ![](images/how-to-02.jpg)

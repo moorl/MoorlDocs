@@ -27,12 +27,13 @@ You can use SVG icons inside the input fields. The moori Foundation Plugin alrea
 
 Enter `icon|<pack>|<name>`.
 
-- pack: Name of the icon package, e.g. far, fas, fab (FontAwesome 5) or solid, regular (Shopware)
+- pack: Name of the icon package, e.g. far, fas, fab (FontAwesome 5), fa6r, fa6s, fa6b (FontAwesome 6) or solid, regular (Shopware)
 - name: Name of the icon
 
 To determine the appropriate name, go to the following pages:
 
 - FontAwesome 5: [https://fontawesome.com/v5/search](https://fontawesome.com/v5/search)
+- FontAwesome 6: [https://fontawesome.com/search](https://fontawesome.com/search)
 - Shopware: [https://component-library.shopware.com/icons/](https://component-library.shopware.com/icons/)
 
 ![](images/how-to-02.jpg)
