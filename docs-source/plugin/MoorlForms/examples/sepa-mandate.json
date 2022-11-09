@@ -1,0 +1,849 @@
+{
+  "id": "e24d910fcfe643a59062230134daf284",
+  "taxId": null,
+  "userId": null,
+  "mediaId": null,
+  "salesChannelId": null,
+  "productStreamId": null,
+  "customerGroupId": null,
+  "shippingMethodId": null,
+  "paymentMethodId": null,
+  "countryId": null,
+  "showFrom": null,
+  "showUntil": null,
+  "mediaFolderId": null,
+  "type": "customer-account",
+  "active": false,
+  "useCaptcha": false,
+  "sendMail": false,
+  "insertDatabase": false,
+  "technicalName": "sepa_mandate",
+  "mailReceiver": null,
+  "redirectTo": null,
+  "relatedEntity": "customer",
+  "sendCopyType": null,
+  "config": {
+    "css": [],
+    "slider": [],
+    "animateInOut": [],
+    "cssAttributes": []
+  },
+  "actions": [
+    "mail",
+    "write-history"
+  ],
+  "customFields": null,
+  "elements": [
+    {
+      "id": "77d49fcdbb1a437cad7af3abe8795d68",
+      "parentId": null,
+      "afterId": null,
+      "formId": "e24d910fcfe643a59062230134daf284",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 1,
+      "path": null,
+      "type": "card",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": false,
+      "technicalName": "c4c4ef7f7fe845b1913722161e4456e6",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": false
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "translations": {
+        "2fbb5fe2e29a4d70aa5854ce7ce3e20b": {
+          "name": "SEPA Lastschriftmandat",
+          "content": null,
+          "prepend": null,
+          "append": null,
+          "placeholder": null,
+          "defaultValue": null,
+          "tooltip": null,
+          "custom1": null,
+          "custom2": null,
+          "custom3": null,
+          "custom4": null,
+          "customFields": null
+        }
+      }
+    },
+    {
+      "id": "233e7df2bb6a4b39b5479c5a791ffd6a",
+      "parentId": "77d49fcdbb1a437cad7af3abe8795d68",
+      "afterId": null,
+      "formId": "e24d910fcfe643a59062230134daf284",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 2,
+      "path": null,
+      "type": "html",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": false,
+      "technicalName": "intro",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "translations": {
+        "2fbb5fe2e29a4d70aa5854ce7ce3e20b": {
+          "name": "Intro",
+          "content": "<p>Hiermit bevollmächtige ich den Shopbetreiber meine Einkäufe via SEPA Lastschrift einzuziehen.</p>",
+          "prepend": null,
+          "append": null,
+          "placeholder": null,
+          "defaultValue": null,
+          "tooltip": null,
+          "custom1": null,
+          "custom2": null,
+          "custom3": null,
+          "custom4": null,
+          "customFields": null
+        }
+      }
+    },
+    {
+      "id": "9d83919f926b412cbca5ec1da0e6623a",
+      "parentId": "77d49fcdbb1a437cad7af3abe8795d68",
+      "afterId": "233e7df2bb6a4b39b5479c5a791ffd6a",
+      "formId": "e24d910fcfe643a59062230134daf284",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 2,
+      "path": null,
+      "type": "select",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": true,
+      "technicalName": "adresstyp",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": "customFields.moorl_fbs_type",
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "translations": {
+        "2fbb5fe2e29a4d70aa5854ce7ce3e20b": {
+          "name": "Adresstyp",
+          "content": null,
+          "prepend": null,
+          "append": null,
+          "placeholder": "Bitte geben Sie einen Adresstyp ein",
+          "defaultValue": null,
+          "tooltip": null,
+          "custom1": null,
+          "custom2": null,
+          "custom3": null,
+          "custom4": null,
+          "customFields": null
+        }
+      }
+    },
+    {
+      "id": "d2981eaee7fc4770950e283bc5bfda82",
+      "parentId": "77d49fcdbb1a437cad7af3abe8795d68",
+      "afterId": "9d83919f926b412cbca5ec1da0e6623a",
+      "formId": "e24d910fcfe643a59062230134daf284",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 2,
+      "path": null,
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": true,
+      "technicalName": "kontoinhaber",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": "customFields.moorl_fbs_name",
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "translations": {
+        "2fbb5fe2e29a4d70aa5854ce7ce3e20b": {
+          "name": "Kontoinhaber",
+          "content": null,
+          "prepend": null,
+          "append": null,
+          "placeholder": null,
+          "defaultValue": null,
+          "tooltip": null,
+          "custom1": null,
+          "custom2": null,
+          "custom3": null,
+          "custom4": null,
+          "customFields": null
+        }
+      }
+    },
+    {
+      "id": "f6134f036d064010b6edff9168aa075d",
+      "parentId": "77d49fcdbb1a437cad7af3abe8795d68",
+      "afterId": "d2981eaee7fc4770950e283bc5bfda82",
+      "formId": "e24d910fcfe643a59062230134daf284",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 2,
+      "path": null,
+      "type": "iban",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": true,
+      "technicalName": "iban",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": "customFields.moorl_fbs_iban",
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "translations": {
+        "2fbb5fe2e29a4d70aa5854ce7ce3e20b": {
+          "name": "IBAN",
+          "content": null,
+          "prepend": null,
+          "append": null,
+          "placeholder": null,
+          "defaultValue": null,
+          "tooltip": null,
+          "custom1": null,
+          "custom2": null,
+          "custom3": null,
+          "custom4": null,
+          "customFields": null
+        }
+      }
+    },
+    {
+      "id": "20fce1f94fd941ff83fccf174560aa11",
+      "parentId": "77d49fcdbb1a437cad7af3abe8795d68",
+      "afterId": "f6134f036d064010b6edff9168aa075d",
+      "formId": "e24d910fcfe643a59062230134daf284",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 2,
+      "path": null,
+      "type": "bic",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": true,
+      "technicalName": "bic",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": "customFields.moorl_fbs_bic",
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "translations": {
+        "2fbb5fe2e29a4d70aa5854ce7ce3e20b": {
+          "name": "BIC",
+          "content": null,
+          "prepend": null,
+          "append": null,
+          "placeholder": null,
+          "defaultValue": null,
+          "tooltip": null,
+          "custom1": null,
+          "custom2": null,
+          "custom3": null,
+          "custom4": null,
+          "customFields": null
+        }
+      }
+    },
+    {
+      "id": "6ebc7259a9d44968a2a82adfe2bc21cb",
+      "parentId": "77d49fcdbb1a437cad7af3abe8795d68",
+      "afterId": "20fce1f94fd941ff83fccf174560aa11",
+      "formId": "e24d910fcfe643a59062230134daf284",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 2,
+      "path": null,
+      "type": "form-submit",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": false,
+      "technicalName": "absenden",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "translations": {
+        "2fbb5fe2e29a4d70aa5854ce7ce3e20b": {
+          "name": "Absenden",
+          "content": null,
+          "prepend": null,
+          "append": null,
+          "placeholder": null,
+          "defaultValue": null,
+          "tooltip": null,
+          "custom1": null,
+          "custom2": null,
+          "custom3": null,
+          "custom4": null,
+          "customFields": null
+        }
+      }
+    },
+    {
+      "id": "0cf117304aa4433fbb071ce1e54c997f",
+      "parentId": "77d49fcdbb1a437cad7af3abe8795d68",
+      "afterId": "6ebc7259a9d44968a2a82adfe2bc21cb",
+      "formId": "e24d910fcfe643a59062230134daf284",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 2,
+      "path": null,
+      "type": "form-feedback",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": false,
+      "technicalName": "feedback",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "translations": {
+        "2fbb5fe2e29a4d70aa5854ce7ce3e20b": {
+          "name": "Feedback",
+          "content": null,
+          "prepend": null,
+          "append": null,
+          "placeholder": null,
+          "defaultValue": null,
+          "tooltip": null,
+          "custom1": null,
+          "custom2": null,
+          "custom3": null,
+          "custom4": null,
+          "customFields": null
+        }
+      }
+    },
+    {
+      "id": "0e8f8040560a4c8bad77f03b734d449d",
+      "parentId": "9d83919f926b412cbca5ec1da0e6623a",
+      "afterId": null,
+      "formId": "e24d910fcfe643a59062230134daf284",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 3,
+      "path": null,
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": false,
+      "technicalName": "privat",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "translations": {
+        "2fbb5fe2e29a4d70aa5854ce7ce3e20b": {
+          "name": "Privat",
+          "content": null,
+          "prepend": null,
+          "append": null,
+          "placeholder": null,
+          "defaultValue": null,
+          "tooltip": null,
+          "custom1": null,
+          "custom2": null,
+          "custom3": null,
+          "custom4": null,
+          "customFields": null
+        }
+      }
+    },
+    {
+      "id": "e1baf77f26d54afc9abe20166354d768",
+      "parentId": "9d83919f926b412cbca5ec1da0e6623a",
+      "afterId": "0e8f8040560a4c8bad77f03b734d449d",
+      "formId": "e24d910fcfe643a59062230134daf284",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 3,
+      "path": null,
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": false,
+      "technicalName": "praxis",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": [],
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "translations": {
+        "2fbb5fe2e29a4d70aa5854ce7ce3e20b": {
+          "name": "Praxis",
+          "content": null,
+          "prepend": null,
+          "append": null,
+          "placeholder": null,
+          "defaultValue": null,
+          "tooltip": null,
+          "custom1": null,
+          "custom2": null,
+          "custom3": null,
+          "custom4": null,
+          "customFields": null
+        }
+      }
+    }
+  ],
+  "translations": {
+    "2fbb5fe2e29a4d70aa5854ce7ce3e20b": {
+      "name": "SEPA Lastschriftmandat",
+      "successMessage": "well done!",
+      "errorMessage": "Something went wrong :(",
+      "custom1": null,
+      "custom2": null,
+      "storefrontTemplate": null
+    }
+  }
+}
