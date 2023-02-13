@@ -60,3 +60,28 @@ The following settings are possible here:
 Attention: As soon as you define a customer group or a sales channel. This category is
 inactive for all further definitions. Please create further definitions for the remaining sales channels
 or customer groups!
+
+## FAQ
+
+### How to exclude categories in the sitemap?
+
+In Shopware 6 there is only one static setting in `shopware.yaml` to remove categories or products from the sitemap.
+
+Example for `/src/Core/Framework/Resources/config/packages/shopware.yaml`:
+
+```YAML
+shopware:
+    sitemap:
+        batchsize: 100
+        custom_urls:
+        excluded_urls:
+           - resource: category
+             identifier: df1f52ccf3b3c5c6cf628c07d5a492ac
+             salesChannelId: b0035a82b2ce4b015bbe421e12ce0e2b
+           - resource: category
+             identifier: 92a4abd3842acdf321e5d2700f8879de
+             salesChannelId: b0035a82b2ce4b015bbe421e12ce0e2b
+           - resource: product
+             identifier: ce9aad668705fdfba00058d30e8c4af0
+             salesChannelId: b0035a82b2ce4b015bbe421e12ce0e2b
+```
