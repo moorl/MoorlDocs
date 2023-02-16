@@ -109,6 +109,8 @@ Servers based on NGINX require an additional configuration so that the test syst
 
 ### ALL-INKL.COM
 
+If no connection to the database is possible, please allow accessibility from everywhere!
+
 | Package | Supported | Notes |
 | ----------- | ----------- | ----------- |
 | ALL-INKL.COM - Private | NO | |

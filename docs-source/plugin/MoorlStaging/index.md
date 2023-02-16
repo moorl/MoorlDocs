@@ -109,6 +109,8 @@ Server auf NGINX-Basis benötigen eine zusätzliche Konfiguration damit das Test
 
 ### ALL-INKL.COM
 
+Sofern keine Verbindung zu der Datenbank möglich ist, bitte die Erreichbarkeit von überall erlauben!
+
 | Paket | Unterstützt | Hinweise |
 | ----------- | ----------- | ----------- |
 | ALL-INKL.COM - Privat | NEIN | |
