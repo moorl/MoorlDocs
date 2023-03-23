@@ -107,6 +107,12 @@ Here are the settings for the shared token from other apps.
 
 Settings for private shop mode.
 
+## Note about the setup at the provider
+
+In most cases, the "Redirect URL" must be whitelisted. This URL is for example:
+
+**https://myshop.de/moorl/sign-in/login**
+
 ## View in the storefront
 
 Some buttons and icons are already available for the matching provider.

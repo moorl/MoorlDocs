@@ -107,6 +107,12 @@ Hier sind die Einstellungen für den geteilten Token aus anderen Apps.
 
 Einstellungen für den privaten Shop Modus.
 
+## Hinweis zu der Einrichtung beim Provider
+
+In den meisten Fällen muss die "Redirect URL" auf eine Whiteliste gesetzt werden. Diese URL lautet z.B.:
+
+**https://meinshop.de/moorl/sign-in/login**
+
 ## Ansicht im Storefront
 
 Einige Buttons und Icons stehen bereits für den passenden Provider zur Verfügung.
