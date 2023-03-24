@@ -145,6 +145,9 @@ Es wurde eine schlechte Performance beim Klonen der Datenbank beobachtet. Trotzd
 
 ### Mittwald
 
-In den Plugin Einstellungen Hosting Kompatibilitätsmodus auf Mittwald stellen. 
+Dieser Provider bietet leider nicht die technische Basis, es fehlen diverse Optionen.
 
-In den Einstellungen des Mittwald-Hostings muss SSH verfügbar sein und die Binary "rsync" aktiviert werden!
+- Binary "rsync" ist nicht aktiviert
+- PHP shell_exec() hat keine Berechtigung zum Ausführen von Binaries, welche in das Dateisystem schreiben, z.B. mysqldump
+- PHP SSH Extension muss aktiviert werden, aber man kann nur den SSH root user nutzen, um Binaries auszuführen
+- SSH Operationen werden nicht synchron ausgeführt, es wird nicht gewartet bis eine Operation ausgeführt wurde, stattdessen startet die nächste und verursacht Fehler

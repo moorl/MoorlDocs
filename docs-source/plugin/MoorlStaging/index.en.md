@@ -145,6 +145,9 @@ Poor performance was observed when cloning the database. Nevertheless, staging s
 
 ### Mittwald
 
-In the plugin settings, set Hosting compatibility mode to Mittwald.
+Unfortunately, this provider does not offer the technical basis, various options are missing.
 
-SSH must be available in the Mittwald hosting settings and the binary "rsync" must be activated!
+- Binary "rsync" is not enabled
+- PHP shell_exec() has no permission to execute binaries which write to the file system, e.g. mysqldump
+- PHP SSH extension must be enabled, but you can only use the SSH root user to execute binaries
+- SSH operations are not executed synchronously, it does not wait until one operation is executed, instead the next one starts and causes errors
