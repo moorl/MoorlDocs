@@ -29,7 +29,7 @@ _Hinweis: Falls du Probleme mit dem Plugin hast, bitte beachte
 folgende  [Hinweise](../) im FAQ Bereich._
 
 1.  Installiere [Foundation](../MoorlFoundation/index.md)
-2.  Optional: In dieser App ist ein [Demo Paket](../MoorlFoundation/demo-assistant.md) enthalten.
+2.  Optional: In dieser App ist ein [Demopaket](../MoorlFoundation/demo-assistant.md) enthalten.
 
 ## Einstellungen
 

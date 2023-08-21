@@ -22,7 +22,7 @@ folgende  [Hinweise](../) im FAQ Bereich._
     [Öffentliche Profile](../MoorlCreator/index.md)
 
 3.  Optional: In dieser App ist ein
-    [Demo Paket](../MoorlFoundation/demo-assistant.md)
+    [Demopaket](../MoorlFoundation/demo-assistant.md)
     Enthalten.
 
 ## Einstellungen

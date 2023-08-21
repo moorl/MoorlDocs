@@ -34,7 +34,7 @@ Auch die Anzeige der Verfügbarkeit kann in den Plugin Einstellungen bestimmt we
 
 1. Installiere [Foundation](../MoorlFoundation/index.md)
 2. Installiere Produkt Add-Ons & Zubehör
-3. Optional: In dieser App ist ein [Demo Paket](../MoorlFoundation/demo-assistant.md) enthalten.
+3. Optional: In dieser App ist ein [Demopaket](../MoorlFoundation/demo-assistant.md) enthalten.
 
 ## Konfiguration
 

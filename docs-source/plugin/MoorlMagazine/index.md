@@ -33,7 +33,7 @@ Der WordPress Import sorgt für eine problemlose Migration von Blog-Beiträgen a
 1. Installiere [Foundation](../MoorlFoundation/index.md)
 2. Installiere [Öffentliche Profile](../MoorlCreator/index.md)
 3. Installiere das Magazine Add-On
-4. Optional: In dieser App ist ein [Demo Paket](../MoorlFoundation/demo-assistant.md) enthalten.
+4. Optional: In dieser App ist ein [Demopaket](../MoorlFoundation/demo-assistant.md) enthalten.
 5. Gehe zu: Inhalte | Magazin
 
 ![](images/mm-01.jpg)

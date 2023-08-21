@@ -3,7 +3,7 @@ verfügbar ab Shopware 6.4
 
 ### Demo Daten einfach installieren
 
-Die zukünftigen moori Apps enthalten ab sofort Demo Pakete die Du einfach 
+Die zukünftigen moori Apps enthalten ab sofort Demopakete die Du einfach 
 per Klick installieren kannst!
 
 ### Wie geht das?

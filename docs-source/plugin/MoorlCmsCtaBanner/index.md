@@ -19,7 +19,7 @@ ist die perfekte Ergänzung._
     [Foundation](../MoorlFoundation/index.md)
 
 2.  Optional: In dieser App ist ein
-    [Demo Paket](../MoorlFoundation/demo-assistant.md)
+    [Demopaket](../MoorlFoundation/demo-assistant.md)
     Enthalten.
     
 Nun kannst du das Element in deinen CMS Seiten nutzen.

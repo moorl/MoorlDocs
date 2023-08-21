@@ -133,7 +133,7 @@ Für B2B Shops können Sektionen für Verkaufskanäle oder Kundengruppen eingesc
 
 ### Beispiele
 
-Installiere das [Demo Paket](../MoorlFoundation/demo-assistant.md) um die Beispiele zu sehen.
+Installiere das [Demopaket](../MoorlFoundation/demo-assistant.md) um die Beispiele zu sehen.
 
 ![](images/mfu-16.jpg)
 

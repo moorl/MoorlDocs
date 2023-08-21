@@ -9,7 +9,7 @@ passenden Produkte vorgeschlagen.
 ![](images/storefront-01.jpg)
 
 Mit dieses Plugin erhältst Du auch wieder ein fertiges Demopaket.
-Du kannst dieses Demo Paket über "Einstellungen | Plugins | Demo Assistent" finden
+Du kannst dieses Demopaket über "Einstellungen | Plugins | Demo Assistent" finden
 und Installieren.
 
 ## Installation
@@ -18,7 +18,7 @@ und Installieren.
     [Foundation](../MoorlFoundation/index.md)
 
 2.  Optional: In dieser App ist ein
-    [Demo Paket](../MoorlFoundation/demo-assistant.md)
+    [Demopaket](../MoorlFoundation/demo-assistant.md)
     Enthalten.
 
 Du gelangst über den Menüpunkt "Kataloge | Produkt Berater" zur App.
