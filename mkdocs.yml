@@ -96,6 +96,7 @@ nav:
       - 'plugin/index.md'
       - 'plugin/MoorlFoundation/index.md'
       - 'plugin/MoorlFoundation/demo-assistant.md'
+      - 'plugin/MoorlFoundation/client.md'
       - 'plugin/MoorlFoundation/listing.md'
       - 'plugin/MoorlFoundation/advanced-search.md'
       - 'plugin/MoorlFoundation/features-free.md'
