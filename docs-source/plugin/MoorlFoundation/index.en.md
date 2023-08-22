@@ -7,6 +7,14 @@ Unless otherwise stated, moori Foundation is used in the following plugins
 - Plugins by [Appflix](https://store.shopware.com/appflix-ug.html)
 - Plugins by [moori](https://store.shopware.com/moori.html)
 
+## Reload missing services
+
+Some services require composer packages, you can execute the following commands in the main directory of your Shopware 6 shop:
+
+```text
+composer require deeplcom/deepl-php
+```
+
 ## What is Foundation used for?
 
 The portfolio of Appflix and moori contains about 100 Shopware 6 plugins. Thereby recurring problems often occur.

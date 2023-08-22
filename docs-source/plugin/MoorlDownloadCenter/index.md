@@ -39,6 +39,15 @@ https://store.shopware.com/frosh11030048018f/webdav.html
 4. Wenn du kein Demopaket installiert hast, musst du zunächst einen [Client](../MoorlFoundation/client.md) erstellen.
 5. Die Verwaltung deiner Downloads findest du nun unter: Inhalte / Download Center (DLC)
 
+## Fehlende Dienste nachladen
+
+Einige Dienste benötigen composer Pakete, folgende Befehle kannst du im Hauptverzeichnis deines Shopware 6 Shops ausführen:
+
+```text
+composer require league/ftp
+composer require league/flysystem-webdav
+```
+
 ## Übersicht
 
 In der Übersicht findest du eine Zusammenfassung aller Downloads. In diesem Beispiel ist das Demopaket bereits installiert.
@@ -161,7 +170,7 @@ Ein Produkt mit öffentlichen Downloads, wie z.B. Bedienungsanleitungen.
 
 #### Warenkorb
 
-In diesem Beispiel kaufe ich ein Gratis ESD Produkt, ein Produkt mit Codes un ein kostenpflichtiges ESD Produkt.
+In diesem Beispiel kaufe ich ein gratis ESD Produkt, ein Produkt mit Codes un ein kostenpflichtiges ESD Produkt.
 
 ![](images/dlc-24.jpg)
 
@@ -175,7 +184,7 @@ Neben der Bestellübersicht erscheint eine neue Seite im Kundenbereich mit den s
 
 1. Das ist das gratis ESD Produkt und sofort freigeschaltet, die Freischaltung ist jedoch auf ein Datum limitiert.
 2. Ein kostenpflichtiges ESD Produkt muss erst den Status "bezahlt" erreichen.
-3. Informationen über Staus und Inhalt der Subscription.
+3. Informationen über Status und Inhalt der Subscription.
 
 Jetzt setze ich im Admin den Zahlungsstatus auf "bezahlt" und prüfe erneut meine Subscriptions.
 
