@@ -44,7 +44,7 @@ https://store.shopware.com/frosh11030048018f/webdav.html
 Einige Dienste benötigen composer Pakete, folgende Befehle kannst du im Hauptverzeichnis deines Shopware 6 Shops ausführen:
 
 ```text
-composer require league/ftp
+composer require league/flysystem-ftp
 composer require league/flysystem-webdav
 ```
 
