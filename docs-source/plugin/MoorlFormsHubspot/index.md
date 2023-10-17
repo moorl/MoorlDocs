@@ -33,7 +33,7 @@ Du kannst relativ einfach einen Hubspot Account erstellen. Nutze dazu z.B. deine
 - Erstelle ein neues Formular vom Typ "Eingebettet", du kannst zum Testen die Vorlage für Kontaktformulare verwenden
 - Speichere das Formular, ohne Änderungen durchzuführen
 
-Mit diesem Formular werden bereit automatisch in Hubspot Kontakte angelegt, sobald es ausgefüllt und abgesendet wird.
+Mit diesem Formular werden bereits automatisch in Hubspot Kontakte angelegt, sobald es ausgefüllt und abgesendet wird.
 
 ### Hubspot Formular mit Formular Baukasten 2 Formular verbinden
 
