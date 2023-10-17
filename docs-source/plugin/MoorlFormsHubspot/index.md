@@ -25,7 +25,7 @@ Du kannst relativ einfach einen Hubspot Account erstellen. Nutze dazu z.B. deine
 - Die Portal-ID findest du im Account-Menü von Hubspot unter deinem Benutzernamen
 - Teste den Client
 
-![](images/hs-01.jpg)
+![](images/hs-001.jpg)
 
 ### Erstelle ein Formular in Hubspot
 
@@ -48,16 +48,16 @@ Mit diesem Formular werden bereit automatisch in Hubspot Kontakte angelegt, soba
 - Ordne noch die Felder: Vorname, Nachname und Nachricht zu
 - Speichere das Formular
 
-![](images/hs-02.jpg)
+![](images/hs-002.jpg)
 
-![](images/hs-03.jpg)
+![](images/hs-003.jpg)
 
-![](images/hs-04.jpg)
+![](images/hs-004.jpg)
 
-![](images/hs-05.jpg)
+![](images/hs-005.jpg)
 
 ## Test
 
 Nachdem du das Formular abschickst, solltest du eine Mail von Hubspot erhalten.
 
-![](images/hs-06.jpg)
+![](images/hs-006.jpg)

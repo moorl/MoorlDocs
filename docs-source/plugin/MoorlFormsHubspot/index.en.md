@@ -25,7 +25,7 @@ You can create a Hubspot account relatively easily. For example, use your Google
 - You will find the portal ID in the account menu of Hubspot under your username.
 - Test the client
 
-![](images/hs-01.jpg)
+![](images/hs-001.jpg)
 
 ### Create a form in Hubspot
 
@@ -48,16 +48,16 @@ With this form, contacts are automatically created in Hubspot as soon as it is f
 - Assign the fields: First name, last name and message
 - Save the form
 
-![](images/hs-02.jpg)
+![](images/hs-002.jpg)
 
-![](images/hs-03.jpg)
+![](images/hs-003.jpg)
 
-![](images/hs-04.jpg)
+![](images/hs-004.jpg)
 
-![](images/hs-05.jpg)
+![](images/hs-005.jpg)
 
 ## Test
 
 After submitting the form, you should receive an email from Hubspot.
 
-![](images/hs-06.jpg)
+![](images/hs-006.jpg)
