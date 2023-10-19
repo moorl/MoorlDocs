@@ -1,72 +1,72 @@
-# Formular Baukasten 2 | Mautic Add-On
+# Form Builder 2 | Mautic Add-On
 
-Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) Kannst du deine Formular-Daten an Mautic senden.
+With this Add-On for [Form Builder 2](../MoorlForms/index.md) you can send your form data to Mautic.
 
-## Was ist Mautic?
+## What is Mautic?
 
-Mautic ist eine Open-Source-Software für die Marketing-Automation. Mit Mautic lassen sich Website-Besucher tracken und mithilfe von Formularen in identifizierte Kontakte wandeln.
+Mautic is an open source marketing automation software. With Mautic, website visitors can be tracked and converted into identified contacts using forms.
 
-## Einrichtung
+## Setup
 
-Diese Anleitung bezieht sich auf Mautic Version 4 und setzt voraus, dass diese Software bereits installiert wurde.
+These instructions refer to Mautic version 4 and assume that this software has already been installed.
 
-### Mautic API aktivieren
+### Activate Mautic API
 
-- Klicke oben rechts auf das Zahnrad
-- Es öffnet sich auf der rechten Seite eine Navigation, klicke auf "Configuration"
-- Klicke in der linken Navigation auf "API Settings"
-- Aktivere die API und "HTTP basic auth"
+- Click on the cogwheel in the top right corner
+- A navigation will open on the right side, click on "Configuration".
+- Click on "API Settings" in the navigation on the left side
+- Activate the API and "HTTP basic auth".
 
-Mit dieser methode kannst du dich mit deinem Benutzernamen und deinem Passwort mit der API verbinden. Ich empfehle für diesen Fall einen weiteren Admin anzulegen, der nur für die API bestimmt ist.
+With this method you can connect to the API with your username and password. I recommend to create another admin for this case, which is only for the API.
 
 ![](images/mautic-001.jpg)
 
-### Einen Mautic client in Shopware anlegen
+### Create a Mautic client in Shopware
 
-- Navigiere zu "Einstellungen" -> "Erweiterungen" -> "moori Clients"
-- Erstelle einen neuen Client vom Typ "mautic"
-- Gebe die URL, Benutzernamen und Passwort ein, hinter der URL darf kein "/" stehen
-- Teste den Client
+- Navigate to "Settings" -> "Extensions" -> "moori Clients".
+- Create a new client of type "mautic
+- Enter the URL, username and password, there must not be a "/" after the URL.
+- Test the client
 
 ![](images/mautic-002.jpg)
 
-### Erstelle ein Formular in Hubspot
+### Create a form in Mautic
 
-- Navigiere vom Hauptmenü in Mautic zu "Components" -> "Forms"
-- Erstelle ein neues Formular vom Typ "Campaign Form"
-- Gebe die Basisdaten ein und erstelle die Eingabefelder
-- z.B. E-Mail, Vorname und Nachname
-- Bei den Eingabefeldern kannst du im Reiter "Contact Field" eine Zuweisung machen z.B. "Email"
+- Navigate from the main menu in Mautic to "Components" -> "Forms".
+- Create a new form of the type "Campaign Form
+- Enter the basic data and create the input fields
+- e.g. e-mail, first name and last name
+- For the input fields you can make an assignment in the tab "Contact Field", e.g. "Email".
 
-Mit diesem Formular werden bereits automatisch in Mautic Kontakte angelegt, sobald es ausgefüllt und abgesendet wird.
+With this form, contacts are automatically created in Mautic as soon as it is filled in and sent.
 
 ![](images/mautic-003.jpg)
 
-### Mautic Formular mit Formular Baukasten 2 Formular verbinden
+### Connect Mautic form with form builder 2 form
 
-- Öffne dein Formular im Shopware Admin
-- In den Basis-Einstellungen des Formulars wählst du bei "Formular Aktionen" die Option "Sende an Mautic Formular" aus
-- Wähle deinen Mautic Client aus
-- Wähle dein in Mautic erstelltes Formular aus
-- Nun erscheint eine Info-Box welche Felder in dem Mautic Formular verfügbar sind
-- Speichere das Formular
-- Gehe nun in die Element-Einstellungen, z.B. das E-Mail Feld
-- Hier kannst du das passende Feld aus dem Mautic Formular zuordnen
-- Ordne noch deine weiteren Felder zu
-- Speichere das Formular
+- Open your form in the Shopware Admin
+- In the basic settings of the form, select the option "Send to Mautic form" under "Form Actions
+- Select your Mautic client
+- Select the form you created in Mautic
+- Now an info-box will appear which fields are available in the Mautic form.
+- Save the form
+- Now go to the element settings, e.g. the email field
+- Here you can assign the appropriate field from the Mautic form.
+- Assign your other fields
+- Save the form
 
-![](images/hs-004.jpg)
+![](images/mautic-004.jpg)
 
-![](images/hs-005.jpg)
+![](images/mautic-005.jpg)
 
-![](images/hs-004.jpg)
+![](images/mautic-004.jpg)
 
-![](images/hs-005.jpg)
+![](images/mautic-005.jpg)
 
-![](images/hs-006.jpg)
+![](images/mautic-006.jpg)
 
 ## Test
 
-Nachdem du das Formular abschickst, solltest du eine Mail von Mautic erhalten und es wird ein neuer Kontakt angelegt.
+After you submit the form, you should receive a mail from Mautic and a new contact will be created.
 
-![](images/hs-007.jpg)
+![](images/mautic-007.jpg)

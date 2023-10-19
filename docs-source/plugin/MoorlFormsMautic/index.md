@@ -55,18 +55,18 @@ Mit diesem Formular werden bereits automatisch in Mautic Kontakte angelegt, soba
 - Ordne noch deine weiteren Felder zu
 - Speichere das Formular
 
-![](images/hs-004.jpg)
+![](images/mautic-004.jpg)
 
-![](images/hs-005.jpg)
+![](images/mautic-005.jpg)
 
-![](images/hs-004.jpg)
+![](images/mautic-004.jpg)
 
-![](images/hs-005.jpg)
+![](images/mautic-005.jpg)
 
-![](images/hs-006.jpg)
+![](images/mautic-006.jpg)
 
 ## Test
 
 Nachdem du das Formular abschickst, solltest du eine Mail von Mautic erhalten und es wird ein neuer Kontakt angelegt.
 
-![](images/hs-007.jpg)
+![](images/mautic-007.jpg)
