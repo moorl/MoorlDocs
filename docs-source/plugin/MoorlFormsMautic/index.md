@@ -30,7 +30,7 @@ Mit dieser methode kannst du dich mit deinem Benutzernamen und deinem Passwort m
 
 ![](images/mautic-002.jpg)
 
-### Erstelle ein Formular in Hubspot
+### Erstelle ein Formular in Mautic
 
 - Navigiere vom Hauptmenü in Mautic zu "Components" -> "Forms"
 - Erstelle ein neues Formular vom Typ "Campaign Form"
