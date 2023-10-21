@@ -1,10 +1,10 @@
-# Formular Baukasten 2 | Hubspot Add-On
+# Hubspot Formulare Integration
 
-Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) Kannst du deine Formular-Daten an Hubspot senden.
+Diese Erweiterung ist mit [Formular Baukasten 2](../MoorlForms/index.md) kompatibel
 
 ## Einrichtung
 
-Dieses Plugin eignet sich gut für Shopbetreiber, die bereits mit Hubspot arbeiten. Es können z.B. automatisch Kontakte oder Tickets angelegt werden, sobald ein Kontaktformular im Shopware 6 Shop abgesendet wurde.
+Diese Erweiterung eignet sich gut für Shopbetreiber, die bereits mit Hubspot arbeiten. Es können z.B. automatisch Kontakte oder Tickets angelegt werden, sobald ein Kontaktformular im Shopware 6 Shop abgesendet wurde.
 
 ### Hubspot Account erstellen
 
@@ -34,6 +34,23 @@ Du kannst relativ einfach einen Hubspot Account erstellen. Nutze dazu z.B. deine
 - Speichere das Formular, ohne Änderungen durchzuführen
 
 Mit diesem Formular werden bereits automatisch in Hubspot Kontakte angelegt, sobald es ausgefüllt und abgesendet wird.
+
+### Hubspot Formular mit Flow-Builder verbinden
+
+- Navigiere zum Flow-Builder und öffne z.B. "Kontaktformular wurde verschickt"
+- Gehe in den Reiter "Flow"
+- Füge die Aktion "An Hubspot-Formular senden" hinzu
+- Wähle deinen Hubspot Client aus
+- Wähle dein in Hubspot erstelltes Formular aus
+- Erstelle die Datenzuordnungen, in unserem Beispiel kann man die Platzhalter für "Flow mit Kontakt" verwenden
+
+Wenn der Flow aufgrund von falschen Platzhaltern nicht ausgeführt wird, gibt es keine Fehlermeldung. Bitte überprüfe deine Einstellungen sorgfältig!
+
+![](images/hs-007.jpg)
+
+![](images/hs-008.jpg)
+
+![](images/hs-009.jpg)
 
 ### Hubspot Formular mit Formular Baukasten 2 Formular verbinden
 

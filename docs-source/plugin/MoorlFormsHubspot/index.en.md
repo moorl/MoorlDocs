@@ -1,6 +1,6 @@
-# Form Builder 2 | Hubspot Add-On
+# Hubspot Forms Integration
 
-With this add-on for [Form Construction Kit 2](../MoorlForms/index.md) you can send your form data to Hubspot.
+This extension is compatible with [Form Construction Kit 2](../MoorlForms/index.md)!
 
 ## Setup
 
@@ -19,7 +19,7 @@ You can create a Hubspot account relatively easily. For example, use your Google
 
 ### Create a Hubspot client in Shopware
 
-- Navigate to "Settings" -> "Extensions" -> "moori Clients
+- Navigate to "Settings" -> "Extensions" -> "moori Clients"
 - Create a new client of type "hubspot
 - Enter the token of your private Hubspot app
 - You will find the portal ID in the account menu of Hubspot under your username.
@@ -34,6 +34,23 @@ You can create a Hubspot account relatively easily. For example, use your Google
 - Save the form without making any changes
 
 With this form, contacts are automatically created in Hubspot as soon as it is filled in and submitted.
+
+### Connect Hubspot form with flow builder
+
+- Navigate to the flow builder and open e.g. "Contact form has been sent".
+- Go to the "Flow" tab
+- Add the action "Send to Hubspot form".
+- Select your Hubspot client
+- Select your form created in Hubspot
+- Create the data mappings, in our example you can use the placeholders for "Flow with contact".
+
+If the flow does not run due to incorrect placeholders, there will be no error message. Please check your settings carefully!
+
+![](images/hs-007.jpg)
+
+![](images/hs-008.jpg)
+
+![](images/hs-009.jpg)
 
 ### Connect Hubspot form with Form Builder 2 form
 
