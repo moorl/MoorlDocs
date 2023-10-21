@@ -2,9 +2,19 @@
 
 This extension is compatible with [Form Construction Kit 2](../MoorlForms/index.md)!
 
+## Installation
+
+!!! note
+
+    If you have any problems with the plugin, please note the following [notes](../) in the FAQ section.
+
+1. install
+   [Foundation](../MoorlFoundation/index.md)
+2. install Hubspot Forms Integration in the Plugin Manager
+
 ## Setup
 
-This plugin is well suited for shop operators who already work with Hubspot. For example, contacts or tickets can be created automatically as soon as a contact form is submitted in the Shopware 6 shop.
+This extension is well suited for shop operators who already work with Hubspot. For example, contacts or tickets can be created automatically as soon as a contact form is submitted in the Shopware 6 shop.
 
 ### Create a Hubspot account
 

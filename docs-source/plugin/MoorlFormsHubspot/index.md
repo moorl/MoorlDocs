@@ -2,6 +2,16 @@
 
 Diese Erweiterung ist mit [Formular Baukasten 2](../MoorlForms/index.md) kompatibel
 
+## Installation
+
+!!! note
+
+      Falls du Probleme mit dem Plugin hast, bitte beachte folgende [Hinweise](../) im FAQ Bereich.
+
+1. Installiere
+   [Foundation](../MoorlFoundation/index.md)
+2. Installiere Hubspot Formulare Integration im Plugin Manager
+
 ## Einrichtung
 
 Diese Erweiterung eignet sich gut für Shopbetreiber, die bereits mit Hubspot arbeiten. Es können z.B. automatisch Kontakte oder Tickets angelegt werden, sobald ein Kontaktformular im Shopware 6 Shop abgesendet wurde.
