@@ -73,6 +73,20 @@ Meistens findest du im Änderungsprotokoll des Plugins notwendige Hinweise zur L
 
 2. Anderes Problem: Setze das Plugin zurück: Einmal deaktivieren und wieder aktivieren.
 
+#### Fehlermeldungen und wie sie behoben werden können
+
+!!! note
+
+    Table: custom_field_set Entry already exists [{"id":"98caa393862baa83506fabb17618d81b","name":"moorl_video"...
+
+Bitte notiere dir den Namen des Eintrags in der Datenbank. In diesem Fall ist es "moorl_video". Dieser Fehler kann nur einen Query direkt in der Datenbank behoben werden. Hier ein Beispiel für "moorl_video":
+
+```text
+DELETE FROM `custom_field_set` WHERE `name` = 'moorl_video'; 
+```
+
+Anschließend kannst du das Plugin wieder aktiveren.
+
 #### Andere Ursachen
 
 Lässt sich das Plugin aus irgendeinem Grund nicht starten, dann check zunächst, ob du die aktuelle Shopware Version hast und auch ob das Plugin aktuell ist.
