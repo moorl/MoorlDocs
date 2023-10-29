@@ -11,6 +11,8 @@ tags:
 
 # Login mit Facebook, Google, Keycloak... | OAuth 2.0
 
+[Wichtige Hinweise zu der neuen Version](new-version.md)
+
 Mit diesem Login Plugin kannst du deine Kunden via OAuth 2.0 in deinem Shop anmelden lassen. Viele bekannte Anbieter wie z.B. Facebook, Google usw. werden unterstützt.
 
 ## Wofür ist dieses Plugin gut?
@@ -41,7 +43,7 @@ Daten, die nicht zur Verfügung gestellt wurden, können nachträglich durch dei
 
 Wiederkehrende Kunden können den Login via XXX verwenden...
 
-!!! note "Hinweis zu der E-Mail Adresse"
+!!! note "Hinweis zu der E-Mail-Adresse"
 
     Man kann aktuell auch Facebook Konten ohne E-Mail Adresse anlegen. Diese Konten werden durch das Plugin nicht akzeptiert.
 
@@ -107,11 +109,15 @@ Hier sind die Einstellungen für den geteilten Token aus anderen Apps.
 
 Einstellungen für den privaten Shop Modus.
 
+
+
 ## Hinweis zu der Einrichtung beim Provider
 
 In den meisten Fällen muss die "Redirect URL" auf eine Whiteliste gesetzt werden. Diese URL lautet z.B.:
 
-**https://meinshop.de/moorl/sign-in/login**
+Version 2: **https://meinshop.de/moorl/sign-in/login**
+
+Version 3: **https://meinshop.de/moorl/sign-in/login-v2**
 
 ## Ansicht im Storefront
 

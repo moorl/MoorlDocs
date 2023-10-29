@@ -11,6 +11,8 @@ tags:
 
 # Login with Facebook, Google, Keycloak... | OAuth 2.0
 
+[Important notes about the new version](new-version.md)
+
 With this login plugin you can let your customers log in to your shop via OAuth 2.0. Many well-known providers such as Facebook, Google etc. are supported.
 
 ## What is this plugin good for?
