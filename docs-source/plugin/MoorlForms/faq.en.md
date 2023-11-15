@@ -45,14 +45,13 @@ The plugin offers a basis for Shopware 6 and can be extended as desired with the
 
 Details on the areas of application can be found in the respective documentation!
 
-- [Form Builder 2](../MoorlForms/index.md): Basic Plugin
-- [Classic Add-On](../MoorlFormsClassic/index.md): Contains all functions of the [Form Builder](../MoorlFormBuilder/index.md).
-- [Exit-Intent-Popups Add-On](../MoorlFormsPopup/index.md): Use forms as popup
-- [Slides Add-On](../MoorlFormsSlides/index.md): Use slides
-- [Customer-Forms Add-On](../MoorlFormsCustomer/index.md): Customised forms for registration and customer area
-- [Product-Configurator Add-On](../MoorlFormsCustomProducts/index.md): Additional information on products incl. price calculation
-- Order Add-On**: Additional order details incl. price calculation on the shopping basket
-- [Product-Request Add-On](../MoorlFormsProduct/index.md): Product-specific enquiry forms
+1. [Classic Add-On](../MoorlFormsClassic/index.md): Contains all functions of the [Form Builder](../MoorlFormBuilder/index.md).
+2. [Exit-Intent-Popups Add-On](../MoorlFormsPopup/index.md): Use forms as popup
+3. [Slides Add-On](../MoorlFormsSlides/index.md): Use slides
+4. [Customer-Forms Add-On](../MoorlFormsCustomer/index.md): Customised forms for registration and customer area
+5. [Product-Configurator Add-On](../MoorlFormsCustomProducts/index.md): Additional information on products incl. price calculation
+6. [Order Add-On](../MoorlFormsOrder/index.md): Additional order details (incl. price calculation on the shopping cart)
+7. [Product-Request Add-On](../MoorlFormsProduct/index.md): Product-specific enquiry forms
 
 ## How do I create a new CMS form in Shopware 6?
 

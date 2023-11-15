@@ -45,14 +45,13 @@ Das Plugin bietet eine Basis für Shopware 6 und ist durch die Add-Ons beliebig 
 
 Details zu den Anwendungsbereichen findest du in der jeweiligen Dokumentation!
 
-- [Formular Baukasten 2](../MoorlForms/index.md): Basis Plugin
-- [Classic Add-On](../MoorlFormsClassic/index.md): Beinhaltet alle Funktionen des [Formular Baukastens](../MoorlFormBuilder/index.md)
-- [Exit-Intent-Popups Add-On](../MoorlFormsPopup/index.md): Nutze Formulare als Popup
-- [Slides Add-On](../MoorlFormsSlides/index.md): Nutze Slides
-- [Kunden-Formulare Add-On](../MoorlFormsCustomer/index.md): Kundenspezifische Formulare für Registrierung und Kundenbereich
-- [Produkt-Konfigurator Add-On](../MoorlFormsCustomProducts/index.md): Zusätzliche Angaben zu Produkten inkl. Preiskalkulation
-- Order Add-On**: Zusätzliche Angaben zur Bestellung inkl. Preiskalkulation auf den Warenkorb
-- [Produkt-Anfrage Add-On](../MoorlFormsProduct/index.md): Produktspezifische Anfrage-Formulare
+1. [Classic Add-On](../MoorlFormsClassic/index.md): Beinhaltet alle Funktionen von [Formular Baukasten](../MoorlFormBuilder/index.md)
+2. [Exit-Intent-Popups Add-On](../MoorlFormsPopup/index.md): Nutze Formulare als Popup
+3. [Slides Add-On](../MoorlFormsSlides/index.md): Nutze Slides
+4. [Kunden-Formulare Add-On](../MoorlFormsCustomer/index.md): Kundenspezifische Formulare für Registrierung und Kundenbereich
+5. [Produkt-Konfigurator Add-On](../MoorlFormsCustomProducts/index.md): Zusätzliche Angaben zu Produkten inkl. Preiskalkulation
+6. [Bestellung Add-On](../MoorlFormsOrder/index.md): Zusätzliche Angaben zur Bestellung (inkl. Preiskalkulation auf den Warenkorb)
+7. [Produkt-Anfrage Add-On](../MoorlFormsProduct/index.md): Produktspezifische Anfrage-Formulare
 
 ## Wie erstelle ich ein neues CMS Formular in Shopware 6?
 
