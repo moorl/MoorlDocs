@@ -98,6 +98,17 @@ These can also be started with three different triggers:
 2. element is completely visible
 3. mouse is over the element
 
+## Admin helper
+
+### Mass assignment of CMS pages for categories
+
+![](images/free-features-adopt-cms-pages.jpg)
+
+1. assign the current CMS page to all subordinate categories
+2. assign the current CMS page to all categories in the same level
+
+To prevent accidental clicking, the actions must be confirmed again!
+
 ## Premium Features
 
 To tap the full potential of moori Foundation, I offer you a wide range of additional features at an affordable price!

@@ -66,6 +66,26 @@ Gehe dazu in den Reiter "Stylesheet" und füge entsprechend die gewünschten Kla
 
 ![](images/how-to-09.jpg)
 
+## Twig und Kontext Variablen als Standardwert verwenden
+
+**Basis Version**
+
+Wenn der Kunde zum Beispiel eine Produktanfrage stellen möchte, erleichtert es ein wenig Arbeit, wenn die Produktnummer im Formular bereits ausgefüllt ist. Viel besser ist es, wenn ein bereits eingeloggter Kunde seine persönlichen Daten nicht erneut im Formular ausfüllen muss.
+
+Dazu kannst du im Feld "Standardwert" einfach eine Twig-Variable einfügen.
+
+Folgende Beispiel Variablen könntest du verwenden
+```html
+{{ context.customer.email }}
+{{ page.product.productNumber }}
+```
+
+![](images/form-builder-use-twig-variable-as-default-value.jpg)
+
+!!! note
+
+    Alle Variablen die den Begriff "context" enthalten, sind meistens persönliche Kundendaten. Das Plugin lädt diese Variablen asynchron nach, alle anderen Variablen werden im HTTP-Cache gespeichert.
+
 ## Produkt Anfragen nur für Produkte, die nicht lagernd sind
 
 **Produkt-Anfrage Add-On**

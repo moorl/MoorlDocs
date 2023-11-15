@@ -66,6 +66,26 @@ To do this, go to the "Stylesheet" tab and insert the desired classes accordingl
 
 ![](images/how-to-09.jpg)
 
+## Use Twig and context variables as default value
+
+**Basic version**
+
+If the customer wants to make a product enquiry, for example, it makes things a little easier if the product number is already filled in on the form. It is much better if a customer who is already logged in does not have to fill in their personal data again in the form.
+
+To do this, you can simply insert a Twig variable in the "Default value" field.
+
+You could use the following example variables
+```html
+{{ context.customer.email }}
+{{ page.product.productNumber }}
+```
+
+![](images/form-builder-use-twig-variable-as-default-value.jpg)
+
+!!! note
+
+    All variables containing the term "context" are usually personal customer data. The plugin loads these variables asynchronously, all other variables are saved in the HTTP cache.
+
 ## Product requests only for products that are not in stock
 
 **Product Request Add-On**

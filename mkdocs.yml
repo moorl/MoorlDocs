@@ -44,7 +44,8 @@ plugins:
       nav_translations:
         en:
           Blog: Blog
-          Plugin Dokumentation: Plugin Documentation
+          moori Plugin Dokumentation: moori Plugin Documentation
+          Appflix Plugin Dokumentation: Appflix Plugin Documentation
           plugin/MoorlCms: Shopping worlds CMS Apps
           plugin/MoorlFormBuilder: Form Builder
           Extensions: Extensions
@@ -88,11 +89,7 @@ extra_javascript:
   - extra.js
 nav:
   - Home: index.md
-  - Blog:
-      - 'blog/index.md'
-      - 2022:
-          - 'blog/2022/form-builder-2.md'
-  - Plugin Dokumentation:
+  - moori Plugin Dokumentation:
       - 'plugin/index.md'
       - 'plugin/MoorlFoundation/index.md'
       - 'plugin/MoorlFoundation/demo-assistant.md'
@@ -156,6 +153,12 @@ nav:
       - 'plugin/MoorlProductConsultant/index.md'
       - 'plugin/MoorlProductPromo/index.md'
       - 'plugin/MoorlProductVideo/index.md'
+  - Appflix Plugin Dokumentation:
+      - 'appflix/index.md'
+      - 'appflix/AppflixDewaShop/index.md'
+      - 'appflix/AppflixStudygood/index.md'
+      - 'appflix/AppflixCustomerMarket/index.md'
+      - 'appflix/AppflixMultiPdf/index.md'
   - Shopware Store: 'https://store.shopware.com/moori.html'
   - Demo Shop: 'https://demo.moori.net/'
   - Impressum: 'https://moorleiche.com/impressum/'

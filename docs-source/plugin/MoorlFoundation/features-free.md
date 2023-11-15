@@ -98,6 +98,17 @@ Diese können mit ebenfalls drei verschiedenen Auslösern gestartet werden:
 2. Element ist ganz sichtbar
 3. Maus befindet sich über dem Element
 
+## Admin Helfer
+
+### Massenzuweisung von CMS Seiten für Kategorien
+
+![](images/free-features-adopt-cms-pages.jpg)
+
+1. Die Aktuelle CMS Seite allen Untergeordneten Kategorien zuweisen
+2. Die Aktuelle CMS Seite allen Kategorien in der selben Ebene zuweisen
+
+Um ein versehentliches Klicken zu verhinden, müssen die Aktionen erneut bestätigt werden!
+
 ## Premium Features
 
 Um das volle Potential von moori Foundation auszuschöpfen, biete ich dir zu einem erschwinglichen Preis eine große Auswahl an weiteren Features an!
