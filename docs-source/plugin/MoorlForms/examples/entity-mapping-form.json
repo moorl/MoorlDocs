@@ -1,6 +1,7 @@
 {
   "type": "cms",
   "active": true,
+  "insertDatabase": true,
   "technicalName": "new_form",
   "relatedEntity": "product_manufacturer",
   "config": {
