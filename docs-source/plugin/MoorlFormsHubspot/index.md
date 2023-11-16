@@ -1,4 +1,4 @@
-# Hubspot Formulare Integration
+# Flow Builder Aktion | Hubspot Formular
 
 Diese Erweiterung ist mit [Formular Baukasten 2](../MoorlForms/index.md) kompatibel
 

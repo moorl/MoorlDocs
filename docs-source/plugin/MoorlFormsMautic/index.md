@@ -1,4 +1,4 @@
-# Formular Baukasten 2 | Mautic Add-On
+# Flow Builder Aktion | Mautic Formular
 
 Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) Kannst du deine Formular-Daten an Mautic senden.
 
