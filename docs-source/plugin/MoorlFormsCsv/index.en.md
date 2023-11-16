@@ -1,5 +1,5 @@
 ---
-description: Saves the sent data from your flow builder or form in a CSV file
+description: This extension is ideal for quickly capturing user data. The data sent from your flow builder or form in a CSV file. Can be used with Form Builder 2.
 tags:
 - Shopware 6 Plugin
 - Flow Builder

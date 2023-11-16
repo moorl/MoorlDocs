@@ -1,5 +1,5 @@
 ---
-description: Speichert die gesendeten Daten aus deinem Flow-Builder oder Formular in einer CSV Datei
+description: Diese Erweiterung eignet sich gut für die schnelle Erfassung von Benutzerdaten. Die gesendeten Daten aus deinem Flow-Builder oder Formular in einer CSV Datei.
 tags:
 - Shopware 6 Plugin
 - Flow-Builder
@@ -69,7 +69,7 @@ Du kannst die Flow-Builder Aktion nun speichern.
 
 ## Test
 
-Zum Testen wird das Kontakt formular zweimal ausgefüllt und abgeschickt.
+Zum Testen wird das Kontaktformular zweimal ausgefüllt und abgeschickt.
 
 ![](images/csv-contact-form-test.jpg)
 
