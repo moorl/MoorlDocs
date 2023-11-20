@@ -15,6 +15,7 @@ With this add-on for [Form Builder 2](../MoorlForms/index.md), you have new poss
 
 - [Classic Add-On](examples/classic-add-on.json)
 - [Return form](examples/return-form.json)
+- [Appointment form](examples/appointment-form.json)
 
 ## New elements
 
@@ -55,6 +56,12 @@ Note on the technical names of the elements when the newsletter subscription is 
 ![](images/fbc-04.jpg)
 
 "Send copy to customer" can be offered in different variations.
+
+### ICS attachment for appointments and locations
+
+You can generate an attachment to your e-mail and to the copy to the customer. The contents of the attachment are taken from the form fields. You can also use Twig variables here!
+
+![](images/form-builder-ics-mapping.jpg)
 
 ### Conditions
 

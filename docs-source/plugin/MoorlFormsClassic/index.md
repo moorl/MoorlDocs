@@ -15,6 +15,7 @@ Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) stehen dir
 
 - [Classic Add-On](examples/classic-add-on.json)
 - [Rückgabe Formular](examples/return-form.json)
+- [Termin Formular](examples/appointment-form.json)
 
 ## Neue Elemente
 
@@ -32,6 +33,7 @@ Mit diesem Add-On für [Formular Baukasten 2](../MoorlForms/index.md) stehen dir
 
 - Kopie an den Kunden senden
 - Newsletter Anmeldung anbieten
+- ICS Anhang für Termine und Standorte
 
 Hinweis: Wenn die Aktionen gewählt sind, muss auch das entsprechende Element im Strukturbereich eingefügt werden!
 
@@ -54,6 +56,12 @@ Hinweis zu den technischen Namen der Elemente, wenn die Newsletter-Anmeldung akt
 ![](images/fbc-04.jpg)
 
 "Kopie an den Kunden senden" kann in verschiedenen Variationen angeboten werden.
+
+### ICS Anhang für Termine und Standorte
+
+Du kannst an deine E-Mail und an die Kopie an den Kunden einen Anhang generieren. Die Inhalte des Anhangs werden aus den Formular-Feldern bezogen. Du kannst hier auch Twig-Variablen verwenden!
+
+![](images/form-builder-ics-mapping.jpg)
 
 ### Bedingungen
 
@@ -80,4 +88,3 @@ die Buttons individuell beschriften.
 ![](images/fbc-08.jpg)
 
 ![](images/fbc-09.jpg)
-

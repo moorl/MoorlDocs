@@ -1,0 +1,1564 @@
+{
+  "id": "018bede4c4b270f5a4b3a618d252ec28",
+  "taxId": null,
+  "userId": null,
+  "mediaId": null,
+  "salesChannelId": null,
+  "productStreamId": null,
+  "customerGroupId": null,
+  "shippingMethodId": null,
+  "paymentMethodId": null,
+  "countryId": null,
+  "showFrom": null,
+  "showUntil": null,
+  "mediaFolderId": null,
+  "type": "cms",
+  "active": false,
+  "useCaptcha": false,
+  "sendMail": false,
+  "insertDatabase": false,
+  "technicalName": "new_form",
+  "mailReceiver": null,
+  "redirectTo": null,
+  "relatedEntity": null,
+  "sendCopyType": null,
+  "config": {
+    "css": {
+      "color": "",
+      "width": null,
+      "margin": null,
+      "padding": "",
+      "minHeight": null,
+      "alignItems": null,
+      "backgroundColor": ""
+    },
+    "csv": {
+      "csvId": null,
+      "mapping": []
+    },
+    "ics": [
+      {
+        "data": "{{ (date.plainValue|split(\" \"))[1] }}",
+        "name": "date",
+        "label": "Date (YYY-MM-DD)",
+        "isCustom": true
+      },
+      {
+        "data": "{{ (date.plainValue|split(\" \"))[3] }}",
+        "name": "time",
+        "label": "Time (HH:MM)",
+        "isCustom": true
+      },
+      {
+        "data": "{{ (date.plainValue|split(\" \"))[8] * 60 }}",
+        "name": "duration",
+        "label": "Duration (minutes)",
+        "isCustom": true
+      },
+      {
+        "data": "{{ (date.plainValue|split(\" \"))[6] }}",
+        "name": "location",
+        "label": "Location",
+        "isCustom": true
+      },
+      {
+        "data": "Date for {{ firstName.value }} {{ lastName.value }}",
+        "name": "summary",
+        "label": "Summary",
+        "isCustom": true
+      },
+      {
+        "data": "{{ message.value }}",
+        "name": "description",
+        "label": "Description"
+      }
+    ],
+    "slider": [],
+    "webhook": [],
+    "animateInOut": [],
+    "mailCopyType": "always",
+    "cssAttributes": {
+      "id": null,
+      "class": null
+    },
+    "mailReceiverMailTemplateId": null,
+    "mailCopyReceiverMailTemplateId": null
+  },
+  "actions": [
+    "mail",
+    "mail-copy",
+    "captcha",
+    "ics-attachment"
+  ],
+  "customFields": null,
+  "elements": [
+    {
+      "id": "018bede4c4b270f5a4b3a618d3041626",
+      "parentId": null,
+      "afterId": null,
+      "formId": "018bede4c4b270f5a4b3a618d252ec28",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 1,
+      "path": null,
+      "type": "card",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": false,
+      "technicalName": "card",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "css": {
+          "color": null,
+          "width": null,
+          "margin": null,
+          "display": "block",
+          "padding": null,
+          "minHeight": null,
+          "alignItems": null,
+          "flexDirection": "row",
+          "justifyContent": "stretch",
+          "backgroundColor": null
+        },
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "animateInOut": [],
+        "cssAttributes": {
+          "id": null,
+          "class": null
+        }
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": {
+        "in": {
+          "name": "fadeIn",
+          "delay": 0,
+          "active": true,
+          "duration": 1000,
+          "condition": "isLoaded"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "name": "Example: Appointment form"
+    },
+    {
+      "id": "018bede4c4b270f5a4b3a618d37da5d5",
+      "parentId": null,
+      "afterId": "018bede4c4b270f5a4b3a618d3041626",
+      "formId": "018bede4c4b270f5a4b3a618d252ec28",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 1,
+      "path": null,
+      "type": "form-notice",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": false,
+      "technicalName": "hints",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "name": "Hints"
+    },
+    {
+      "id": "018bede4c4b270f5a4b3a618d3f22b68",
+      "parentId": null,
+      "afterId": "018bede4c4b270f5a4b3a618d37da5d5",
+      "formId": "018bede4c4b270f5a4b3a618d252ec28",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 1,
+      "path": null,
+      "type": "form-tos",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": false,
+      "technicalName": "tos",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "name": "TOS"
+    },
+    {
+      "id": "018bede4c4b270f5a4b3a618d4aea142",
+      "parentId": null,
+      "afterId": "018bede4c4b270f5a4b3a618d3f22b68",
+      "formId": "018bede4c4b270f5a4b3a618d252ec28",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 1,
+      "path": null,
+      "type": "form-captcha",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": false,
+      "technicalName": "captcha",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "name": "Captcha"
+    },
+    {
+      "id": "018bede4c4b270f5a4b3a618d4f04b95",
+      "parentId": null,
+      "afterId": "018bede4c4b270f5a4b3a618d4aea142",
+      "formId": "018bede4c4b270f5a4b3a618d252ec28",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 1,
+      "path": null,
+      "type": "form-feedback",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": false,
+      "technicalName": "feedback",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "name": "Feedback"
+    },
+    {
+      "id": "018bede4c4b270f5a4b3a618d5e78df6",
+      "parentId": null,
+      "afterId": "018bede4c4b270f5a4b3a618d4f04b95",
+      "formId": "018bede4c4b270f5a4b3a618d252ec28",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 1,
+      "path": null,
+      "type": "form-submit",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": false,
+      "technicalName": "submit",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "name": "Submit"
+    },
+    {
+      "id": "018bede4c4b270f5a4b3a618d6824c68",
+      "parentId": "018bede4c4b270f5a4b3a618d3041626",
+      "afterId": null,
+      "formId": "018bede4c4b270f5a4b3a618d252ec28",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 2,
+      "path": null,
+      "type": "select",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": true,
+      "technicalName": "date",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "css": {
+          "display": "block"
+        },
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "dateMax": "+2 months",
+        "dateMin": "+3 days",
+        "timeMax": 16,
+        "timeMin": 8,
+        "dateStep": 1,
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "timeStep": 120,
+        "minHeight": "auto",
+        "numberMax": 16,
+        "numberMin": 8,
+        "numberStep": 120,
+        "dateExclude": [
+          6,
+          0
+        ],
+        "repeaterMax": 10,
+        "repeaterMin": 0,
+        "animateInOut": [],
+        "cssAttributes": {
+          "id": null,
+          "class": null
+        },
+        "uploadExtensions": "jpg,png,pdf,zip,rar,psd,docx",
+        "verticalAlignment": "center",
+        "horizontalAlignment": "stretch"
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": "2",
+          "inherit": true
+        }
+      },
+      "conditions": [],
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "name": "Date",
+      "placeholder": "Please select a date"
+    },
+    {
+      "id": "018bede4c4b270f5a4b3a618d717a27f",
+      "parentId": "018bede4c4b270f5a4b3a618d3041626",
+      "afterId": "018bede4c4b270f5a4b3a618d6824c68",
+      "formId": "018bede4c4b270f5a4b3a618d252ec28",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 2,
+      "path": null,
+      "type": "email",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": true,
+      "technicalName": "email",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        }
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "name": "E-Mail address"
+    },
+    {
+      "id": "018bede4c4b270f5a4b3a618d7ae36d2",
+      "parentId": "018bede4c4b270f5a4b3a618d3041626",
+      "afterId": "018bede4c4b270f5a4b3a618d717a27f",
+      "formId": "018bede4c4b270f5a4b3a618d252ec28",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 2,
+      "path": null,
+      "type": "form-row",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": false,
+      "technicalName": "row",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "css": {
+          "display": "flex",
+          "flexWrap": "wrap",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-around"
+        },
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "animateInOut": [],
+        "cssAttributes": {
+          "id": null,
+          "class": null
+        }
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "name": "Customer name"
+    },
+    {
+      "id": "018bede4c4b270f5a4b3a618d7e58549",
+      "parentId": "018bede4c4b270f5a4b3a618d3041626",
+      "afterId": "018bede4c4b270f5a4b3a618d7ae36d2",
+      "formId": "018bede4c4b270f5a4b3a618d252ec28",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 2,
+      "path": null,
+      "type": "textarea",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": false,
+      "technicalName": "message",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "css": {
+          "color": null,
+          "width": null,
+          "margin": null,
+          "padding": null,
+          "minHeight": null,
+          "alignItems": null,
+          "flexDirection": "row",
+          "justifyContent": "stretch",
+          "backgroundColor": null
+        },
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "dateMax": "+2 months",
+        "dateMin": "+3 days",
+        "timeMax": 16,
+        "timeMin": 8,
+        "dateStep": 1,
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "timeStep": 120,
+        "minHeight": "auto",
+        "numberMax": 16,
+        "numberMin": 8,
+        "numberStep": 120,
+        "dateExclude": [
+          6,
+          0
+        ],
+        "repeaterMax": 10,
+        "repeaterMin": 0,
+        "cssAttributes": {
+          "id": null,
+          "class": null
+        },
+        "uploadExtensions": "jpg,png,pdf,zip,rar,psd,docx",
+        "verticalAlignment": "center",
+        "horizontalAlignment": "stretch"
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "name": "Leave a message"
+    },
+    {
+      "id": "018bede4c4b270f5a4b3a618d8293f9d",
+      "parentId": "018bede4c4b270f5a4b3a618d6824c68",
+      "afterId": null,
+      "formId": "018bede4c4b270f5a4b3a618d252ec28",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 3,
+      "path": null,
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": false,
+      "technicalName": "20250101T150000-Hamburg-240",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "css": {
+          "display": "block"
+        },
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "animateInOut": [],
+        "cssAttributes": {
+          "id": null,
+          "class": null
+        }
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "name": "Am 01.01.2025 um 15 Uhr in Hamburg für 4 Stunden"
+    },
+    {
+      "id": "018bede4c4b270f5a4b3a618d906f211",
+      "parentId": "018bede4c4b270f5a4b3a618d7ae36d2",
+      "afterId": null,
+      "formId": "018bede4c4b270f5a4b3a618d252ec28",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 3,
+      "path": null,
+      "type": "select",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": false,
+      "technicalName": "salutation",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": "salutation",
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "dateMax": "+2 months",
+        "dateMin": "+3 days",
+        "timeMax": 16,
+        "timeMin": 8,
+        "dateStep": 1,
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "timeStep": 120,
+        "minHeight": "auto",
+        "numberMax": 16,
+        "numberMin": 8,
+        "numberStep": 120,
+        "dateExclude": [
+          6,
+          0
+        ],
+        "repeaterMax": 10,
+        "repeaterMin": 0,
+        "animateInOut": [],
+        "cssAttributes": [],
+        "uploadExtensions": "jpg,png,pdf,zip,rar,psd,docx",
+        "verticalAlignment": "center",
+        "horizontalAlignment": "stretch"
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        }
+      },
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "name": "Salutation",
+      "placeholder": "Please select"
+    },
+    {
+      "id": "018bede4c4b270f5a4b3a618d9c94e46",
+      "parentId": "018bede4c4b270f5a4b3a618d7ae36d2",
+      "afterId": "018bede4c4b270f5a4b3a618d6824c68",
+      "formId": "018bede4c4b270f5a4b3a618d252ec28",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 3,
+      "path": null,
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": true,
+      "technicalName": "lastName",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "css": {
+          "display": "block"
+        },
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "number": {
+          "max": 16,
+          "min": 8,
+          "step": 120
+        },
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "cssAttributes": {
+          "id": null,
+          "class": null
+        }
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": "2",
+          "inherit": true
+        }
+      },
+      "conditions": [],
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "name": "Lastname"
+    },
+    {
+      "id": "018bede4c4b270f5a4b3a618da0962e6",
+      "parentId": "018bede4c4b270f5a4b3a618d6824c68",
+      "afterId": "018bede4c4b270f5a4b3a618d8293f9d",
+      "formId": "018bede4c4b270f5a4b3a618d252ec28",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 3,
+      "path": null,
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": false,
+      "technicalName": "2024-04-01_09",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "css": {
+          "display": "block"
+        },
+        "cssAttributes": {
+          "id": null,
+          "class": null
+        }
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "name": "Am 01.04.2024 um 9 Uhr in München für 2 Stunden"
+    },
+    {
+      "id": "018bede4c4b270f5a4b3a618da3d3962",
+      "parentId": "018bede4c4b270f5a4b3a618d7ae36d2",
+      "afterId": "018bede4c4b270f5a4b3a618d9c94e46",
+      "formId": "018bede4c4b270f5a4b3a618d252ec28",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 3,
+      "path": null,
+      "type": "text",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": true,
+      "technicalName": "firstName",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "css": {
+          "display": "block"
+        },
+        "dateMax": "+2 months",
+        "dateMin": "+3 days",
+        "timeMax": 16,
+        "timeMin": 8,
+        "dateStep": 1,
+        "timeStep": 120,
+        "minHeight": "auto",
+        "numberMax": 16,
+        "numberMin": 8,
+        "numberStep": 120,
+        "dateExclude": [
+          6,
+          0
+        ],
+        "repeaterMax": 10,
+        "repeaterMin": 0,
+        "cssAttributes": {
+          "id": null,
+          "class": null
+        },
+        "uploadExtensions": "jpg,png,pdf,zip,rar,psd,docx",
+        "verticalAlignment": "center",
+        "horizontalAlignment": "stretch"
+      },
+      "behaviour": {
+        "lg": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "md": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "sm": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xl": {
+          "show": true,
+          "order": 0,
+          "width": 12,
+          "inherit": true
+        },
+        "xs": {
+          "show": true,
+          "order": 0,
+          "width": "2",
+          "inherit": true
+        }
+      },
+      "conditions": [],
+      "animation": {
+        "in": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "out": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        },
+        "hover": {
+          "name": "none",
+          "delay": 0,
+          "active": false,
+          "duration": 1000,
+          "condition": "isInViewport"
+        }
+      },
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "name": "Firstname"
+    },
+    {
+      "id": "018bede4c4b270f5a4b3a618db349f73",
+      "parentId": "018bede4c4b270f5a4b3a618d6824c68",
+      "afterId": "018bede4c4b270f5a4b3a618da0962e6",
+      "formId": "018bede4c4b270f5a4b3a618d252ec28",
+      "taxId": null,
+      "userId": null,
+      "mediaId": null,
+      "salesChannelId": null,
+      "productStreamId": null,
+      "customerGroupId": null,
+      "shippingMethodId": null,
+      "paymentMethodId": null,
+      "countryId": null,
+      "showFrom": null,
+      "showUntil": null,
+      "level": 3,
+      "path": null,
+      "type": "option",
+      "active": true,
+      "visible": true,
+      "disabled": false,
+      "order": 0,
+      "maxlength": null,
+      "required": false,
+      "technicalName": "20241110",
+      "color": null,
+      "mailReceiver": null,
+      "entityMapping": null,
+      "pattern": null,
+      "selection": null,
+      "config": {
+        "css": [],
+        "card": {
+          "collapsed": false,
+          "collapsible": true
+        },
+        "date": {
+          "max": "+2 months",
+          "min": "+3 days",
+          "step": 1,
+          "exclude": [
+            6,
+            0
+          ]
+        },
+        "time": {
+          "max": "16:00",
+          "min": "08:00",
+          "step": 120
+        },
+        "slider": [],
+        "upload": {
+          "filesize": 2,
+          "extensions": "jpg,png,pdf,zip,rar,psd,docx"
+        },
+        "repeater": {
+          "max": 10,
+          "min": 1
+        },
+        "animateInOut": [],
+        "cssAttributes": []
+      },
+      "behaviour": [],
+      "conditions": [],
+      "animation": [],
+      "optionPrice": null,
+      "optionType": null,
+      "optionPercentage": null,
+      "name": "Am 10.11.2024 um 20:30 Uhr in Paderborn für 8 Stunden"
+    }
+  ],
+  "name": "Example: Appointment form",
+  "successMessage": "well done!",
+  "errorMessage": "Something went wrong :("
+}
