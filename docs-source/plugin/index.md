@@ -26,6 +26,7 @@ Du bekommst beim Versuch das Plugin zu installieren folgende Fehlermeldung?
 
 ```text
 Required plugin/package "moorl/foundation 1.4.*" is missing or not installed and activated
+Required plugin/package "moorl/foundation 1.5.*" is missing or not installed and activated
 ```
 
 Dann fehlt dir das Foundation Plugin. Hier kannst du das Plugin holen:
@@ -86,6 +87,19 @@ DELETE FROM `custom_field_set` WHERE `name` = 'moorl_video';
 ```
 
 Anschließend kannst du das Plugin wieder aktiveren.
+
+!!! note
+
+    Could not execute "composer require" for plugin "MoorlSignIn (moorl/sign-in:2.5.9). Output: ./composer.json has been updated Running composer update moorl/sign-in --with-dependencies Loading composer repositories with package information Dependency shopware/core is also a root requirement. Package has not been listed as an update argument, so keeping locked at old version. Use --with-all-dependencies (-W) to include root dependencies. Updating dependencies Your requirements could not be resolved to an installable set of packages. Problem 1 - Root composer.json requires moorl/foundation 1.5.28 (exact version match: 1.5.28 or 1.5.28.0), found moorl/foundation[1.5.29] but it does not match your constraint and is therefore not installable. Make sure you fix the constraint as packages installed from symlinked path repos are updated even in partial updates and the one from the lock file can thus not be used. Installation failed, reverting ./composer.json and ./composer.lock to their original content.
+
+Dieser Fehler tritt auf, wenn man z.B. mehrere Plugins mit composer Abhängigkeiten manuell per zip hochlädt und erst später aktualisieren will. Sollte in der Regel nicht auftreten, jedoch ist hier eine Lösung.
+
+![](images/fix-composer-not-match-constraint.jpg)
+
+1. Die Datei `composer.json` mit einem Texteditor öffnen
+2. Die betroffenen Zeilen aus der Fehlermeldung löschen
+
+Anschließend sollten die Plugins wieder aktualisiert werden können!
 
 #### Andere Ursachen
 
