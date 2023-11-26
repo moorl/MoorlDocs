@@ -150,6 +150,7 @@ nav:
       - 'plugin/MoorlDownloadCenter/index.md'
       - 'plugin/MoorlCustomerAccounts/index.md'
       - 'plugin/MoorlInterrupter/index.md'
+      - 'plugin/MoorlCustomerSession/index.md'
       - 'plugin/MoorlSignIn/index.md'
       - 'plugin/MoorlProductAccessories/index.md'
       - 'plugin/MoorlProductConsultant/index.md'
