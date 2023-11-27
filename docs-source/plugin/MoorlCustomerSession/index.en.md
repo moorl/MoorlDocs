@@ -21,6 +21,8 @@ You can access the configuration via "Extensions" -> "My extensions" -> "Remembe
 - Automatically extend session: The validity of the login is automatically extended by x days
 - Check user agent: Checks the customer's browser information, if this differs no automatic login is possible. This may be the case if the browser is updated, for example
 - Checking the IP address: Checks the customer's IP address during automatic login. If the IP address deviates from the rule, automatic login is not possible
+- Delete expired or terminated sessions after...: Automatic deletion is executed as a scheduled task. Manual deletion as CLI command "moorl-customer-session:clean-up"
+- Cookie type: Chose between "Optional (comfort feature)" and "Required (technically necessary)"
 
 ## View in the storefront
 
@@ -35,6 +37,10 @@ Collapsed area in the account overview
 ![](images/customer-session-03.jpg)
 
 Unfolded - active logins can be removed here, this also applies across devices.
+
+![](images/customer-session-05.jpg)
+
+Cookie box - if the cookie type is set to "Optional (comfort feature)" and not accepted by the user.
 
 ## Notes on security
 

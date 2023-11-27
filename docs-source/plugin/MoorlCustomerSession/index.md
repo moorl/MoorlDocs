@@ -21,6 +21,8 @@ Du erreichst die Konfiguration über "Erweiterungen" -> "Meine Erweiterungen" ->
 - Sitzung automatisch verlängern: Die Gültigkeit des Logins wird automatisch um x Tage verlängert
 - Überprüfung des User-Agents: Überprüft die Browser-Informationen des Kunden, sofern diese abweichen ist kein automatischer Login möglich. Dies kann z.B. bei einem Update des Browsers der Fall sein
 - Überprüfung der IP-Adresse: Überprüft die IP-Adresse des Kunden beim automatischen Login. Sofern die IP-Adresse von der Regel abweicht, ist kein automatischer Login möglich
+- Abgelaufene oder beendete Sitzungen löschen nach...: Automatische Löschung wird als geplante Aufgabe (Scheduled Task) ausgeführt. Manuelle Löschung als CLI Befehl "moorl-customer-session:clean-up"
+- Typ des Cookies: Auswahl zwischen "Optional (Komfortfunktion)" und "Essenziell (Technisch erforderlich)"
 
 ## Ansicht im Storefront
 
@@ -35,6 +37,10 @@ Eingeklappter Bereich in der Account-Übersicht
 ![](images/customer-session-03.jpg)
 
 Ausgeklappt - hier können aktive Logins entfernt werden, das gilt auch geräteübergreifend.
+
+![](images/customer-session-05.jpg)
+
+Cookie box - wenn Cookie Typ auf "Optional (Komfortfunktion)" gesetzt ist und der Benutzer dem Cookie nicht zugestimmt hat.
 
 ## Hinweise zur Sicherheit
 
