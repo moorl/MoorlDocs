@@ -33,12 +33,12 @@ plugins:
       tags_file: tags.md
   - i18n:
       material_alternate: true
-      default_language: de
       languages:
-        de:
+        - locale: de
           name: Deutsch
-          build: false
-        en:
+          default: true
+          build: true
+        - locale: en
           name: English
           build: true
       nav_translations:
