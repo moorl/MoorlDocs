@@ -89,6 +89,8 @@ extra_javascript:
   - extra.js
 nav:
   - Home: index.md
+  - Fehlermeldungen:
+      - 'error-messages/index.md'
   - moori Plugin Dokumentation:
       - 'plugin/index.md'
       - 'plugin/MoorlFoundation/index.md'
