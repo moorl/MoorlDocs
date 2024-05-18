@@ -19,9 +19,13 @@ Hier erfährst du außerdem die grundlegenden Schritte zum debuggen von Fehlern:
 
 [https://docs.shopware.com/de/shopware-6-de/tutorials-und-faq/fehlermeldungen-debuggen](https://docs.shopware.com/de/shopware-6-de/tutorials-und-faq/fehlermeldungen-debuggen)
 
+## 💀 Shop "zerschossen"? Keine Panik!
+
+Sollte der Shop wegen eines Plugins nicht mehr funktionieren und du kommst nicht mehr in die Administration rein? Dann kannst du das Plugin einfach in der Datenbank deaktivieren. Gehe mit deiner Datenbankverwaltung (PHPMyAdmin, Adminer etc) in die Tabelle `plugin`, suche dort das Plugin anhand des technischen Namens und setze das Feld `active` auf "0". Anschließend ist das Plugin deaktiviert und wird keine Probleme mehr verursachen.
+
 ## 💡 Goldene Regel: Cache leeren, Plugin deaktivieren/aktivieren
 
-Die meisten Probleme lassen sich in wenigen Schritten beheben. Probiere sofern es möglich ist, den Cache zu leeren und die Plugins zu deaktivieren und wieder aktivieren. Dabei gehen keine Daten verloren.
+Die meisten Probleme lassen sich in wenigen Schritten beheben. Probiere, sofern es möglich ist, den Cache zu leeren und die Plugins zu deaktivieren und wieder aktivieren. Dabei gehen keine Daten verloren.
 
 ## ❌ Absolute No-Gos: Plugin und Datenbanktabellen manuell löschen
 
@@ -33,13 +37,13 @@ Sofern du kein Profi in Shopware bist, solltest du diese Aktionen niemals machen
 
 ## ⚠️ Viel los auf dem Shop? Testsystem!
 
-Wenn du dir keine Ausfälle auf deinem Liveshop erlauben kannst, gehe immer auf Nummer sicher und erstelle dir ein Testsystem. Wenn es schnell gehen soll, kannst du ein Pluign zum erstellen von Testsystemen im Shopware Community Store erwerben.
+Wenn du dir keine Ausfälle auf deinem Shop erlauben kannst, gehe immer auf Nummer sicher und erstelle dir ein Testsystem. Wenn es schnell gehen soll, kannst du ein Plugin zum Erstellen von Testsystemen im Shopware Community Store erwerben.
 
 ## Häufige Fehlermeldungen
 
 ### Required plugin/package "moorl/foundation" is missing...
 
-Du erhälst beim Versuch das Plugin zu installieren folgende Fehlermeldung?
+Du erhältst beim Versuch das Plugin zu installieren folgende Fehlermeldung?
 
 ```text
 Required plugin/package "moorl/foundation 1.4.*" is missing or not installed and activated
@@ -47,7 +51,7 @@ Required plugin/package "moorl/foundation 1.5.*" is missing or not installed and
 Required plugin/package "moorl/foundation 1.6.*" is missing or not installed and activated
 ```
 
-Dann fehlt dir das Foundation Plugin. Hier kannst du das Plugin holen:
+Dann fehlt dir das Foundation Plugin. Hier kannst du das Plugin kostenlos erwerben:
 
 [https://store.shopware.com/moorl50852475974f/foundation-plugin.html](https://store.shopware.com/moorl50852475974f/foundation-plugin.html)
 
@@ -186,7 +190,7 @@ Sofern der Fehler nicht dadurch behoben werden kann, kannst du das ElastcSearch 
 
 ### Datei- und Verzeichnisrechte
 
-Durch manuelle Anpassungen oder Uploads können die Rechte verfälscht werden. Dieser Fehler macht sich dann bemerkbar, wenn man eine weiße Seite im Storefront hat oder keine Medien hochladen kann. Auch der Cache kann davon betroffen sein. Mit diesen zwei einfachen Befehlen kannst du die Rechte wieder korrigieren.
+Durch manuelle Anpassungen oder Uploads können die Rechte verfälscht werden. Dieser Fehler macht sich dann bemerkbar, wenn man eine weiße Seite im Storefront hat oder man keine Medien hochladen kann. Auch der Cache kann davon betroffen sein. Mit diesen zwei einfachen Befehlen kannst du die Rechte wieder korrigieren.
 
 ```text
 // Setze global alle Dateien auf 0755 und Verzeichnisse auf 0644
