@@ -63,7 +63,7 @@ Du kannst diesen Fehler vermeiden, indem du...
 
 1. Bei einem Shopware Major Update alle Plugins deaktivierst
 2. Die Plugins im deaktiviertem Zustand aktualisierst und erst dann wieder aktivierst
-3. Bei manuellem Upload (ZIP Archiv) nach jedem Uplaod das Plugin aktualisierst
+3. Bei manuellem Upload (ZIP Archiv) nach jedem Upload das Plugin aktualisierst
 
 Sollte es jedoch zu einer Fehlermeldung kommen, kannst du diesen so beheben:
 
@@ -109,7 +109,7 @@ DELETE FROM `custom_field_set` WHERE `name` = 'moorl_video';
 
 ### Fehler bei der Installation oder beim Update (Auch bei Shopware Updates)
 
-Shopware hat für jedes Datenbank Update eine eigenständige Datei, die sog. Migration-Klassen. Dort werden die Datenbankbefehle verarbeitet.
+Shopware hat für jedes Datenbankupdate eine eigenständige Datei, die sog. Migration-Klassen. Dort werden die Datenbankbefehle verarbeitet.
 
 Bei der Installation oder beim Update kann der Vorgang mit einer geringen Wahrscheinlichkeit abgebrochen werden. Dieses Problem wird dadurch verursacht, wenn man z.B. ein Backup einspielt, Daten via FTP austauscht oder Plugins manuell entfernt.
 
@@ -150,7 +150,7 @@ Nachdem du ein Block in deine Seite gezogen hast, kannst du die Elemente darin e
 
 ### Allgemeine Anzeigefehler
 
-Die Plugins sind im Shopware Standard Theme entwickelt worden. Anzeigefehler enstehen meist in Verbindung mit einem Drittanbieter Theme.
+Die Plugins sind im Shopware Standard Theme entwickelt worden. Anzeigefehler entstehen meist in Verbindung mit einem Drittanbieter Theme.
 
 Die Themes aus dem Shopware Store befolgen meist die Regeln der Vererbung von Templates. 
 
@@ -158,7 +158,7 @@ In den Themes von [Zenit Design](https://store.shopware.com/zenit-design.html) g
 
 Mit den Themes von [RH-Webdesign](https://store.shopware.com/rh-webdesign.html) und [ThemeWare](https://store.shopware.com/tc-innovations-gmbh.html) gab es bisher keine Probleme.
 
-Individiuelle Themes sind oft sehr rudimentär aufgebaut, teste die Funktionen am besten einmal mit dem Shopware Standard Theme!
+Individuelle Themes sind oft sehr rudimentär aufgebaut, teste die Funktionen am besten einmal mit dem Shopware Standard Theme!
 
 ### Funktionen werden nicht wie erwartet ausgeführt
 
@@ -168,7 +168,7 @@ Oftmals wurden Probleme mit Tracking Plugins verzeichnet, setze am besten hier a
 
 ## Fehler im Bezug auf ElasticSearch oder OpenSearch
 
-### Es werden keine Produkte angezeigt, nachdem ich das Pluign aktiviert habe
+### Es werden keine Produkte angezeigt, nachdem ich das Plugin aktiviert habe
 
 Es werden keine Produkte angezeigt oder der Shop ist nicht mehr erreichbar. Folgende Fehlermeldung steht im Log von ElasticSearch:
 
@@ -182,7 +182,7 @@ Dazu eignet sich das Plugin [Frosh Tools](https://store.shopware.com/frosh125998
 
 ![ES Reindex](images/frosh-tools-es-reindex.jpg)
 
-Sofern der Fehler nicht dadurch behoben werden kann, kannst du das ElastcSearch Mapping auch für alle moori Pluign in den Einstellungen von Foundation deaktivieren. Anschließend musst du erneut den Index von ElasticSearch neu aufbauen!
+Sofern der Fehler nicht dadurch behoben werden kann, kannst du das ElasticSearch Mapping auch für alle moori Plugin in den Einstellungen von Foundation deaktivieren. Anschließend musst du erneut den Index von ElasticSearch neu aufbauen!
 
 ![ES Disable](images/disable-es-mapping.jpg)
 
