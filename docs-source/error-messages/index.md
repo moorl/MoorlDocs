@@ -81,6 +81,16 @@ Lösung:
 
 ![](images/fix-composer-not-match-constraint.jpg)
 
+### Umgebungsvariable COMPOSER_HOME ist falsch konfiguriert
+
+Sofern du diese oder eine ähnliche Fehlermeldung erhältst, dann ist entweder der Pfad zur composer home falsch, oder composer hat keine Lese- bzw Schreibrechte auf deinem Webserver.
+
+```text
+Could not execute "composer require" for plugin "MoorlFoundation (moorl/foundation:1.6.2). Output: Composer could not detect the root package (shopware/production) version, defaulting to '1.0.0'. See https://getcomposer.org/root-version ./composer.json has been updated Composer could not detect the root package (shopware/production) version, defaulting to '1.0.0'. See https://getcomposer.org/root-version Running composer update moorl/foundation
+```
+
+Öffne dazu die `.env` oder `.env.local` im Hauptverzeichnis deines Shops und passe die Umgebungsvariable an.
+
 ### Table: custom_field_set Entry already exists...
 
 ```text
@@ -171,3 +181,17 @@ Dazu eignet sich das Plugin [Frosh Tools](https://store.shopware.com/frosh125998
 Sofern der Fehler nicht dadurch behoben werden kann, kannst du das ElastcSearch Mapping auch für alle moori Pluign in den Einstellungen von Foundation deaktivieren. Anschließend musst du erneut den Index von ElasticSearch neu aufbauen!
 
 ![ES Disable](images/disable-es-mapping.jpg)
+
+## Fehler in der Server Konfiguration
+
+### Datei- und Verzeichnisrechte
+
+Durch manuelle Anpassungen oder Uploads können die Rechte verfälscht werden. Dieser Fehler macht sich dann bemerkbar, wenn man eine weiße Seite im Storefront hat oder keine Medien hochladen kann. Auch der Cache kann davon betroffen sein. Mit diesen zwei einfachen Befehlen kannst du die Rechte wieder korrigieren.
+
+```text
+// Setze global alle Dateien auf 0755 und Verzeichnisse auf 0644
+chmod -R u+rwX,go+rX,go-w /pfad/zum/hauptverzeichnes/des/shops
+
+// Zertifikatsdateien benötigen 0660
+find /pfad/zum/hauptverzeichnes/des/shops -name "*.pem" -exec chmod 0660 {} \;
+```
