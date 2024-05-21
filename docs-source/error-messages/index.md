@@ -103,7 +103,7 @@ Table: custom_field_set Entry already exists [{"id":"98caa393862baa83506fabb1761
 
 Bitte notiere dir den Namen des Eintrags in der Datenbank. In diesem Fall ist es `moorl_video`. Dieser Fehler kann nur einen Query direkt in der Datenbank behoben werden:
 
-```text
+```sql
 DELETE FROM `custom_field_set` WHERE `name` = 'moorl_video';
 ```
 
@@ -119,7 +119,7 @@ Das ist ein Anzeichen dafür, dass dieses Plugin schonmal installiert war, es wu
 
 Wenn der Fehler z.B. beim Plugin `moori Foundation` auftritt, benötigst du den technischen Namen des Plugins. Hier ist es `MoorlFoundation`. Daraus erstellst du einen Datenbankbefehl zum Löschen der Daten aus der `migration`.
 
-```text
+```sql
 DELETE FROM `migration` WHERE `class` LIKE 'MoorlFoundation%';
 ```
 
@@ -127,7 +127,7 @@ Fehler 2 `SQLSTATE[42S21]: Column already exists`
 
 Dieser Fehler entsteht wie oben beschrieben, nur mit dem Unterschied, dass die `migration` Tabelle geleert wurde, aber es noch Tabellen des Plugins gibt. Da die Migration an dieser Stelle abgebrochen wurde und die Daten bereits vorhanden sind, muss dieser Schritt übersprungen werden. Führe folgenden Befehl aus und wiederhole diesen Schritt nach jedem Update versuch so oft wie notwendig!
 
-```text
+```sql
 UPDATE `migration` SET
     `update` = now(),
     `message` = NULL

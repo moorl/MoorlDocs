@@ -7,6 +7,7 @@ tags:
 - Liveshopping
 - Black Friday
 - Promotions
+- Marketing
 ---
 
 # Flash-Sales, Rabattaktionen und Liveshopping 

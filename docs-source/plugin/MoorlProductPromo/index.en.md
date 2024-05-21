@@ -6,6 +6,7 @@ tags:
 - Discount promotions
 - Live shopping
 - Black Friday
+- Marketing
 ---
 
 # Flash Sales, Discount Promotions and Liveshopping
