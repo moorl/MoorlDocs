@@ -79,9 +79,15 @@ In dieser Fehlermeldung sind Probleme aufgezeichnet:
 Lösung:
 
 1. Notiere dir, welche composer Pakete in den Problemen erwähnt werden.
-2. Öffne die Datei `composer.json`, welche sich im Hauptverzeichnis des Shop befindet
-3. Lösche die Zeilen mit den erwähnten Paketen
-4. Nachdem du die Datei gespeichert hast, solltest du deine Plugins wieder aktualisieren können
+2. Öffne die Datei `composer.json`, welche sich im Hauptverzeichnis des Shops befindet
+3. Sichere Variante (muss ggf. bei jedem Shopware Update wiederholt werden!): Ändere die Version des Pakets auf die in der Fehlermeldung (in diesem Beispiel ist es moorl/foundation 1.5.29)
+4. Alternative Variante für Shopbetreiber: Ändere die Version, verwende ein Sternchen für die letzte Zahl (in diesem Beispiel ist es moorl/foundation 1.5.*)
+5. Alternative Variante für erfahrene Shopbetreiber: Lösche die gesamte Zeile, damit wird der "require" aufgehoben. Falls diese Variante funktioniert, muss hiernach nichts weiter korrigiert werden.
+6. Nachdem du die Datei gespeichert hast, solltest du deine Plugins wieder aktualisieren können
+
+!!! note
+
+      Tritt das Problem bei einem Plugin-Update auf, dann kannst Du Schritt 5. ausführen. Gibt es Probleme mit einem Shopware-Update, dann probiere Schritt 3. oder 4. um mögliche negative Folgen zu verhindern.
 
 ![](images/fix-composer-not-match-constraint.jpg)
 

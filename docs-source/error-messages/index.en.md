@@ -77,10 +77,16 @@ This error message logs the issues:
 
 Solution:
 
-1. Note which composer packages are mentioned in the problems.
-2. Open the `composer.json` file located in the main directory of the shop.
-3. Delete the lines with the mentioned packages.
-4. After saving the file, you should be able to update your plugins again.
+1. note which composer packages are mentioned in the problems.
+2. open the file `composer.json`, which is located in the main directory of the shop
+3. secure variant (may have to be repeated with every Shopware update!): Change the version of the package to the one in the error message (in this example it is moorl/foundation 1.5.29)
+4. alternative variant for shop operators: Change the version, use an asterisk for the last number (in this example it is moorl/foundation 1.5.*)
+5. alternative variant for experienced shop operators: Delete the entire line to remove the ‘require’. If this variant works, nothing else needs to be corrected.
+6. after you have saved the file, you should be able to update your plugins again
+
+!!! note
+
+      If the problem occurs with a plugin update, then you can carry out step 5. If there are problems with a Shopware update, then try step 3 or 4 to prevent possible negative consequences.
 
 ![](images/fix-composer-not-match-constraint.jpg)
 
