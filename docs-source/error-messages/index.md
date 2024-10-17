@@ -205,3 +205,31 @@ chmod -R u+rwX,go+rX,go-w /pfad/zum/hauptverzeichnes/des/shops
 // Zertifikatsdateien benötigen 0660
 find /pfad/zum/hauptverzeichnes/des/shops -name "*.pem" -exec chmod 0660 {} \;
 ```
+
+### NGINX Proxy Cache
+
+Der eingebaute Cache von Shopware basiert auf den Sales Channel Kontext. Der Cache wird auf Kategorie- und Produktseiten anhand von der aktuellen Sprache, Währung und Kundengruppe verwendet.
+
+Sofern es Probleme mit dem Cache gibt - z.B. wenn man eine andere Kundengruppe auswählt und die gerenderten Webseiten sich nicht anpassen, liegt es mit großer Wahrscheinlichkeit an den Cache-Einstellungen des Servers.
+
+Der NGINX Proxy Cache ist eine Funktion von NGINX, die es ermöglicht, zwischengespeicherte Kopien von Webseiten zu speichern, um Anfragen schneller zu bedienen und die Last auf den Ursprungs-Webseiten zu verringern. Wenn NGINX als Reverse Proxy agiert, kann er Inhalte von den Ursprungs-Webseiten cachen und bei wiederholten Anfragen direkt aus dem Cache ausliefern. Dies verbessert die Ladezeit und reduziert die Belastung der Ursprungs-Webseiten.
+
+#### Deaktivierung des Proxy Caches
+
+Um den Proxy Cache in der NGINX-Konfiguration zu deaktivieren, gibt es verschiedene Möglichkeiten, je nach gewünschtem Umfang:
+
+Globales Deaktivieren: In der Serverkonfiguration (z. B. /etc/nginx/nginx.conf oder in einer spezifischen Server- oder Location-Block-Datei) kann man den Cache einfach deaktivieren, indem man die relevanten Anweisungen entfernt oder den Cache explizit auf "off" setzt:
+
+```nginx
+proxy_cache off;
+```
+
+Cache für bestimmte Locations deaktivieren: Um den Cache nur für bestimmte URL-Pfade oder Webseiten zu deaktivieren, fügt man die proxy_cache off;-Anweisung in den entsprechenden Location-Block ein:
+
+```nginx
+location /path {
+    proxy_cache off;
+}
+```
+
+Mit diesen Einstellungen kann der Proxy Cache selektiv oder vollständig deaktiviert werden.

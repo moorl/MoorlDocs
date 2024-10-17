@@ -204,3 +204,31 @@ chmod -R u+rwX,go+rX,go-w /path/to/shop/main/directory
 // Certificate files need 0660
 find /path/to/shop/main/directory -name "*.pem" -exec chmod 0660 {} \;
 ```
+
+### NGINX Proxy Cache
+
+Shopware's built-in cache is based on the sales channel context. The cache is used on category and product pages based on the current language, currency and customer group.
+
+If there are problems with the cache - e.g. if you select a different customer group and the rendered web pages do not adapt, it is most likely due to the server's cache settings.
+
+The NGINX Proxy Cache is a feature of NGINX that allows cached copies of web pages to be stored in order to serve requests faster and reduce the load on the originating web pages. When NGINX acts as a reverse proxy, it can cache content from the source web pages and deliver it directly from the cache for repeated requests. This improves the loading time and reduces the load on the source websites.
+
+#### Deactivation of the proxy cache
+
+There are various options for deactivating the proxy cache in the NGINX configuration, depending on the desired scope:
+
+Global deactivation: In the server configuration (e.g. /etc/nginx/nginx.conf or in a specific server or location block file), you can simply deactivate the cache by removing the relevant instructions or explicitly setting the cache to “off”:
+
+```nginx
+proxy_cache off;
+```
+
+Disable cache for specific locations: To disable the cache for specific URL paths or web pages only, add the proxy_cache off; statement to the relevant location block:
+
+```nginx
+location /path {
+    proxy_cache off;
+}
+```
+
+With these settings, the proxy cache can be deactivated selectively or completely.
