@@ -118,6 +118,16 @@ Sofern keine Verbindung zu der Datenbank möglich ist, bitte die Erreichbarkeit 
 | ALL-INKL.COM - Premium | JA | |
 | ALL-INKL.COM - Business | JA | |
 
+### enerSpace
+
+| Paket                      | Unterstützt | Hinweise |
+|----------------------------|-------------| ----------- |
+| Shopware 6 SSD Hosting     | JA | |
+| Managed-SSD - Basic        | JA | |
+| Managed-SSD - Medium       | JA | |
+| Managed-SSD - Professional | JA | |
+| Managed-SSD - Premium      | JA | |
+
 ### Profihost
 
 In den Plugin Einstellungen Hosting Kompatibilitätsmodus auf Profihost (MariaDB) oder Profihost (MySQL) stellen. Wichtig dabei ist, dass die Staging Umgebung dieselbe Datenbank-Art (MySQL oder MariaDB) wie der Live-Shop nutzt!

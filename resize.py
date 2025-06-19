@@ -14,7 +14,7 @@ for filename in glob.iglob(root_dir + '**/images/*.*', recursive=True):
     newFilename = pathlib.Path(filename).with_suffix('.jpg')
     im = Image.open(filename)
     im = im.convert('RGB')
-    im.save(newFilename , 'JPEG', quality=80)
+    im.save(newFilename , 'JPEG', quality=100)
 
     os.rename(filename, filename.lower())
 

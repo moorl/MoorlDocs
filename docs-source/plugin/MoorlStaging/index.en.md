@@ -118,6 +118,16 @@ If no connection to the database is possible, please allow accessibility from ev
 | ALL-INKL.COM - Premium | YES | |
 | ALL-INKL.COM - Business | YES | |
 
+### enerSpace
+
+| Package                      | Supported | Notes |
+|----------------------------|-------------| ----------- |
+| Shopware 6 SSD Hosting     | YES | |
+| Managed-SSD - Basic        | YES | |
+| Managed-SSD - Medium       | YES | |
+| Managed-SSD - Professional | YES | |
+| Managed-SSD - Premium      | YES | |
+
 ### Profihost
 
 In the plug-in settings, set Hosting compatibility mode to Profihost (MariaDB) or Profihost (MySQL). It is important that the staging environment uses the same type of database (MySQL or MariaDB) as the live shop!
